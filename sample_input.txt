@@ -1,0 +1,4 @@
+la#KEY-e/ +definite / +atomic, +minimal
+le#KEY-i/ +definite / -atomic, +minimal
+la#BALL-a/ +definite / “+atomic”, +minimal
+il#BOOK-o#BIG-e/ +definite / +atomic, +minimal
