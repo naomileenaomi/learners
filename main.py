@@ -3,7 +3,7 @@ import inspect
 
 INITIAL_WEIGHT = 10.0
 UPDDATE_WEIGHT = 0.2
-ALREADY_SELECTS_BONUS = 0.5
+ALREADY_SELECTS_BONUS = 0.75
 
 
 class SemanticTerminal:
