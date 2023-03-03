@@ -39,7 +39,7 @@ class SemanticTerminal:
 
 
 class NominalizerTerminal:
-    def __init__(self, values, selectional, selection_strength):
+    def __init__(self, values, selectional):
         self.label = "nominalizer"
         self.values = values
         self.selectional = selectional
@@ -194,7 +194,6 @@ def create_nominalizer(root, values, existing_nominalizers):
         NominalizerTerminal(
             values = values,
             selectional = [root],
-            selection_strength=True
         )
     )
 
