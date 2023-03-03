@@ -46,5 +46,3 @@ il#SHELF-e#BIG-e	+definite	+atomic,+minimal
 i#SHELF-i#BIG-i	+definite	-atomic,-minimal
 i#SHELF-i#BIG-i	+definite	-atomic,+minimal
 uno#SHELF-e#BIG-e	-definite	+atomic,+minimal
-
-
