@@ -1,9 +1,14 @@
 # define constants
+from ast import parse
 import inspect
+import re
 
-INITIAL_WEIGHT = 10.0
-UPDDATE_WEIGHT = 0.2
+INITIAL_TERMINAL_WEIGHT = 10.0
+UPDDATE_TERMINAL_WEIGHT = 0.2
 ALREADY_SELECTS_BONUS = 0.75
+
+INITIAL_SPROUTING_RULE_WEIGHT = 1
+UPDATE_SPROUTING_RULE_WEIGHT = .1
 
 
 class SemanticTerminal:
@@ -12,7 +17,7 @@ class SemanticTerminal:
         self.values = values
         self.selectional = selectional
         self.selection_strength = selection_strength
-        self.weight = INITIAL_WEIGHT
+        self.weight = INITIAL_TERMINAL_WEIGHT
         self.linear = self
 
     def __str__(self):
@@ -125,11 +130,25 @@ def create_semantic_terminals(learner_version):
     return core_terminals + additional_terminals[learner_version]
 
 
+def parse_input(input_line):
+        tokens = input_line.split("\t")
+        input_string = tokens[0]
+        value_strings = tokens[1:]
+        values = [tuple(value_string.split(",")) for value_string in value_strings]
+
+        return input_string, values
+
+
+def find_roots(input_string):
+    words = re.split("[#-]", input_string)
+    return [word for word in words if word.isupper()]
+
+
 def run(
-    input_file_path="./data/input/italian-class-iii-only.txt",
-    root_file_path="./data/roots/italian-class-iii-only-ROOTS-list.txt",
+    input_file_path="./data/input/italian-class-iii-plus-adjectives.txt",
+    root_file_path="./data/roots/italian-class-iii-plus-adjectives-ROOTS-list.txt",
     learner_version=1,
-    verbosity_level = 3,
+    verbosity_level = 2,
 ):
 
 
@@ -153,9 +172,6 @@ def run(
     sprouting_rules = []
     vocabulary_items = []
 
-
-
-
     # process input
 
     with open(input_file_path,'r') as learningDataFile:
@@ -163,7 +179,11 @@ def run(
 
 
     for line in learningDataString:
-        print(line)
+        input_string, values = parse_input(line)
+        roots = find_roots(input_string)
+        if verbosity_level >= 2:
+            print(roots)
+            print(values)
 
 
 run()
