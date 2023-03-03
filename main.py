@@ -69,7 +69,8 @@ class NominalizerTerminal:
             and self.values == other.values
             and self.selectional == other.selectional
             and self.selection_strength == other.selection_strength
-            and self.weight == other.weight)
+            and self.weight == other.weight
+        )
 
 
 class Root:
