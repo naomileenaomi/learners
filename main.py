@@ -176,8 +176,8 @@ def parse_input(input_line):
 
 
 def find_roots(input_string):
-    words = re.split("[#-]", input_string)
-    return [word for word in words if word.isupper()]
+    exponents = re.split("[#-]", input_string)
+    return [exponent for exponent in exponents if exponent.isupper()]
 
 
 def create_nominalizer(root, values, existing_nominalizers):
