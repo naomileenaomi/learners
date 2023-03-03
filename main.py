@@ -2,6 +2,7 @@
 from ast import parse
 import inspect
 import re
+import random
 
 INITIAL_TERMINAL_WEIGHT = 10.0
 UPDDATE_TERMINAL_WEIGHT = 0.2
@@ -37,6 +38,40 @@ class SemanticTerminal:
         )
 
 
+class NominalizerTerminal:
+    def __init__(self, values, selectional, selection_strength):
+        self.label = "nominalizer"
+        self.values = values
+        self.selectional = selectional
+        self.selection_strength = True
+        self.weight = INITIAL_TERMINAL_WEIGHT
+        self.linear = self
+
+    def __str__(self):
+        return f"NominalizerTerminal: {self.label}"
+    
+    def big_string(self):
+        return inspect.cleandoc(
+            f"""
+            NominalizerTerminal:
+                label: {self.label}
+                values: {self.values}
+                selectional: {self.selectional}
+                selection_strength: {self.selection_strength}
+                weight: {self.weight}
+                linear: {self.linear}
+            """
+        )
+
+    def __eq__(self, other):
+        return (
+                self.label == other.label 
+            and self.values == other.values
+            and self.selectional == other.selectional
+            and self.selection_strength == other.selection_strength
+            and self.weight == other.weight)
+
+
 class Root:
     def __init__(self, label):
         self.label = label
@@ -61,61 +96,61 @@ def create_semantic_terminals(learner_version):
     core_terminals = (
         SemanticTerminal(
             label=("definite",),
-            values=("+definite",),
+            values={"+definite",},
             selectional=("atomic", "minimal"),
             selection_strength=False,
         ),
         SemanticTerminal(
             label=("definite",),
-            values=("+definite",),
+            values={"+definite",},
             selectional=("atomic", "minimal"),
             selection_strength=True,
         ),
         SemanticTerminal(
             label=("definite",),
-            values=("-definite",),
+            values={"-definite",},
             selectional=("atomic", "minimal"),
             selection_strength=False,
         ),
         SemanticTerminal(
             label=("definite",),
-            values=("-definite",),
+            values={"-definite",},
             selectional=("atomic", "minimal"),
             selection_strength=True,
         ),
         SemanticTerminal(
             label=("atomic", "minimal"),
-            values=("+atomic", "+minimal"),
+            values={"+atomic", "+minimal"},
             selectional=("nominalizer"),
             selection_strength=True,
         ),
         SemanticTerminal(
             label=("atomic", "minimal"),
-            values=("+atomic", "+minimal"),
+            values={"+atomic", "+minimal"},
             selectional=("nominalizer"),
             selection_strength=False,
         ),
         SemanticTerminal(
             label=("atomic", "minimal"),
-            values=("-atomic", "+minimal"),
+            values={"-atomic", "+minimal"},
             selectional=("nominalizer"),
             selection_strength=True,
         ),
         SemanticTerminal(
             label=("atomic", "minimal"),
-            values=("-atomic", "+minimal"),
+            values={"-atomic", "+minimal"},
             selectional=("nominalizer"),
             selection_strength=False,
         ),
         SemanticTerminal(
             label=("atomic", "minimal"),
-            values=("-atomic", "-minimal"),
+            values={"-atomic", "-minimal"},
             selectional=("nominalizer"),
             selection_strength=True,
         ),
         SemanticTerminal(
             label=("atomic", "minimal"),
-            values=("-atomic", "-minimal"),
+            values={"-atomic", "-minimal"},
             selectional=("nominalizer"),
             selection_strength=False,
         ),  
@@ -134,7 +169,7 @@ def parse_input(input_line):
         tokens = input_line.split("\t")
         input_string = tokens[0]
         value_strings = tokens[1:]
-        values = [tuple(value_string.split(",")) for value_string in value_strings]
+        values = [set(value_string.split(",")) for value_string in value_strings]
 
         return input_string, values
 
@@ -142,6 +177,39 @@ def parse_input(input_line):
 def find_roots(input_string):
     words = re.split("[#-]", input_string)
     return [word for word in words if word.isupper()]
+
+
+def create_nominalizer(root, values, existing_nominalizers):
+
+    for nominalizer in existing_nominalizers:
+        if nominalizer.values == values:
+            if root in nominalizer.selectional:
+                return existing_nominalizers
+            else:
+                nominalizer.selectional.append(root)
+                return existing_nominalizers
+    
+    existing_nominalizers.append(
+        NominalizerTerminal(
+            values = values,
+            selectional = [root],
+            selection_strength=True
+        )
+    )
+
+    return existing_nominalizers
+
+
+def select_nominalizer(root, existing_nominalizers):
+    weights = [
+        nominalizer.weight + ALREADY_SELECTS_BONUS
+        if root in nominalizer.selectional 
+        else nominalizer.weight
+        for nominalizer 
+        in existing_nominalizers
+    ]
+
+    return random.choices(population=existing_nominalizers, weights=weights)[0]
 
 
 def run(
@@ -181,9 +249,22 @@ def run(
     for line in learningDataString:
         input_string, values = parse_input(line)
         roots = find_roots(input_string)
+        
         if verbosity_level >= 2:
-            print(roots)
-            print(values)
+            print(f"roots: {roots}")
+            print(f"values: {values}")
+
+        if len(nominalizer_terminals) == 0:
+            create_nominalizer(
+                roots[0],
+                values={},
+                existing_nominalizers=nominalizer_terminals,
+            )
+        
+        nominalizer_terminal = select_nominalizer(roots[0], existing_nominalizers=nominalizer_terminals)
+        
+        if verbosity_level >= 2:
+            print(f"selected: {nominalizer_terminal}")
 
 
 run()
