@@ -25,3 +25,21 @@ def test_select_nominalizer(nominalizer_terminal1, nominalizer_terminal2):
         root=nominalizer_terminal1.selectional[0],
         existing_nominalizers=[nominalizer_terminal1, nominalizer_terminal2]
     ) == nominalizer_terminal1
+
+
+def test_select_semantic(semantic_terminal1, semantic_terminal2, semantic_terminal3):
+    semantic_terminal1.weight = 0
+    semantic_terminal2.weight = 1
+    semantic_terminal3.weight = 100
+
+    values = {"1", "2", "3"}
+
+    assert semantic_terminal1.values == values
+    assert semantic_terminal2.values == values
+    assert semantic_terminal3.values != values
+
+
+    assert main.select_semantic_terminals(
+        input_values=[values],
+        semantic_terminals=[semantic_terminal1, semantic_terminal2, semantic_terminal3]
+    ) == [semantic_terminal2]

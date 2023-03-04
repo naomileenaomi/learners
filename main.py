@@ -212,6 +212,32 @@ def select_nominalizer(root, existing_nominalizers):
     return random.choices(population=existing_nominalizers, weights=weights)[0]
 
 
+def select_semantic_terminals(input_values, semantic_terminals):
+    selected_terminals = []
+    
+    for values in input_values:
+        choices = [
+            terminal 
+            for terminal 
+            in semantic_terminals
+            if terminal.values == values
+        ]
+
+        assert len(choices) == 2
+
+        weights = [
+            terminal.weight
+            for terminal
+            in choices
+        ]
+
+        selected_terminals.append(random.choices(population=choices, weights=weights)[0])
+
+    assert len(selected_terminals) == len(input_values)
+
+    return selected_terminals
+
+
 def run(
     input_file_path="./data/input/italian-class-iii-plus-adjectives.txt",
     root_file_path="./data/roots/italian-class-iii-plus-adjectives-ROOTS-list.txt",
@@ -261,10 +287,14 @@ def run(
                 existing_nominalizers=nominalizer_terminals,
             )
         
-        nominalizer_terminal = select_nominalizer(roots[0], existing_nominalizers=nominalizer_terminals)
+        selected_nominalizer_terminal = select_nominalizer(roots[0], existing_nominalizers=nominalizer_terminals)
         
         if verbosity_level >= 2:
-            print(f"selected: {nominalizer_terminal}")
+            print(f"Nominalizer selected: {selected_nominalizer_terminal}")
 
+        selected_semantic_terminals = select_semantic_terminals(input_values=values, semantic_terminals=semantic_terminals)
+
+        if verbosity_level >= 2:
+            print(f"SemanticTerminals selected: {selected_semantic_terminals}")
 
 run()
