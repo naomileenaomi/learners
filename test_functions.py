@@ -1,4 +1,5 @@
 import main
+import copy
 
 
 def test_parse_input():
@@ -43,3 +44,18 @@ def test_select_semantic(semantic_terminal1, semantic_terminal2, semantic_termin
         input_values=[values],
         semantic_terminals=[semantic_terminal1, semantic_terminal2, semantic_terminal3]
     ) == [semantic_terminal2]
+
+
+def test_select_adjectivalizer(adjectivalizer_terminal):
+    adjectivalizer_terminal.selectional = ["a", "b", "c"]
+    
+    new_adjectivalizer = copy.deepcopy(adjectivalizer_terminal)
+
+
+    assert main.select_adjectivalizer_terminals("a", new_adjectivalizer)[0] == adjectivalizer_terminal
+    assert main.select_adjectivalizer_terminals("b", new_adjectivalizer)[0] == adjectivalizer_terminal
+    assert new_adjectivalizer.selectional == ["a", "b", "c"]
+
+
+    assert main.select_adjectivalizer_terminals("d", new_adjectivalizer)[0] != adjectivalizer_terminal
+    assert new_adjectivalizer.selectional == ["a", "b", "c", "d"]

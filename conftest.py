@@ -3,6 +3,12 @@ import main
 
 
 @pytest.fixture
+def adjectivalizer_terminal():
+    adjectivalizer_terminal = main.AdjectivalizerTerminal()
+    yield adjectivalizer_terminal
+
+
+@pytest.fixture
 def semantic_terminal1():
     semantic_terminal = main.SemanticTerminal(
         label="label",

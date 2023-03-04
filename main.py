@@ -72,6 +72,37 @@ class NominalizerTerminal:
             and self.weight == other.weight
         )
 
+class AdjectivalizerTerminal:
+    def __init__(self):
+        self.label = "adjectivalizer"
+        self.values = {}
+        self.selectional = []
+        self.selection_strength = True
+        self.linear = self
+
+    def __str__(self):
+        return f"AdjectivalizerTerminal: {self.label}"
+    
+    def big_string(self):
+        return inspect.cleandoc(
+            f"""
+            NominalizerTerminal:
+                label: {self.label}
+                values: {self.values}
+                selectional: {self.selectional}
+                selection_strength: {self.selection_strength}
+                linear: {self.linear}
+            """
+        )
+
+    def __eq__(self, other):
+        return (
+                self.label == other.label 
+            and self.values == other.values
+            and self.selectional == other.selectional
+            and self.selection_strength == other.selection_strength
+        )
+
 
 class Root:
     def __init__(self, label):
@@ -213,6 +244,7 @@ def select_nominalizer(root, existing_nominalizers):
 
 
 def select_semantic_terminals(input_values, semantic_terminals):
+    
     selected_terminals = []
     
     for values in input_values:
@@ -236,6 +268,13 @@ def select_semantic_terminals(input_values, semantic_terminals):
     assert len(selected_terminals) == len(input_values)
 
     return selected_terminals
+
+
+def select_adjectivalizer_terminals(second_root, adjectivalizer):
+    if second_root not in adjectivalizer.selectional:
+        adjectivalizer.selectional.append(second_root)
+
+    return [adjectivalizer]
 
 
 def run(
@@ -263,6 +302,7 @@ def run(
 
 
     nominalizer_terminals = []
+    adjectivalizer = AdjectivalizerTerminal()
     sprouting_rules = []
     vocabulary_items = []
 
@@ -296,5 +336,13 @@ def run(
 
         if verbosity_level >= 2:
             print(f"SemanticTerminals selected: {selected_semantic_terminals}")
+
+        if len(roots) == 2:
+            selected_adjectivalizers = select_adjectivalizer_terminals(second_root = roots[1], adjectivalizer=adjectivalizer)
+        else:
+            selected_adjectivalizers = []
+
+        if verbosity_level >= 2:
+            print(f"AdjectivalizerTermainals selected: {selected_adjectivalizers}")
 
 run()
