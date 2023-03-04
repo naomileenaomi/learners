@@ -124,8 +124,8 @@ class AdjectivalizerTerminal:
 
 class TerminalChain:
     def __init__(self, selector, complement, affix):
-        self.selector = copy.deepcopy(selector)
-        self.complement = copy.deepcopy(complement)
+        self.selector = copy.deepcopy(selector); selector = None
+        self.complement = copy.deepcopy(complement); complement = None
         self.label = self.selector.label
         self.selectional = []
 
@@ -137,8 +137,9 @@ class TerminalChain:
             self.values = self.complement.values.union(self.selector.values)
 
             if self.selector.selection_strength == False:
-                self.linear = selector.linear + ("#",) + complement.linear
+                self.linear = self.selector.linear + ("#",) + self.complement.linear
                 self.selector.values.update(self.complement.values)
+
             else:
                 if affix == "suffixing":
                     if "#" in self.complement.linear:

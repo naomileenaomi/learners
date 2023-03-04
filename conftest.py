@@ -77,3 +77,23 @@ def nominalizer_terminal_input1():
 def root_input1():
     root = main.Root("KEY")
     yield root
+
+@pytest.fixture
+def semantic_terminal_input_1_1():
+    semantic_terminal = main.SemanticTerminal(
+        label="(definite)",
+        values={"+definite"},
+        selectional=["(atomic, minimal)"],
+        selection_strength=False,
+    )
+    yield semantic_terminal
+
+@pytest.fixture
+def semantic_terminal_input_1_2():
+    semantic_terminal = main.SemanticTerminal(
+        label="(atomic, minimal)",
+        values={"+atomic", "+minimal"},
+        selectional=["nominalizer"],
+        selection_strength=True,
+    )
+    yield semantic_terminal
