@@ -63,3 +63,17 @@ def nominalizer_terminal3():
         selectional=["label3"],
     )
     yield nominalizer_terminal
+
+
+@pytest.fixture
+def nominalizer_terminal_input1():
+    nominalizer_terminal = main.NominalizerTerminal(
+        values=set(),
+        selectional=["KEY"],
+    )
+    yield nominalizer_terminal
+
+@pytest.fixture
+def root_input1():
+    root = main.Root("KEY")
+    yield root

@@ -3,6 +3,8 @@ from ast import parse
 import inspect
 import re
 import random
+import copy
+
 
 INITIAL_TERMINAL_WEIGHT = 10.0
 UPDDATE_TERMINAL_WEIGHT = 0.2
@@ -19,7 +21,7 @@ class SemanticTerminal:
         self.selectional = selectional
         self.selection_strength = selection_strength
         self.weight = INITIAL_TERMINAL_WEIGHT
-        self.linear = self
+        self.linear = (self,)
 
     def __str__(self):
         return f"SemanticTerminal: {self.label}"
@@ -37,6 +39,17 @@ class SemanticTerminal:
             """
         )
 
+    def __eq__(self, other):
+        if type(self) != type(other): return False
+
+        return (
+                self.label == other.label 
+            and self.values == other.values
+            and self.selectional == other.selectional
+            and self.selection_strength == other.selection_strength
+            and self.weight == other.weight
+        )
+
 
 class NominalizerTerminal:
     def __init__(self, values, selectional):
@@ -45,7 +58,7 @@ class NominalizerTerminal:
         self.selectional = selectional
         self.selection_strength = True
         self.weight = INITIAL_TERMINAL_WEIGHT
-        self.linear = self
+        self.linear = (self,)
 
     def __str__(self):
         return f"NominalizerTerminal: {self.label}"
@@ -64,6 +77,8 @@ class NominalizerTerminal:
         )
 
     def __eq__(self, other):
+        if type(self) != type(other): return False
+        
         return (
                 self.label == other.label 
             and self.values == other.values
@@ -72,13 +87,14 @@ class NominalizerTerminal:
             and self.weight == other.weight
         )
 
+
 class AdjectivalizerTerminal:
     def __init__(self):
         self.label = "adjectivalizer"
-        self.values = {}
+        self.values = set()
         self.selectional = []
         self.selection_strength = True
-        self.linear = self
+        self.linear = (self,)
 
     def __str__(self):
         return f"AdjectivalizerTerminal: {self.label}"
@@ -96,6 +112,8 @@ class AdjectivalizerTerminal:
         )
 
     def __eq__(self, other):
+        if type(self) != type(other): return False
+
         return (
                 self.label == other.label 
             and self.values == other.values
@@ -104,11 +122,91 @@ class AdjectivalizerTerminal:
         )
 
 
+class TerminalChain:
+    def __init__(self, selector, complement, affix):
+        self.selector = copy.deepcopy(selector)
+        self.complement = copy.deepcopy(complement)
+        self.label = self.selector.label
+        self.selectional = []
+
+        if self.complement.label not in self.selector.selectional and type(self.complement) == Root:
+            self.selector.selectional.append(self.complement.label)
+
+        
+        if self.complement.label in self.selector.selectional:
+            self.values = self.complement.values.union(self.selector.values)
+
+            if self.selector.selection_strength == False:
+                self.linear = selector.linear + ("#",) + complement.linear
+                self.selector.values.update(self.complement.values)
+            else:
+                if affix == "suffixing":
+                    if "#" in self.complement.linear:
+                        self.linear = tuple(
+                            list(self.complement.linear)[:self.complement.linear.index('#')]
+                            + ["-"] 
+                            + list(self.selector.linear) 
+                            + list(self.complement.linear)[self.complement.linear.index('#'):]
+                        )
+                    else:
+                        self.linear = self.complement.linear + ("-",) + self.selector.linear
+                elif affix == "prefixing":
+                    self.linear = self.selector.linear + ("-",) + self.complement.linear
+                else: 
+                    assert False
+                
+                for token in self.complement.values:
+                    if token[0] == "+" or token[0] == "-":
+                        self.selector.values.add(token)
+
+        else:
+            self.complement.values.update(self.selector.values)
+            self.complement.complement.values.update(self.selector.values)
+            self.values = self.selector.values
+            self.linear = self.selector.linear + ("#",) + self.complement.linear
+        
+        assert hasattr(self, 'label')
+        assert hasattr(self, 'selector')
+        assert hasattr(self, 'complement')
+        assert hasattr(self, 'linear')
+        assert hasattr(self, 'selectional')
+        assert hasattr(self, 'values')
+
+
+    def __str__(self):
+        return f"TerminalChain: {self.label}"
+    
+    def big_string(self):
+        return inspect.cleandoc(
+            f"""
+            TerminalChain:
+                label: {self.label}
+                selector: {self.selector}
+                complement: {self.complement}
+                linear: {self.linear}
+                selectional: {self.selectional}
+                values: {self.values}
+            """
+        )
+
+    def __eq__(self, other):
+        if type(self) != type(other): return False
+
+        return (
+                self.label == other.label 
+            and self.selector == other.selector
+            and self.complement == other.complement
+            and self.linear == other.linear
+            and self.selectional == other.selectional
+            and self.values == other.values
+        )
+
+
 class Root:
     def __init__(self, label):
         self.label = label
-        self.values = ()
-        self.linear = self
+        self.values = set()
+        self.linear = (self, )
     
     def __str__(self):
         return f"Root: {self.label}"
@@ -121,6 +219,15 @@ class Root:
                 values: {self.values}
                 linear: {self.linear}
             """
+        )
+
+    def __eq__(self, other):
+
+        if type(self) != type(other): return False
+
+        return (
+                self.label == other.label 
+            and self.values == other.values
         )
 
 
@@ -274,13 +381,18 @@ def select_adjectivalizer_terminals(second_root, adjectivalizer):
     if second_root not in adjectivalizer.selectional:
         adjectivalizer.selectional.append(second_root)
 
-    return [adjectivalizer]
+    return adjectivalizer
+
+
+# def derive_terminal_chain(enumeration):
+
 
 
 def run(
     input_file_path="./data/input/italian-class-iii-plus-adjectives.txt",
     root_file_path="./data/roots/italian-class-iii-plus-adjectives-ROOTS-list.txt",
     learner_version=1,
+    affix = "suffixing",
     verbosity_level = 2,
 ):
 
@@ -323,26 +435,38 @@ def run(
         if len(nominalizer_terminals) == 0:
             create_nominalizer(
                 roots[0],
-                values={},
+                values=set(),
                 existing_nominalizers=nominalizer_terminals,
             )
+
+        # create enumeration
+
+        enumeration = dict()
+
+        enumeration["roots"] = roots
         
-        selected_nominalizer_terminal = select_nominalizer(roots[0], existing_nominalizers=nominalizer_terminals)
+        enumeration["nominalizer"] = select_nominalizer(roots[0], existing_nominalizers=nominalizer_terminals)
         
         if verbosity_level >= 2:
-            print(f"Nominalizer selected: {selected_nominalizer_terminal}")
+            print(f"Nominalizer selected: {enumeration['nominalizer']}")
 
         selected_semantic_terminals = select_semantic_terminals(input_values=values, semantic_terminals=semantic_terminals)
+
+        for i, semantic_terminal in enumerate(selected_semantic_terminals):
+            enumeration[f"semantic_{i}"] = semantic_terminal
 
         if verbosity_level >= 2:
             print(f"SemanticTerminals selected: {selected_semantic_terminals}")
 
         if len(roots) == 2:
-            selected_adjectivalizers = select_adjectivalizer_terminals(second_root = roots[1], adjectivalizer=adjectivalizer)
+            enumeration["adjectivalizer"] = select_adjectivalizer_terminals(second_root = roots[1], adjectivalizer=adjectivalizer)
+        
+            if verbosity_level >= 2:
+                print(f"AdjectivalizerTerminals selected: {enumeration['adjectivalizer']}")
         else:
-            selected_adjectivalizers = []
+            if verbosity_level >= 2:
+                print("No AdjectivalizerTerminals selected")
 
-        if verbosity_level >= 2:
-            print(f"AdjectivalizerTermainals selected: {selected_adjectivalizers}")
+        
 
 run()

@@ -52,10 +52,10 @@ def test_select_adjectivalizer(adjectivalizer_terminal):
     new_adjectivalizer = copy.deepcopy(adjectivalizer_terminal)
 
 
-    assert main.select_adjectivalizer_terminals("a", new_adjectivalizer)[0] == adjectivalizer_terminal
-    assert main.select_adjectivalizer_terminals("b", new_adjectivalizer)[0] == adjectivalizer_terminal
+    assert main.select_adjectivalizer_terminals("a", new_adjectivalizer) == adjectivalizer_terminal
+    assert main.select_adjectivalizer_terminals("b", new_adjectivalizer) == adjectivalizer_terminal
     assert new_adjectivalizer.selectional == ["a", "b", "c"]
 
 
-    assert main.select_adjectivalizer_terminals("d", new_adjectivalizer)[0] != adjectivalizer_terminal
+    assert main.select_adjectivalizer_terminals("d", new_adjectivalizer) != adjectivalizer_terminal
     assert new_adjectivalizer.selectional == ["a", "b", "c", "d"]
