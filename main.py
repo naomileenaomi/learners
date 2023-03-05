@@ -7,11 +7,16 @@ import copy
 
 
 INITIAL_TERMINAL_WEIGHT = 10.0
-UPDDATE_TERMINAL_WEIGHT = 0.2
+UPDATE_TERMINAL_WEIGHT = 0.0 #TODO fix this
 ALREADY_SELECTS_BONUS = 0.75
 
 INITIAL_SPROUTING_RULE_WEIGHT = 1
 UPDATE_SPROUTING_RULE_WEIGHT = .1
+
+
+def debug_print(verbosity_supplied, verbosity_required, message):
+    if verbosity_supplied >= verbosity_required:
+        print(message)
 
 
 class SemanticTerminal:
@@ -94,6 +99,7 @@ class AdjectivalizerTerminal:
         self.values = set()
         self.selectional = []
         self.selection_strength = True
+        self.weight = 999
         self.linear = (self,)
 
     def __str__(self):
@@ -414,9 +420,6 @@ def derive_terminal_chain(enumeration, affix):
     
         del enumeration["adjective_terminal_chain"]
 
-    for element in enumeration.values():
-        print(element.big_string())
-
     while len(enumeration.keys()) > 0:
 
         possible_selectors = [
@@ -451,6 +454,37 @@ def derive_terminal_chain(enumeration, affix):
         
     return terminal_chain
 
+
+def select_enumeration(
+    roots, 
+    nominalizer_terminals,
+    values,
+    semantic_terminals,
+    adjectivalizer
+):
+    enumeration = dict()
+    terminals_used = []
+
+    enumeration["roots"] = roots
+    
+
+    nominalizer = select_nominalizer(roots[0], existing_nominalizers=nominalizer_terminals)
+    enumeration["nominalizer"] = nominalizer
+    terminals_used.append(nominalizer)
+    
+    semantics = select_semantic_terminals(input_values=values, semantic_terminals=semantic_terminals)
+
+    for i, semantic_terminal in enumerate(semantics):
+        enumeration[f"semantic_{i}"] = semantic_terminal
+    terminals_used += semantics
+
+
+    if len(roots) == 2:
+        adjectivalizer = select_adjectivalizer_terminals(second_root = roots[1], adjectivalizer=adjectivalizer)
+        enumeration["adjectivalizer"] = adjectivalizer
+        terminals_used.append(adjectivalizer)
+    
+    return enumeration, terminals_used
 
 def run(
     input_file_path="./data/input/italian-class-iii-plus-adjectives.txt",
@@ -505,35 +539,25 @@ def run(
 
         # create enumeration
 
-        enumeration = dict()
+        while True:
+            enumeration, terminals_used = select_enumeration(
+                roots=roots,
+                nominalizer_terminals=nominalizer_terminals,
+                values=values,
+                semantic_terminals=semantic_terminals,
+                adjectivalizer=adjectivalizer
+            )
+            
+            terminal_chain = derive_terminal_chain(enumeration=enumeration, affix=affix)
 
-        enumeration["roots"] = roots
+            debug_print(verbosity_level, 2, f"TerminalChain linear: {terminal_chain.linear}")
+
+            if input_string.count("#") == terminal_chain.linear.count("#"):
+                debug_print(verbosity_level, 2, "we broke out")
+                break
         
-        enumeration["nominalizer"] = select_nominalizer(roots[0], existing_nominalizers=nominalizer_terminals)
-        
-        if verbosity_level >= 2:
-            print(f"Nominalizer selected: {enumeration['nominalizer']}")
-
-        selected_semantic_terminals = select_semantic_terminals(input_values=values, semantic_terminals=semantic_terminals)
-
-        for i, semantic_terminal in enumerate(selected_semantic_terminals):
-            enumeration[f"semantic_{i}"] = semantic_terminal
-
-        if verbosity_level >= 2:
-            print(f"SemanticTerminals selected: {selected_semantic_terminals}")
-
-        if len(roots) == 2:
-            enumeration["adjectivalizer"] = select_adjectivalizer_terminals(second_root = roots[1], adjectivalizer=adjectivalizer)
-        
-            if verbosity_level >= 2:
-                print(f"AdjectivalizerTerminals selected: {enumeration['adjectivalizer']}")
-        else:
-            if verbosity_level >= 2:
-                print("No AdjectivalizerTerminals selected")
-
-        terminal_chain = derive_terminal_chain(enumeration=enumeration, affix=affix)
-
-        if verbosity_level >= 2:
-            print(f"TerminalChain linear: {terminal_chain.linear}")
+            debug_print(verbosity_level, 2, "we failed")
+            for terminal in terminals_used:
+                terminal.weight -= UPDATE_TERMINAL_WEIGHT
 
 run()
