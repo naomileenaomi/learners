@@ -11,9 +11,9 @@ def test_parse_input():
 
 
 def test_find_roots():
-    assert main.find_roots("la#KEY-e") == ["KEY"]
-    assert main.find_roots("le#KEY-i") == ["KEY"]
-    assert main.find_roots("il#BOOK-o#BIG-e") == ["BOOK", "BIG"]
+    assert main.find_roots("la#KEY-e") == [main.Root("KEY")]
+    assert main.find_roots("le#KEY-i") == [main.Root("KEY")]
+    assert main.find_roots("il#BOOK-o#BIG-e") == [main.Root("BOOK"), main.Root("BIG")]
 
 
 def test_select_nominalizer(nominalizer_terminal1, nominalizer_terminal2):
@@ -23,7 +23,7 @@ def test_select_nominalizer(nominalizer_terminal1, nominalizer_terminal2):
     assert nominalizer_terminal1.selectional != nominalizer_terminal2.selectional
 
     assert main.select_nominalizer(
-        root=nominalizer_terminal1.selectional[0],
+        root=main.Root(nominalizer_terminal1.selectional[0]),
         existing_nominalizers=[nominalizer_terminal1, nominalizer_terminal2]
     ) == nominalizer_terminal1
 
@@ -52,10 +52,37 @@ def test_select_adjectivalizer(adjectivalizer_terminal):
     new_adjectivalizer = copy.deepcopy(adjectivalizer_terminal)
 
 
-    assert main.select_adjectivalizer_terminals("a", new_adjectivalizer) == adjectivalizer_terminal
-    assert main.select_adjectivalizer_terminals("b", new_adjectivalizer) == adjectivalizer_terminal
+    assert main.select_adjectivalizer_terminals(main.Root("a"), new_adjectivalizer) == adjectivalizer_terminal
+    assert main.select_adjectivalizer_terminals(main.Root("b"), new_adjectivalizer) == adjectivalizer_terminal
     assert new_adjectivalizer.selectional == ["a", "b", "c"]
 
 
-    assert main.select_adjectivalizer_terminals("d", new_adjectivalizer) != adjectivalizer_terminal
+    assert main.select_adjectivalizer_terminals(main.Root("d"), new_adjectivalizer) != adjectivalizer_terminal
     assert new_adjectivalizer.selectional == ["a", "b", "c", "d"]
+
+def test_derive_terminal_chain(
+        nominalizer_terminal_input1,
+        semantic_terminal_input_1_1,
+        semantic_terminal_input_1_2,
+):
+    enumeration = {
+        "roots": [main.Root("KEY")],
+        "nominalizer": nominalizer_terminal_input1,
+        "semantic_0": semantic_terminal_input_1_1,
+        "semantic_1": semantic_terminal_input_1_2
+    }
+
+    terminal_chain = main.derive_terminal_chain(enumeration=enumeration, affix="suffixing")
+
+    assert terminal_chain == main.TerminalChain(
+            semantic_terminal_input_1_1,
+            main.TerminalChain(semantic_terminal_input_1_2,
+                main.TerminalChain(
+                    nominalizer_terminal_input1,
+                    main.Root("KEY"),
+                    affix="suffixing",
+                ),
+                affix="suffixing"
+            ),
+            affix="suffixing"
+        )

@@ -235,63 +235,63 @@ class Root:
 def create_semantic_terminals(learner_version):
     core_terminals = (
         SemanticTerminal(
-            label=("definite",),
+            label="definite",
             values={"+definite",},
-            selectional=("atomic", "minimal"),
+            selectional=["atomic, minimal"],
             selection_strength=False,
         ),
         SemanticTerminal(
-            label=("definite",),
+            label="definite",
             values={"+definite",},
-            selectional=("atomic", "minimal"),
+            selectional=["atomic, minimal"],
             selection_strength=True,
         ),
         SemanticTerminal(
-            label=("definite",),
+            label="definite",
             values={"-definite",},
-            selectional=("atomic", "minimal"),
+            selectional=["atomic, minimal"],
             selection_strength=False,
         ),
         SemanticTerminal(
-            label=("definite",),
+            label="definite",
             values={"-definite",},
-            selectional=("atomic", "minimal"),
+            selectional=["atomic, minimal"],
             selection_strength=True,
         ),
         SemanticTerminal(
-            label=("atomic", "minimal"),
+            label="atomic, minimal",
             values={"+atomic", "+minimal"},
-            selectional=("nominalizer"),
+            selectional=["nominalizer"],
             selection_strength=True,
         ),
         SemanticTerminal(
-            label=("atomic", "minimal"),
+            label="atomic, minimal",
             values={"+atomic", "+minimal"},
-            selectional=("nominalizer"),
+            selectional=["nominalizer"],
             selection_strength=False,
         ),
         SemanticTerminal(
-            label=("atomic", "minimal"),
+            label="atomic, minimal",
             values={"-atomic", "+minimal"},
-            selectional=("nominalizer"),
+            selectional=["nominalizer"],
             selection_strength=True,
         ),
         SemanticTerminal(
-            label=("atomic", "minimal"),
+            label="atomic, minimal",
             values={"-atomic", "+minimal"},
-            selectional=("nominalizer"),
+            selectional=["nominalizer"],
             selection_strength=False,
         ),
         SemanticTerminal(
-            label=("atomic", "minimal"),
+            label="atomic, minimal",
             values={"-atomic", "-minimal"},
-            selectional=("nominalizer"),
+            selectional=["nominalizer"],
             selection_strength=True,
         ),
         SemanticTerminal(
-            label=("atomic", "minimal"),
+            label="atomic, minimal",
             values={"-atomic", "-minimal"},
-            selectional=("nominalizer"),
+            selectional=["nominalizer"],
             selection_strength=False,
         ),  
     )
@@ -316,23 +316,23 @@ def parse_input(input_line):
 
 def find_roots(input_string):
     exponents = re.split("[#-]", input_string)
-    return [exponent for exponent in exponents if exponent.isupper()]
+    return [Root(exponent) for exponent in exponents if exponent.isupper()]
 
 
 def create_nominalizer(root, values, existing_nominalizers):
 
     for nominalizer in existing_nominalizers:
         if nominalizer.values == values:
-            if root in nominalizer.selectional:
+            if root.label in nominalizer.selectional:
                 return existing_nominalizers
             else:
-                nominalizer.selectional.append(root)
+                nominalizer.selectional.append(root.label)
                 return existing_nominalizers
     
     existing_nominalizers.append(
         NominalizerTerminal(
             values = values,
-            selectional = [root],
+            selectional = [root.label],
         )
     )
 
@@ -342,7 +342,7 @@ def create_nominalizer(root, values, existing_nominalizers):
 def select_nominalizer(root, existing_nominalizers):
     weights = [
         nominalizer.weight + ALREADY_SELECTS_BONUS
-        if root in nominalizer.selectional 
+        if root.label in nominalizer.selectional 
         else nominalizer.weight
         for nominalizer 
         in existing_nominalizers
@@ -379,14 +379,77 @@ def select_semantic_terminals(input_values, semantic_terminals):
 
 
 def select_adjectivalizer_terminals(second_root, adjectivalizer):
-    if second_root not in adjectivalizer.selectional:
-        adjectivalizer.selectional.append(second_root)
+    if second_root.label not in adjectivalizer.selectional:
+        adjectivalizer.selectional.append(second_root.label)
 
     return adjectivalizer
 
 
-# def derive_terminal_chain(enumeration):
+def derive_terminal_chain(enumeration, affix):
+    if len(enumeration["roots"]) == 2:
+        enumeration["adjective_terminal_chain"] = TerminalChain(
+            selector=enumeration["adjectivalizer"],
+            complement=enumeration["roots"][1],
+            affix=affix,
+        )
 
+        enumeration["roots"] = enumeration["roots"][:1]
+        del enumeration["adjectivalizer"]
+
+    terminal_chain = TerminalChain(
+        selector=enumeration["nominalizer"],
+        complement=enumeration["roots"][0],
+        affix=affix
+    )
+
+    del enumeration["nominalizer"]
+    del enumeration["roots"]
+    
+    if enumeration.get("adjective_terminal_chain") != None:
+        terminal_chain = TerminalChain(
+            selector=terminal_chain,
+            complement=enumeration["adjective_terminal_chain"],
+            affix=affix,
+        )
+    
+        del enumeration["adjective_terminal_chain"]
+
+    for element in enumeration.values():
+        print(element.big_string())
+
+    while len(enumeration.keys()) > 0:
+
+        possible_selectors = [
+            key 
+            for key 
+            in enumeration.keys()
+            if terminal_chain.label in enumeration[key].selectional
+        ]
+
+        assert len(possible_selectors) > 0
+
+        selector_counts = {
+            key: sum([
+                1
+                for value
+                in enumeration.values()
+                if value.label in enumeration[key].selectional
+            ])
+            for key
+            in possible_selectors
+        }
+
+        selector_key = min(selector_counts, key=selector_counts.get)
+
+        terminal_chain=TerminalChain(
+            selector=enumeration[selector_key],
+            complement=terminal_chain,
+            affix=affix
+        )
+
+        del enumeration[selector_key]
+        
+    return terminal_chain
 
 
 def run(
@@ -468,6 +531,9 @@ def run(
             if verbosity_level >= 2:
                 print("No AdjectivalizerTerminals selected")
 
-        
+        terminal_chain = derive_terminal_chain(enumeration=enumeration, affix=affix)
+
+        if verbosity_level >= 2:
+            print(f"TerminalChain linear: {terminal_chain.linear}")
 
 run()
