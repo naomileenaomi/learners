@@ -1,5 +1,6 @@
 import pytest
 import main
+import copy
 
 
 @pytest.fixture
@@ -97,3 +98,74 @@ def semantic_terminal_input_1_2():
         selection_strength=True,
     )
     yield semantic_terminal
+
+@pytest.fixture
+def terminal_chain_input_1_1(nominalizer_terminal_input1, root_input1):
+    terminal_chain = main.TerminalChain(
+        selector=nominalizer_terminal_input1,
+        complement=root_input1,
+        affix="suffixing",
+    )
+
+    return terminal_chain
+
+@pytest.fixture
+def terminal_chain_input_1_2(semantic_terminal_input_1_2, terminal_chain_input_1_1):
+    terminal_chain = main.TerminalChain(
+        selector=semantic_terminal_input_1_2,
+        complement=terminal_chain_input_1_1,
+        affix="suffixing",
+    )
+
+    return terminal_chain
+
+@pytest.fixture
+def terminal_chain_input_1_3(semantic_terminal_input_1_1, terminal_chain_input_1_2):
+    terminal_chain = main.TerminalChain(
+        selector=semantic_terminal_input_1_1,
+        complement=terminal_chain_input_1_2,
+        affix="suffixing",
+    )
+
+    return terminal_chain
+
+@pytest.fixture
+def terminal_chain_toy_1(terminal_chain_input_1_1):
+    terminal_chain = copy.deepcopy(terminal_chain_input_1_1)
+    terminal_chain.linear = (1, 2, 3, 4, 5)
+
+@pytest.fixture
+def vocabulary_item_toy_1():
+    return main.VocabularyItem(
+        pronunciation="a",
+        label="a",
+        values={1, 2, 3},
+        diacritic="a_1",
+        triggers={1, 2, 3}
+    )
+
+@pytest.fixture
+def vocabulary_item_toy_2():
+    return main.VocabularyItem(
+        pronunciation="a",
+        label="a",
+        values={1, 2, 3},
+        diacritic="a_2",
+        triggers={1, 2, 3}
+    )
+
+@pytest.fixture
+def vocabulary_item_toy_3():
+    return main.VocabularyItem(
+        pronunciation="b",
+        label="b",
+        values={1, 2, 3},
+        diacritic="b_1",
+        triggers={1, 2, 3}
+    )
+
+@pytest.fixture
+def vocabulary_items_toy(vocabulary_item_toy_1, vocabulary_item_toy_2, vocabulary_item_toy_3):
+    return [
+        vocabulary_item_toy_1, vocabulary_item_toy_2, vocabulary_item_toy_3
+    ]

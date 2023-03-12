@@ -4,14 +4,17 @@ import inspect
 import re
 import random
 import copy
+from itertools import combinations
+from difflib import SequenceMatcher
 
 
 INITIAL_TERMINAL_WEIGHT = 10.0
-UPDATE_TERMINAL_WEIGHT = 0.0 #TODO fix this
+UPDATE_TERMINAL_WEIGHT = .1
 ALREADY_SELECTS_BONUS = 0.75
 
 INITIAL_SPROUTING_RULE_WEIGHT = 1
 UPDATE_SPROUTING_RULE_WEIGHT = .1
+MORE_SPECIFIC_BONUS = .5
 
 
 def debug_print(verbosity_supplied, verbosity_required, message):
@@ -128,6 +131,34 @@ class AdjectivalizerTerminal:
         )
 
 
+class AgrTerminal:
+    def __init__(self, values):
+        self.label = "Agr"
+        self.values = values
+        self.linear = self
+    
+    def __str__(self):
+        return f"AgrTerminal: {self.values}"
+    
+    def big_string(self):
+        return inspect.cleandoc(
+            f"""
+            AgrTerminal:
+                label: {self.label}
+                values: {self.values}
+                linear: {self.linear}
+            """
+        )
+
+    def __eq__(self, other):
+        if type(self) != type(other): return False
+
+        return (
+                self.label == other.label 
+            and self.values == other.values
+        )
+
+
 class TerminalChain:
     def __init__(self, selector, complement, affix):
         self.selector = copy.deepcopy(selector); selector = None
@@ -236,6 +267,108 @@ class Root:
                 self.label == other.label 
             and self.values == other.values
         )
+
+
+class VocabularyItem:
+    def __init__(self, pronunciation, label, values, diacritic, triggers):
+
+        assert pronunciation != ""
+
+        self.pronunciation = pronunciation
+        self.label = label
+        self.values = values
+        self.diacritic = diacritic
+        self.triggers = triggers
+        self.weight = INITIAL_TERMINAL_WEIGHT
+    
+    def __str__(self):
+        return f"VocabularyItem: {self.pronunciation}"
+
+    def big_string(self):
+        return inspect.cleandoc(
+            f"""
+            VocabularyItem:
+                pronunciation: {self.pronunciation}
+                label: {self.label}
+                values: {self.values}
+                diacritic: {self.diacritic}
+                triggers: {self.triggers}
+                weight: {self.weight}
+            """
+        )
+
+    def full_equality(self, other):
+        if type(self) != type(other): return False
+
+        return (
+                self.pronunciation == other.pronunciation 
+            and self.label == other.label
+            and self.values == other.values
+            and self.diacritic == other.diacritic
+            and self.triggers == other.triggers
+            and self.weight == other.weight
+        )
+
+    def __eq__(self, other):
+        if type(self) != type(other): return False
+
+        return (
+                self.pronunciation == other.pronunciation 
+            and self.label == other.label
+            and self.values == other.values
+            and self.triggers == other.triggers
+        )
+
+
+class SproutingRule:
+    def __init__(self, split_off_vi, large_vi):
+        self.trigger_label=large_vi.label
+        self.trigger_values=large_vi.values
+        self.trigger_diacritic=split_off_vi.values
+        self.keep_values=large_vi.values - split_off_vi.values
+        self.weight = INITIAL_SPROUTING_RULE_WEIGHT
+
+    def __str__(self):
+        return f"SproutingRule: {self.trigger_label}"
+
+    def big_string(self):
+        return inspect.cleandoc(
+            f"""
+            SproutingRule:
+                trigger_label: {self.trigger_label}
+                trigger_values: {self.trigger_values}
+                trigger_diacritic: {self.trigger_diacritic}
+                keep_values: {self.keep_values}
+                weight: {self.weight}
+            """
+        )
+
+    def __eq__(self, other):
+        assert type(self) == type(other)
+
+        return (
+                self.trigger_label == other.trigger_label 
+            and self.trigger_values == other.trigger_values
+            and self.trigger_diacritic == other.trigger_diacritic
+            and self.keep_values == other.keep_values
+        )
+
+    def full_equality(self, other):
+        if type(self) != type(other): return False
+
+        return (
+                self.trigger_label == other.trigger_label 
+            and self.trigger_values == other.trigger_values
+            and self.trigger_diacritic == other.trigger_diacritic
+            and self.keep_values == other.keep_values
+            and self.weight == other.weight
+        )
+
+    def check_if_use(self):
+        if random.random() < self.weight / (self.weight + 1):
+            return True
+        else:
+            return False
 
 
 def create_semantic_terminals(learner_version):
@@ -486,14 +619,569 @@ def select_enumeration(
     
     return enumeration, terminals_used
 
+
+def create_vi(pronunciation, label, values, triggers, vocabulary_items):
+    if pronunciation == "null" and values == set():
+        return False, None, vocabulary_items
+    
+    if pronunciation == "null":
+        pass
+        print(1)
+    
+    new_vi = VocabularyItem(
+        pronunciation=pronunciation,
+        label=label,
+        values=values,
+        diacritic=f"{pronunciation}_{get_diacritic_number(pronunciation, vocabulary_items)}",
+        triggers=triggers,
+    ) 
+
+    if new_vi in vocabulary_items:
+        return False, vocabulary_items[vocabulary_items.index(new_vi)], vocabulary_items
+    else:
+        return True, new_vi, vocabulary_items + [new_vi]
+
+
+def partial_overlap(set1, set2):
+    if set1 == set2:
+        return False
+    
+    count = sum([
+        1
+        for val
+        in set1
+        if val in set2
+    ])
+
+    if count > 0:
+        return True
+    else:
+        return False
+
+
+def compare_vi(vocabulary_item, vocabulary_items):
+    match_list = [
+        vi
+        for vi
+        in vocabulary_items
+        if (
+            vi.label == vocabulary_item.label
+            and
+            vi.values == vocabulary_item.values
+            and
+            vi.pronunciation == vocabulary_item.pronunciation
+        )
+    ]
+
+    for vi in match_list:
+        _, _, vocabulary_items = create_vi(
+            pronunciation=vi.pronunciation,
+            label=vi.label,
+            values=vi.values,
+            triggers = set().union(
+                vocabulary_item.triggers,
+                *[vi_2.triggers for vi_2 in match_list]
+            ),
+            vocabulary_items=vocabulary_items
+        )
+
+    partial_match_list = [
+        vi
+        for vi
+        in vocabulary_items
+        if (
+            vi.label == vocabulary_item.label
+            and
+            partial_overlap(vi.values, vocabulary_item.values)
+            and
+            len(shared_substring(vi.pronunciation, vocabulary_item.pronunciation)[0]) > 0
+        )
+    ]
+
+    return partial_match_list, vocabulary_items
+
+
+def shared_substring(string1, string2):
+    if string1 == "null" and string2 == "null":
+        return ('null', 'null', 'null')	
+
+    if string1 == "null":
+        return ('null', 'null', string2)
+
+    if string2 == "null":
+        return ('null', string1, 'null')
+	
+    match = SequenceMatcher(None, string1, string2).find_longest_match(0, len(string1), 0, len(string2))
+	
+    substring = string1[match.a: match.a + match.size]
+
+    if substring == string1:
+        string1_minus = "null"
+    else:
+        string1_minus = string1.replace(substring, '')
+
+    if substring == string2:
+        string2_minus = "null"
+    else:
+        string2_minus = string2.replace(substring, '')
+
+    return substring, string1_minus, string2_minus
+
+def generalize_vi(new_vi, vocabulary_items, affix):
+    new_vi_pairs = []
+    match_list, vocabulary_items = compare_vi(
+        vocabulary_item=new_vi,
+        vocabulary_items=vocabulary_items
+    )
+
+    for intersecting_vi in match_list:
+
+        substring, new_vi_ex, intersecting_vi_ex = shared_substring(
+            new_vi.pronunciation,
+            intersecting_vi.pronunciation
+        )
+
+        # intersection:
+        if not (
+            substring == "null" or 
+            intersecting_vi_ex == "null"
+        ):
+            if new_vi.pronunciation[:len(substring)] == substring:
+                if affix == "suffixing":
+                    label = new_vi.label
+                elif affix == "prefixing":
+                    label = "Agr"
+                else:
+                    assert False
+            elif new_vi.pronunciation[-len(substring):] == substring:
+                if affix == "suffixing":
+                    label = "Agr"
+                elif affix == "prefixing":
+                    label = new_vi.label
+                else:
+                    assert False
+            else:
+                assert False
+        else:
+            label = new_vi.label
+            
+        intersection_is_new, intersection_vi, vocabulary_items = create_vi(
+            pronunciation=substring,
+            label=label,
+            values=new_vi.values.intersection(intersecting_vi.values),
+            triggers=new_vi.triggers.union(intersecting_vi.triggers),
+            vocabulary_items=vocabulary_items
+        )
+
+        if intersection_is_new:
+            new_vi_pairs.append((intersection_vi, new_vi))
+            new_vi_pairs.append((intersection_vi, intersecting_vi))
+
+        # intersecting-VI MINUS newVI:
+        if (
+            new_vi_ex == "null" or intersecting_vi_ex == "null"
+        ):
+            label = new_vi.label
+        else:
+            if new_vi.pronunciation[:len(substring)] == substring:
+                if affix == "suffixing":
+                    label = "Agr"
+                elif affix == "prefixing":
+                    label = intersecting_vi.label
+                else:
+                    assert False
+            elif new_vi.pronunciation[-len(substring):] == substring:
+                if affix == "suffixing":
+                    label = intersecting_vi.label
+                elif affix == "prefixing":
+                    label = "Agr"
+                else:
+                    assert False
+            else:
+                assert False
+
+
+        subtracted_from_intersecting_is_new, subtracted_from_intersecting_vi, vocabulary_items = create_vi(
+            pronunciation=intersecting_vi_ex,
+            label=label,
+            values=intersecting_vi.values - new_vi.values,
+            triggers=intersecting_vi.triggers,
+            vocabulary_items=vocabulary_items
+        )
+
+        if subtracted_from_intersecting_is_new:
+            new_vi_pairs.append((subtracted_from_intersecting_vi, intersecting_vi))
+
+        #newVI MINUS intersecting-VI:
+
+        if (
+            new_vi_ex == "null" or intersecting_vi_ex == "null"
+        ):
+            label = new_vi.label
+        else:
+            if new_vi.pronunciation[:len(substring)] == substring:
+                if affix == "suffixing":
+                    label = "Agr"
+                elif affix == "prefixing":
+                    label = new_vi.label
+                else:
+                    assert False
+            elif new_vi.pronunciation[-len(substring):] == substring:
+                if affix == "suffixing":
+                    label = new_vi.label
+                elif affix == "prefixing":
+                    label = "Agr"
+                else:
+                    assert False
+            else:
+                assert False
+
+        subtracted_from_new_is_new, subtracted_from_new_vi, vocabulary_items = create_vi(
+            pronunciation=intersecting_vi_ex,
+            label=label,
+            values=new_vi.values - intersecting_vi.values,
+            triggers=new_vi.triggers,
+            vocabulary_items=vocabulary_items
+        )
+
+        if subtracted_from_new_is_new:
+            new_vi_pairs.append((subtracted_from_new_vi, new_vi))
+
+    return new_vi_pairs, vocabulary_items
+
+
+def slice_terminal_chain(terminal_chain):
+
+    assert terminal_chain.linear[0] != "#"
+    assert terminal_chain.linear[-1] != "#"
+
+    result = []
+    sublist = []
+    for x in terminal_chain.linear:
+        if x == "#":
+            result.append(tuple(sublist))
+            sublist = []
+        else:
+            sublist.append(x)
+    result.append(tuple(sublist))
+    return result
+
+
+def all_combinations(initial_set):
+    result = [set()]
+    for r in range(1, len(initial_set)+1):
+        result += [set(combination) for combination in combinations(initial_set, r)]
+    
+    return result
+
+
+def get_diacritic_number(pronunciation, vocabulary_items):
+    return 1 + sum([
+        1
+        for vi
+        in vocabulary_items
+        if vi.pronunciation == pronunciation
+    ])
+
+
+def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominalizers, sprouting_rules, affix):
+
+    string_slices = input_string.split("#") 
+    tc_slices = slice_terminal_chain(terminal_chain)
+
+    assert len(string_slices) == len(tc_slices)
+
+    nominalizers_in_tc = [
+        item
+        for item
+        in terminal_chain.linear
+        if type(item) == NominalizerTerminal
+    ]
+
+    assert len(nominalizers_in_tc) == 1
+
+    nominalizer=nominalizers_in_tc[0] 
+
+    for string_slice, tc_slice in zip(string_slices, tc_slices):
+        diacritics_in_this_word = []
+        morphs = string_slice.split("-")
+        terminals = [
+            item
+            for item
+            in tc_slice
+            if item != "-"
+        ]
+
+        assert len(morphs) <= len(terminals)
+
+        if affix  == "suffixing":
+            zipper = zip(terminals[::-1], morphs[::-1])
+        elif affix == "prefixing":
+            zipper = zip(terminals, morphs)
+        else:
+            assert False
+        
+        for terminal, morph in zipper:
+            if morph.isupper() and type(terminal) != Root:
+                morph = "null"
+
+            debug_print(3, 3, f"diacritics_in_this_word: {diacritics_in_this_word}")
+            
+            static_diacritics_in_this_word = diacritics_in_this_word.copy()
+            for combination in all_combinations(static_diacritics_in_this_word):
+                if terminal.label == "nominalizer":
+                    new_values = terminal.values
+                else:
+                    new_values = set([
+                        value 
+                        for value 
+                        in terminal.values 
+                        if value[0] in ["+", "-"]
+                    ])
+
+                is_new, new_vi, vocabulary_items = create_vi(
+                    pronunciation=morph,
+                    label=terminal.label,
+                    values=new_values,
+                    triggers=combination,
+                    vocabulary_items=vocabulary_items
+                )
+
+                further_vis = []
+
+                if is_new:
+                    further_vis, vocabulary_items = generalize_vi(
+                        new_vi=new_vi,
+                        vocabulary_items=vocabulary_items, 
+                        affix=affix
+                    )
+
+                if any(char.isupper() for char in string_slice):
+                    diacritics_in_this_word += [new_vi.diacritic]
+
+                    diacritics_in_this_word += [
+                        split_out_vi.diacritic
+                        for (split_out_vi, source_vi)
+                        in further_vis
+                        if source_vi == new_vi
+                    ]
+                    
+                else:
+                    nominalizers = create_nominalizer(
+                        root=roots[0],
+                        values={new_vi.diacritic},
+                        existing_nominalizers=nominalizers
+                    )
+
+                    nominalizers = create_nominalizer(
+                        root=roots[0],
+                        values=nominalizer.values.union({new_vi.diacritic}),
+                        existing_nominalizers=nominalizers
+                    )                    
+                    
+                    if(len(further_vis) > 0):
+                        for split_out_vi, source_vi in further_vis:
+                            nominalizers = create_nominalizer(
+                                root=roots[0],
+                                values={split_out_vi.diacritic},
+                                existing_nominalizers=nominalizers
+                            )
+
+                            for nom in nominalizers:
+                                if source_vi.diacritic in nom.values:
+                                    nominalizers = create_nominalizer(
+                                        root=roots[0], 
+                                        values=(nom.values - {source_vi.diacritic}).union(split_out_vi.diacritic),
+                                        existing_nominalizers=nominalizers
+                                    )
+                            
+                            if split_out_vi.label == "Agr":
+                                sprouting_rules.append(
+                                    SproutingRule(
+                                        split_off_vi=split_out_vi, 
+                                        large_vi=source_vi
+                                    )
+                                )
+
+                                nominalizer.values.update({new_vi.diacritic})
+                    else:
+                        nominalizer.values.update({new_vi.diacritic})
+
+                        nominalizers = create_nominalizer(
+                            root=roots[0],
+                            values=nominalizer.values,
+                            existing_nominalizers=nominalizers
+                        )
+
+    return vocabulary_items, nominalizers, sprouting_rules
+
+
+def insert_vi(terminal_chain, vocabulary_items):
+    full_pronunciation = ""
+    vis_used = []
+    for slice in slice_terminal_chain(terminal_chain=terminal_chain):
+
+        root_count = sum([
+            1
+            for token
+            in slice
+            if type(token) == Root
+        ])
+
+        assert root_count <= 1
+
+        for index, item in enumerate(slice):
+            if item == "-":
+                pass
+            elif item == "#":
+                full_pronunciation += "#"
+            else:
+                matching_vis = [
+                    vi
+                    for vi
+                    in vocabulary_items
+                    if (
+                            vi.label == item.label
+                        and vi.values.issubset(item.values)
+                    )
+                ]
+
+                if len(matching_vis) == 0:
+                    selected_vi = None
+                else:
+                    super_matches = [
+                        vi 
+                        for vi
+                        in matching_vis
+                        if vi.diacritic in item.values
+                    ]
+
+                    if len(super_matches) > 0:
+                        selected_vi = random.choices(
+                            population=super_matches,
+                            weights=[
+                                match.weight + MORE_SPECIFIC_BONUS * len(match.values) 
+                                for match 
+                                in super_matches
+                            ]
+                        )[0]
+                    else:
+                        selected_vi = random.choices(
+                            population=matching_vis,
+                            weights=[
+                                match.weight + MORE_SPECIFIC_BONUS * len(match.values) 
+                                for match 
+                                in matching_vis
+                            ]
+                        )[0]
+                    
+                    vis_used.append(selected_vi)
+
+                if (
+                    selected_vi == None 
+                    or (
+                            selected_vi.pronunciation == "null" 
+                        and len(selected_vi.triggers) == 0
+                    )
+                ):
+                        
+                    if index < len(slice) - 1:
+                        assert slice[index+1] == "-"
+                        assert slice[index+2] != "-"
+                        
+                        for diacritic in item.values:
+                            for vi in vis_used:
+                                if diacritic in vi.triggers:
+                                    slice[index+2].values.add(diacritic)
+
+                else:
+                    full_pronunciation += selected_vi.pronunciation
+
+                if selected_vi != None and len(selected_vi.triggers) > 0:
+                    assert root_count == 1
+                    if index < len(slice) - 1:
+                        assert slice[index+1] == "-"
+                        assert slice[index+2] != "-"
+                        slice[index+2].values.update(selected_vi.triggers)
+
+    return full_pronunciation, vis_used 
+    
+
+def sprout_nodes(terminal_chain, sprouting_rules, affix):
+    sprouting_rules_used = []
+
+    for rule in sprouting_rules:
+        matching_terminals = [
+            terminal
+            for terminal
+            in terminal_chain.linear
+            if (
+                    hasattr(terminal, "values")
+                and hasattr(terminal, "label")
+                and terminal.label == rule.trigger_label
+                and {value for value in terminal.values if value[0] in ["+", "-"]}.issubset(rule.trigger_values)
+                and rule.trigger_diacritic in terminal.values
+            )
+        ]
+
+        assert len(matching_terminals) <= 1
+
+        for matching_terminal in matching_terminals:
+            if rule.check_if_use():
+
+                matching_terminal.values = rule.key_values
+                sprouting_rules_used.append(rule)
+
+                if affix == "suffixing":
+                    terminal_chain = insert_into_linear(
+                        terminal_chain=terminal_chain,
+                        terminal=matching_terminal,
+                        affix=affix,
+                        new_linear=("-", AgrTerminal(values=matching_terminal.values))
+                    )
+                elif affix == "prefixing":
+                    terminal_chain = insert_into_linear(
+                        terminal_chain=terminal_chain,
+                        terminal=matching_terminal,
+                        affix=affix,
+                        new_linear=(AgrTerminal(values=matching_terminal.values), "-")
+                    )
+                else:
+                    assert False
+
+    return terminal_chain, sprouting_rules_used
+
+
+def insert_into_linear(terminal_chain, terminal, affix, new_linear):
+    index = terminal_chain.linear.index(terminal)
+
+    if affix == "suffixing":
+        terminal_chain.linear = (
+              terminal_chain.linear[:index+1]
+            + new_linear
+            + terminal_chain.linear[index+1:]
+        )
+    elif affix == "prefixing":
+        terminal_chain.linear = (
+              terminal_chain.linear[:index]
+            + new_linear
+            + terminal_chain.linear[index:]
+        )
+    else:
+        assert False
+
+    return terminal_chain
+
+
 def run(
-    input_file_path="./data/input/italian-class-iii-plus-adjectives.txt",
-    root_file_path="./data/roots/italian-class-iii-plus-adjectives-ROOTS-list.txt",
+    input_file_path="./data/input/italian-class-iii-only.txt",
+    root_file_path="./data/roots/italian-class-iii-only-ROOTS-list.txt",
     learner_version=1,
     affix = "suffixing",
     verbosity_level = 2,
 ):
 
+    random.seed(1234)
 
     # initialize state
 
@@ -559,5 +1247,107 @@ def run(
             debug_print(verbosity_level, 2, "we failed")
             for terminal in terminals_used:
                 terminal.weight -= UPDATE_TERMINAL_WEIGHT
+
+        # generate vis from input
+        vocabulary_items, nominalizer_terminals, sprouting_rules = generate_vi(
+            terminal_chain=terminal_chain,
+            input_string=input_string,
+            roots=roots,
+            vocabulary_items=vocabulary_items,
+            nominalizers=nominalizer_terminals,
+            sprouting_rules=sprouting_rules,
+            affix=affix
+        )
+
+        debug_print(verbosity_level, 2, f"vocabulary_items: {vocabulary_items}")
+        debug_print(verbosity_level, 2, f"nominalizer_terminals: {nominalizer_terminals}")
+        debug_print(verbosity_level, 2, f"sprouting_rules: {sprouting_rules}")
+
+
+        # Test Derivation
+        # Select enumeration
+        while True:
+            enumeration, terminals_used = select_enumeration(
+                roots=roots,
+                nominalizer_terminals=nominalizer_terminals,
+                values=values,
+                semantic_terminals=semantic_terminals,
+                adjectivalizer=adjectivalizer
+            )
+            
+            terminal_chain = derive_terminal_chain(enumeration=enumeration, affix=affix)
+
+            debug_print(verbosity_level, 2, f"TerminalChain linear: {terminal_chain.linear}")
+
+            if input_string.count("#") == terminal_chain.linear.count("#"):
+                debug_print(verbosity_level, 2, "we broke out")
+                break
+        
+            debug_print(verbosity_level, 2, "we failed")
+            for terminal in terminals_used:
+                terminal.weight -= UPDATE_TERMINAL_WEIGHT
+        
+        # Do node sprouting
+
+        debug_print(verbosity_level, 2, f"sprouting_rules: {sprouting_rules}")
+
+        terminal_chain, sprouting_rules_used = sprout_nodes(
+            terminal_chain=terminal_chain,
+            sprouting_rules=sprouting_rules,
+            affix=affix
+        )
+
+        debug_print(verbosity_level, 2, f"TerminalChain: {terminal_chain}")
+
+        # Insert Vis
+        full_pronunciation, vis_used = insert_vi(
+            terminal_chain=terminal_chain, 
+            vocabulary_items=vocabulary_items
+        )
+
+        debug_print(verbosity_level, 2, f"full_pronunciation: {full_pronunciation}")
+        debug_print(verbosity_level, 2, f"vis_used: {vis_used}")
+
+
+        if full_pronunciation == input_string.replace("-", ""):
+
+            debug_print(verbosity_level, 2, f"Success")
+
+            nominalizer_used = [
+                terminal
+                for terminal
+                in terminals_used
+                if type(terminal) == NominalizerTerminal
+            ]
+
+            nominalizer_terminals = create_nominalizer(
+                root=root, 
+                values=nominalizer_used.values, 
+                existing_nominalizers=nominalizer_terminals
+            )            
+            
+            for terminal in terminals_used:
+                terminal.weight += UPDATE_TERMINAL_WEIGHT
+            
+            for rule in sprouting_rules_used:
+                rule.weight += UPDATE_SPROUTING_RULE_WEIGHT
+
+            for vi in vis_used:
+                vi.weight += UPDATE_TERMINAL_WEIGHT
+
+        else:
+
+            debug_print(verbosity_level, 2, f"Failure")
+
+
+            for terminal in terminals_used:
+                terminal.weight -= UPDATE_TERMINAL_WEIGHT
+            
+            for rule in sprouting_rules_used:
+                rule.weight -= UPDATE_SPROUTING_RULE_WEIGHT
+
+            for vi in vis_used:
+                vi.weight -= UPDATE_TERMINAL_WEIGHT
+
 
 run()

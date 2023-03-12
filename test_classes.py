@@ -5,7 +5,6 @@ import copy
 def test_permuted_value_equality(semantic_terminal1, nominalizer_terminal1):
     assert semantic_terminal1.values == nominalizer_terminal1.values
 
-
 def test_TerminalChain_constructor(
       nominalizer_terminal_input1
     , semantic_terminal_input_1_1
