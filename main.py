@@ -670,6 +670,8 @@ def compare_vi(vocabulary_item, vocabulary_items):
             vi.values == vocabulary_item.values
             and
             vi.pronunciation == vocabulary_item.pronunciation
+            and 
+            vi.diacritic != vocabulary_item.diacritic
         )
     ]
 
@@ -837,7 +839,7 @@ def generalize_vi(new_vi, vocabulary_items, affix):
                 assert False
 
         subtracted_from_new_is_new, subtracted_from_new_vi, vocabulary_items = create_vi(
-            pronunciation=intersecting_vi_ex,
+            pronunciation=new_vi_ex,
             label=label,
             values=new_vi.values - intersecting_vi.values,
             triggers=new_vi.triggers,
@@ -991,7 +993,7 @@ def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominaliz
                                 if source_vi.diacritic in nom.values:
                                     nominalizers = create_nominalizer(
                                         root=roots[0], 
-                                        values=(nom.values - {source_vi.diacritic}).union(split_out_vi.diacritic),
+                                        values=(nom.values - {source_vi.diacritic}).union({split_out_vi.diacritic}),
                                         existing_nominalizers=nominalizers
                                     )
                             
