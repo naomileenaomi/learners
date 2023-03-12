@@ -134,6 +134,8 @@ def terminal_chain_toy_1(terminal_chain_input_1_1):
     terminal_chain = copy.deepcopy(terminal_chain_input_1_1)
     terminal_chain.linear = (1, 2, 3, 4, 5)
 
+    return terminal_chain
+
 @pytest.fixture
 def vocabulary_item_toy_1():
     return main.VocabularyItem(

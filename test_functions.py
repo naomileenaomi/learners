@@ -108,19 +108,20 @@ def test_slice_terminal_chain(
 
 def test_all_combinations():
     assert main.all_combinations({1, 2}) == [
-        {},
+        set(),
         {1}, {2},
         {1, 2},
     ]
 
     assert main.all_combinations({1, 2, 3}) == [
-        {},
+        set(),
         {1}, {2}, {3},
         {1, 2}, {1, 3}, {2, 3},
         {1, 2, 3},
     ]
 
 def test_insert_into_linear(terminal_chain_toy_1):
+    
     terminal_chain = main.insert_into_linear(
         terminal_chain=terminal_chain_toy_1,
         terminal=3,
@@ -148,7 +149,7 @@ def test_create_vi(vocabulary_items_toy):
     assert main.create_vi(
         pronunciation="null",
         label="doesn't matter",
-        values="null",
+        values=set(),
         triggers={1, 2, 3},
         vocabulary_items=vocabulary_items_toy
     ) == (False, None, vocabulary_items_toy)

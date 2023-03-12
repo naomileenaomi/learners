@@ -1021,7 +1021,9 @@ def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominaliz
 def insert_vi(terminal_chain, vocabulary_items):
     full_pronunciation = ""
     vis_used = []
-    for slice in slice_terminal_chain(terminal_chain=terminal_chain):
+
+    slices = slice_terminal_chain(terminal_chain=terminal_chain)
+    for slice_index, slice in enumerate(slices):
 
         root_count = sum([
             1
@@ -1036,7 +1038,7 @@ def insert_vi(terminal_chain, vocabulary_items):
             if item == "-":
                 pass
             elif item == "#":
-                full_pronunciation += "#"
+                assert False
             else:
                 matching_vis = [
                     vi
@@ -1079,22 +1081,16 @@ def insert_vi(terminal_chain, vocabulary_items):
                     
                     vis_used.append(selected_vi)
 
-                if (
-                    selected_vi == None 
-                    or (
-                            selected_vi.pronunciation == "null" 
-                        and len(selected_vi.triggers) == 0
-                    )
-                ):
-                        
-                    if index < len(slice) - 1:
-                        assert slice[index+1] == "-"
-                        assert slice[index+2] != "-"
-                        
-                        for diacritic in item.values:
-                            for vi in vis_used:
-                                if diacritic in vi.triggers:
-                                    slice[index+2].values.add(diacritic)
+                if selected_vi == None or selected_vi.pronunciation == "null":
+                    if selected_vi == None or len(selected_vi.triggers) == 0:    
+                        if index < len(slice) - 1:
+                            assert slice[index+1] == "-"
+                            assert slice[index+2] != "-"
+                            
+                            for diacritic in item.values:
+                                for vi in vis_used:
+                                    if diacritic in vi.triggers:
+                                        slice[index+2].values.add(diacritic)
 
                 else:
                     full_pronunciation += selected_vi.pronunciation
@@ -1105,6 +1101,9 @@ def insert_vi(terminal_chain, vocabulary_items):
                         assert slice[index+1] == "-"
                         assert slice[index+2] != "-"
                         slice[index+2].values.update(selected_vi.triggers)
+
+        if slice_index < len(slices) - 1:
+            full_pronunciation += "#"
 
     return full_pronunciation, vis_used 
     
@@ -1155,6 +1154,9 @@ def sprout_nodes(terminal_chain, sprouting_rules, affix):
 
 
 def insert_into_linear(terminal_chain, terminal, affix, new_linear):
+
+    terminal_chain = copy.deepcopy(terminal_chain)
+
     index = terminal_chain.linear.index(terminal)
 
     if affix == "suffixing":
@@ -1315,15 +1317,19 @@ def run(
 
             debug_print(verbosity_level, 2, f"Success")
 
-            nominalizer_used = [
+            nominalizers_used = [
                 terminal
                 for terminal
                 in terminals_used
                 if type(terminal) == NominalizerTerminal
             ]
 
+            assert len(nominalizers_used) == 1
+
+            nominalizer_used = nominalizers_used[0]
+
             nominalizer_terminals = create_nominalizer(
-                root=root, 
+                root=roots[0], 
                 values=nominalizer_used.values, 
                 existing_nominalizers=nominalizer_terminals
             )            
@@ -1351,5 +1357,9 @@ def run(
             for vi in vis_used:
                 vi.weight -= UPDATE_TERMINAL_WEIGHT
 
+        print("line done")
+
 
 run()
+
+
