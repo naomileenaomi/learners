@@ -1,11 +1,11 @@
 # define constants
-from ast import parse
 import inspect
 import re
 import random
 import copy
 from itertools import combinations
 from difflib import SequenceMatcher
+import csv
 
 
 INITIAL_TERMINAL_WEIGHT = 10.0
@@ -624,10 +624,6 @@ def create_vi(pronunciation, label, values, triggers, vocabulary_items):
     if pronunciation == "null" and values == set():
         return False, None, vocabulary_items
     
-    if pronunciation == "null":
-        pass
-        print(1)
-    
     new_vi = VocabularyItem(
         pronunciation=pronunciation,
         label=label,
@@ -728,6 +724,7 @@ def shared_substring(string1, string2):
         string2_minus = string2.replace(substring, '')
 
     return substring, string1_minus, string2_minus
+
 
 def generalize_vi(new_vi, vocabulary_items, affix):
     new_vi_pairs = []
@@ -926,8 +923,6 @@ def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominaliz
         for terminal, morph in zipper:
             if morph.isupper() and type(terminal) != Root:
                 morph = "null"
-
-            debug_print(3, 3, f"diacritics_in_this_word: {diacritics_in_this_word}")
             
             static_diacritics_in_this_word = diacritics_in_this_word.copy()
             for combination in all_combinations(static_diacritics_in_this_word):
@@ -1177,6 +1172,86 @@ def insert_into_linear(terminal_chain, terminal, affix, new_linear):
     return terminal_chain
 
 
+def print_nominalizers(nominalizers, roots):
+    sorted_roots = sorted(roots, key = lambda x: x.label)
+    sorted_nominalizers = sorted(nominalizers, key = lambda x: x.weight, reverse=True)
+    
+    with open("./outputs/nominalizers.csv", "w", newline="") as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(["Values", "Weight"] + [root.label for root in sorted_roots])
+
+        for nominalizer in sorted_nominalizers:
+            writer.writerow(
+                [nominalizer.values, nominalizer.weight] 
+                + 
+                [
+                    1 
+                    if root.label in nominalizer.selectional 
+                    else 0
+                    for root 
+                    in sorted_roots
+                ]
+            )
+
+
+def print_items(items, func, file_name, headers):
+    with open(f"./outputs/{file_name}.csv", "w", newline="") as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(headers)
+
+        for item in items:
+            writer.writerow(func(item))
+
+
+def add_to_dicts(
+    nominalizer_dicts, 
+    semantic_terminal_dicts, 
+    sprouting_rule_dicts, 
+    vi_dicts,
+    nominalizers,
+    semantic_terminals,
+    sprouting_rules,
+    vocabulary_items,
+    input_num
+):
+    
+    def dict_helper(dicts, items, input_num, func):
+        for item in items:
+            if dicts.get(func(item)) is None:
+                dicts[func(item)] = {}
+            
+            dicts[func(item)][input_num] = item.weight
+    
+        return dicts
+
+    nominalizer_dicts = dict_helper(nominalizer_dicts, nominalizers, input_num, lambda x: f"{x.values}")
+    semantic_terminal_dicts = dict_helper(semantic_terminal_dicts, semantic_terminals, input_num, lambda x: f"{x.values} - {x.selection_strength}")
+    sprouting_rule_dicts = dict_helper(sprouting_rule_dicts, sprouting_rules, input_num, lambda x: f"{x.trigger_values} - {x.trigger_label} - {x.trigger_diacritic}")
+    vi_dicts = dict_helper(vi_dicts, vocabulary_items, input_num, lambda x: f"{x.diacritic}")
+
+    return nominalizer_dicts, semantic_terminal_dicts, sprouting_rule_dicts, vi_dicts
+            
+
+def print_weights(dicts, end_index, file_name):
+
+    items = list(dicts.keys())
+
+    with open(f"./outputs/{file_name}.csv", "w", newline="") as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(["Line"] + items)
+
+        for index in range(end_index):
+            writer.writerow(
+                [index] 
+                + 
+                [
+                    dicts[item].get(index, "")
+                    for item 
+                    in items
+                ]
+            )
+
+
 def run(
     input_file_path="./data/input/italian-class-iii-only.txt",
     root_file_path="./data/roots/italian-class-iii-only-ROOTS-list.txt",
@@ -1190,11 +1265,11 @@ def run(
     # initialize state
 
     with open(root_file_path,'r') as root_file:
-        roots = [Root(label=label) for label in root_file.read().splitlines()]
+        all_roots = [Root(label=label) for label in root_file.read().splitlines()]
 
-    if verbosity_level == 3:
-        for root in roots:
-            print(root.big_string())
+    # if verbosity_level == 3:
+    #     for root in all_roots:
+    #         print(root.big_string())
 
     semantic_terminals = create_semantic_terminals(learner_version=learner_version)
 
@@ -1203,10 +1278,17 @@ def run(
             print(ST.big_string())
 
 
+    # store state
     nominalizer_terminals = []
     adjectivalizer = AdjectivalizerTerminal()
     sprouting_rules = []
     vocabulary_items = []
+
+    # store weights as we go
+    nominalizer_dicts = {}
+    semantic_terminal_dicts = {}
+    sprouting_rule_dicts = {}
+    vi_dicts = {}
 
     # process input
 
@@ -1214,7 +1296,7 @@ def run(
         learningDataString = learningDataFile.read().splitlines()
 
 
-    for line in learningDataString:
+    for line_index, line in enumerate(learningDataString):
         input_string, values = parse_input(line)
         roots = find_roots(input_string)
         
@@ -1357,9 +1439,47 @@ def run(
             for vi in vis_used:
                 vi.weight -= UPDATE_TERMINAL_WEIGHT
 
-        print("line done")
+        debug_print(verbosity_level, 2, f"line done")
+
+        (
+            nominalizer_dicts, 
+            semantic_terminal_dicts, 
+            sprouting_rule_dicts, 
+            vi_dicts
+        ) = add_to_dicts(
+            nominalizer_dicts=nominalizer_dicts, 
+            semantic_terminal_dicts=semantic_terminal_dicts, 
+            sprouting_rule_dicts=sprouting_rule_dicts, 
+            vi_dicts=vi_dicts,
+            nominalizers=nominalizer_terminals,
+            semantic_terminals=semantic_terminals,
+            sprouting_rules=sprouting_rules,
+            vocabulary_items=vocabulary_items,
+            input_num=line_index
+        )
+
+    # print outputs
+    print_nominalizers(nominalizers=nominalizer_terminals, roots=all_roots)
+    
+    print_items(
+        items=sprouting_rules,
+        func=lambda x: [x.trigger_label, x.trigger_values, x.trigger_diacritic, x.keep_values, x.weight],
+        file_name="sprouting_rules",
+        headers=["trigger_label", "trigger_values", "trigger_diacritic", "keep_values", "weight"]
+    )
+
+    print_items(
+        items=vocabulary_items,
+        func=lambda x: [x.diacritic, x.pronunciation, x.label, x.values, x.triggers, x.weight],
+        file_name="vocabulary_items",
+        headers=["diacritic", "pronunciation", "label", "values", "triggers", "weight"]
+    )
+
+
+    print_weights(dicts=nominalizer_dicts, end_index=line_index, file_name="nominalizer_weights")
+    print_weights(dicts=semantic_terminal_dicts, end_index=line_index, file_name="semantic_weights")
+    print_weights(dicts=sprouting_rule_dicts, end_index=line_index, file_name="sprouting_weights")
+    print_weights(dicts=vi_dicts, end_index=line_index, file_name="vi_weights")
 
 
 run()
-
-
