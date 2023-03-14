@@ -1,4 +1,3 @@
-from conftest import root_input1, semantic_terminal_input_1_2
 import main
 import copy
 

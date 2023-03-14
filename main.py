@@ -379,60 +379,60 @@ def create_semantic_terminals(learner_version):
             selectional=["atomic, minimal"],
             selection_strength=False,
         ),
-        SemanticTerminal(
-            label="definite",
-            values={"+definite",},
-            selectional=["atomic, minimal"],
-            selection_strength=True,
-        ),
+        # SemanticTerminal(
+        #     label="definite",
+        #     values={"+definite",},
+        #     selectional=["atomic, minimal"],
+        #     selection_strength=True,
+        # ),
         SemanticTerminal(
             label="definite",
             values={"-definite",},
             selectional=["atomic, minimal"],
             selection_strength=False,
         ),
-        SemanticTerminal(
-            label="definite",
-            values={"-definite",},
-            selectional=["atomic, minimal"],
-            selection_strength=True,
-        ),
+        # SemanticTerminal(
+        #     label="definite",
+        #     values={"-definite",},
+        #     selectional=["atomic, minimal"],
+        #     selection_strength=True,
+        # ),
         SemanticTerminal(
             label="atomic, minimal",
             values={"+atomic", "+minimal"},
             selectional=["nominalizer"],
             selection_strength=True,
         ),
-        SemanticTerminal(
-            label="atomic, minimal",
-            values={"+atomic", "+minimal"},
-            selectional=["nominalizer"],
-            selection_strength=False,
-        ),
+        # SemanticTerminal(
+        #     label="atomic, minimal",
+        #     values={"+atomic", "+minimal"},
+        #     selectional=["nominalizer"],
+        #     selection_strength=False,
+        # ),
         SemanticTerminal(
             label="atomic, minimal",
             values={"-atomic", "+minimal"},
             selectional=["nominalizer"],
             selection_strength=True,
         ),
-        SemanticTerminal(
-            label="atomic, minimal",
-            values={"-atomic", "+minimal"},
-            selectional=["nominalizer"],
-            selection_strength=False,
-        ),
+        # SemanticTerminal(
+        #     label="atomic, minimal",
+        #     values={"-atomic", "+minimal"},
+        #     selectional=["nominalizer"],
+        #     selection_strength=False,
+        # ),
         SemanticTerminal(
             label="atomic, minimal",
             values={"-atomic", "-minimal"},
             selectional=["nominalizer"],
             selection_strength=True,
         ),
-        SemanticTerminal(
-            label="atomic, minimal",
-            values={"-atomic", "-minimal"},
-            selectional=["nominalizer"],
-            selection_strength=False,
-        ),  
+        # SemanticTerminal(
+        #     label="atomic, minimal",
+        #     values={"-atomic", "-minimal"},
+        #     selectional=["nominalizer"],
+        #     selection_strength=False,
+        # ),  
     )
 
     additional_terminals = {
@@ -502,7 +502,7 @@ def select_semantic_terminals(input_values, semantic_terminals):
             if terminal.values == values
         ]
 
-        assert len(choices) == 2
+        # assert len(choices) == 2
 
         weights = [
             terminal.weight
@@ -883,6 +883,30 @@ def get_diacritic_number(pronunciation, vocabulary_items):
     ])
 
 
+def prep_slices(morphs, terminals, affix):
+
+    assert len(morphs) <= len(terminals)
+
+    root_index = next((i for i, s in enumerate(morphs) if s.isupper()), None)
+
+    if root_index is not None:
+        while len(morphs) < len(terminals):
+            print(morphs)
+            
+            root_index = next((i for i, s in enumerate(morphs) if s.isupper()), None)
+            if root_index is not None:
+                if affix  == "suffixing":
+                    morphs.insert(root_index+1, "null")
+                elif affix == "prefixing":
+                    morphs.insert(root_index, "null")
+                else:
+                    assert False
+                
+                assert len(morphs) == len(terminals)
+
+    return morphs, terminals
+
+
 def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominalizers, sprouting_rules, affix):
 
     string_slices = input_string.split("#") 
@@ -911,7 +935,7 @@ def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominaliz
             if item != "-"
         ]
 
-        assert len(morphs) <= len(terminals)
+        morphs, terminals = prep_slices(morphs=morphs, terminals=terminals, affix=affix)
 
         if affix  == "suffixing":
             zipper = zip(terminals[::-1], morphs[::-1])
@@ -921,11 +945,11 @@ def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominaliz
             assert False
         
         for terminal, morph in zipper:
-            if morph.isupper() and type(terminal) != Root:
-                morph = "null"
+            # if morph.isupper() and type(terminal) != Root:
+            #     morph = "null"
             
             static_diacritics_in_this_word = diacritics_in_this_word.copy()
-            for combination in all_combinations(static_diacritics_in_this_word):
+            for triggers in [set()] + [{diacritic} for diacritic in static_diacritics_in_this_word]:
                 if terminal.label == "nominalizer":
                     new_values = terminal.values
                 else:
@@ -940,7 +964,7 @@ def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominaliz
                     pronunciation=morph,
                     label=terminal.label,
                     values=new_values,
-                    triggers=combination,
+                    triggers=triggers,
                     vocabulary_items=vocabulary_items
                 )
 
@@ -1253,7 +1277,7 @@ def print_weights(dicts, end_index, file_name):
 
 
 def run(
-    input_file_path="./data/input/italian-class-iii-only.txt",
+    input_file_path="./data/input/italian-class-iii-only-duped.txt",
     root_file_path="./data/roots/italian-class-iii-only-ROOTS-list.txt",
     learner_version=1,
     affix = "suffixing",

@@ -177,3 +177,26 @@ def test_create_vi(vocabulary_items_toy):
         triggers={1, 2, 3},
         vocabulary_items=vocabulary_items_toy
     ) == (True, new_vi, vocabulary_items_toy + [new_vi])
+
+def test_prep_slices(root_input1, nominalizer_terminal_input1, semantic_terminal_input_1_1, semantic_terminal_input_1_2):
+    morphs = ["la"]
+
+    terminals = [semantic_terminal_input_1_1]
+
+    prepped_morphs, prepped_terminals = main.prep_slices(morphs, terminals, affix="suffixing")
+
+    assert prepped_terminals == terminals
+    assert prepped_morphs == morphs
+    
+    
+    morphs = ["KEY", "e"]
+
+    terminals = [root_input1, nominalizer_terminal_input1, semantic_terminal_input_1_2]
+
+    prepped_morphs, prepped_terminals = main.prep_slices(morphs, terminals, affix="suffixing")
+
+    assert prepped_terminals == terminals
+    assert prepped_morphs == ["KEY", "null", "e"]
+
+
+    
