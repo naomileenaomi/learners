@@ -324,7 +324,7 @@ class SproutingRule:
     def __init__(self, split_off_vi, large_vi):
         self.trigger_label=large_vi.label
         self.trigger_values=large_vi.values
-        self.trigger_diacritic=split_off_vi.values
+        self.trigger_diacritic=split_off_vi.diacritic
         self.keep_values=large_vi.values - split_off_vi.values
         self.weight = INITIAL_SPROUTING_RULE_WEIGHT
 
@@ -373,70 +373,95 @@ class SproutingRule:
 
 def create_semantic_terminals(learner_version):
     core_terminals = (
-        SemanticTerminal(
-            label="definite",
-            values={"+definite",},
-            selectional=["atomic, minimal"],
-            selection_strength=False,
-        ),
         # SemanticTerminal(
         #     label="definite",
         #     values={"+definite",},
         #     selectional=["atomic, minimal"],
-        #     selection_strength=True,
+        #     selection_strength=False,
         # ),
-        SemanticTerminal(
-            label="definite",
-            values={"-definite",},
-            selectional=["atomic, minimal"],
-            selection_strength=False,
-        ),
+        # # SemanticTerminal(
+        # #     label="definite",
+        # #     values={"+definite",},
+        # #     selectional=["atomic, minimal"],
+        # #     selection_strength=True,
+        # # ),
         # SemanticTerminal(
         #     label="definite",
         #     values={"-definite",},
         #     selectional=["atomic, minimal"],
-        #     selection_strength=True,
+        #     selection_strength=False,
         # ),
-        SemanticTerminal(
-            label="atomic, minimal",
-            values={"+atomic", "+minimal"},
-            selectional=["nominalizer"],
-            selection_strength=True,
-        ),
+        # # SemanticTerminal(
+        # #     label="definite",
+        # #     values={"-definite",},
+        # #     selectional=["atomic, minimal"],
+        # #     selection_strength=True,
+        # # ),
         # SemanticTerminal(
         #     label="atomic, minimal",
         #     values={"+atomic", "+minimal"},
         #     selectional=["nominalizer"],
-        #     selection_strength=False,
+        #     selection_strength=True,
         # ),
-        SemanticTerminal(
-            label="atomic, minimal",
-            values={"-atomic", "+minimal"},
-            selectional=["nominalizer"],
-            selection_strength=True,
-        ),
+        # # SemanticTerminal(
+        # #     label="atomic, minimal",
+        # #     values={"+atomic", "+minimal"},
+        # #     selectional=["nominalizer"],
+        # #     selection_strength=False,
+        # # ),
         # SemanticTerminal(
         #     label="atomic, minimal",
         #     values={"-atomic", "+minimal"},
         #     selectional=["nominalizer"],
-        #     selection_strength=False,
+        #     selection_strength=True,
         # ),
-        SemanticTerminal(
-            label="atomic, minimal",
-            values={"-atomic", "-minimal"},
-            selectional=["nominalizer"],
-            selection_strength=True,
-        ),
+        # # SemanticTerminal(
+        # #     label="atomic, minimal",
+        # #     values={"-atomic", "+minimal"},
+        # #     selectional=["nominalizer"],
+        # #     selection_strength=False,
+        # # ),
         # SemanticTerminal(
         #     label="atomic, minimal",
         #     values={"-atomic", "-minimal"},
         #     selectional=["nominalizer"],
-        #     selection_strength=False,
-        # ),  
+        #     selection_strength=True,
+        # ),
+        # # SemanticTerminal(
+        # #     label="atomic, minimal",
+        # #     values={"-atomic", "-minimal"},
+        # #     selectional=["nominalizer"],
+        # #     selection_strength=False,
+        # # ),  
     )
 
     additional_terminals = {
-        1: (),
+        1: (
+            SemanticTerminal(
+                label="definite",
+                values={"+definite",},
+                selectional=["atomic"],
+                selection_strength=False,
+            ),
+            SemanticTerminal(
+                label="definite",
+                values={"-definite",},
+                selectional=["atomic"],
+                selection_strength=False,
+            ),
+            SemanticTerminal(
+                label="atomic",
+                values={"+atomic"},
+                selectional=["nominalizer"],
+                selection_strength=True,
+            ),
+            SemanticTerminal(
+                label="atomic",
+                values={"-atomic"},
+                selectional=["nominalizer"],
+                selection_strength=True,
+            ),
+        ),
         2: (),
         3: (),
     }
@@ -668,11 +693,13 @@ def compare_vi(vocabulary_item, vocabulary_items):
             vi.pronunciation == vocabulary_item.pronunciation
             and 
             vi.diacritic != vocabulary_item.diacritic
+            and
+            vi.weight > INITIAL_TERMINAL_WEIGHT
         )
     ]
 
     for vi in match_list:
-        _, _, vocabulary_items = create_vi(
+        is_new, triggercombined, vocabulary_items = create_vi(
             pronunciation=vi.pronunciation,
             label=vi.label,
             values=vi.values,
@@ -682,6 +709,8 @@ def compare_vi(vocabulary_item, vocabulary_items):
             ),
             vocabulary_items=vocabulary_items
         )
+        if is_new:
+            print(f"     another vi, combining triggers with {vi.diacritic}: {triggercombined.diacritic} \tspelling out {triggercombined.label}: {triggercombined.values} \t\t triggering {triggercombined.triggers}")
 
     partial_match_list = [
         vi
@@ -734,117 +763,120 @@ def generalize_vi(new_vi, vocabulary_items, affix):
     )
 
     for intersecting_vi in match_list:
+        if not (intersecting_vi.pronunciation == "null" and new_vi.pronunciation == "null"): 
+            substring, new_vi_ex, intersecting_vi_ex = shared_substring(
+                new_vi.pronunciation,
+                intersecting_vi.pronunciation
+            )
 
-        substring, new_vi_ex, intersecting_vi_ex = shared_substring(
-            new_vi.pronunciation,
-            intersecting_vi.pronunciation
-        )
-
-        # intersection:
-        if not (
-            substring == "null" or 
-            intersecting_vi_ex == "null"
-        ):
-            if new_vi.pronunciation[:len(substring)] == substring:
-                if affix == "suffixing":
-                    label = new_vi.label
-                elif affix == "prefixing":
-                    label = "Agr"
-                else:
-                    assert False
-            elif new_vi.pronunciation[-len(substring):] == substring:
-                if affix == "suffixing":
-                    label = "Agr"
-                elif affix == "prefixing":
-                    label = new_vi.label
-                else:
-                    assert False
-            else:
-                assert False
-        else:
-            label = new_vi.label
-            
-        intersection_is_new, intersection_vi, vocabulary_items = create_vi(
-            pronunciation=substring,
-            label=label,
-            values=new_vi.values.intersection(intersecting_vi.values),
-            triggers=new_vi.triggers.union(intersecting_vi.triggers),
-            vocabulary_items=vocabulary_items
-        )
-
-        if intersection_is_new:
-            new_vi_pairs.append((intersection_vi, new_vi))
-            new_vi_pairs.append((intersection_vi, intersecting_vi))
-
-        # intersecting-VI MINUS newVI:
-        if (
-            new_vi_ex == "null" or intersecting_vi_ex == "null"
-        ):
-            label = new_vi.label
-        else:
-            if new_vi.pronunciation[:len(substring)] == substring:
-                if affix == "suffixing":
-                    label = "Agr"
-                elif affix == "prefixing":
-                    label = intersecting_vi.label
-                else:
-                    assert False
-            elif new_vi.pronunciation[-len(substring):] == substring:
-                if affix == "suffixing":
-                    label = intersecting_vi.label
-                elif affix == "prefixing":
-                    label = "Agr"
+            # intersection:
+            if not (
+                substring == "null" or 
+                intersecting_vi_ex == "null"
+            ):
+                if new_vi.pronunciation[:len(substring)] == substring:
+                    if affix == "suffixing":
+                        label = new_vi.label
+                    elif affix == "prefixing":
+                        label = "Agr"
+                    else:
+                        assert False
+                elif new_vi.pronunciation[-len(substring):] == substring:
+                    if affix == "suffixing":
+                        label = "Agr"
+                    elif affix == "prefixing":
+                        label = new_vi.label
+                    else:
+                        assert False
                 else:
                     assert False
             else:
-                assert False
+                label = new_vi.label
+                
+            intersection_is_new, intersection_vi, vocabulary_items = create_vi(
+                pronunciation=substring,
+                label=label,
+                values=new_vi.values.intersection(intersecting_vi.values),
+                triggers=new_vi.triggers.union(intersecting_vi.triggers),
+                vocabulary_items=vocabulary_items
+            )
 
+            if intersection_is_new:
+                print(f"\tgeneralized vi from intersection w/ {intersecting_vi.diacritic}: {intersection_vi.diacritic} \tspelling out {intersection_vi.label}: {intersection_vi.values} \t\t triggering {intersection_vi.triggers}")
+                new_vi_pairs.append((intersection_vi, new_vi))
+                new_vi_pairs.append((intersection_vi, intersecting_vi))
 
-        subtracted_from_intersecting_is_new, subtracted_from_intersecting_vi, vocabulary_items = create_vi(
-            pronunciation=intersecting_vi_ex,
-            label=label,
-            values=intersecting_vi.values - new_vi.values,
-            triggers=intersecting_vi.triggers,
-            vocabulary_items=vocabulary_items
-        )
-
-        if subtracted_from_intersecting_is_new:
-            new_vi_pairs.append((subtracted_from_intersecting_vi, intersecting_vi))
-
-        #newVI MINUS intersecting-VI:
-
-        if (
-            new_vi_ex == "null" or intersecting_vi_ex == "null"
-        ):
-            label = new_vi.label
-        else:
-            if new_vi.pronunciation[:len(substring)] == substring:
-                if affix == "suffixing":
-                    label = "Agr"
-                elif affix == "prefixing":
-                    label = new_vi.label
-                else:
-                    assert False
-            elif new_vi.pronunciation[-len(substring):] == substring:
-                if affix == "suffixing":
-                    label = new_vi.label
-                elif affix == "prefixing":
-                    label = "Agr"
-                else:
-                    assert False
+            # intersecting-VI MINUS newVI:
+            if (
+                new_vi_ex == "null" or intersecting_vi_ex == "null"
+            ):
+                label = new_vi.label
             else:
-                assert False
+                if new_vi.pronunciation[:len(substring)] == substring:
+                    if affix == "suffixing":
+                        label = "Agr"
+                    elif affix == "prefixing":
+                        label = intersecting_vi.label
+                    else:
+                        assert False
+                elif new_vi.pronunciation[-len(substring):] == substring:
+                    if affix == "suffixing":
+                        label = intersecting_vi.label
+                    elif affix == "prefixing":
+                        label = "Agr"
+                    else:
+                        assert False
+                else:
+                    assert False
 
-        subtracted_from_new_is_new, subtracted_from_new_vi, vocabulary_items = create_vi(
-            pronunciation=new_vi_ex,
-            label=label,
-            values=new_vi.values - intersecting_vi.values,
-            triggers=new_vi.triggers,
-            vocabulary_items=vocabulary_items
-        )
 
-        if subtracted_from_new_is_new:
-            new_vi_pairs.append((subtracted_from_new_vi, new_vi))
+            subtracted_from_intersecting_is_new, subtracted_from_intersecting_vi, vocabulary_items = create_vi(
+                pronunciation=intersecting_vi_ex,
+                label=label,
+                values=intersecting_vi.values - new_vi.values,
+                triggers=intersecting_vi.triggers,
+                vocabulary_items=vocabulary_items
+            )
+
+            if subtracted_from_intersecting_is_new:
+                print(f"\tintersecting_vi {intersecting_vi.diacritic} minus new_vi {new_vi.diacritic}: {subtracted_from_intersecting_vi.diacritic} \tspelling out {subtracted_from_intersecting_vi.label}: {subtracted_from_intersecting_vi.values} \t\t triggering {subtracted_from_intersecting_vi.triggers}")
+                new_vi_pairs.append((subtracted_from_intersecting_vi, intersecting_vi))
+
+            #newVI MINUS intersecting-VI:
+
+            if (
+                new_vi_ex == "null" or intersecting_vi_ex == "null"
+            ):
+                label = new_vi.label
+            else:
+                if new_vi.pronunciation[:len(substring)] == substring:
+                    if affix == "suffixing":
+                        label = "Agr"
+                    elif affix == "prefixing":
+                        label = new_vi.label
+                    else:
+                        assert False
+                elif new_vi.pronunciation[-len(substring):] == substring:
+                    if affix == "suffixing":
+                        label = new_vi.label
+                    elif affix == "prefixing":
+                        label = "Agr"
+                    else:
+                        assert False
+                else:
+                    assert False
+
+            subtracted_from_new_is_new, subtracted_from_new_vi, vocabulary_items = create_vi(
+                pronunciation=new_vi_ex,
+                label=label,
+                values=new_vi.values - intersecting_vi.values,
+                triggers=new_vi.triggers,
+                vocabulary_items=vocabulary_items
+            )
+
+            if subtracted_from_new_is_new:
+                print(f"\tnew_vi {new_vi.diacritic} minus intersecting_vi {intersecting_vi.diacritic}: {subtracted_from_new_vi.diacritic} \tspelling out {subtracted_from_new_vi.label}: {subtracted_from_new_vi.values} \t\t triggering {subtracted_from_new_vi.triggers}")
+                new_vi_pairs.append((subtracted_from_new_vi, new_vi))
 
     return new_vi_pairs, vocabulary_items
 
@@ -891,7 +923,7 @@ def prep_slices(morphs, terminals, affix):
 
     if root_index is not None:
         while len(morphs) < len(terminals):
-            print(morphs)
+            # print(morphs)
             
             root_index = next((i for i, s in enumerate(morphs) if s.isupper()), None)
             if root_index is not None:
@@ -949,7 +981,9 @@ def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominaliz
             #     morph = "null"
             
             static_diacritics_in_this_word = diacritics_in_this_word.copy()
+            print(f"\nnext terminal (category {terminal.label}) now: \ndiacritics in this word are: {static_diacritics_in_this_word}")
             for triggers in [set()] + [{diacritic} for diacritic in static_diacritics_in_this_word]:
+                print(f"now we're making the new VI with triggers: {triggers}")
                 if terminal.label == "nominalizer":
                     new_values = terminal.values
                 else:
@@ -971,11 +1005,13 @@ def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominaliz
                 further_vis = []
 
                 if is_new:
+                    print(f"   new vocabulary_item generated: {new_vi.diacritic} \t\tspelling out {new_vi.label}: {new_vi.values} \t\t triggering {new_vi.triggers}")
                     further_vis, vocabulary_items = generalize_vi(
                         new_vi=new_vi,
                         vocabulary_items=vocabulary_items, 
                         affix=affix
                     )
+                    
 
                 if any(char.isupper() for char in string_slice):
                     diacritics_in_this_word += [new_vi.diacritic]
@@ -988,12 +1024,14 @@ def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominaliz
                     ]
                     
                 else:
+                    print(f"new nom with new vi as its value: {new_vi.diacritic}")
                     nominalizers = create_nominalizer(
                         root=roots[0],
                         values={new_vi.diacritic},
                         existing_nominalizers=nominalizers
                     )
 
+                    print(f"new nom with current nom's values: {nominalizer.values} and new vi: {new_vi.diacritic}")
                     nominalizers = create_nominalizer(
                         root=roots[0],
                         values=nominalizer.values.union({new_vi.diacritic}),
@@ -1002,6 +1040,7 @@ def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominaliz
                     
                     if(len(further_vis) > 0):
                         for split_out_vi, source_vi in further_vis:
+                            print(f"new nom with split out vi as its value: {split_out_vi.diacritic}")
                             nominalizers = create_nominalizer(
                                 root=roots[0],
                                 values={split_out_vi.diacritic},
@@ -1010,6 +1049,7 @@ def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominaliz
 
                             for nom in nominalizers:
                                 if source_vi.diacritic in nom.values:
+                                    print(f"replaced {source_vi.diacritic} in existing nom (with values {nom.values}) with split out vi {split_out_vi.diacritic}")
                                     nominalizers = create_nominalizer(
                                         root=roots[0], 
                                         values=(nom.values - {source_vi.diacritic}).union({split_out_vi.diacritic}),
@@ -1023,16 +1063,20 @@ def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominaliz
                                         large_vi=source_vi
                                     )
                                 )
+                                print(f"created new Agr sprouting rule from {source_vi.values} to host {split_out_vi.values}")
 
-                                nominalizer.values.update({new_vi.diacritic})
+                                nominalizer.values.update({split_out_vi.diacritic})
+                                print(f" > current terminal chain nom now has values: {nominalizer.values}")
                     else:
                         nominalizer.values.update({new_vi.diacritic})
+                        print(f" > current terminal chain nom now has values: {nominalizer.values}")
 
                         nominalizers = create_nominalizer(
                             root=roots[0],
                             values=nominalizer.values,
                             existing_nominalizers=nominalizers
                         )
+                        print(f"new nom with current nom's new values: {nominalizer.values}")
 
     return vocabulary_items, nominalizers, sprouting_rules
 
@@ -1149,7 +1193,8 @@ def sprout_nodes(terminal_chain, sprouting_rules, affix):
         for matching_terminal in matching_terminals:
             if rule.check_if_use():
 
-                matching_terminal.values = rule.key_values
+                sprouted_agr = AgrTerminal(values=matching_terminal.values)
+                matching_terminal.values = rule.keep_values
                 sprouting_rules_used.append(rule)
 
                 if affix == "suffixing":
@@ -1157,14 +1202,14 @@ def sprout_nodes(terminal_chain, sprouting_rules, affix):
                         terminal_chain=terminal_chain,
                         terminal=matching_terminal,
                         affix=affix,
-                        new_linear=("-", AgrTerminal(values=matching_terminal.values))
+                        new_linear=("-", sprouted_agr)
                     )
                 elif affix == "prefixing":
                     terminal_chain = insert_into_linear(
                         terminal_chain=terminal_chain,
                         terminal=matching_terminal,
                         affix=affix,
-                        new_linear=(AgrTerminal(values=matching_terminal.values), "-")
+                        new_linear=(sprouted_agr, "-")
                     )
                 else:
                     assert False
@@ -1277,7 +1322,7 @@ def print_weights(dicts, end_index, file_name):
 
 
 def run(
-    input_file_path="./data/input/italian-class-iii-only-duped.txt",
+    input_file_path="./data/input/italian-class-iii-only-no-minimal.txt",
     root_file_path="./data/roots/italian-class-iii-only-ROOTS-list.txt",
     learner_version=1,
     affix = "suffixing",
@@ -1325,8 +1370,10 @@ def run(
         roots = find_roots(input_string)
         
         if verbosity_level >= 2:
-            print(f"roots: {roots}")
-            print(f"values: {values}")
+            print(f"\n---------------------\n")
+            print(f"input line #{line_index}")
+            print(f"input roots: {roots}")
+            print(f"input values: {values}")
 
         if len(nominalizer_terminals) == 0:
             create_nominalizer(
@@ -1348,7 +1395,7 @@ def run(
             
             terminal_chain = derive_terminal_chain(enumeration=enumeration, affix=affix)
 
-            debug_print(verbosity_level, 2, f"TerminalChain linear: {terminal_chain.linear}")
+            # debug_print(verbosity_level, 2, f"TerminalChain linear: {terminal_chain.linear}")
 
             if input_string.count("#") == terminal_chain.linear.count("#"):
                 debug_print(verbosity_level, 2, "we broke out")
@@ -1368,10 +1415,11 @@ def run(
             sprouting_rules=sprouting_rules,
             affix=affix
         )
+        debug_print(verbosity_level, 2, "done processing input, time to test")
 
-        debug_print(verbosity_level, 2, f"vocabulary_items: {vocabulary_items}")
-        debug_print(verbosity_level, 2, f"nominalizer_terminals: {nominalizer_terminals}")
-        debug_print(verbosity_level, 2, f"sprouting_rules: {sprouting_rules}")
+        # debug_print(verbosity_level, 2, f"vocabulary_items: {vocabulary_items}")
+        # debug_print(verbosity_level, 2, f"nominalizer_terminals: {nominalizer_terminals}")
+        # debug_print(verbosity_level, 2, f"sprouting_rules: {sprouting_rules}")
 
 
         # Test Derivation
@@ -1387,7 +1435,7 @@ def run(
             
             terminal_chain = derive_terminal_chain(enumeration=enumeration, affix=affix)
 
-            debug_print(verbosity_level, 2, f"TerminalChain linear: {terminal_chain.linear}")
+            # debug_print(verbosity_level, 2, f"TerminalChain linear: {terminal_chain.linear}")
 
             if input_string.count("#") == terminal_chain.linear.count("#"):
                 debug_print(verbosity_level, 2, "we broke out")
@@ -1399,7 +1447,7 @@ def run(
         
         # Do node sprouting
 
-        debug_print(verbosity_level, 2, f"sprouting_rules: {sprouting_rules}")
+        # debug_print(verbosity_level, 2, f"sprouting_rules: {sprouting_rules}")
 
         terminal_chain, sprouting_rules_used = sprout_nodes(
             terminal_chain=terminal_chain,
@@ -1407,7 +1455,8 @@ def run(
             affix=affix
         )
 
-        debug_print(verbosity_level, 2, f"TerminalChain: {terminal_chain}")
+        debug_print(verbosity_level, 2, f"we used sprouting_rules: {sprouting_rules_used}")
+        debug_print(verbosity_level, 2, f"now we have this TerminalChain: {terminal_chain.linear}")
 
         # Insert Vis
         full_pronunciation, vis_used = insert_vi(
@@ -1415,13 +1464,14 @@ def run(
             vocabulary_items=vocabulary_items
         )
 
+        debug_print(verbosity_level, 2, f"input pronunciation: {input_string}")
         debug_print(verbosity_level, 2, f"full_pronunciation: {full_pronunciation}")
         debug_print(verbosity_level, 2, f"vis_used: {vis_used}")
 
 
         if full_pronunciation == input_string.replace("-", ""):
 
-            debug_print(verbosity_level, 2, f"Success")
+            debug_print(verbosity_level, 2, f"Successful derivation!")
 
             nominalizers_used = [
                 terminal
@@ -1434,6 +1484,7 @@ def run(
 
             nominalizer_used = nominalizers_used[0]
 
+            debug_print(verbosity_level, 2, f"Since it worked, let's add {roots[0]} to the selectional of the nominalizer whose values are {nominalizer_used.values}")
             nominalizer_terminals = create_nominalizer(
                 root=roots[0], 
                 values=nominalizer_used.values, 
@@ -1448,6 +1499,10 @@ def run(
 
             for vi in vis_used:
                 vi.weight += UPDATE_TERMINAL_WEIGHT
+                _, vocabulary_items = compare_vi(
+                    vocabulary_item=vi,
+                    vocabulary_items=vocabulary_items
+    )
 
         else:
 
