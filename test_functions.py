@@ -60,15 +60,16 @@ def test_derive_terminal_chain(
         nominalizer_terminal_input1,
         semantic_terminal_input_1_1,
         semantic_terminal_input_1_2,
+        adjectivalizer_terminal
 ):
-    enumeration = {
+    numeration = {
         "roots": [main.Root("KEY")],
         "nominalizer": nominalizer_terminal_input1,
         "semantic_0": semantic_terminal_input_1_1,
         "semantic_1": semantic_terminal_input_1_2
     }
 
-    terminal_chain = main.derive_terminal_chain(enumeration=enumeration, affix="suffixing")
+    terminal_chain = main.derive_terminal_chain(numeration=numeration, affix="suffixing")
 
     assert terminal_chain == main.TerminalChain(
             semantic_terminal_input_1_1,
@@ -82,6 +83,34 @@ def test_derive_terminal_chain(
             ),
             affix="suffixing"
         )
+    
+    numeration = {
+        "roots": [main.Root("KEY"),  main.Root("BIG")],
+        "nominalizer": nominalizer_terminal_input1,
+        "adjectivalizer": adjectivalizer_terminal,
+        "semantic_0": semantic_terminal_input_1_1,
+        "semantic_1": semantic_terminal_input_1_2
+    }
+
+    terminal_chain = main.derive_terminal_chain(numeration=numeration, affix="suffixing")
+
+    assert terminal_chain == main.TerminalChain(
+            semantic_terminal_input_1_1,
+            main.TerminalChain(main.TerminalChain(semantic_terminal_input_1_2,
+                main.TerminalChain(
+                    nominalizer_terminal_input1,
+                    main.Root("KEY"),
+                    affix="suffixing",
+                ),
+                affix="suffixing"
+            ), main.TerminalChain(
+                    adjectivalizer_terminal,
+                    main.Root("BIG"),
+                    affix="suffixing",
+                ),
+            affix="suffixing"
+        ), affix="suffixing"
+    )
 
 def test_slice_terminal_chain(
     terminal_chain_input_1_1,
