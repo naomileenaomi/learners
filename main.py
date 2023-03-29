@@ -6,6 +6,7 @@ import copy
 from itertools import combinations
 from difflib import SequenceMatcher
 import csv
+import sys
 
 
 INITIAL_TERMINAL_WEIGHT = 10.0
@@ -100,7 +101,7 @@ class AdjectivalizerTerminal:
     def __init__(self):
         self.label = "adjectivalizer"
         self.values = set()
-        self.selectional = []
+        self.selectional = set()
         self.selection_strength = True
         self.weight = 999
         self.linear = (self,)
@@ -164,10 +165,10 @@ class TerminalChain:
         self.selector = copy.deepcopy(selector); selector = None
         self.complement = copy.deepcopy(complement); complement = None
         self.label = self.selector.label
-        self.selectional = []
+        self.selectional = set()
 
         if self.complement.label not in self.selector.selectional and type(self.complement) == Root:
-            self.selector.selectional.append(self.complement.label)
+            self.selector.selectional.add(self.complement.label)
 
         
         if self.complement.label in self.selector.selectional:
@@ -376,61 +377,61 @@ def create_semantic_terminals(learner_version):
         # SemanticTerminal(
         #     label="definite",
         #     values={"+definite",},
-        #     selectional=["atomic, minimal"],
+        #     selectional={"atomic, minimal"},
         #     selection_strength=False,
         # ),
         # # SemanticTerminal(
         # #     label="definite",
         # #     values={"+definite",},
-        # #     selectional=["atomic, minimal"],
+        # #     selectional={"atomic, minimal"},
         # #     selection_strength=True,
         # # ),
         # SemanticTerminal(
         #     label="definite",
         #     values={"-definite",},
-        #     selectional=["atomic, minimal"],
+        #     selectional={"atomic, minimal"},
         #     selection_strength=False,
         # ),
         # # SemanticTerminal(
         # #     label="definite",
         # #     values={"-definite",},
-        # #     selectional=["atomic, minimal"],
+        # #     selectional={"atomic, minimal"},
         # #     selection_strength=True,
         # # ),
         # SemanticTerminal(
         #     label="atomic, minimal",
         #     values={"+atomic", "+minimal"},
-        #     selectional=["nominalizer"],
+        #     selectional={"nominalizer"},
         #     selection_strength=True,
         # ),
         # # SemanticTerminal(
         # #     label="atomic, minimal",
         # #     values={"+atomic", "+minimal"},
-        # #     selectional=["nominalizer"],
+        # #     selectional={"nominalizer"},
         # #     selection_strength=False,
         # # ),
         # SemanticTerminal(
         #     label="atomic, minimal",
         #     values={"-atomic", "+minimal"},
-        #     selectional=["nominalizer"],
+        #     selectional={"nominalizer"},
         #     selection_strength=True,
         # ),
         # # SemanticTerminal(
         # #     label="atomic, minimal",
         # #     values={"-atomic", "+minimal"},
-        # #     selectional=["nominalizer"],
+        # #     selectional={"nominalizer"},
         # #     selection_strength=False,
         # # ),
         # SemanticTerminal(
         #     label="atomic, minimal",
         #     values={"-atomic", "-minimal"},
-        #     selectional=["nominalizer"],
+        #     selectional={"nominalizer"},
         #     selection_strength=True,
         # ),
         # # SemanticTerminal(
         # #     label="atomic, minimal",
         # #     values={"-atomic", "-minimal"},
-        # #     selectional=["nominalizer"],
+        # #     selectional={"nominalizer"},
         # #     selection_strength=False,
         # # ),  
     )
@@ -440,25 +441,25 @@ def create_semantic_terminals(learner_version):
             SemanticTerminal(
                 label="definite",
                 values={"+definite",},
-                selectional=["atomic"],
+                selectional={"atomic"},
                 selection_strength=False,
             ),
             SemanticTerminal(
                 label="definite",
                 values={"-definite",},
-                selectional=["atomic"],
+                selectional={"atomic"},
                 selection_strength=False,
             ),
             SemanticTerminal(
                 label="atomic",
                 values={"+atomic"},
-                selectional=["nominalizer"],
+                selectional={"nominalizer"},
                 selection_strength=True,
             ),
             SemanticTerminal(
                 label="atomic",
                 values={"-atomic"},
-                selectional=["nominalizer"],
+                selectional={"nominalizer"},
                 selection_strength=True,
             ),
         ),
@@ -488,15 +489,16 @@ def create_nominalizer(root, values, existing_nominalizers):
     for nominalizer in existing_nominalizers:
         if nominalizer.values == values:
             if root.label in nominalizer.selectional:
+                nominalizer.weight += UPDATE_TERMINAL_WEIGHT #if we check for a nominalizer that already exists AND selects the Root we're processing already, add to its weight
                 return existing_nominalizers
             else:
-                nominalizer.selectional.append(root.label)
+                nominalizer.selectional.add(root.label)
                 return existing_nominalizers
     
     existing_nominalizers.append(
         NominalizerTerminal(
             values = values,
-            selectional = [root.label],
+            selectional = {root.label},
         )
     )
 
@@ -507,10 +509,11 @@ def create_nominalizer_given_selectional(selectional, values, existing_nominaliz
     for nominalizer in existing_nominalizers:
         if nominalizer.values == values:
             if nominalizer.selectional == selectional:
+                nominalizer.weight += UPDATE_TERMINAL_WEIGHT #if we check for a nominalizer that already exists, add to its weight: the call came from an input line that used it
                 return existing_nominalizers
-            # else:
-            #     nominalizer.selectional.append(selectional)
-            #     return existing_nominalizers
+            else: # i think this might not arise...bc any nom with the larger vi, we won't have updated to have a new root, just only manipulate the one with most split.out vis...but not sure
+                nominalizer.selectional = nominalizer.selectional.union(selectional)
+                return existing_nominalizers
     
     existing_nominalizers.append(
         NominalizerTerminal(
@@ -524,9 +527,9 @@ def create_nominalizer_given_selectional(selectional, values, existing_nominaliz
 
 def select_nominalizer(root, existing_nominalizers):
     weights = [
-        nominalizer.weight + ALREADY_SELECTS_BONUS
+        nominalizer.weight + ALREADY_SELECTS_BONUS #+ len(nominalizer.values) * ALREADY_SELECTS_BONUS --- (1/2) turn on when we start combining nominalizers
         if root.label in nominalizer.selectional 
-        else nominalizer.weight
+        else nominalizer.weight #+ len(nominalizer.values) * ALREADY_SELECTS_BONUS (2/2) turn on when we start combining nominalizers
         for nominalizer 
         in existing_nominalizers
     ]
@@ -563,7 +566,7 @@ def select_semantic_terminals(input_values, semantic_terminals):
 
 def select_adjectivalizer_terminals(second_root, adjectivalizer):
     if second_root.label not in adjectivalizer.selectional:
-        adjectivalizer.selectional.append(second_root.label)
+        adjectivalizer.selectional.add(second_root.label)
 
     return adjectivalizer
 
@@ -707,15 +710,18 @@ def select_numeration(
     nominalizer_terminals,
     values,
     semantic_terminals,
-    adjectivalizer
+    adjectivalizer, 
+    phase
 ):
     numeration = dict()
     terminals_used = []
 
     numeration["roots"] = roots
-    
 
-    nominalizer = select_nominalizer(roots[0], existing_nominalizers=nominalizer_terminals)
+    if phase == "process":
+        nominalizer = nominalizer_terminals[0] #always select the value-less nominalizer when we're processing input data...only generate single-derivation hypotheses
+    elif phase == "test":
+        nominalizer = select_nominalizer(roots[0], existing_nominalizers=nominalizer_terminals)
     print(f"we selected the nominalizer with values: {nominalizer.values}")
     numeration["nominalizer"] = nominalizer
     terminals_used.append(nominalizer)
@@ -735,7 +741,7 @@ def select_numeration(
     return numeration, terminals_used
 
 
-def create_vi(pronunciation, label, values, triggers, vocabulary_items):
+def create_vi(pronunciation, label, values, triggers, vocabulary_items, redo_bonus):
     # if pronunciation == "null" and values == set():
     #     return False, None, vocabulary_items
     
@@ -747,10 +753,30 @@ def create_vi(pronunciation, label, values, triggers, vocabulary_items):
         triggers=triggers,
     ) 
 
-    if new_vi in vocabulary_items:
+    if new_vi in vocabulary_items: 
+        if redo_bonus:
+            vocabulary_items[vocabulary_items.index(new_vi)].weight += UPDATE_TERMINAL_WEIGHT
+            print(f"\ncreate_vi: tried {new_vi.label}: {new_vi.diacritic}, triggers = {new_vi.triggers}, weight = {new_vi.weight}..already existed")
         return False, vocabulary_items[vocabulary_items.index(new_vi)], vocabulary_items
     else:
+        print(f"\ncreate_vi: made {new_vi.label}: {new_vi.diacritic}, triggers = {new_vi.triggers}, weight = {new_vi.weight}")
         return True, new_vi, vocabulary_items + [new_vi]
+
+
+def create_sprouting_rule(split_off_vi, large_vi, sprouting_rules):
+    new_sprouting = SproutingRule(
+        split_off_vi=split_off_vi,
+        large_vi=large_vi
+    ) 
+
+    if new_sprouting in sprouting_rules:
+        for rule in sprouting_rules:
+            if rule == new_sprouting:
+                rule.weight += UPDATE_SPROUTING_RULE_WEIGHT #if we check for a sprouting rule that already exists, add to its weight??
+        return sprouting_rules
+    else:
+        sprouting_rules.append(new_sprouting)
+        return sprouting_rules 
 
 
 def partial_overlap(set1, set2):
@@ -771,8 +797,10 @@ def partial_overlap(set1, set2):
 
 
 def compare_vi(vocabulary_item, vocabulary_items):
-    print(f"COMPARE_VI has been called on {vocabulary_item.diacritic}")
-    match_list = [
+    # print(f"COMPARE_VI has been called on {vocabulary_item.diacritic}")
+
+    #(1) first, look for VIs that completely overlap except in triggers... CHECK: should only apply to ROOT VIs
+    full_match_list = [
         vi
         for vi
         in vocabulary_items
@@ -785,11 +813,13 @@ def compare_vi(vocabulary_item, vocabulary_items):
             and 
             vi.diacritic != vocabulary_item.diacritic
             and
-            vi.weight > INITIAL_TERMINAL_WEIGHT
+            len(vi.triggers.intersection(vocabulary_item.triggers)) > 0
+            # and
+            # vi.weight > INITIAL_TERMINAL_WEIGHT + 1
         )
     ]
 
-    for vi in match_list:
+    for vi in full_match_list:
         print(f"     what if we combine triggers with the otherwise identical vi {vi.diacritic} (triggers: {vi.triggers})?")
         is_new, triggercombined, vocabulary_items = create_vi(
             pronunciation=vi.pronunciation,
@@ -797,13 +827,15 @@ def compare_vi(vocabulary_item, vocabulary_items):
             values=vi.values,
             triggers = set().union(
                 vocabulary_item.triggers,
-                *[vi_2.triggers for vi_2 in match_list]
+                *[vi_2.triggers for vi_2 in full_match_list]
             ),
-            vocabulary_items=vocabulary_items
+            vocabulary_items=vocabulary_items,
+            redo_bonus=False #TODO: is that right?
         )
         if is_new:
             print(f"     -> created a new vi {triggercombined.diacritic} \tspelling out {triggercombined.label}: {triggercombined.values} \t\t triggering {triggercombined.triggers}")
 
+    #(2) second, look for VIs that partially overlap in values, and in pronunciations
     partial_match_list = [
         vi
         for vi
@@ -813,7 +845,7 @@ def compare_vi(vocabulary_item, vocabulary_items):
             and
             partial_overlap(vi.values, vocabulary_item.values)
             and
-            len(shared_substring(vi.pronunciation, vocabulary_item.pronunciation)[0]) > 0
+            len(shared_substring(vi.pronunciation, vocabulary_item.pronunciation)[0]) > 0 #if one or both are null, compare_vis returns "" so they won't be included.
         )
     ]
 
@@ -854,24 +886,23 @@ def generalize_vi(new_vi, vocabulary_items, affix):
         vocabulary_items=vocabulary_items
     )
 
-    print(f"here's what is in match_list: {match_list}")
+    print(f"generalize_vi: here's what is in match_list: {match_list}")
     for intersecting_vi in match_list:
-        # if not (intersecting_vi.pronunciation == "null" and new_vi.pronunciation == "null"): 
         substring, new_vi_ex, intersecting_vi_ex = shared_substring(
             new_vi.pronunciation,
             intersecting_vi.pronunciation
         )
 
-        # intersection:
+    # (A) intersection:
         # if not (
         #     substring == "null" or 
         #     intersecting_vi_ex == "null"
         # ):
-        if not (
+        if not ( #TODO what i need to do with various null VIs that i want to manipulate in both directions...(5b) and (7)
             new_vi_ex == "null" or 
             intersecting_vi_ex == "null"
         ):
-            if new_vi.pronunciation[:len(substring)] == substring:
+            if new_vi.pronunciation[:len(substring)] == substring: #TODO am i sure about never having VIs with the same pronunciation??
                 if affix == "suffixing":
                     label = new_vi.label
                 elif affix == "prefixing":
@@ -895,22 +926,18 @@ def generalize_vi(new_vi, vocabulary_items, affix):
             label=label,
             values=new_vi.values.intersection(intersecting_vi.values),
             triggers=new_vi.triggers.union(intersecting_vi.triggers),
-            vocabulary_items=vocabulary_items
+            vocabulary_items=vocabulary_items, 
+            redo_bonus=True
         )
 
         new_vi_pairs.append((intersection_vi, new_vi))
         new_vi_pairs.append((intersection_vi, intersecting_vi))
 
-        # if intersection_is_new: #?
-        #     print(f"\tgeneralized vi from intersection w/ {intersecting_vi.diacritic}: {intersection_vi.diacritic} \tspelling out {intersection_vi.label}: {intersection_vi.values} \t\t triggering {intersection_vi.triggers}")
-        #     new_vi_pairs.append((intersection_vi, new_vi))
-        #     new_vi_pairs.append((intersection_vi, intersecting_vi))
-
-        if (intersecting_vi.pronunciation == new_vi.pronunciation): 
+        if (intersecting_vi.pronunciation == new_vi.pronunciation): #TODO: think through the -e II.f.pl and -e III.sg ?
             return new_vi_pairs, vocabulary_items
         
 
-        # intersecting-VI MINUS newVI:
+    # (B) intersecting-VI MINUS newVI:
         if (
             new_vi_ex == "null" or intersecting_vi_ex == "null"
         ):
@@ -933,24 +960,19 @@ def generalize_vi(new_vi, vocabulary_items, affix):
             else:
                 assert False
 
-
             if not (intersecting_vi.values - new_vi.values) == set():
                 subtracted_from_intersecting_is_new, subtracted_from_intersecting_vi, vocabulary_items = create_vi(
                     pronunciation=intersecting_vi_ex,
                     label=label,
                     values=intersecting_vi.values - new_vi.values,
                     triggers=intersecting_vi.triggers,
-                    vocabulary_items=vocabulary_items
+                    vocabulary_items=vocabulary_items, 
+                    redo_bonus=True
                 )
                 new_vi_pairs.append((subtracted_from_intersecting_vi, intersecting_vi))
 
-            # if subtracted_from_intersecting_is_new:
-            #     print(f"\tintersecting_vi {intersecting_vi.diacritic} minus new_vi {new_vi.diacritic}: {subtracted_from_intersecting_vi.diacritic} \tspelling out {subtracted_from_intersecting_vi.label}: {subtracted_from_intersecting_vi.values} \t\t triggering {subtracted_from_intersecting_vi.triggers}")
-            #     new_vi_pairs.append((subtracted_from_intersecting_vi, intersecting_vi))
-
             
-            #newVI MINUS intersecting-VI:
-
+        # (C) newVI MINUS intersecting-VI:
             if (
                 new_vi_ex == "null" or intersecting_vi_ex == "null"
             ):
@@ -979,14 +1001,11 @@ def generalize_vi(new_vi, vocabulary_items, affix):
                     label=label,
                     values=new_vi.values - intersecting_vi.values,
                     triggers=new_vi.triggers,
-                    vocabulary_items=vocabulary_items
+                    vocabulary_items=vocabulary_items, 
+                    redo_bonus=True
                 )
 
             new_vi_pairs.append((subtracted_from_new_vi, new_vi))
-
-            # if subtracted_from_new_is_new: #?
-            #     print(f"\tnew_vi {new_vi.diacritic} minus intersecting_vi {intersecting_vi.diacritic}: {subtracted_from_new_vi.diacritic} \tspelling out {subtracted_from_new_vi.label}: {subtracted_from_new_vi.values} \t\t triggering {subtracted_from_new_vi.triggers}")
-            #     new_vi_pairs.append((subtracted_from_new_vi, new_vi))
 
     return new_vi_pairs, vocabulary_items
 
@@ -1025,11 +1044,22 @@ def get_diacritic_number(pronunciation, vocabulary_items):
     ])
 
 
+def insert_agr(terminals):
+
+    for index, terminal in enumerate(terminals):
+        if type(terminal) == AdjectivalizerTerminal:
+            terminals.insert(index+1, AgrTerminal(values=terminal.values))
+
+    return terminals
+
+
 def prep_slices(morphs, terminals, affix):
 
     assert len(morphs) <= len(terminals)
 
     root_index = next((i for i, s in enumerate(morphs) if s.isupper()), None)
+
+    terminals = insert_agr(terminals)
 
     if root_index is not None:
         while len(morphs) < len(terminals):
@@ -1068,7 +1098,7 @@ def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominaliz
     nominalizer=nominalizers_in_tc[0] 
 
     for string_slice, tc_slice in zip(string_slices, tc_slices):
-        diacritics_in_this_word = []
+        diacritics_in_this_word = set()
         morphs = string_slice.split("-")
         terminals = [
             item
@@ -1088,13 +1118,24 @@ def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominaliz
             assert False
         
         for terminal, morph in zipper:
-            # if morph.isupper() and type(terminal) != Root:
-            #     morph = "null"
             
-            static_diacritics_in_this_word = diacritics_in_this_word.copy()
-            print(f"\n now working with a terminal of category {terminal.label}: \t (diacritics in this word are currently: {static_diacritics_in_this_word})")
-            for triggers in [set()] + [{diacritic} for diacritic in static_diacritics_in_this_word]:
-                
+            zero_trigger_vis = set([
+                (vi.pronunciation, frozenset([value 
+                                        for value 
+                                        in vi.values 
+                                        if value[0] in ["+", "-"]])
+                 )
+                for vi 
+                in vocabulary_items 
+                if (vi.diacritic in diacritics_in_this_word) and (len(vi.triggers) == 0)
+            ])
+
+            if len(zero_trigger_vis) == 0:
+                x = [set()] 
+            else:
+                x = [set(), zero_trigger_vis]
+
+            for triggers in x:
                 if terminal.label == "nominalizer":
                     new_values = terminal.values
                 else:
@@ -1105,121 +1146,75 @@ def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominaliz
                         if value[0] in ["+", "-"]
                     ])
 
-                print(f"  now trying a new VI with triggers: {triggers}")
                 is_new, new_vi, vocabulary_items = create_vi(
                     pronunciation=morph,
                     label=terminal.label,
                     values=new_values,
                     triggers=triggers,
-                    vocabulary_items=vocabulary_items
+                    vocabulary_items=vocabulary_items,
+                    redo_bonus = False
                 )
 
                 further_vis = []
 
-                if not is_new:
-                    print(f"   > {new_vi.diacritic} already existed")
-
-                if is_new:
-                    print(f"   > new vocabulary_item generated: {new_vi.diacritic} \t\tspelling out {new_vi.label}: {new_vi.values} \t\t triggering {new_vi.triggers}") #{new_vi.big_string()}") #
-                    print(f"     so we're going to see if we can generalize it wrt existing vis:")
-                    further_vis, vocabulary_items = generalize_vi(
+                further_vis, vocabulary_items = generalize_vi(
                         new_vi=new_vi,
                         vocabulary_items=vocabulary_items, 
                         affix=affix
                     )
-                    
+
                 #if we're in a word with a Root...
                 if any(char.isupper() for char in string_slice): #IS THIS RIGHT FOR ADJECTIVES?????
-                    #plus, new_vi was indeed new, AND it was generalized against existing vis
-                    if(len(further_vis) > 0):
-                        diacritics_in_this_word += [
-                        split_out_vi.diacritic
-                        for (split_out_vi, source_vi)
-                        in further_vis
-                        if source_vi == new_vi
-                    ] 
-                        print(f"  bc we're in a lexical word, we add diacritics split out of the newvi: diacritics_in_this_word now contains {diacritics_in_this_word}")
-
-                    #new_vi either already existed, or was new but didn't get generalized against anything else
-                    else:
-                        diacritics_in_this_word += [new_vi.diacritic]
-                        print(f"  bc we're in a lexical word, we add {new_vi.diacritic} to the VIs (potentially) triggered by sth in the word\n")
-    
-                #if we're in a non-Root word...
-                else:
-                    nominalizer.values.update({new_vi.diacritic})  
-                    #plus, new_vi was indeed new, AND it was generalized against existing vis            
+                    print(f"  we're in a lexical word...")
+                    diacritics_in_this_word.add(new_vi.diacritic)
+                    print(f"  - we add the newvi's diacritic: diacritics_in_this_word now contains {diacritics_in_this_word}")
                     if(len(further_vis) > 0):
                         for split_out_vi, source_vi in further_vis:
-                             print(f"looking at further_vis: {split_out_vi.diacritic}, {source_vi.diacritic}")
-                             if split_out_vi.label == "Agr":
-                                # print(f"new nom with split out vi as its value: {split_out_vi.diacritic}")
-                                # nominalizers = create_nominalizer(
-                                #     root=roots[0],
-                                #     values={split_out_vi.diacritic},
-                                #     existing_nominalizers=nominalizers
-                                # )
-                                
+                            #HELP source_vi.weight = 0
+                            if source_vi.diacritic in diacritics_in_this_word:
+                                diacritics_in_this_word.remove(source_vi.diacritic)
+                                diacritics_in_this_word.add(split_out_vi.diacritic)
+                                print(f"  - we split out {split_out_vi.diacritic} from {source_vi.diacritic} (which should be the newvi {new_vi.diacritic}:")
+                                print(f"    diacritics_in_this_word now contains {diacritics_in_this_word}")    
+
+                #if we're in a non-Root word...
+                else:
+                    print(f"  we're in a functional word...")
+                    if new_vi.pronunciation != "null":
+                        nominalizer.values.update({new_vi.diacritic})  #THIS IS ADDING NEW_VI RIGHT NOW: if it's always the no-value nominalizer, could be ok
+                        print(f"  - we add the newvi's diacritic: nominalizer's values are now {nominalizer.values}")    
+                    if(len(further_vis) > 0):
+                        for split_out_vi, source_vi in further_vis:
+                             #HELP: source_vi.weight = 0
+                             if split_out_vi.label == "Agr":  
+                                print(f"  - but that newvi helped us find a new Agr node vi: {split_out_vi.diacritic}")
+                                # (1) clean up our List1: find all the nominalizers in state that include non-segmented diacritics as values...
                                 for nom in nominalizers:
-                                    #find all the nominalizers in state that include non-segmented diacritics as values
                                     if source_vi.diacritic in nom.values: 
-                                        #never select them again (trying to stem the tide of nominalizers)
+                                        print(f"     so (1) we clean up our nominalizer inventory: \n    > the nominalizer with these values ({nom.values}) gets set to 0")
+                                        #... and never select them again (stem the tide of nominalizers)
                                         nom.weight = 0 
-                                        #create a copy (same roots etc.) but replace
-                                        print(f"replaced {source_vi.diacritic} in existing nom (with values {nom.values}) with split out vi {split_out_vi.diacritic}")
+                                        #...and create new nominalizer that replaces the larger vi with the split out vi
+                                        print(f"    > and we make sure a nominalizer with {split_out_vi.diacritic} instead of {source_vi.diacritic} exists")
                                         nominalizers = create_nominalizer_given_selectional(
                                             values = (nom.values - {source_vi.diacritic}).union({split_out_vi.diacritic}),
                                             selectional = nom.selectional,
                                             existing_nominalizers=nominalizers)
-                                        # ) = create_nominalizer(
-                                        #     root=[Root(label = rt) for rt in nom.selectional], 
-                                        #     values=(nom.values - {source_vi.diacritic}).union({split_out_vi.diacritic}),
-                                        #     existing_nominalizers=nominalizers
-                                        # )
-
-                                sprouting_rules.append(
-                                    SproutingRule(
-                                        split_off_vi=split_out_vi, 
-                                        large_vi=source_vi
-                                    )
-                                )
-                                print(f"created new Agr sprouting rule from {source_vi.values} to host {split_out_vi.values}")
+                                        
+                                # (2) make an Agr sprouting rule (or check that it already exists)
+                                print(f"     and (2) we make sure an Agr sprouting rule exists, splitting {source_vi.values} to host {split_out_vi.values}")
+                                sprouting_rules = create_sprouting_rule(split_out_vi, source_vi, sprouting_rules)
 
                                 if source_vi.diacritic in nominalizer.values:
                                     nominalizer.values = (nominalizer.values - {source_vi.diacritic}).union({split_out_vi.diacritic})
-                                    print(f" > 1current terminal chain nom now has values: {nominalizer.values}")
+                                    print(f"     and (3) if the Agr was split out of the newvi in THIS input observation, we change the nominalizer we're currently using to have the split out value(s): {nominalizer.values}") 
 
-                                # nominalizer.values.update({split_out_vi.diacritic})
-                                # print(f" > 2current terminal chain nom now has values: {nominalizer.values}")
-                    #     print(f"  since we're NOT in a lexical word, let's update our inventory of nominalizers...")
-                    # print(f"new nom with new vi as its value: {new_vi.diacritic}") #only need to do this if it actually is_new... otherwise, will redo every time we find it (how often does that happen, idk)
-                    # nominalizers = create_nominalizer(
-                    #     root=roots[0],
-                    #     values={new_vi.diacritic},
-                    #     existing_nominalizers=nominalizers
-                    # )
-
-                    # print(f"new nom with current nom's values: {nominalizer.values} and new vi: {new_vi.diacritic}")
-                    # nominalizers = create_nominalizer(
-                    #     root=roots[0],
-                    #     values=nominalizer.values.union({new_vi.diacritic}),
-                    #     existing_nominalizers=nominalizers
-                    # )      
-                    else:
-                        if is_new:
-                            nominalizers = create_nominalizer(
-                            root=roots[0],
-                            values={new_vi.diacritic},
-                            existing_nominalizers=nominalizers
-                        )
-                            
-                        print(f" > current terminal chain nom now has values: {nominalizer.values}")
+                    print(f"  - finally, make (sure) the nominalizer with current values: {nominalizer.values} has root {roots[0]} in its selectional")    
                     nominalizers = create_nominalizer(
                         root=roots[0],
                         values=nominalizer.values,
                         existing_nominalizers=nominalizers
                     )
-                    print(f"new nom with current nominalizer's values: {nominalizer.values}")
 
     return vocabulary_items, nominalizers, sprouting_rules
 
@@ -1263,14 +1258,14 @@ def insert_vi(terminal_chain, vocabulary_items):
                         vi 
                         for vi
                         in matching_vis
-                        if vi.diacritic in item.values
+                        if (vi.pronunciation in item.values) and (len(vi.triggers) == 0) or (vi.diacritic in item.values)
                     ]
 
                     if len(super_matches) > 0:
                         selected_vi = random.choices(
                             population=super_matches,
                             weights=[
-                                match.weight + MORE_SPECIFIC_BONUS * len(match.values) 
+                                match.weight + MORE_SPECIFIC_BONUS * len(match.values) #TODO: help! + MORE_SPECIFIC_BONUS * (1 if vi.diacritic in item.values)
                                 for match 
                                 in super_matches
                             ]
@@ -1293,10 +1288,12 @@ def insert_vi(terminal_chain, vocabulary_items):
                             assert slice[index+1] == "-"
                             assert slice[index+2] != "-"
                             
-                            for diacritic in item.values:
+                            #pass on triggers (just pronunciation string) if you are null and have no triggers of your own...or if nothing got inserted at this terminal
+                            for value in item.values:
                                 for vi in vis_used:
-                                    if diacritic in vi.triggers:
-                                        slice[index+2].values.add(diacritic)
+                                    for trigger in vi.triggers:
+                                        if value == trigger[0]:
+                                            slice[index+2].values.add(value)
 
                 else:
                     full_pronunciation += selected_vi.pronunciation
@@ -1306,7 +1303,9 @@ def insert_vi(terminal_chain, vocabulary_items):
                     if index < len(slice) - 1:
                         assert slice[index+1] == "-"
                         assert slice[index+2] != "-"
-                        slice[index+2].values.update(selected_vi.triggers)
+                        for trigger_pron, trigger_values in selected_vi.triggers:
+                            if trigger_values.issubset(set().union(*[terminal.values for terminal in slice if terminal != '-'])):
+                                slice[index+2].values.update(trigger_pron)
 
         if slice_index < len(slices) - 1:
             full_pronunciation += "#"
@@ -1382,6 +1381,53 @@ def insert_into_linear(terminal_chain, terminal, affix, new_linear):
         assert False
 
     return terminal_chain
+
+
+def combine_nominalizers(nominalizer_used, nominalizer_vi_used, nominalizers, vocabulary_items):
+    overlap_list = [
+        nom
+        for nom
+        in nominalizers
+        if (len(nom.selectional.intersection(nominalizer_used.selectional)) > 0
+            and
+            len(nom.values) > 0
+            and
+            nom.weight > 0)
+    ]
+
+    for nom in overlap_list:
+        print(f"..plus that nominalizer selected (some of) the same Roots as the nominalizer with {nom.values} as values: {nom.selectional.intersection(nominalizer_used.selectional)}")
+        nominalizers = create_nominalizer_given_selectional(
+            values = nom.values.union(nominalizer_used.values),
+            selectional = nom.selectional.intersection(nominalizer_used.selectional),
+            existing_nominalizers=nominalizers)
+        
+        print(f"..so we'll also combine the vis that spell out {nom.values}")
+        vis_to_combine = [
+            vi 
+            for vi
+            in vocabulary_items
+            if (vi.values == nom.values
+                and
+                vi.weight > 0
+                and
+                len({trigger[1] for trigger in nominalizer_vi_used[0].triggers}.intersection({trigger[1] for trigger in vi.triggers})) == 0
+            )
+        ]
+
+        for vi in vis_to_combine:
+            is_new, combined_vi, vocabulary_items = create_vi(
+                pronunciation="null",
+                label="nominalizer",
+                values=vi.values.union(nominalizer_vi_used[0].values),
+                triggers=vi.triggers.union(nominalizer_vi_used[0].triggers),
+                vocabulary_items=vocabulary_items,
+                redo_bonus=True
+            )
+            if is_new:
+                print(f"....made the new vi: {combined_vi.big_string()}")
+
+    return nominalizers, vocabulary_items
 
 
 def print_nominalizers(nominalizers, roots):
@@ -1465,12 +1511,14 @@ def print_weights(dicts, end_index, file_name):
 
 
 def run(
-    input_file_path="./data/input/toy-italian-class-iii.txt",
-    root_file_path="./data/roots/italian-class-iii-only-ROOTS-list.txt",
+    input_file_path="./data/input/toy-italian-class-i-ii-iii.txt",
+    root_file_path="./data/roots/toy-italian-ROOTS-list.txt",
     learner_version=1,
     affix = "suffixing",
     verbosity_level = 2,
 ):
+
+    # sys.stdout = open('./outputs/output.txt', 'w')
 
     random.seed(1234)
 
@@ -1507,6 +1555,7 @@ def run(
     with open(input_file_path,'r') as learningDataFile:
         learningDataString = learningDataFile.read().splitlines()
 
+    random.shuffle(learningDataString) #just for toy datasets
 
     for line_index, line in enumerate(learningDataString):
         input_string, values = parse_input(line)
@@ -1524,6 +1573,16 @@ def run(
                 values=set(),
                 existing_nominalizers=nominalizer_terminals,
             )
+
+            is_new, null_nom, vocabulary_items = create_vi(
+            pronunciation="null",
+            label="nominalizer",
+            values=set(),
+            triggers = set(),
+            vocabulary_items=vocabulary_items,
+            redo_bonus=False 
+        )
+
             for nom1 in nominalizer_terminals:
                 print(f"made our very first nominalizer: {nom1.big_string()}")
 
@@ -1535,7 +1594,8 @@ def run(
                 nominalizer_terminals=nominalizer_terminals,
                 values=values,
                 semantic_terminals=semantic_terminals,
-                adjectivalizer=adjectivalizer
+                adjectivalizer=adjectivalizer,
+                phase = "process"
             )
             
             terminal_chain = derive_terminal_chain(numeration=numeration, affix=affix)
@@ -1575,7 +1635,8 @@ def run(
                 nominalizer_terminals=nominalizer_terminals,
                 values=values,
                 semantic_terminals=semantic_terminals,
-                adjectivalizer=adjectivalizer
+                adjectivalizer=adjectivalizer,
+                phase = "test"
             )
             
             terminal_chain = derive_terminal_chain(numeration=numeration, affix=affix)
@@ -1611,7 +1672,7 @@ def run(
 
         debug_print(verbosity_level, 2, f"input pronunciation: {input_string}")
         debug_print(verbosity_level, 2, f"full_pronunciation: {full_pronunciation}")
-        debug_print(verbosity_level, 2, f"vis_used: {vis_used}")
+        debug_print(verbosity_level, 2, f"vis_used:")
 
 
         if full_pronunciation == input_string.replace("-", ""):
@@ -1629,22 +1690,37 @@ def run(
 
             nominalizer_used = nominalizers_used[0]
 
-            debug_print(verbosity_level, 2, f"Since it worked, let's add {roots[0]} to the selectional of the nominalizer whose values are {nominalizer_used.values}")
-            debug_print(verbosity_level, 2, f"Before changes, that nominalizer was {nominalizer_used.big_string()}")
-            nominalizer_terminals = create_nominalizer(
-                root=roots[0], 
-                values=nominalizer_used.values, 
-                existing_nominalizers=nominalizer_terminals
-            ) 
+            #update nominalizer inventory: add Root to nom, and/or combine nominalizers that share Roots in their selectionals
+            if len(nominalizer_used.values.intersection({vi.diacritic for vi in vis_used})) > 0: #if a value of the nominalizer was relevant for spelling out...
+                debug_print(verbosity_level, 2, f"Since it worked, and the nominalizer's value(s) contributed to spellout (was a diacritic in vis_used), let's add {roots[0]} to the selectional of the nominalizer whose values are {nominalizer_used.values}")
+                debug_print(verbosity_level, 2, f"Before changes, that nominalizer was {nominalizer_used.big_string()}")
+                nominalizer_terminals = create_nominalizer(
+                    root=roots[0], 
+                    values=nominalizer_used.values, 
+                    existing_nominalizers=nominalizer_terminals
+                )
 
+                nominalizer_vi_used = [vi for vi in vis_used if vi.label == "nominalizer"]
+
+                nominalizer_terminals, vocabulary_items = combine_nominalizers(
+                    nominalizer_used = nominalizer_used,
+                    nominalizer_vi_used = nominalizer_vi_used,
+                    nominalizers = nominalizer_terminals,
+                    vocabulary_items=vocabulary_items
+                ) 
+
+            #reward terminals
             for terminal in terminals_used:
                 terminal.weight += UPDATE_TERMINAL_WEIGHT
             
+            #reward sprouting rules
             for rule in sprouting_rules_used:
                 rule.weight += UPDATE_SPROUTING_RULE_WEIGHT
 
+            #reward vis
             for vi in vis_used:
-                vi.weight += UPDATE_TERMINAL_WEIGHT
+                print(vi.big_string())
+                vi.weight += UPDATE_TERMINAL_WEIGHT #TODO: is the call to compare_vi enough? prob not.
                 _, vocabulary_items = compare_vi(
                     vocabulary_item=vi,
                     vocabulary_items=vocabulary_items
@@ -1654,14 +1730,14 @@ def run(
 
             debug_print(verbosity_level, 2, f"Failure")
 
-
-            for terminal in terminals_used:
-                terminal.weight -= UPDATE_TERMINAL_WEIGHT
+            # for terminal in terminals_used:
+            #     terminal.weight -= UPDATE_TERMINAL_WEIGHT
             
-            for rule in sprouting_rules_used:
-                rule.weight -= UPDATE_SPROUTING_RULE_WEIGHT
+            # for rule in sprouting_rules_used:
+            #     rule.weight -= UPDATE_SPROUTING_RULE_WEIGHT
 
             for vi in vis_used:
+                print(vi.big_string())
                 vi.weight -= UPDATE_TERMINAL_WEIGHT
 
         debug_print(verbosity_level, 2, f"line done")
