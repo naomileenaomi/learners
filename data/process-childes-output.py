@@ -346,7 +346,7 @@ with open("./data/tonelli_input.txt", 'w') as file:
         token_str = "#".join(tokens)
         values_str = "\t".join(observation.values)
 
-        file.write(f"{token_str}\t{values_str}\n")
+        file.write(f"{token_str}\t{values_str}\n") #test
 
 
 # Root_list = []
