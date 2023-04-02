@@ -484,7 +484,7 @@ def find_roots(input_string):
     return [Root(exponent) for exponent in exponents if exponent.isupper()]
 
 
-def create_nominalizer(root, values, existing_nominalizers):
+def create_nominalizer(root, values, existing_nominalizers, learner_version):
 
     for nominalizer in existing_nominalizers:
         if nominalizer.values == values:
@@ -495,14 +495,34 @@ def create_nominalizer(root, values, existing_nominalizers):
                 nominalizer.selectional.add(root.label)
                 return existing_nominalizers
     
-    existing_nominalizers.append(
-        NominalizerTerminal(
-            values = values,
-            selectional = {root.label},
+    
+    if learner_version == 1:
+        existing_nominalizers.append(
+            NominalizerTerminal(
+                values = values,
+                selectional = {root.label},
+            )
         )
-    )
-
+    
+    assert learner_version == 1
     return existing_nominalizers
+
+
+def create_initial_nominalizers():
+    return [
+        NominalizerTerminal(
+            values={"+feminine"},
+            selectional=set(),
+        ),
+        NominalizerTerminal(
+            values={"-feminine"},
+            selectional=set(),
+        ),
+        NominalizerTerminal(
+            values=set(),
+            selectional=set(),
+        ),
+    ]
 
 
 def create_nominalizer_given_selectional(selectional, values, existing_nominalizers):
@@ -1079,7 +1099,7 @@ def prep_slices(morphs, terminals, affix):
     return morphs, terminals
 
 
-def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominalizers, sprouting_rules, affix):
+def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominalizers, sprouting_rules, affix, learner_version):
 
     string_slices = input_string.split("#") 
     tc_slices = slice_terminal_chain(terminal_chain)
@@ -1213,7 +1233,8 @@ def generate_vi(terminal_chain, input_string, roots, vocabulary_items, nominaliz
                     nominalizers = create_nominalizer(
                         root=roots[0],
                         values=nominalizer.values,
-                        existing_nominalizers=nominalizers
+                        existing_nominalizers=nominalizers,
+                        learner_version=learner_version
                     )
 
     return vocabulary_items, nominalizers, sprouting_rules
@@ -1539,7 +1560,13 @@ def run(
 
 
     # store state
-    nominalizer_terminals = []
+    if learner_version == 1:
+        nominalizer_terminals = []
+    elif learner_version == 2:
+        nominalizer_terminals = create_initial_nominalizers()
+    else:
+        assert False
+
     adjectivalizer = AdjectivalizerTerminal()
     sprouting_rules = []
     vocabulary_items = []
@@ -1568,10 +1595,13 @@ def run(
             print(f"input values: {values}")
 
         if len(nominalizer_terminals) == 0:
+            assert learner_version == 1
+
             create_nominalizer(
                 roots[0],
                 values=set(),
                 existing_nominalizers=nominalizer_terminals,
+                learner_version=learner_version
             )
 
             is_new, null_nom, vocabulary_items = create_vi(
@@ -1618,7 +1648,8 @@ def run(
             vocabulary_items=vocabulary_items,
             nominalizers=nominalizer_terminals,
             sprouting_rules=sprouting_rules,
-            affix=affix
+            affix=affix,
+            learner_version=learner_version
         )
         debug_print(verbosity_level, 2, "done processing input, time to test")
 
@@ -1697,7 +1728,8 @@ def run(
                 nominalizer_terminals = create_nominalizer(
                     root=roots[0], 
                     values=nominalizer_used.values, 
-                    existing_nominalizers=nominalizer_terminals
+                    existing_nominalizers=nominalizer_terminals,
+                    learner_version=learner_version
                 )
 
                 nominalizer_vi_used = [vi for vi in vis_used if vi.label == "nominalizer"]
