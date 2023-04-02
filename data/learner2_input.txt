@@ -1,0 +1,4807 @@
+la#GRANDPARENT-a	+definite	+atomic,+minimal	+feminine
+i#BOOK-i	+definite	PLURAL-PLACEHOLDER
+la#POLE-la	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+il#POLE-lone	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+(i)l#TABLE-o	+definite	+atomic,+minimal
+il#POLE-lone	+definite	+atomic,+minimal
+la#POLE-lina#KING-ossa	+definite	+atomic,+minimal
+(i)l#TABLE-o	+definite	+atomic,+minimal
+una#POLE-lina	-definite	+atomic,+minimal
+la#HOUSE-etta	+definite	+atomic,+minimal
+il#BEE-tpeto	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+(i)l#TABLE-o	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+la#HOUSE-etta	+definite	+atomic,+minimal
+il#ROOF-o	+definite	+atomic,+minimal
+l'#-so>	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+lo#-o#KING-osso	+definite	+atomic,+minimal
+il#RABBIT-etto#-o	+definite	+atomic,+minimal
+l'#BEE-e#ORANGE-one	+definite	+atomic,+minimal
+la#POLE-lina#KING-ossa	+definite	+atomic,+minimal
+una#-<tre	-definite	+atomic,+minimal
+una#-tre	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#POLE-la#KING-ossa	+definite	+atomic,+minimal
+i#FINGER-i	+definite	PLURAL-PLACEHOLDER
+la#-tre	+definite	+atomic,+minimal
+uno#KING-vede	-definite	+atomic,+minimal	+feminine
+un#FINGER-o	-definite	+atomic,+minimal
+un#FINGER-o#-o	-definite	+atomic,+minimal
+un#FINGER-o#KING-vede	-definite	+atomic,+minimal
+la#-tre	+definite	+atomic,+minimal
+la#-tre	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-tre	+definite	+atomic,+minimal
+uno#KING-vede	-definite	+atomic,+minimal	+feminine
+un#FINGER-o#KING-osa	-definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+un#FINGER-o	-definite	+atomic,+minimal
+il#FINGER-o#KING-osso	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#-o#KING-osso	-definite	+atomic,+minimal
+un#FINGER-o	-definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+una#-tre	-definite	+atomic,+minimal
+una#-tre	-definite	+atomic,+minimal
+il#MILK-e	+definite	+atomic,+minimal
+il#MILK-e	+definite	+atomic,+minimal
+la#POLE-lina#KING-ossa	+definite	+atomic,+minimal
+le#KING-uote	+definite	PLURAL-PLACEHOLDER	+feminine
+la#-a	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+i#-i	+definite	PLURAL-PLACEHOLDER
+la#POLE-lina#KING-ossa	+definite	+atomic,+minimal
+il#BEE-tpeto	+definite	+atomic,+minimal
+la#POLE-lina#KING-ossa	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+i#-hini	+definite	PLURAL-PLACEHOLDER
+una#-a	-definite	+atomic,+minimal
+la#HAND-null	+definite
+le#EAR-e	+definite	PLURAL-PLACEHOLDER
+i#-i	+definite	PLURAL-PLACEHOLDER
+i#-i	+definite	PLURAL-PLACEHOLDER
+la#YEAR-na	+definite	+atomic,+minimal
+la#BEE-ppa	+definite	+atomic,+minimal
+la#BEE-ppa	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+l'#WATER-a	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#POLE-pasciutta	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#POLE-pasciutta	+definite	+atomic,+minimal
+il#-pomodo	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+le#-pae	+definite	PLURAL-PLACEHOLDER
+il#FISH-e	+definite	+atomic,+minimal
+il#HAM-o	+definite	+atomic,+minimal
+le#EAR-e	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#POLE-ginnica	+definite	+atomic,+minimal
+le#-null	+definite	PLURAL-PLACEHOLDER
+le#STEM-e	+definite	+atomic,+minimal
+gli#GOOSE-chi	+definite	PLURAL-PLACEHOLDER
+il#NOSE-o	+definite	+atomic,+minimal
+la#MOUTH-a	+definite	+atomic,+minimal
+i#KISS.DIM-i#-o	+definite	PLURAL-PLACEHOLDER
+un#CAT-ino	-definite	+atomic,+minimal
+i#CAT-ini	+definite	PLURAL-PLACEHOLDER
+un#LION-e	-definite	+atomic,+minimal
+i#LION-i	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+i#GRANDPARENT-i	+definite	PLURAL-PLACEHOLDER	+feminine
+la#POLE-la	+definite	+atomic,+minimal
+il#HOLE-hetto	+definite	+atomic,+minimal
+un#GOOSE-phino	-definite	+atomic,+minimal
+il#TROLLEY-o	+definite	+atomic,+minimal
+i#PIECE-i	+definite	PLURAL-PLACEHOLDER
+un#-ino#KING-vede	-definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#EAR-e	+definite	PLURAL-PLACEHOLDER
+il#-oncino	+definite	+atomic,+minimal
+il#-one	+definite	+atomic,+minimal
+il#-one	+definite	+atomic,+minimal
+un#-one#-o	-definite	+atomic,+minimal
+il#NEEDLE-cnolino	+definite	+atomic,+minimal
+il#NEEDLE-bavlino	+definite	+atomic,+minimal
+una#POCKET-a	-definite	+atomic,+minimal
+le#-pal	+definite	PLURAL-PLACEHOLDER
+una#POLE-lina	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#POLE-lina#KING-vede	+definite	+atomic,+minimal
+la#POLE-lina#KING-vede	+definite	+atomic,+minimal
+il#NEEDLE-cnolino	+definite	+atomic,+minimal
+le#KING-scapine	+definite	PLURAL-PLACEHOLDER	+feminine
+il#-oncino	+definite	+atomic,+minimal
+la#KING-scapina	+definite	+atomic,+minimal	+feminine
+la#-etta	+definite	+atomic,+minimal
+il#NEEDLE-bavlino	+definite	+atomic,+minimal
+la#LEG-etta	+definite	+atomic,+minimal
+la#MUSIC-a	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+il#NEEDLE-cnolino	+definite	+atomic,+minimal
+la#MUSIC-a	+definite	+atomic,+minimal
+la#MUSIC-a	+definite	+atomic,+minimal
+l'#EAR-a#-a	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#STOMACH-no	+definite	+atomic,+minimal
+le#-pae	+definite	PLURAL-PLACEHOLDER
+il#FISH-e	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+il#FINGERS-o	+definite	+atomic,+minimal
+il#-registrate	+definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+i#PIECE-i	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+il#LID-o	+definite	+atomic,+minimal
+la#-e	+definite	+atomic,+minimal
+il#-o#-o	+definite	+atomic,+minimal
+la#-e	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#LID-o	+definite	+atomic,+minimal
+un#EGG.DIM-o	-definite	+atomic,+minimal
+il#FINGERS-o	+definite	+atomic,+minimal
+un#RING-o	-definite	+atomic,+minimal
+un#SHEET-quadrio	-definite	+atomic,+minimal
+la#STAR-a	+definite	+atomic,+minimal
+il#KING-tiangolo	+definite	+atomic,+minimal	+feminine
+il#KING-tiangolo	+definite	+atomic,+minimal	+feminine
+la#STAR-ina	+definite	+atomic,+minimal
+un#PIECE-o	-definite	+atomic,+minimal
+il#KING-tiangolo	+definite	+atomic,+minimal	+feminine
+il#HOLE-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+i#PIECE-i	+definite	PLURAL-PLACEHOLDER
+il#RING-o	+definite	+atomic,+minimal
+il#RING-o	+definite	+atomic,+minimal
+il#SHEET-quadrio	+definite	+atomic,+minimal
+la#STAR-ina	+definite	+atomic,+minimal
+la#STAR-ina	+definite	+atomic,+minimal
+la#STAR-ina	+definite	+atomic,+minimal
+il#SHEET-quadrio	+definite	+atomic,+minimal
+il#RING-semio	+definite	+atomic,+minimal
+l'#EGG.DIM-o	+definite	+atomic,+minimal
+la#-e	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+la#GRANDPARENT-a	+definite	+atomic,+minimal	+feminine
+il#KING-tiangolo	+definite	+atomic,+minimal	+feminine
+il#KING-tiangolo	+definite	+atomic,+minimal	+feminine
+il#LID-o	+definite	+atomic,+minimal
+la#LOCOMOTIVE-a	+definite	+atomic,+minimal
+la#POLE-lina#KING-osa	+definite	+atomic,+minimal
+il#LID-o	+definite	+atomic,+minimal
+la#HAND-null	+definite
+un#FINGERS-o	-definite	+atomic,+minimal
+la#HAND-null	+definite
+il#BEE-pà	+definite
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+la#GRANDPARENT-a	+definite	+atomic,+minimal	+feminine
+la#GRANDPARENT-a	+definite	+atomic,+minimal	+feminine
+il#HAMSTER-o	+definite	+atomic,+minimal
+i#PIECE-etti	+definite	PLURAL-PLACEHOLDER
+la#KING-scapetta	+definite	+atomic,+minimal	+feminine
+la#KING-scapetta	+definite	+atomic,+minimal	+feminine
+una#POLE-lina#KING-ossa	-definite	+atomic,+minimal
+la#POLE-lina#KING-ossa	+definite	+atomic,+minimal
+i#-i	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+la#STAR-ina#-null	+definite	+atomic,+minimal
+il#BOOK-o	+definite	+atomic,+minimal
+la#GRANDPARENT-a	+definite	+atomic,+minimal	+feminine
+le#-e	+definite	PLURAL-PLACEHOLDER
+il#BOOK-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-ata	+definite	+atomic,+minimal
+il#MOUSE-olino	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+una#POT-a	-definite	+atomic,+minimal
+una#-iglia	-definite	+atomic,+minimal
+una#-iglia	-definite	+atomic,+minimal
+una#CANDLE-a	-definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+il#POORONE-o	+definite	+atomic,+minimal
+un#-ino	-definite	+atomic,+minimal
+una#WHATSIT-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+una#FOX-null	-definite
+l'#GOOSE-a	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+un'#GOOSE-a	-definite	+atomic,+minimal
+i#HORSE-ini	+definite	PLURAL-PLACEHOLDER
+un'#GOOSE-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+i#HORSE-ini	+definite	PLURAL-PLACEHOLDER
+i#HORSE-ini	+definite	PLURAL-PLACEHOLDER
+la#POLE-la#KING-ossa	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#BAMBINO-o	+definite	+atomic,+minimal	+feminine
+il#FINGERS-o	+definite	+atomic,+minimal
+la#FAIRY-a	+definite	+atomic,+minimal
+la#WHALE-a	+definite	+atomic,+minimal
+la#WHALE-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#BEE-pà	+definite
+il#BOOK-o	+definite	+atomic,+minimal
+il#-e	+definite	+atomic,+minimal
+la#WHALE-a	+definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+una#-iglia	-definite	+atomic,+minimal
+una#CANDLE-a	-definite	+atomic,+minimal
+una#-iglia#WAVE-rota	-definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+una#CANDLE-a	-definite	+atomic,+minimal
+una#-<iglia>	-definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#PLURAL-e	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+una#POLE-la	-definite	+atomic,+minimal
+una#POLE-la#KING-ossa	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-stia	+definite	+atomic,+minimal
+la#POLE-la#KING-osa	+definite	+atomic,+minimal
+il#FINGERS-o	+definite	+atomic,+minimal
+i#TOOTH-i	+definite	PLURAL-PLACEHOLDER
+le#-null	+definite	PLURAL-PLACEHOLDER
+il#BOOK-etto	+definite	+atomic,+minimal
+la#FOX-null	+definite
+la#FOX-null	+definite
+le#POLE-le	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+i#ACE-si	+definite	PLURAL-PLACEHOLDER
+un#FINGER-o	-definite	+atomic,+minimal
+una#-tre	-definite	+atomic,+minimal
+i#FINGER-i	+definite	PLURAL-PLACEHOLDER
+una#-tre	-definite	+atomic,+minimal
+i#FINGER-i	+definite	PLURAL-PLACEHOLDER
+la#-tre	+definite	+atomic,+minimal
+la#-tre	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#FINGER-o	-definite	+atomic,+minimal
+la#-tre	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+un#-one	-definite	+atomic,+minimal
+un#BABY-o	-definite	+atomic,+minimal
+i#FINGER-i	+definite	PLURAL-PLACEHOLDER
+la#YEAR-na	+definite	+atomic,+minimal
+la#-tre	+definite	+atomic,+minimal
+i#FINGER-i	+definite	PLURAL-PLACEHOLDER
+i#FINGER-i	+definite	PLURAL-PLACEHOLDER
+un#FINGER-o#-null	-definite	+atomic,+minimal
+un#FINGER-o#KING-osso	-definite	+atomic,+minimal
+un#FINGER-o	-definite	+atomic,+minimal
+un#FINGER-o#KING-osso	-definite	+atomic,+minimal
+una#-tre	-definite	+atomic,+minimal
+una#SOCK-etta	-definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#SOCK-etta	+definite	+atomic,+minimal
+il#-e#-o	+definite	+atomic,+minimal
+i#FINGER-i#-null	+definite	PLURAL-PLACEHOLDER
+i#FINGER-i#-null	+definite	PLURAL-PLACEHOLDER
+la#-tre	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+il#-e	+definite	+atomic,+minimal
+una#SNAIL-a	-definite	+atomic,+minimal
+il#KING-iccio	+definite	+atomic,+minimal	+feminine
+il#BOOK-etto	+definite	+atomic,+minimal
+la#KING-uota	+definite	+atomic,+minimal	+feminine
+la#KING-uota	+definite	+atomic,+minimal	+feminine
+una#WHATSIT-truzione	-definite
+il#FINGER-o	+definite	+atomic,+minimal
+la#KING-uota	+definite	+atomic,+minimal	+feminine
+un#FINGER-o	-definite	+atomic,+minimal
+un#PIECE-o	-definite	+atomic,+minimal
+il#MOUSE-olino	+definite	+atomic,+minimal
+le#-null	+definite	PLURAL-PLACEHOLDER
+il#NOSE-o	+definite	+atomic,+minimal
+gli#GOOSE-chi	+definite	PLURAL-PLACEHOLDER
+le#EAR-e	+definite	+atomic,+minimal
+i#-i	+definite	PLURAL-PLACEHOLDER
+i#-i	+definite	PLURAL-PLACEHOLDER
+un#FINGER-o	-definite	+atomic,+minimal
+una#-tre	-definite	+atomic,+minimal
+una#PAPER-ina	-definite	+atomic,+minimal
+una#PAPER-a	-definite	+atomic,+minimal
+una#PAPER-ina	-definite	+atomic,+minimal
+un#PIECE-o	-definite	+atomic,+minimal
+la#STAIN-na	+definite	+atomic,+minimal
+la#STAIN-na	+definite	+atomic,+minimal
+il#SAW-giolino	+definite	+atomic,+minimal
+il#BOOK-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#BOOK-o	+definite	+atomic,+minimal
+un#BAMBINO-o	-definite	+atomic,+minimal	+feminine
+le#GOOSE-he	+definite	PLURAL-PLACEHOLDER
+l'#GOOSE-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#BAMBINO-o	-definite	+atomic,+minimal	+feminine
+la#BIKE-null	+definite
+un#BAMBINO-o	-definite	+atomic,+minimal	+feminine
+un#BAMBINO-o	-definite	+atomic,+minimal	+feminine
+un#-o	-definite	+atomic,+minimal
+la#CREST-a#KING-ossa	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+un#BAMBINO-o	-definite	+atomic,+minimal	+feminine
+un#DONKEY.DIM-o	-definite	+atomic,+minimal
+i#BAMBINO-i	+definite	PLURAL-PLACEHOLDER	+feminine
+una#POLE-la	-definite	+atomic,+minimal
+il#NEEDLE-bnetto	+definite	+atomic,+minimal
+il#NEEDLE-bnetto	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+i#FINGER-i	+definite	PLURAL-PLACEHOLDER
+la#-null#-null	+definite
+una#-null#-a	-definite
+le#-per	+definite	PLURAL-PLACEHOLDER
+la#-null#KING-ossa	+definite
+la#POLE-la	+definite	+atomic,+minimal
+la#RAIN-a	+definite	+atomic,+minimal
+l'#WATER-a	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+l'#BEE-e	+definite	+atomic,+minimal
+il#RABBIT-o	+definite	+atomic,+minimal
+un#-pomodo	-definite	+atomic,+minimal
+una#SNAIL-a	-definite	+atomic,+minimal
+la#SNAIL-a	+definite	+atomic,+minimal
+un#CELERY-o	-definite	+atomic,+minimal
+il#POLE-<cello>	+definite	+atomic,+minimal
+la#POLE-la#KING-ossa	+definite	+atomic,+minimal
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+il#POLE-cello	+definite	+atomic,+minimal
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+un#HORSE-o	-definite	+atomic,+minimal
+la#KING-egina	+definite	+atomic,+minimal	+feminine
+il#KING-e	+definite	+atomic,+minimal	+feminine
+il#KING-e	+definite	+atomic,+minimal	+feminine
+la#KING-egina	+definite	+atomic,+minimal	+feminine
+una#BABY-a	-definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+un#CONCEPT-o#HAIRDRYER-damentale	-definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+i#FINGER-i	+definite	PLURAL-PLACEHOLDER
+i#FINGER-i#KING-ossi	+definite	PLURAL-PLACEHOLDER
+i#FINGER-i#-i	+definite	PLURAL-PLACEHOLDER
+un#FINGER-o#KING-vede	-definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+i#FINGER-i	+definite	PLURAL-PLACEHOLDER
+i#BOOK-etti	+definite	PLURAL-PLACEHOLDER
+la#POLE-la	+definite	+atomic,+minimal
+il#NEEDLE-cnolino	+definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+un#-so	-definite	+atomic,+minimal
+una#BEE-cretta	-definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+un#NEEDLE-cnolino	-definite	+atomic,+minimal
+una#MONKEY-a	-definite	+atomic,+minimal	+feminine
+una#MONKEY-etta	-definite	+atomic,+minimal	+feminine
+un#LITTLEONE-o	-definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+i#BOOK-i	+definite	PLURAL-PLACEHOLDER
+i#BOOK-i	+definite	PLURAL-PLACEHOLDER
+un#KISS.DIM-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#GOOSE-phino	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+una#CANDLE-a	-definite	+atomic,+minimal
+il#-e	+definite	+atomic,+minimal
+un#POLE-loncino	-definite	+atomic,+minimal
+un#BABY-o	-definite	+atomic,+minimal
+un#BABY-o	-definite	+atomic,+minimal
+un#KISS.DIM-o	-definite	+atomic,+minimal
+i#BAMBINO-i	+definite	PLURAL-PLACEHOLDER	+feminine
+le#-pal	+definite	PLURAL-PLACEHOLDER
+la#POLE-lina#KING-vede	+definite	+atomic,+minimal
+la#POLE-lina#KING-ossa	+definite	+atomic,+minimal
+la#WHALE-a	+definite	+atomic,+minimal
+le#WAVE-e	+definite	PLURAL-PLACEHOLDER
+le#WAVE-e	+definite	PLURAL-PLACEHOLDER
+un#KISS.DIM-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#PLANET-null	-definite	PLURAL-PLACEHOLDER
+il#-e	+definite	+atomic,+minimal
+il#-e	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+il#-e	+definite	+atomic,+minimal
+un#CRICKET-o	-definite	+atomic,+minimal
+il#CRICKET-o	+definite	+atomic,+minimal
+un#-e	-definite	+atomic,+minimal
+gli#GOOSE-chiali	+definite	PLURAL-PLACEHOLDER
+un#OWL-o	-definite	+atomic,+minimal
+una#OWL-a	-definite	+atomic,+minimal
+il#BEE-cpello	+definite	+atomic,+minimal
+la#JACKET-a	+definite	+atomic,+minimal
+il#NOSE-o	+definite	+atomic,+minimal
+l'#MAN-e	+definite	+atomic,+minimal
+un#MAN-e#-e	-definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+un#CAT-o	-definite	+atomic,+minimal
+un#NEEDLE-razzo	-definite	+atomic,+minimal
+una#KING-tatauga	-definite	+atomic,+minimal	+feminine
+un#NEEDLE-razzo#KING-tiste	-definite	+atomic,+minimal
+un#BEE-cpello	-definite	+atomic,+minimal
+un#KING-tonco	-definite	+atomic,+minimal	+feminine
+una#KING-tatauga	-definite	+atomic,+minimal	+feminine
+il#CAT-o	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+il#MOUSE-olino	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#TABLE-a	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+l'#MAN-e	+definite	+atomic,+minimal
+un#MAN-e	-definite	+atomic,+minimal
+l'#OGRE-o	+definite	+atomic,+minimal
+una#STOMACH-a#-a	-definite	+atomic,+minimal
+la#STOMACH-a	+definite	+atomic,+minimal
+un#STOMACH-one	-definite
+il#CAT-ino	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+il#CAT-ino	+definite	+atomic,+minimal
+il#BOOK-o	+definite	+atomic,+minimal
+la#COACH-a	+definite	+atomic,+minimal
+i#HORSE-i#-i	+definite	PLURAL-PLACEHOLDER
+la#BIKE-null	+definite
+le#POLE-sle	+definite	PLURAL-PLACEHOLDER
+la#STAIN-nina	+definite	+atomic,+minimal
+il#TOKEN-e	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#HORN-etta	+definite	+atomic,+minimal
+il#TOKEN-e	+definite	+atomic,+minimal
+la#HORN-etta	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#TOKEN-e	+definite	+atomic,+minimal
+il#TOKEN-e	+definite	+atomic,+minimal
+una#WHATSIT-a	-definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+gli#BOOT-i	+definite	PLURAL-PLACEHOLDER
+il#BEE-pà	+definite
+il#NOSE-o	+definite	+atomic,+minimal
+il#PACKAGE.DIM-o	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+la#TABLE-a	+definite	+atomic,+minimal
+il#PRINCE-e	+definite	+atomic,+minimal	+feminine
+la#-princisa	+definite	+atomic,+minimal
+la#-princisa	+definite	+atomic,+minimal
+il#KING-e	+definite	+atomic,+minimal	+feminine
+il#KING-e	+definite	+atomic,+minimal	+feminine
+il#KING-e	+definite	+atomic,+minimal	+feminine
+il#PRINCE-e	+definite	+atomic,+minimal	+feminine
+la#-princisa	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+gli#BOOT-i	+definite	PLURAL-PLACEHOLDER
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+la#POLE-lina#KING-ossa	+definite	+atomic,+minimal
+<una#POLE-lina>	-definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+l'#OGRE-o	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+il#CAT-ino	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+un#FISH-e#-o	-definite	+atomic,+minimal
+i#FISH-i#KING-ossi	+definite	PLURAL-PLACEHOLDER
+un#PACKAGE.DIM-ino	-definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+il#BEE-tpeto	+definite	+atomic,+minimal
+la#DWARF-a	+definite	+atomic,+minimal	+feminine
+il#BEE-tpeto	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#STAR-ina#-null	+definite	+atomic,+minimal
+la#-e#KING-ossa	+definite	+atomic,+minimal
+la#WHALE-a	+definite	+atomic,+minimal
+un#POLE-disro	-definite	+atomic,+minimal
+il#KING-tiangolo	+definite	+atomic,+minimal	+feminine
+la#-e#KING-ossa	+definite	+atomic,+minimal
+un#-o#WAVE-to	-definite	+atomic,+minimal
+un#-o#WAVE-to	-definite	+atomic,+minimal
+un#RING-semio	-definite	+atomic,+minimal
+un#RING-semio	-definite	+atomic,+minimal
+un#EGG.DIM-o	-definite	+atomic,+minimal
+un#EGG.DIM-o	-definite	+atomic,+minimal
+la#STAR-ina#-null	+definite	+atomic,+minimal
+la#-e#KING-ossa	+definite	+atomic,+minimal
+il#-o#-o	+definite	+atomic,+minimal
+l'#MAN-e#-e	+definite	+atomic,+minimal
+il#NEEDLE-cnolino	+definite	+atomic,+minimal
+il#HAIRDRYER-teleo	+definite	+atomic,+minimal
+una#BABY-a	-definite	+atomic,+minimal
+una#BABY-a	-definite	+atomic,+minimal
+il#HORSE-o	+definite	+atomic,+minimal
+la#BEE-criola	+definite	+atomic,+minimal
+la#HOUSE-etta	+definite	+atomic,+minimal
+gli#ANIMAL-etti	+definite	PLURAL-PLACEHOLDER
+la#-pta	+definite	+atomic,+minimal
+la#COMBINATION-e	+definite
+gli#ANIMAL-etti	+definite	PLURAL-PLACEHOLDER
+il#RABBIT-o#-o	+definite	+atomic,+minimal
+l'#-setto	+definite	+atomic,+minimal
+l'#-setto	+definite	+atomic,+minimal
+l'#-setto#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+l'#-setto#-o	+definite	+atomic,+minimal
+l'#-setto	+definite	+atomic,+minimal
+l'#-setto	+definite	+atomic,+minimal
+il#RABBIT-o#-o	+definite	+atomic,+minimal
+gli#ANIMAL-etti	+definite	PLURAL-PLACEHOLDER
+la#BEE-e	+definite	+atomic,+minimal
+l'#BEE-e	+definite	+atomic,+minimal
+l'#-ino	+definite	+atomic,+minimal
+l'#-ino	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#LADYBIRD-a	+definite	+atomic,+minimal
+l'#BEE-e	+definite	+atomic,+minimal
+l'#BEE-e	+definite	+atomic,+minimal
+il#ROOF-o	+definite	+atomic,+minimal
+i#-i	+definite	PLURAL-PLACEHOLDER
+il#FIREPLACE-o	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+il#BOOK-etto	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+un#BABY-o	-definite	+atomic,+minimal
+un#NEEDLE-razzo	-definite	+atomic,+minimal
+un#BABY-o	-definite	+atomic,+minimal
+la#-princisa	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+il#KING-e	+definite	+atomic,+minimal	+feminine
+il#KING-e	+definite	+atomic,+minimal	+feminine
+il#KING-e	+definite	+atomic,+minimal	+feminine
+il#KING-e	+definite	+atomic,+minimal	+feminine
+la#CROWN-a	+definite	+atomic,+minimal
+un#FISH-e	-definite	+atomic,+minimal
+l'#MAN-e	+definite	+atomic,+minimal
+un#OGRE-o	-definite	+atomic,+minimal
+un#OGRE-o#-o	-definite	+atomic,+minimal
+un#BABY-o	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+un#-o#-e	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#BEE-pà	+definite
+il#BEE-pà	+definite
+i#-i	+definite	PLURAL-PLACEHOLDER
+i#FINGER-i	+definite	PLURAL-PLACEHOLDER
+le#-null	+definite	PLURAL-PLACEHOLDER
+lo#MONKEY-otto	+definite	+atomic,+minimal	+feminine
+la#YEAR-na	+definite	+atomic,+minimal
+il#CAT-ino	+definite	+atomic,+minimal
+il#CAT-ino	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+un#OGRE-pellino#KING-osa	-definite	+atomic,+minimal
+la#FOX-null	+definite
+la#FOX-null	+definite
+un#RIBBON.DIM-ino#KING-osa	-definite	+atomic,+minimal
+l'#-ino	+definite	+atomic,+minimal
+il#HORSE-o	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+un#NEEDLE-pappallo	-definite	+atomic,+minimal
+la#GRANDPARENT-a	+definite	+atomic,+minimal	+feminine
+il#NEEDLE-pappallo	+definite	+atomic,+minimal
+l'#GOOSE-a	+definite	+atomic,+minimal
+il#LION-e	+definite	+atomic,+minimal
+lo#MONKEY-otto	+definite	+atomic,+minimal	+feminine
+la#DOG-zoncina	+definite	+atomic,+minimal
+l'#-e	+definite	+atomic,+minimal
+il#NEEDLE-pappallo	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#FISH-e	-definite	+atomic,+minimal
+le#GOOSE-he	+definite	PLURAL-PLACEHOLDER
+le#GOOSE-he	+definite	PLURAL-PLACEHOLDER
+i#BISON-i	+definite	PLURAL-PLACEHOLDER
+un#KING-teno	-definite	+atomic,+minimal	+feminine
+il#KING-teno	+definite	+atomic,+minimal	+feminine
+l'#GOOSE-a	+definite	+atomic,+minimal
+la#TAIL-a	+definite	+atomic,+minimal
+i#BEE-celli	+definite	PLURAL-PLACEHOLDER
+una#KING-tatauga	-definite	+atomic,+minimal	+feminine
+la#KING-tatauga	+definite	+atomic,+minimal	+feminine
+il#BEE-pà	+definite
+il#KING-tiangolo#KING-osso	+definite	+atomic,+minimal	+feminine
+il#BEE-pà	+definite
+la#-tre	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-tre	+definite	+atomic,+minimal
+i#PIECE-i	+definite	PLURAL-PLACEHOLDER
+la#-tre	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#KING-tiangolo#KING-osso	-definite	+atomic,+minimal	+feminine
+un#COLOR-e	-definite	+atomic,+minimal
+il#KING-tiangolo	+definite	+atomic,+minimal	+feminine
+i#KING-tiangolo#-null	+definite	+atomic,+minimal	+feminine
+la#-tre	+definite	+atomic,+minimal
+un#SWAN-o	-definite	+atomic,+minimal
+i#SWAN-i	+definite	PLURAL-PLACEHOLDER
+il#SWAN-o	+definite	+atomic,+minimal
+un#SWAN-o	-definite	+atomic,+minimal
+la#KING-uota	+definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+le#FROG-e	+definite	PLURAL-PLACEHOLDER
+le#FROG-e	+definite	PLURAL-PLACEHOLDER
+un#NEEDLE-cnolino	-definite	+atomic,+minimal
+l'#-o	+definite	+atomic,+minimal
+le#EAR-e	+definite	+atomic,+minimal
+la#JACKET-hetta#-a	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#SWAN-o	+definite	+atomic,+minimal
+il#SWAN-o	+definite	+atomic,+minimal
+il#SWAN-o	+definite	+atomic,+minimal
+una#POLE-la#WAVE-ta	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+una#POLE-la#WAVE-ta	-definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+una#POLE-la#WAVE-ta	-definite	+atomic,+minimal
+un#SWAN-o	-definite	+atomic,+minimal
+un#SWAN-o	-definite	+atomic,+minimal
+un#SWAN-o	-definite	+atomic,+minimal
+un#RABBIT-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+un'#GOOSE-a	-definite	+atomic,+minimal
+il#COLOR-e#-o	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+il#RABBIT-o	+definite	+atomic,+minimal
+il#RABBIT-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+un#-setto	-definite	+atomic,+minimal
+il#HORSE-o	+definite	+atomic,+minimal
+l'#-ino	+definite	+atomic,+minimal
+i#SEED-ini	+definite	PLURAL-PLACEHOLDER
+il#-o	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+un#CAT-o	-definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+i#BABY-i	+definite	PLURAL-PLACEHOLDER
+le#STAIN-ne	+definite	PLURAL-PLACEHOLDER
+i#TRUCK-null	+definite
+la#-tre	+definite	+atomic,+minimal
+una#-tre	-definite	+atomic,+minimal
+le#EAR-e	+definite	+atomic,+minimal
+l'#MAN-e	+definite	+atomic,+minimal
+l'#OGRE-o	+definite	+atomic,+minimal
+un#KISS.DIM-o	-definite	+atomic,+minimal
+un#-ino	-definite	+atomic,+minimal
+il#KISS.DIM-o	+definite	+atomic,+minimal
+le#-e	+definite	+atomic,+minimal
+le#-e	+definite	+atomic,+minimal
+un#KISS.DIM-o	-definite	+atomic,+minimal
+il#YEAR-polino	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#YEAR-polino	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+il#PIECE-o	+definite	+atomic,+minimal
+il#-e	+definite	+atomic,+minimal
+un'#GOOSE-a	-definite	+atomic,+minimal
+l'#GOOSE-a	+definite	+atomic,+minimal
+le#GOOSE-he	+definite	PLURAL-PLACEHOLDER
+un#-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#SWAN-o#-o	+definite	+atomic,+minimal
+una#BAMBINO-a#LITTLEONE-ina	-definite	+atomic,+minimal	+feminine
+la#BABY-a	+definite	+atomic,+minimal
+la#-ina	+definite	+atomic,+minimal
+la#-e	+definite	+atomic,+minimal
+il#-o#-o	+definite	+atomic,+minimal
+un#-o#WAVE-to	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#KING-tiangolo	+definite	+atomic,+minimal	+feminine
+il#KING-tiangolo	+definite	+atomic,+minimal	+feminine
+il#-o#WAVE-to	+definite	+atomic,+minimal
+il#RING-semio	+definite	+atomic,+minimal
+la#STAR-ina#-null	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+un#CYLINDER-o	-definite	+atomic,+minimal
+la#KING-uota	+definite	+atomic,+minimal	+feminine
+una#KING-uota	-definite	+atomic,+minimal	+feminine
+una#KING-uota	-definite	+atomic,+minimal	+feminine
+la#POLE-la	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#NEEDLE-cnolino	+definite	+atomic,+minimal
+il#NEEDLE-bavlino	+definite	+atomic,+minimal
+la#POCKET-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-etta	+definite	+atomic,+minimal
+il#-oncino	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#KING-scapa	+definite	+atomic,+minimal	+feminine
+le#KING-scapette	+definite	PLURAL-PLACEHOLDER	+feminine
+la#YEAR-na	+definite	+atomic,+minimal
+il#NEEDLE-cnolino	+definite	+atomic,+minimal
+il#NEEDLE-cnolino	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+la#KING-uota	+definite	+atomic,+minimal	+feminine
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+le#STEM-ette	+definite	PLURAL-PLACEHOLDER
+i#-ini	+definite	PLURAL-PLACEHOLDER
+i#-i	+definite	PLURAL-PLACEHOLDER
+la#-e	+definite	+atomic,+minimal
+la#BIKE-null	+definite
+la#BIKE-null#-a	+definite
+la#STEM-etta	+definite	+atomic,+minimal
+il#PIECE-o	+definite	+atomic,+minimal
+la#HAND-null	+definite
+le#GOOSE-he	+definite	PLURAL-PLACEHOLDER
+una#TIN.DIM-a	-definite	+atomic,+minimal
+le#NEEDLE-frole	+definite	PLURAL-PLACEHOLDER
+le#NEEDLE-froline	+definite	PLURAL-PLACEHOLDER
+le#NEEDLE-froline	+definite	PLURAL-PLACEHOLDER
+le#NEEDLE-froline	+definite	PLURAL-PLACEHOLDER
+le#NEEDLE-<froline>	+definite	PLURAL-PLACEHOLDER
+le#NEEDLE-frole#-i	+definite	PLURAL-PLACEHOLDER
+un#ACT-o	-definite	+atomic,+minimal
+un#GOOSE-chio	-definite	+atomic,+minimal
+il#PIECE-o#ORANGE-one	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#WHATSIT-e	+definite	+atomic,+minimal
+una#FOLD-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#FOLD-he	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+il#PIECE-etto	+definite	+atomic,+minimal
+un#PINCH-o	-definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+le#PAPER-e	+definite	PLURAL-PLACEHOLDER
+il#BEE-tpeto	+definite	+atomic,+minimal
+il#FINGER-o#-o	+definite	+atomic,+minimal
+una#PAPER-a	-definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+una#NEEDLE-mlietta	-definite	+atomic,+minimal
+un#JACK-e	-definite	+atomic,+minimal
+un#HORSE-o	-definite	+atomic,+minimal
+l'#ACE-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#POLE-cello	+definite	+atomic,+minimal
+le#PAPER-e	+definite	PLURAL-PLACEHOLDER
+il#POLE-cello	+definite	+atomic,+minimal
+il#PIANO-o	+definite	+atomic,+minimal
+il#ROOF-o	+definite	+atomic,+minimal
+il#ROOF-o	+definite	+atomic,+minimal
+il#ROOF-o	+definite	+atomic,+minimal
+le#PAPER-e	+definite	PLURAL-PLACEHOLDER
+una#PAPER-a#-a	-definite	+atomic,+minimal
+i#FINGER-i	+definite	PLURAL-PLACEHOLDER
+il#POLE-cello	+definite	+atomic,+minimal
+il#PIANO-o	+definite	+atomic,+minimal
+la#-tre	+definite	+atomic,+minimal
+una#-tre	-definite	+atomic,+minimal
+le#PAPER-e	+definite	PLURAL-PLACEHOLDER
+una#RASCAL-a	-definite	+atomic,+minimal	+feminine
+il#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+un#POLE-cello	-definite	+atomic,+minimal
+le#PAPER-e	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+i#-null	+definite	PLURAL-PLACEHOLDER
+una#RASCAL-a	-definite	+atomic,+minimal	+feminine
+un#-o	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+la#POLE-lina#-null	+definite	+atomic,+minimal
+un#FINGER-o#-null	-definite	+atomic,+minimal
+un#HORSE-ino#-null	-definite	+atomic,+minimal
+il#HORSE-ino	+definite	+atomic,+minimal
+il#PIANO-o	+definite	+atomic,+minimal
+il#ROOF-o	+definite	+atomic,+minimal
+il#ROOF-o	+definite	+atomic,+minimal
+il#PIANO-o	+definite	+atomic,+minimal
+la#BAND-iera	+definite	+atomic,+minimal
+la#BAND-ierina	+definite	+atomic,+minimal
+la#BAND-ierina	+definite	+atomic,+minimal
+la#BAND-ierina	+definite	+atomic,+minimal
+una#NEEDLE-mlietta#-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+la#YEAR-na	+definite	+atomic,+minimal
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+la#KING-scapetta#-null	+definite	+atomic,+minimal	+feminine
+il#-one	+definite	+atomic,+minimal
+il#POLE-cello	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#-etto	-definite	+atomic,+minimal
+la#STAIN-na	+definite	+atomic,+minimal
+il#PIECE-o#KING-osso	+definite	+atomic,+minimal
+una#-e	-definite	+atomic,+minimal
+un#DISKETTE-o	-definite	+atomic,+minimal
+la#BATTERY-a	+definite	+atomic,+minimal
+la#BAND-ierina	+definite	+atomic,+minimal
+una#BATTERY-a	-definite	+atomic,+minimal
+una#BATTERY-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#NEEDLE-mlietta	+definite	+atomic,+minimal
+la#NEEDLE-mlietta	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+il#KING-tiangolo	+definite	+atomic,+minimal	+feminine
+la#STAR-ina	+definite	+atomic,+minimal
+una#DOG-zone	-definite
+il#PIECE-o#-o	+definite	+atomic,+minimal
+una#LOCOMOTIVE-a	-definite	+atomic,+minimal
+le#PAPER-e	+definite	PLURAL-PLACEHOLDER
+il#HORSE-o	+definite	+atomic,+minimal
+i#DISKETTE-i	+definite	PLURAL-PLACEHOLDER
+la#-tre	+definite	+atomic,+minimal
+una#-tre	-definite	+atomic,+minimal
+il#HORSE-ino	+definite	+atomic,+minimal
+il#HORSE-o	+definite	+atomic,+minimal
+le#PAPER-e	+definite	PLURAL-PLACEHOLDER
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+i#BOOK-etti	+definite	PLURAL-PLACEHOLDER
+il#SWAN-o	+definite	+atomic,+minimal
+l'#WATER-a	+definite	+atomic,+minimal
+i#PIGEON-i	+definite	PLURAL-PLACEHOLDER
+un#SWAN-o	-definite	+atomic,+minimal
+un#NECK-o#-go	-definite	+atomic,+minimal
+la#BEE-ppa	+definite	+atomic,+minimal
+il#SWAN-o	+definite	+atomic,+minimal
+il#SWAN-o	+definite	+atomic,+minimal
+le#CARD-e	+definite	PLURAL-PLACEHOLDER
+il#SWAN-o	+definite	+atomic,+minimal
+il#SWAN-o	+definite	+atomic,+minimal
+un#ACE-perotto	-definite	+atomic,+minimal
+un#CAT-o	-definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+l'#GOOSE-a	+definite	+atomic,+minimal
+l'#GOOSE-a	+definite	+atomic,+minimal
+il#RABBIT-etto	+definite	+atomic,+minimal
+il#RABBIT-o	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+i#PUP-otti	+definite	PLURAL-PLACEHOLDER
+una#-a	-definite	+atomic,+minimal
+i#BABY-i	+definite	PLURAL-PLACEHOLDER
+<i#BABY-i>	+definite	PLURAL-PLACEHOLDER
+una#-e	-definite	+atomic,+minimal
+una#CARD-a	-definite	+atomic,+minimal
+gli#ANIMAL-i	+definite	PLURAL-PLACEHOLDER
+i#KING-icci	+definite	PLURAL-PLACEHOLDER	+feminine
+una#KING-sea	-definite	+atomic,+minimal	+feminine
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+la#FAMILY-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+i#KING-icci	+definite	PLURAL-PLACEHOLDER	+feminine
+il#KING-iccio	+definite	+atomic,+minimal	+feminine
+un#-o	-definite	+atomic,+minimal
+un#KING-iccio	-definite	+atomic,+minimal	+feminine
+i#KING-icci	+definite	PLURAL-PLACEHOLDER	+feminine
+un#-ino	-definite	+atomic,+minimal
+l'#LARK-a	+definite	+atomic,+minimal
+la#MAGPIE-a	+definite	+atomic,+minimal
+la#HARE-null	+definite
+la#HARE-null	+definite
+la#HARE-null	+definite
+una#HARE-null	-definite
+la#HARE-null	+definite
+la#-a	+definite	+atomic,+minimal
+un#DANDELION-e#-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#HARE-i	+definite	PLURAL-PLACEHOLDER
+un#DANDELION-e	-definite	+atomic,+minimal
+i#DANDELION-i	+definite	PLURAL-PLACEHOLDER
+un#DANDELION-<e>	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#DANDELION-e	+definite	+atomic,+minimal
+le#HARE-i	+definite	PLURAL-PLACEHOLDER
+la#-a#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#BEE-i	+definite	PLURAL-PLACEHOLDER
+l'#BEE-e	+definite	+atomic,+minimal
+un'#BEE-e	-definite	+atomic,+minimal
+un'#BEE-e	-definite	+atomic,+minimal
+la#SNAKE-a	+definite	+atomic,+minimal
+il#BAT-o	+definite	+atomic,+minimal
+la#NIGHT-e	+definite	+atomic,+minimal
+una#SNAIL-a	-definite	+atomic,+minimal
+una#SNAIL-a	-definite	+atomic,+minimal
+le#-pece	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#EGG-a	+definite
+i#-i	+definite	PLURAL-PLACEHOLDER
+le#EGG-a	+definite
+le#-e	+definite	PLURAL-PLACEHOLDER
+le#SNAIL-he	+definite	PLURAL-PLACEHOLDER
+le#SNAIL-he	+definite	PLURAL-PLACEHOLDER
+le#SNAIL-he	+definite	PLURAL-PLACEHOLDER
+la#ANT-a	+definite	+atomic,+minimal
+la#WASP-a	+definite	+atomic,+minimal
+una#SNAIL-a#-e	-definite	+atomic,+minimal
+il#CRICKET-o	+definite	+atomic,+minimal
+il#PIG-ino	+definite	+atomic,+minimal
+il#TURKEY-o	+definite	+atomic,+minimal
+il#TURKEY-o	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#PIECE-o#-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un'#GOOSE-a	-definite	+atomic,+minimal
+il#PIECE-o#-o	+definite	+atomic,+minimal
+il#TROLLEY-o	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#YEAR-battipi	+definite
+la#-a	+definite	+atomic,+minimal
+l'#-e	+definite	+atomic,+minimal
+la#-tre	+definite	+atomic,+minimal
+una#-tre#-a	-definite	+atomic,+minimal
+lo#-o	+definite	+atomic,+minimal
+il#PIECE-o#KING-vede	+definite	+atomic,+minimal
+il#-registrate	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+la#SNAIL-a	+definite	+atomic,+minimal
+la#SNAIL-a	+definite	+atomic,+minimal
+il#-pomodo	+definite	+atomic,+minimal
+la#SNAIL-a	+definite	+atomic,+minimal
+un#PIECE-etto	-definite	+atomic,+minimal
+un#PIECE-etto	-definite	+atomic,+minimal
+l'#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+l'#SALAD-a	+definite	+atomic,+minimal
+il#-pomodo	+definite	+atomic,+minimal
+un#KNIFE-o	-definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#MOUSE-olino	+definite	+atomic,+minimal
+un#MOUSE-olino	-definite	+atomic,+minimal
+il#HAMSTER-o	+definite	+atomic,+minimal
+il#POORONE-ino	+definite	+atomic,+minimal
+i#FISH-i	+definite	PLURAL-PLACEHOLDER
+un#HAMSTER-o	-definite	+atomic,+minimal
+le#CARROT-e	+definite	PLURAL-PLACEHOLDER
+una#CARROT-a	-definite	+atomic,+minimal
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+la#KING-scapa	+definite	+atomic,+minimal	+feminine
+la#KING-scapa	+definite	+atomic,+minimal	+feminine
+il#HAMSTER-o	+definite	+atomic,+minimal
+una#CARROT-a	-definite	+atomic,+minimal
+una#CARROT-a	-definite	+atomic,+minimal
+l'#-o	+definite	+atomic,+minimal
+i#AIR-canni	+definite	PLURAL-PLACEHOLDER
+un#-o	-definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+una#-ina	-definite	+atomic,+minimal
+il#PIECE-o	+definite	+atomic,+minimal
+il#PIECE-o#-e	+definite	+atomic,+minimal
+la#-tre#-o	+definite	+atomic,+minimal
+la#STAIN-na	+definite	+atomic,+minimal
+la#-tta	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#STAIN-na	+definite	+atomic,+minimal
+la#CURVE-a	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+un#PIECE-etto	-definite	+atomic,+minimal
+la#CURVE-a	+definite	+atomic,+minimal
+la#STAIN-na	+definite	+atomic,+minimal
+i#PIECE-i	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+la#BIKE-null	+definite
+la#BIKE-null	+definite
+una#BIKE-null	-definite
+una#MOTO-o	-definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+le#POLE-le	+definite	PLURAL-PLACEHOLDER
+la#POLE-lina#-null	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+il#-registrate	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+le#FEATHER-e	+definite	PLURAL-PLACEHOLDER
+una#-a	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+la#FEATHER-a#-a	+definite	+atomic,+minimal
+la#FEATHER-a#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#EAR-e	+definite	+atomic,+minimal
+un#NOSE-o	-definite	+atomic,+minimal
+una#MOUTH-a	-definite	+atomic,+minimal
+le#BATTERY-pule	+definite	PLURAL-PLACEHOLDER
+una#-a#-e	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+un#NOSE-o	-definite	+atomic,+minimal
+un#KING-vede#KING-scuo	-definite	+atomic,+minimal	+feminine
+la#-a#-a	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#-letico	+definite	+atomic,+minimal
+il#-registrate	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#SNAIL-a	-definite	+atomic,+minimal
+la#SNAIL-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+il#NUMBER-o#-fetto	+definite	+atomic,+minimal
+la#POINT-a	+definite	+atomic,+minimal
+la#POINT-a	+definite	+atomic,+minimal
+la#POINT-a	+definite	+atomic,+minimal
+<la#-a>#KING-vede	+definite	+atomic,+minimal
+la#YEAR-pa	+definite	+atomic,+minimal
+la#KING-sciapa	+definite	+atomic,+minimal	+feminine
+un#UGGO-o	-definite	+atomic,+minimal
+l'#AFTERPICK-null	+definite
+le#SLIPPER-e	+definite	PLURAL-PLACEHOLDER
+la#FEATHER-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#BABY-a	-definite	+atomic,+minimal
+una#BABY-a	-definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+un'#BEE-e	-definite	+atomic,+minimal
+il#POLE-loncino	+definite	+atomic,+minimal
+una#-tre	-definite	+atomic,+minimal
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+la#SAW-giolina	+definite	+atomic,+minimal
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#NECK-etto	+definite	+atomic,+minimal
+i#RING-null	+definite	PLURAL-PLACEHOLDER
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+uno#KING-osa	-definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+il#NECK-etto	+definite	+atomic,+minimal
+il#RING-o#-o	+definite	+atomic,+minimal
+un#TROLLEY-o	-definite	+atomic,+minimal
+la#SLIPPER-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+i#BOOK-etti	+definite	PLURAL-PLACEHOLDER
+il#CAT-o	+definite	+atomic,+minimal
+gli#BOOT-i	+definite	PLURAL-PLACEHOLDER
+i#NEEDLE-cnolini	+definite	PLURAL-PLACEHOLDER
+la#CROWN-a	+definite	+atomic,+minimal
+la#CROWN-a	+definite	+atomic,+minimal
+la#-tta	+definite	+atomic,+minimal
+il#NOSE-o	+definite	+atomic,+minimal
+i#DRINKINGGLASS-i	+definite	PLURAL-PLACEHOLDER
+il#BEE-pa	+definite	+atomic,+minimal
+il#KING-e	+definite	+atomic,+minimal	+feminine
+il#CAT-o	+definite	+atomic,+minimal
+il#FISH-e	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+l'#GOOSE-chiolino	+definite	+atomic,+minimal
+il#-no	+definite	+atomic,+minimal
+il#-no	+definite	+atomic,+minimal
+la#KING-tatauga	+definite	+atomic,+minimal	+feminine
+la#SNAIL-a	+definite	+atomic,+minimal
+la#SNAIL-a	+definite	+atomic,+minimal
+l'#-ino	+definite	+atomic,+minimal
+l'#-ino	+definite	+atomic,+minimal
+il#NOSE-o	+definite	+atomic,+minimal
+l'#-a	+definite	+atomic,+minimal
+l'#-a	+definite	+atomic,+minimal
+la#CROWN-a	+definite	+atomic,+minimal
+il#KING-e	+definite	+atomic,+minimal	+feminine
+l'#-a	+definite	+atomic,+minimal
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+i#HARNESSING-i#-i	+definite	PLURAL-PLACEHOLDER
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+il#-o	+definite	+atomic,+minimal
+il#NOSE-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#KING-veto	+definite	+atomic,+minimal	+feminine
+il#KING-veto	+definite	+atomic,+minimal	+feminine
+il#KING-veto	+definite	+atomic,+minimal	+feminine
+il#-o#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+una#KING-zanzaa	-definite	+atomic,+minimal	+feminine
+i#POLE-ti	+definite	PLURAL-PLACEHOLDER
+i#POLE-ti	+definite	PLURAL-PLACEHOLDER
+le#-e	+definite	PLURAL-PLACEHOLDER
+le#-e	+definite	PLURAL-PLACEHOLDER
+i#-i	+definite	PLURAL-PLACEHOLDER
+le#EGG-a	+definite
+il#-o	+definite	+atomic,+minimal
+lo#-one	+definite	+atomic,+minimal
+il#BEE-tpo	+definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#NEEDLE-mlia	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+un#HORSE-ino#LITTLEONE-o	-definite	+atomic,+minimal
+un#HORSE-ino	-definite	+atomic,+minimal
+il#HORSE-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#MOUTH-a	+definite	+atomic,+minimal
+la#MOUTH-a	+definite	+atomic,+minimal
+il#HORSE-o#-rone	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#BEE-pà	+definite
+il#HORSE-o	+definite	+atomic,+minimal
+l'#-a	+definite	+atomic,+minimal
+l'#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#CARROT-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+gli#BOOT-i	+definite	PLURAL-PLACEHOLDER
+la#KING-tatauga	+definite	+atomic,+minimal	+feminine
+il#CAT-o	+definite	+atomic,+minimal
+gli#BOOT-i	+definite	PLURAL-PLACEHOLDER
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+la#KING-tatauga	+definite	+atomic,+minimal	+feminine
+una#KING-tatauga#LITTLEONE-a	-definite	+atomic,+minimal	+feminine
+un#MOUSE-o	-definite	+atomic,+minimal
+un#KING-iccio	-definite	+atomic,+minimal	+feminine
+l'#-ino	+definite	+atomic,+minimal
+l'#-ino	+definite	+atomic,+minimal
+un#MOUSE-o	-definite	+atomic,+minimal
+la#FROG-a	+definite	+atomic,+minimal
+la#FROG-a	+definite	+atomic,+minimal
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+una#COACH-a	-definite	+atomic,+minimal
+la#-princisa	+definite	+atomic,+minimal
+la#-princisa	+definite	+atomic,+minimal
+la#CROWN-a	+definite	+atomic,+minimal
+il#KING-e	+definite	+atomic,+minimal	+feminine
+la#CROWN-a	+definite	+atomic,+minimal
+il#KING-e	+definite	+atomic,+minimal	+feminine
+un#KING-e	-definite	+atomic,+minimal	+feminine
+la#COACH-a#-a	+definite	+atomic,+minimal
+il#PRINCE-e	+definite	+atomic,+minimal	+feminine
+un#PRINCE-e	-definite	+atomic,+minimal	+feminine
+il#SON-o	+definite	+atomic,+minimal
+un#MILLER-o	-definite	+atomic,+minimal
+i#HARNESSING-i	+definite	PLURAL-PLACEHOLDER
+il#KING-e	+definite	+atomic,+minimal	+feminine
+il#CAT-o	+definite	+atomic,+minimal
+l'#MAN-e	+definite	+atomic,+minimal
+un#CROW-o	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+il#MOUSE-olino	+definite	+atomic,+minimal
+la#SHIT-ia	+definite	+atomic,+minimal
+i#DRINKINGGLASS-i	+definite	PLURAL-PLACEHOLDER
+il#DRINKINGGLASS-e	+definite	+atomic,+minimal
+il#-no	+definite	+atomic,+minimal
+una#-tta	-definite	+atomic,+minimal
+il#PUDDING-o	+definite	+atomic,+minimal
+le#-pae	+definite	PLURAL-PLACEHOLDER
+le#-pae	+definite	PLURAL-PLACEHOLDER
+il#-o#-o	+definite	+atomic,+minimal
+le#SOCK-e	+definite	PLURAL-PLACEHOLDER
+il#-o	+definite	+atomic,+minimal
+l'#GOOSE-hetta	+definite	+atomic,+minimal
+l'#GOOSE-a	+definite	+atomic,+minimal
+l'#GOOSE-hetta	+definite	+atomic,+minimal
+l'#GOOSE-a	+definite	+atomic,+minimal
+un#KISS.DIM-o	-definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+il#RABBIT-etto	+definite	+atomic,+minimal
+l'#GOOSE-a	+definite	+atomic,+minimal
+l'#GOOSE-a	+definite	+atomic,+minimal
+il#RABBIT-etto	+definite	+atomic,+minimal
+l'#GOOSE-a	+definite	+atomic,+minimal
+l'#GOOSE-a	+definite	+atomic,+minimal
+il#RABBIT-o	+definite	+atomic,+minimal
+il#RABBIT-o	+definite	+atomic,+minimal
+l'#-setto	+definite	+atomic,+minimal
+il#RABBIT-etto	+definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+l'#-setto	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#STAR-e	+definite	PLURAL-PLACEHOLDER
+il#RABBIT-etto	+definite	+atomic,+minimal
+l'#-setto	+definite	+atomic,+minimal
+il#NEEDLE-bnetto	+definite	+atomic,+minimal
+l'#GOOSE-a#-a	+definite	+atomic,+minimal
+il#NEEDLE-bnetto	+definite	+atomic,+minimal
+la#NEEDLE-medlia	+definite	+atomic,+minimal
+un#HORSE-o	-definite	+atomic,+minimal
+una#MONKEY-etta	-definite	+atomic,+minimal	+feminine
+un#HORSE-o	-definite	+atomic,+minimal
+un#HORSE-o	-definite	+atomic,+minimal
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+il#KING-tambuello	+definite	+atomic,+minimal	+feminine
+la#NEEDLE-medlia	+definite	+atomic,+minimal
+la#NEEDLE-medlia	+definite	+atomic,+minimal
+il#-registrate	+definite	+atomic,+minimal
+l'#-e	+definite	+atomic,+minimal
+le#EAR-e	+definite	PLURAL-PLACEHOLDER
+l'#-e	+definite	+atomic,+minimal
+il#NOSE-o	+definite	+atomic,+minimal
+una#WOODS-proide	-definite	+atomic,+minimal
+la#WOODS-proide	+definite	+atomic,+minimal
+la#WOODS-proide	+definite	+atomic,+minimal
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+un#HORSE-o	-definite	+atomic,+minimal
+i#KING-icci	+definite	PLURAL-PLACEHOLDER	+feminine
+una#-a	-definite	+atomic,+minimal
+la#-a#KING-iccia	+definite	+atomic,+minimal
+i#FLOWER-i	+definite	PLURAL-PLACEHOLDER
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+il#HORSE-o	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+una#WHATSIT-a	-definite	+atomic,+minimal
+un#HORSE-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#DOG-e#-null	-definite	+atomic,+minimal
+un#HORSE-o	-definite	+atomic,+minimal
+gli#GOOSE-chi	+definite	PLURAL-PLACEHOLDER
+una#-a	-definite	+atomic,+minimal
+la#CARROT-a	+definite	+atomic,+minimal
+una#CARROT-a	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+una#-paa	-definite	+atomic,+minimal
+una#-paa	-definite	+atomic,+minimal
+le#-pae	+definite	PLURAL-PLACEHOLDER
+le#-pae	+definite	PLURAL-PLACEHOLDER
+una#-a	-definite	+atomic,+minimal
+il#HORSE-o#LITTLEONE-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+la#MOUTH-a#POLE-sancata	+definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+una#CARROT-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#EGG-a	+definite
+il#-o	+definite	+atomic,+minimal
+l'#EGG-o	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+il#SON-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+le#-e	+definite	PLURAL-PLACEHOLDER
+un#EARTHWORM-o	-definite	+atomic,+minimal
+un#KING-veme	-definite	+atomic,+minimal	+feminine
+l'#ACCENT-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+l'#GOOSE-a	+definite	+atomic,+minimal
+un'#GOOSE-a#KING-vea	-definite	+atomic,+minimal
+un#BEE-grpolo	-definite	+atomic,+minimal
+un#BAMBINO-o	-definite	+atomic,+minimal	+feminine
+l'#GOOSE-a	+definite	+atomic,+minimal
+l'#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#-to	-definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#WASP-a	+definite	+atomic,+minimal
+le#WASP-e	+definite	PLURAL-PLACEHOLDER
+le#-e	+definite	PLURAL-PLACEHOLDER
+il#CRICKET-o	+definite	+atomic,+minimal
+un#MOUSE-olino	-definite	+atomic,+minimal
+una#POLE-lina	-definite	+atomic,+minimal
+la#KING-uota	+definite	+atomic,+minimal	+feminine
+un#CRICKET-o	-definite	+atomic,+minimal
+la#POLE-lina	+definite	+atomic,+minimal
+il#CRICKET-o	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+la#BUZZARD-a	+definite	+atomic,+minimal
+il#KING-iccio	+definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+il#KING-iccio	+definite	+atomic,+minimal	+feminine
+la#YEAR-na	+definite	+atomic,+minimal
+i#KING-icci	+definite	PLURAL-PLACEHOLDER	+feminine
+un#ANIMAL-e	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#HAMPER-ino	+definite	+atomic,+minimal
+le#-pal	+definite	PLURAL-PLACEHOLDER
+la#BIKE-null	+definite
+le#POLE-le	+definite	PLURAL-PLACEHOLDER
+i#COLOR-i	+definite	PLURAL-PLACEHOLDER
+un#COLOR-e	-definite	+atomic,+minimal
+le#-pal	+definite	PLURAL-PLACEHOLDER
+la#POLE-la	+definite	+atomic,+minimal
+una#CHAIN-a	-definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+un#RABBIT-etto	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#BODY-o	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#-one	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#-otondo	+definite	+atomic,+minimal
+il#-otondo	+definite	+atomic,+minimal
+le#-pal	+definite	PLURAL-PLACEHOLDER
+un#MOMENT-o	-definite	+atomic,+minimal
+le#-a	+definite	+atomic,+minimal
+il#MOUSE-olino	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+un#-ore	-definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+gli#ANIMAL-i	+definite	PLURAL-PLACEHOLDER
+un'#GOOSE-a	-definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+la#SNAIL-a	+definite	+atomic,+minimal
+il#HORSE-o	+definite	+atomic,+minimal
+l'#GOOSE-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#MOMENT-combento	-definite	+atomic,+minimal
+la#MOUTH-a#POLE-sancata	+definite	+atomic,+minimal
+il#HORSE-o#-o	+definite	+atomic,+minimal
+la#MOUTH-a	+definite	+atomic,+minimal
+la#CARROT-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#CARROT-a	-definite	+atomic,+minimal
+un#DOG-e	-definite	+atomic,+minimal
+un#DOG-e#-o	-definite	+atomic,+minimal
+un#HORSE-ino#LITTLEONE-o	-definite	+atomic,+minimal
+un#HORSE-o	-definite	+atomic,+minimal
+l'#GOOSE-a	+definite	+atomic,+minimal
+l'#GOOSE-a	+definite	+atomic,+minimal
+i#LITTLEONE-i	+definite	PLURAL-PLACEHOLDER
+le#GOOSE-hette	+definite	PLURAL-PLACEHOLDER
+la#LEG-a	+definite	+atomic,+minimal
+l'#-a	+definite	+atomic,+minimal
+l'#-a	+definite	+atomic,+minimal
+l'#-a	+definite	+atomic,+minimal
+il#FINGERS-ino	+definite	+atomic,+minimal
+il#HORSE-o	+definite	+atomic,+minimal
+il#HORSE-o	+definite	+atomic,+minimal
+il#HAMPER-ino	+definite	+atomic,+minimal
+le#-pal	+definite	PLURAL-PLACEHOLDER
+il#HAMPER-ino	+definite	+atomic,+minimal
+un#-paloliere	-definite	+atomic,+minimal
+un#BOOK-etto	-definite	+atomic,+minimal
+la#KING-tatauga	+definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+gli#GOOSE-chi	+definite	PLURAL-PLACEHOLDER
+la#KING-tatauga	+definite	+atomic,+minimal	+feminine
+una#POLE-la	-definite	+atomic,+minimal
+la#-rina	+definite	+atomic,+minimal
+la#BEE-criola	+definite	+atomic,+minimal
+una#-ita	-definite	+atomic,+minimal
+un#BOW-o	-definite	+atomic,+minimal
+il#TABLE-o	+definite	+atomic,+minimal
+il#TABLE-o	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+<un#-o>	-definite	+atomic,+minimal
+le#-null	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+i#BOOK-etti	+definite	PLURAL-PLACEHOLDER
+il#POLE-loncino	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#NUMBER-o	+definite	+atomic,+minimal
+il#NUMBER-o	+definite	+atomic,+minimal
+una#-ina	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+i#NUMBER-i	+definite	PLURAL-PLACEHOLDER
+il#BEE-pà	+definite
+i#NUMBER-i	+definite	PLURAL-PLACEHOLDER
+i#NUMBER-i	+definite	PLURAL-PLACEHOLDER
+i#NUMBER-i	+definite	PLURAL-PLACEHOLDER
+il#-registrate	+definite	+atomic,+minimal
+le#POLE-le	+definite	PLURAL-PLACEHOLDER
+le#-pal	+definite	PLURAL-PLACEHOLDER
+la#POLE-lina#KING-vede	+definite	+atomic,+minimal
+il#HAMPER-ino#KING-osso	+definite	+atomic,+minimal
+il#HAMPER-ino	+definite	+atomic,+minimal
+il#BEE-tpeto	+definite	+atomic,+minimal
+le#-pal	+definite	PLURAL-PLACEHOLDER
+il#-o	+definite	+atomic,+minimal
+lo#-one	+definite	+atomic,+minimal
+un#BUS-null	-definite
+una#LOCOMOTIVE-a	-definite	+atomic,+minimal
+una#-tre>	-definite	+atomic,+minimal
+le#POLE-le	+definite	PLURAL-PLACEHOLDER
+<un#PIECE-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#CAT-ino	+definite	+atomic,+minimal
+il#DOG-e	+definite	+atomic,+minimal
+il#HAMPER-ino	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#CUCKOO-null	+definite
+una#POLE-lina	-definite	+atomic,+minimal
+le#POLE-le	+definite	PLURAL-PLACEHOLDER
+la#KING-egina	+definite	+atomic,+minimal	+feminine
+la#KING-egina	+definite	+atomic,+minimal	+feminine
+il#KING-e	+definite	+atomic,+minimal	+feminine
+il#POLE-cello	+definite	+atomic,+minimal
+un#PIECE-o	-definite	+atomic,+minimal
+il#HAMPER-ino	+definite	+atomic,+minimal
+la#POLE-lina#KING-ossa	+definite	+atomic,+minimal
+la#KING-egina	+definite	+atomic,+minimal	+feminine
+la#KING-egina	+definite	+atomic,+minimal	+feminine
+il#KING-e	+definite	+atomic,+minimal	+feminine
+un#HORSE-o	-definite	+atomic,+minimal
+il#HORSE-o	+definite	+atomic,+minimal
+il#KING-e	+definite	+atomic,+minimal	+feminine
+il#KING-e	+definite	+atomic,+minimal	+feminine
+la#KING-egina	+definite	+atomic,+minimal	+feminine
+il#KING-e	+definite	+atomic,+minimal	+feminine
+il#KING-tono	+definite	+atomic,+minimal	+feminine
+la#KING-egina	+definite	+atomic,+minimal	+feminine
+il#KING-e	+definite	+atomic,+minimal	+feminine
+i#PIECE-i	+definite	PLURAL-PLACEHOLDER
+la#COUGH-null	+definite
+il#POLE-cello	+definite	+atomic,+minimal
+le#-pal	+definite	PLURAL-PLACEHOLDER
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+una#KING-scapa	-definite	+atomic,+minimal	+feminine
+una#POLE-la	-definite	+atomic,+minimal
+il#HORSE-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#POLE-cello	+definite	+atomic,+minimal
+le#CARROT-e	+definite	PLURAL-PLACEHOLDER
+una#POLE-la	-definite	+atomic,+minimal
+le#CARROT-e	+definite	PLURAL-PLACEHOLDER
+il#MILK-e	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#HORSE-o	+definite	+atomic,+minimal
+il#HORSE-ino#KING-vede	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+la#BOW-ba	+definite	+atomic,+minimal
+le#FIN-e	+definite	PLURAL-PLACEHOLDER
+le#FIN-e	+definite	PLURAL-PLACEHOLDER
+la#FIN-a	+definite	+atomic,+minimal
+l'#-ino	+definite	+atomic,+minimal
+il#-e	+definite	+atomic,+minimal
+le#-pal	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+il#HAIRDRYER-teleo	+definite	+atomic,+minimal
+il#NUMBER-o	+definite	+atomic,+minimal
+un#-setto	-definite	+atomic,+minimal
+un#CAT-ino	-definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+il#RABBIT-o	+definite	+atomic,+minimal
+il#DOG-e	+definite	+atomic,+minimal
+un#CAT-o#-o	-definite	+atomic,+minimal
+il#POLE-to#-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#HORN-etta	+definite	+atomic,+minimal
+la#HORN-etta	+definite	+atomic,+minimal
+le#POLE-le	+definite	PLURAL-PLACEHOLDER
+la#POLE-la	+definite	+atomic,+minimal
+un#KING-teno	-definite	+atomic,+minimal	+feminine
+il#POLE-cello	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#POLE-le	+definite	PLURAL-PLACEHOLDER
+lo#-one	+definite	+atomic,+minimal
+le#-pal	+definite	PLURAL-PLACEHOLDER
+le#POLE-le	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+il#POLE-cello	+definite	+atomic,+minimal
+le#BAND-ierine	+definite	PLURAL-PLACEHOLDER
+le#BAND-ierine	+definite	PLURAL-PLACEHOLDER
+una#-a	-definite	+atomic,+minimal
+una#HAND-null	-definite
+i#NUMBER-i	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+il#POLE-cello	+definite	+atomic,+minimal
+la#BAND-ierina	+definite	+atomic,+minimal
+il#MASTER-e	+definite	+atomic,+minimal	+feminine
+la#BAND-ierina	+definite	+atomic,+minimal
+la#BAND-ierina	+definite	+atomic,+minimal
+la#BAND-ierina	+definite	+atomic,+minimal
+l'#-setto	+definite	+atomic,+minimal
+l'#-setto	+definite	+atomic,+minimal
+lo#-sptello	+definite	+atomic,+minimal
+l'#-e	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+la#LIGHT-e	+definite
+le#CARROT-e	+definite	PLURAL-PLACEHOLDER
+una#-a	-definite	+atomic,+minimal
+le#KING-uote	+definite	PLURAL-PLACEHOLDER	+feminine
+la#POLE-lina	+definite	+atomic,+minimal
+un#POLE-o	-definite	+atomic,+minimal
+la#KING-egina	+definite	+atomic,+minimal	+feminine
+la#KING-egina	+definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+la#KING-egina	+definite	+atomic,+minimal	+feminine
+il#KING-e	+definite	+atomic,+minimal	+feminine
+la#KING-egina	+definite	+atomic,+minimal	+feminine
+il#HAMPER-ino	+definite	+atomic,+minimal
+il#HANDLEBAR-o	+definite	+atomic,+minimal
+il#FINGERS-o	+definite	+atomic,+minimal
+un#HOLE-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#-so#-e	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#BEE-criola	+definite	+atomic,+minimal
+la#KING-scapa	+definite	+atomic,+minimal	+feminine
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+la#BIKE-null	+definite
+una#-e	-definite	+atomic,+minimal
+le#CARD-e	+definite	PLURAL-PLACEHOLDER
+il#BOOK-etto	+definite	+atomic,+minimal
+la#GRANDPARENT-a	+definite	+atomic,+minimal	+feminine
+la#POLE-porella	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#POLE-filrocca	+definite	+atomic,+minimal
+un#CAT-o	-definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+la#POLE-porella	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+le#CHERRY-e	+definite	PLURAL-PLACEHOLDER
+l'#-ino	+definite	+atomic,+minimal
+le#CHERRY-e	+definite	PLURAL-PLACEHOLDER
+un#-e#-o	-definite	+atomic,+minimal
+il#LITTLEONE-o	+definite	+atomic,+minimal
+una#POLE-porella	-definite	+atomic,+minimal
+un#POLE-porello	-definite	+atomic,+minimal
+il#POLE-porello	+definite	+atomic,+minimal
+le#-he	+definite	PLURAL-PLACEHOLDER
+le#-he	+definite	PLURAL-PLACEHOLDER
+un#-otondo	-definite	+atomic,+minimal
+l'#-a	+definite	+atomic,+minimal
+le#-he	+definite	PLURAL-PLACEHOLDER
+le#HORN-a	+definite	+atomic,+minimal
+la#STORK-a	+definite	+atomic,+minimal
+la#NEEDLE-pina	+definite	+atomic,+minimal
+la#STORK-a	+definite	+atomic,+minimal
+i#FINGER-i	+definite	PLURAL-PLACEHOLDER
+i#FINGER-i	+definite	PLURAL-PLACEHOLDER
+l'#BEE-e	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+l'#BEE-e	+definite	+atomic,+minimal
+il#MILK-e	+definite	+atomic,+minimal
+l'#-setto	+definite	+atomic,+minimal
+la#BEE-ppa	+definite	+atomic,+minimal
+il#BISCUIT-o	+definite	+atomic,+minimal
+un#BISCUIT-o	-definite	+atomic,+minimal
+un#BISCUIT-o	-definite	+atomic,+minimal
+la#TELEVISION-null	+definite
+un#-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+un#BISCUIT-ino	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-stia	+definite	+atomic,+minimal
+una#-a#-e	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+la#-stia	+definite	+atomic,+minimal
+un#BOOK-o	-definite	+atomic,+minimal
+le#NEEDLE-immini	+definite	PLURAL-PLACEHOLDER
+le#ADVENTURE-e	+definite	PLURAL-PLACEHOLDER
+i#LITTLEONE-i	+definite	PLURAL-PLACEHOLDER
+la#STORK-a	+definite	+atomic,+minimal
+la#NEEDLE-pina	+definite	+atomic,+minimal
+la#NEEDLE-pina	+definite	+atomic,+minimal
+un#FISHING_LINE-uolo	-definite	+atomic,+minimal
+una#DOG-zoncina	-definite	+atomic,+minimal
+i#BISCUIT-i	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+la#TELEVISION-null	+definite
+la#-tre	+definite	+atomic,+minimal
+il#DOG-estro	+definite	+atomic,+minimal
+il#DOG-estro	+definite	+atomic,+minimal
+il#BISCUIT-o	+definite	+atomic,+minimal
+il#DOG-estro	+definite	+atomic,+minimal
+il#POLE-lone	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#POLE-lone#ORANGE-one	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#HAMPER-ista	-definite	PLURAL-PLACEHOLDER
+il#CHAMPION-e	+definite	+atomic,+minimal
+l'#GOOSE-chietto	+definite	+atomic,+minimal
+l'#ACE-e	+definite	+atomic,+minimal
+il#HAIRDRYER-teleo	+definite	+atomic,+minimal
+il#HAIRDRYER-teleo	+definite	+atomic,+minimal
+il#NUMBER-o	+definite	+atomic,+minimal
+il#NUMBER-o	+definite	+atomic,+minimal
+un#DOG-estro	-definite	+atomic,+minimal
+la#ACE-cetta	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#-tre#-e	-definite	+atomic,+minimal
+una#-tre#-a	-definite	+atomic,+minimal
+la#-tre	+definite	+atomic,+minimal
+un#COLOR-e	-definite	+atomic,+minimal
+la#-tre	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#-pal	+definite	PLURAL-PLACEHOLDER
+la#RAIN.DIM-a	+definite	+atomic,+minimal
+una#HAND-null	-definite
+la#POLE-la	+definite	+atomic,+minimal
+il#DOG-estro	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#DOG-estro	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+i#-i	+definite	PLURAL-PLACEHOLDER
+un#-o	-definite	+atomic,+minimal
+un#-o#-e	-definite	+atomic,+minimal
+i#SOCK-etti	+definite	PLURAL-PLACEHOLDER
+una#-a	-definite	+atomic,+minimal
+l'#BEE-e	+definite	+atomic,+minimal
+le#-null	+definite	PLURAL-PLACEHOLDER
+una#NEEDLE-battlia	-definite	+atomic,+minimal
+una#NEEDLE-battlia	-definite	+atomic,+minimal
+la#SLIPPER-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#KING-uota	-definite	+atomic,+minimal	+feminine
+il#DOG-estro	+definite	+atomic,+minimal
+gli#GOOSE-chi	+definite	PLURAL-PLACEHOLDER
+le#EAR-e	+definite	+atomic,+minimal
+la#TAIL-a	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+un#DRUM-e	-definite	+atomic,+minimal
+la#SLIPPER-ina	+definite	+atomic,+minimal
+la#NEEDLE-battlia	+definite	+atomic,+minimal
+il#-registr(ate)	+definite	+atomic,+minimal
+la#BEE-criola	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+una#-a#-a	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+il#-sogo	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+il#HAMPER-ino	+definite	+atomic,+minimal
+il#HAMPER-ino	+definite	+atomic,+minimal
+il#HAMPER-ino	+definite	+atomic,+minimal
+un#FINGER-o	-definite	+atomic,+minimal
+la#KING-tottola	+definite	+atomic,+minimal	+feminine
+una#KING-tottola	-definite	+atomic,+minimal	+feminine
+un#MOMENT-o	-definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#STORK-a	+definite	+atomic,+minimal
+la#STORK-a	+definite	+atomic,+minimal
+le#-ne	+definite	PLURAL-PLACEHOLDER
+uno#WOODPECKER-so#KING-osso	-definite	+atomic,+minimal
+uno#WOODPECKER-so#-o	-definite	+atomic,+minimal
+uno#WOODPECKER-so	-definite	+atomic,+minimal
+le#-ne	+definite	PLURAL-PLACEHOLDER
+un#CAT-o#-o	-definite	+atomic,+minimal
+un'#AIR-a	-definite	+atomic,+minimal
+il#MILK-e	+definite	+atomic,+minimal
+il#MILK-e	+definite	+atomic,+minimal
+la#-tre	+definite	+atomic,+minimal
+il#DUMMY-o	+definite	+atomic,+minimal
+una#SUCK.DIM-a	-definite	+atomic,+minimal
+la#KING-tomba	+definite	+atomic,+minimal	+feminine
+la#KING-tomba	+definite	+atomic,+minimal	+feminine
+un#GHOST-null	-definite
+un#BEE-tpeto	-definite	+atomic,+minimal
+un#GHOST.DIM-o	-definite	+atomic,+minimal
+una#-etta	-definite	+atomic,+minimal
+il#CAT-(o)	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+il#FINGERS-o	+definite	+atomic,+minimal
+la#BIKE-cletta	+definite	+atomic,+minimal
+la#-motocica	+definite	+atomic,+minimal
+la#-motocica	+definite	+atomic,+minimal
+una#BIKE-null#FROG-sta	-definite
+il#-paloliere	+definite	+atomic,+minimal
+la#FROG-a	+definite	+atomic,+minimal
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+le#SLIPPER-e	+definite	PLURAL-PLACEHOLDER
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+i#SOCK-etti	+definite	PLURAL-PLACEHOLDER
+i#FLAMINGO-i	+definite	PLURAL-PLACEHOLDER
+i#FLAMINGO-i	+definite	PLURAL-PLACEHOLDER
+una#STEM-a#-a	-definite	+atomic,+minimal
+i#FLAMINGO-i	+definite	PLURAL-PLACEHOLDER
+i#DOG-guri	+definite	PLURAL-PLACEHOLDER
+i#DOG-guri	+definite	PLURAL-PLACEHOLDER
+gli#-i	+definite	PLURAL-PLACEHOLDER
+gli#-i	+definite	PLURAL-PLACEHOLDER
+le#GOOSE-he	+definite	PLURAL-PLACEHOLDER
+i#STAG-i	+definite	PLURAL-PLACEHOLDER
+la#KING-tige	+definite	+atomic,+minimal	+feminine
+il#BOOK-etto	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#-pantofo	+definite	PLURAL-PLACEHOLDER
+il#NEEDLE-pattingio	+definite	+atomic,+minimal
+la#DOG-pallaestro	+definite	+atomic,+minimal
+il#TENNIS-null	+definite
+il#NEEDLE-pattingio	+definite	+atomic,+minimal
+un#DOG-guro	-definite	+atomic,+minimal
+il#DOG-guro	+definite	+atomic,+minimal
+le#-tofole	+definite	PLURAL-PLACEHOLDER
+un#GOOSE-phino#-i	-definite	+atomic,+minimal
+le#SLIPPER-e	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+le#SOCK-ette	+definite	PLURAL-PLACEHOLDER
+il#HAMPER-ino	+definite	+atomic,+minimal
+il#HAMPER-ino	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+uno#BODY-sione	-definite	+atomic,+minimal
+lo#BODY-sione	+definite	+atomic,+minimal
+il#NEEDLE-rno	+definite	+atomic,+minimal
+una#WASP-a	-definite	+atomic,+minimal
+una#WASP-a	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+gli#GOOSE-chi	+definite	PLURAL-PLACEHOLDER
+il#STAG-o	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+un#NEEDLE-rno	-definite	+atomic,+minimal
+un#HOLE-o	-definite	+atomic,+minimal
+un#HOLE-o	-definite	+atomic,+minimal
+il#NEEDLE-rno	+definite	+atomic,+minimal
+la#HOUSE-a	+definite	+atomic,+minimal
+un#HOLE-o	-definite	+atomic,+minimal
+la#NEEDLE-rnatela>.	+definite	+atomic,+minimal
+le#SLIPPER-e	+definite	PLURAL-PLACEHOLDER
+il#DOG-estro	+definite	+atomic,+minimal
+il#DOG-guro	+definite	+atomic,+minimal
+il#-so	+definite	+atomic,+minimal
+il#HAIRDRYER-termosie	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#-risamento	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#-e	-definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#BEE-pà	+definite
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+le#PUMPKIN-e	+definite	PLURAL-PLACEHOLDER
+una#PUMPKIN-a	-definite	+atomic,+minimal
+una#PUMPKIN-a	-definite	+atomic,+minimal
+la#PHASE-null	+definite
+un#GOOSE-chietto	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#BEE-ppa	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#SOUP-a	+definite	+atomic,+minimal
+il#SOFA_COVER-o	+definite	+atomic,+minimal
+la#LIGHT-e	+definite
+la#POLE-lina	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+il#-sogo	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#TABLE-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#YEAR-battipi	+definite
+un#-o	-definite	+atomic,+minimal
+la#POLE-lina	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+le#-pal	+definite	PLURAL-PLACEHOLDER
+un#MOMENT-o	-definite	+atomic,+minimal
+la#RAIN-a	+definite	+atomic,+minimal
+il#KING-tenino	+definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+un#BOOK-etto	-definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+il#NOSE-o	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+il#SOFA_COVER-o	+definite	+atomic,+minimal
+le#-pal	+definite	PLURAL-PLACEHOLDER
+la#POLE-lina	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+i#BOOK-etti	+definite	PLURAL-PLACEHOLDER
+la#POLE-la	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+i#KING-icci	+definite	PLURAL-PLACEHOLDER	+feminine
+il#KING-iccio	+definite	+atomic,+minimal	+feminine
+la#-a#KING-iccia	+definite	+atomic,+minimal
+il#RABBIT-o	+definite	+atomic,+minimal
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+la#MOUTH-a#POLE-sancata	+definite	+atomic,+minimal
+i#KISS.DIM-i	+definite	PLURAL-PLACEHOLDER
+la#MOUTH-a#POLE-sancata	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#HORSE-o	-definite	+atomic,+minimal
+la#KING-tatauga	+definite	+atomic,+minimal	+feminine
+il#BEE-pà	+definite
+i#NEEDLE-pappalli	+definite	PLURAL-PLACEHOLDER
+uno#KING-vede	-definite	+atomic,+minimal	+feminine
+(u)na#TAIL-a#-ga	-definite	+atomic,+minimal
+la#TAIL-a	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+la#HAND-null	+definite
+un#HAMSTER-o	-definite	+atomic,+minimal
+il#NEEDLE-rno	+definite	+atomic,+minimal
+le#EGG-a	+definite
+un#HOLE-o	-definite	+atomic,+minimal
+la#STOMACH-a	+definite	+atomic,+minimal
+la#KING-tatauga	+definite	+atomic,+minimal	+feminine
+le#CARROT-e	+definite	PLURAL-PLACEHOLDER
+una#KING-tatauga	-definite	+atomic,+minimal	+feminine
+una#KING-tatauga	-definite	+atomic,+minimal	+feminine
+la#KING-tatauga	+definite	+atomic,+minimal	+feminine
+il#COLOR-e#KING-osso	+definite	+atomic,+minimal
+il#GOLDFINCH-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#FRIEND-cia	+definite	+atomic,+minimal	+feminine
+il#BEE-pà	+definite
+la#FRIEND-cia	+definite	+atomic,+minimal	+feminine
+i#BOOK-i	+definite	PLURAL-PLACEHOLDER
+i#BOOK-i>.	+definite	PLURAL-PLACEHOLDER
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+le#SNAIL-he	+definite	PLURAL-PLACEHOLDER
+il#-pomodo	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#GOOSE-ve	+definite
+la#ACE-cetta	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#KING-iccio	+definite	+atomic,+minimal	+feminine
+i#MUSHROOM-hi	+definite	PLURAL-PLACEHOLDER
+un#-so	-definite	+atomic,+minimal
+la#MAGPIE-a	+definite	+atomic,+minimal
+l'#-a	+definite	+atomic,+minimal
+l'#-a	+definite	+atomic,+minimal
+una#LIGHT-ertola	-definite	+atomic,+minimal
+le#EGG-a	+definite
+la#-a	+definite	+atomic,+minimal
+l'#LARK-a	+definite	+atomic,+minimal
+l'#LARK-a	+definite	+atomic,+minimal
+un#BUS-null	-definite
+un#-tratte	-definite	+atomic,+minimal
+il#-tratte	+definite	+atomic,+minimal
+il#KING-teno	+definite	+atomic,+minimal	+feminine
+un#KING-teno	-definite	+atomic,+minimal	+feminine
+un#-tratte	-definite	+atomic,+minimal
+la#HARE-null	+definite
+la#HARE-null	+definite
+la#-a	+definite	+atomic,+minimal
+la#LIGHT-e	+definite
+il#DARKNESS-o	+definite	+atomic,+minimal
+l'#BEE-e	+definite	+atomic,+minimal
+un'#BEE-e	-definite	+atomic,+minimal
+una#WASP-a	-definite	+atomic,+minimal
+un'#BEE-e	-definite	+atomic,+minimal
+la#HOUSE-a	+definite	+atomic,+minimal
+l'#BEE-e#-a	+definite	+atomic,+minimal
+un'#BEE-e	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#CRICKET-o	+definite	+atomic,+minimal
+una#WHATSIT-a	-definite	+atomic,+minimal
+la#SNAIL-a	+definite	+atomic,+minimal
+una#SNAIL-a	-definite	+atomic,+minimal
+una#SNAIL-a	-definite	+atomic,+minimal
+un#MOUSE-o	-definite	+atomic,+minimal
+un#MOUSE-o	-definite	+atomic,+minimal
+un#MOUSE-o	-definite	+atomic,+minimal
+l'#BEE-e	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#ANT-a	+definite	+atomic,+minimal
+le#NEEDLE-frole	+definite	PLURAL-PLACEHOLDER
+i#SEED-i	+definite	PLURAL-PLACEHOLDER
+le#NEEDLE-frole	+definite	PLURAL-PLACEHOLDER
+i#SEED-ini	+definite	PLURAL-PLACEHOLDER
+la#NEEDLE-frola	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+l'#WATER-a	+definite	+atomic,+minimal
+un#KING-uscello	-definite	+atomic,+minimal	+feminine
+una#SNAIL-a	-definite	+atomic,+minimal
+il#HICCUP-o	+definite	+atomic,+minimal
+una#KING-vede	-definite	+atomic,+minimal	+feminine
+la#MOUTH-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#-so	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+il#-so	+definite	+atomic,+minimal
+il#-so	+definite	+atomic,+minimal
+la#SHIT-a	+definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+la#SHIT-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#SHIT-a	+definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+l'#POLE-a	+definite	+atomic,+minimal
+la#POINT-a	+definite	+atomic,+minimal
+la#-a#-a	+definite	+atomic,+minimal
+una#-a#-a	-definite	+atomic,+minimal
+la#-ina	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+la#-ina	+definite	+atomic,+minimal
+la#POINT-a	+definite	+atomic,+minimal
+il#POLE-lone	+definite	+atomic,+minimal
+la#KING-uota	+definite	+atomic,+minimal	+feminine
+il#KING-tiangolo	+definite	+atomic,+minimal	+feminine
+il#KING-tiangolo	+definite	+atomic,+minimal	+feminine
+la#-ina	+definite	+atomic,+minimal
+il#DUMMY-o#-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-ina	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+i#-i#-i	+definite	PLURAL-PLACEHOLDER
+un#-o	-definite	+atomic,+minimal
+i#SOCK-etti	+definite	PLURAL-PLACEHOLDER
+i#SOCK-etti	+definite	PLURAL-PLACEHOLDER
+un#SOCK-etto	-definite	+atomic,+minimal
+il#SOCK-etto	+definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+la#BIKE-cletta	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+il#-ino	+definite	+atomic,+minimal
+la#KING-uota	+definite	+atomic,+minimal	+feminine
+la#KING-uota	+definite	+atomic,+minimal	+feminine
+le#LIGHT-i	+definite	PLURAL-PLACEHOLDER
+le#LIGHT-i	+definite	PLURAL-PLACEHOLDER
+la#STAIN-nina	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+una#KING-sbela	-definite	+atomic,+minimal	+feminine
+il#BEE-pà	+definite
+un#WRIST-o	-definite	+atomic,+minimal
+una#-pecella	-definite	+atomic,+minimal
+gli#GOOSE-chi	+definite	PLURAL-PLACEHOLDER
+la#-pecella	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-pecella	+definite	+atomic,+minimal
+la#POLE-porella	+definite	+atomic,+minimal
+una#-na	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+l'#LABEL-a	+definite	+atomic,+minimal
+una#-null	-definite
+una#-null	-definite
+i#FLAMINGO-i	+definite	PLURAL-PLACEHOLDER
+i#FLAMINGO-i	+definite	PLURAL-PLACEHOLDER
+una#STEM-a	-definite	+atomic,+minimal
+una#STEM-a#-a	-definite	+atomic,+minimal
+la#MOUTH-a#POLE-sancata	+definite	+atomic,+minimal
+il#COCONUT-odrillo	+definite	+atomic,+minimal
+un#COCONUT-odrillo#-to	-definite	+atomic,+minimal
+la#PIANO-tina	+definite	+atomic,+minimal
+lo#ZOO-o	+definite	+atomic,+minimal
+i#FLAMINGO-i#KING-osa	+definite	PLURAL-PLACEHOLDER
+il#NECK-o#-go	+definite	+atomic,+minimal
+gli#-i	+definite	PLURAL-PLACEHOLDER
+la#WOODS-proide	+definite	+atomic,+minimal
+un#PROBLEM-null	-definite
+una#-a	-definite	+atomic,+minimal
+le#GOOSE-he	+definite	PLURAL-PLACEHOLDER
+il#CAMEL-o	+definite	+atomic,+minimal
+la#HUMPBACKED-a	+definite	+atomic,+minimal
+i#DOG-guri	+definite	PLURAL-PLACEHOLDER
+i#DOG-guri	+definite	PLURAL-PLACEHOLDER
+i#DOG-guri	+definite	PLURAL-PLACEHOLDER
+un#BAMBINO-o#-o	-definite	+atomic,+minimal	+feminine
+il#BOOK-etto	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+gli#BOOT-i	+definite	PLURAL-PLACEHOLDER
+il#BOOK-etto	+definite	+atomic,+minimal
+la#PUBLICITY-null	+definite
+il#WOLF-o	+definite	+atomic,+minimal
+un#MUSHROOM-o#-rone	-definite	+atomic,+minimal
+un#OGRE-pellino	-definite	+atomic,+minimal
+i#MUSHROOM-hi	+definite	PLURAL-PLACEHOLDER
+il#WOLF-o	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+il#NOSE-o#-go	+definite	+atomic,+minimal
+il#NOSE-o#-go	+definite	+atomic,+minimal
+il#NOSE-o	+definite	+atomic,+minimal
+l'#MAN-e#-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#POLE-loncino#-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+la#-pta	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#HAIRDRYER-do	+definite	+atomic,+minimal
+le#HANDLE-e	+definite	PLURAL-PLACEHOLDER
+le#-ti	+definite	PLURAL-PLACEHOLDER
+il#BEE-pà	+definite
+una#MOTO-o	-definite	+atomic,+minimal
+una#BIKE-cletta	-definite	+atomic,+minimal
+una#STAIN-na#BEE-erta	-definite	+atomic,+minimal
+una#MOTO-o	-definite	+atomic,+minimal
+una#MOTO-o	-definite	+atomic,+minimal
+la#STAIN-na	+definite	+atomic,+minimal
+lo#UNCLE-o	+definite	+atomic,+minimal	+feminine
+un#BOOK-etto	-definite	+atomic,+minimal
+lo#UNCLE-o	+definite	+atomic,+minimal	+feminine
+un#BOOK-etto	-definite	+atomic,+minimal
+lo#UNCLE-o	+definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+un#BOOK-etto	-definite	+atomic,+minimal
+lo#UNCLE-o	+definite	+atomic,+minimal	+feminine
+i#FISH-i	+definite	PLURAL-PLACEHOLDER
+la#FISHING_LINE-a	+definite	+atomic,+minimal
+i#FISH-i	+definite	PLURAL-PLACEHOLDER
+un#BEE-cpello	-definite	+atomic,+minimal
+le#GOOSE-he	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+le#RACKET-e	+definite	PLURAL-PLACEHOLDER
+le#-pal	+definite	PLURAL-PLACEHOLDER
+le#RACKET-e	+definite	PLURAL-PLACEHOLDER
+il#BOOK-etto	+definite	+atomic,+minimal
+un#-tempale	-definite	+atomic,+minimal
+le#WAVE-e#-e	+definite	PLURAL-PLACEHOLDER
+il#-o	+definite	+atomic,+minimal
+il#-e	+definite	+atomic,+minimal
+una#-pta	-definite	+atomic,+minimal
+un#PIECE-o	-definite	+atomic,+minimal
+il#KING-ecinto	+definite	+atomic,+minimal	+feminine
+un#PIECE-o	-definite	+atomic,+minimal
+il#FEATHER-arello	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#KING-ecinto	+definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+il#KING-ecinto	+definite	+atomic,+minimal	+feminine
+un#NEEDLE-salvente	-definite	+atomic,+minimal
+un#NEEDLE-salvente	-definite	+atomic,+minimal
+il#NEEDLE-salvente	+definite	+atomic,+minimal
+un#NEEDLE-salvente#-o	-definite	+atomic,+minimal
+la#STAIN-nina	+definite	+atomic,+minimal
+la#POLICE-a	+definite	+atomic,+minimal	+feminine
+il#PYJAMAS.DIM-o	+definite	+atomic,+minimal
+la#NEEDLE-mlia	+definite	+atomic,+minimal
+la#FRIEND-cia	+definite	+atomic,+minimal	+feminine
+un#-one	-definite	+atomic,+minimal
+il#HOLE-o	+definite	+atomic,+minimal
+il#-one	+definite	+atomic,+minimal
+l'#BUTTONHOLE-a	+definite	+atomic,+minimal
+il#-one	+definite	+atomic,+minimal
+il#-one	+definite	+atomic,+minimal
+il#POLE-loncino	+definite	+atomic,+minimal
+la#FRIEND-cia	+definite	+atomic,+minimal	+feminine
+il#POLE-loncino	+definite	+atomic,+minimal
+il#POLE-loncino	+definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+i#HORSE-i	+definite	PLURAL-PLACEHOLDER
+i#SOCK-oni	+definite
+i#SOCK-oni	+definite
+i#SOCK-oni	+definite
+il#PYJAMAS-null	+definite
+i#SOCK-oni	+definite
+il#YEAR-polino	+definite	+atomic,+minimal
+la#NEEDLE-mlietta	+definite	+atomic,+minimal
+una#-ina	-definite	+atomic,+minimal
+una#-ina	-definite	+atomic,+minimal
+il#PYJAMAS-null	+definite
+una#POLE-lina	-definite	+atomic,+minimal
+un#BLITZ-null	-definite
+la#POLE-lina#ORANGE-one	+definite	+atomic,+minimal
+i#NAME-i	+definite	PLURAL-PLACEHOLDER
+i#YEAR-polini	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+i#YEAR-polini	+definite	PLURAL-PLACEHOLDER
+la#-ina	+definite	+atomic,+minimal
+i#SOCK-oni	+definite
+la#-ina	+definite	+atomic,+minimal
+un#-e	-definite	+atomic,+minimal
+i#SOCK-oni	+definite
+il#GARAGE-null	+definite
+il#-o	+definite	+atomic,+minimal
+il#GARAGE-null	+definite
+il#GARAGE-null	+definite
+il#GARAGE-null	+definite
+il#GARAGE-null	+definite
+una#WHATSIT-a	-definite	+atomic,+minimal
+il#DOG-estro	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+un#KISS.DIM-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#-per	+definite	PLURAL-PLACEHOLDER
+il#BOOK-etto	+definite	+atomic,+minimal
+lo#KING-stuzzo	+definite	+atomic,+minimal	+feminine
+l'#EGG-o	+definite	+atomic,+minimal
+un#OWL-o	-definite	+atomic,+minimal
+i#LITTLEONE-i	+definite	PLURAL-PLACEHOLDER
+la#-e	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#LITTLEONE-o	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+un#-o#LITTLEONE-o	-definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#-e	+definite	+atomic,+minimal
+la#-temta	+definite	+atomic,+minimal
+una#NEEDLE-pina	-definite	+atomic,+minimal
+una#NEEDLE-pina	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+i#LITTLEONE-i	+definite	PLURAL-PLACEHOLDER
+la#WHALE-a	+definite	+atomic,+minimal
+i#GRANDPARENT-i	+definite	PLURAL-PLACEHOLDER	+feminine
+il#BEE-pà	+definite
+la#STAIN-na	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#KING-teno	+definite	+atomic,+minimal	+feminine
+un#BUS-null	-definite
+un#BUS-null	-definite
+una#-a	-definite	+atomic,+minimal
+i#DISKETTE-i	+definite	PLURAL-PLACEHOLDER
+un#MOMENT-o	-definite	+atomic,+minimal
+una#WHATSIT-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#GRANDPARENT-a	+definite	+atomic,+minimal	+feminine
+la#HANDBAG.DIM-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#GRANDPARENT-a	+definite	+atomic,+minimal	+feminine
+il#NEEDLE-cnolino	+definite	+atomic,+minimal
+un#CAP-ino	-definite	+atomic,+minimal
+le#KEY-i	+definite	PLURAL-PLACEHOLDER
+le#KEY-i	+definite	PLURAL-PLACEHOLDER
+la#STAIN-na	+definite	+atomic,+minimal
+i#AIR-f	+definite	PLURAL-PLACEHOLDER
+le#LIGHT-i#-i	+definite	PLURAL-PLACEHOLDER
+il#WHEEL-e	+definite	+atomic,+minimal
+il#NEEDLE-cnolino	+definite	+atomic,+minimal
+le#-null	+definite	PLURAL-PLACEHOLDER
+i#-i	+definite	PLURAL-PLACEHOLDER
+le#MONKEY-e	+definite	+atomic,+minimal	+feminine
+il#BOOK-etto	+definite	+atomic,+minimal
+il#HORSE-uccio	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+l'#YEAR-o#-so	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+l'#ACE-e	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#-one	+definite	+atomic,+minimal
+un#-one	-definite	+atomic,+minimal
+un#NAIL.DIM-o	-definite	+atomic,+minimal
+il#HOLE-hetto	+definite	+atomic,+minimal
+un#HOLE-hetto	-definite	+atomic,+minimal
+il#NAIL.DIM-o	+definite	+atomic,+minimal
+lo#-one	+definite	+atomic,+minimal
+il#BEE-tpo	+definite	+atomic,+minimal
+il#LID-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#NAIL.DIM-o	+definite	+atomic,+minimal
+un#FEATHER-ello	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#KING-uota	+definite	+atomic,+minimal	+feminine
+la#KING-tottola	+definite	+atomic,+minimal	+feminine
+la#KING-tottola	+definite	+atomic,+minimal	+feminine
+il#PIECE-o#DOG-mante	+definite	+atomic,+minimal
+un#PIECE-o	-definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+la#STAIN-na	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#NEEDLE-frole	+definite	PLURAL-PLACEHOLDER
+i#CAT-i	+definite	PLURAL-PLACEHOLDER
+le#NEEDLE-frole	+definite	PLURAL-PLACEHOLDER
+le#NEEDLE-frole	+definite	PLURAL-PLACEHOLDER
+le#NEEDLE-frole	+definite	PLURAL-PLACEHOLDER
+i#CAT-i	+definite	PLURAL-PLACEHOLDER
+i#-hini	+definite	PLURAL-PLACEHOLDER
+il#WHISTLE-o	+definite	+atomic,+minimal
+il#KAZOO-o	+definite	+atomic,+minimal
+una#WHATSIT-a	-definite	+atomic,+minimal
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+il#RING-o#KING-vede	+definite	+atomic,+minimal
+i#RING-null	+definite	PLURAL-PLACEHOLDER
+un#FINGERS-o	-definite	+atomic,+minimal
+un#GOOSE-phino	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#RING-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#FINGERS-o	-definite	+atomic,+minimal
+il#FINGERS-o	+definite	+atomic,+minimal
+la#HAND-null	+definite
+il#RING-o	+definite	+atomic,+minimal
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+il#RING-o#KING-vede	+definite	+atomic,+minimal
+il#KING-vede	+definite	+atomic,+minimal	+feminine
+il#NECK-etto	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+gli#GOOSE-chi#-i	+definite	PLURAL-PLACEHOLDER
+le#BATTERY-pule	+definite	PLURAL-PLACEHOLDER
+le#BATTERY-pule#-e	+definite	PLURAL-PLACEHOLDER
+gli#GOOSE-chi	+definite	PLURAL-PLACEHOLDER
+il#BEE-pà	+definite
+i#POLE-loncini	+definite	PLURAL-PLACEHOLDER
+la#STAIN-na	+definite	+atomic,+minimal
+lo#UNCLE-o	+definite	+atomic,+minimal	+feminine
+il#BEE-pà	+definite
+una#-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#POLE-ginnica	+definite	+atomic,+minimal
+un#-e	-definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+un#POLE-lone#-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#UNCLE-a	+definite	+atomic,+minimal	+feminine
+i#GRANDPARENT-i	+definite	PLURAL-PLACEHOLDER	+feminine
+il#POLE-loncino#-o	+definite	+atomic,+minimal
+una#FEATHER-a	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+la#HAND-null	+definite
+il#CONTOUR-o	+definite	+atomic,+minimal
+le#CHEEK-e	+definite	PLURAL-PLACEHOLDER
+un#-etto	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+gli#GOOSE-chi	+definite	PLURAL-PLACEHOLDER
+la#CHEEK-ia	+definite	+atomic,+minimal
+la#CHEEK-ia	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#FINGERS-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#FINGERS-o	+definite	+atomic,+minimal
+una#STAIN-olina	-definite	+atomic,+minimal
+la#POINT-a	+definite	+atomic,+minimal
+una#KING-etina	-definite	+atomic,+minimal	+feminine
+la#BIKE-cletta#LITTLEONE-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+una#KING-tatauga	-definite	+atomic,+minimal	+feminine
+una#POLE-la	-definite	+atomic,+minimal
+un#TREE-o	-definite	+atomic,+minimal
+la#POLE-lina	+definite	+atomic,+minimal
+una#STAR-a#KING-ossa	-definite	+atomic,+minimal
+la#STAR-a	+definite	+atomic,+minimal
+la#TV-null	+definite
+il#-o	+definite	+atomic,+minimal
+la#-vocamera	+definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+le#POLE-le	+definite	PLURAL-PLACEHOLDER
+l'#TREE-o	+definite	+atomic,+minimal
+una#WHATSIT-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#RASPBERRY-e	-definite	+atomic,+minimal
+i#CORN-i#-i	+definite	PLURAL-PLACEHOLDER
+l'#-a	+definite	+atomic,+minimal
+l'#-e	+definite	+atomic,+minimal
+l'#-o	+definite	+atomic,+minimal
+la#SPRING-a	+definite	+atomic,+minimal
+i#RASPBERRY-i	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+la#-a#ORANGE-one	+definite	+atomic,+minimal
+un#FLOWER-e	-definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+il#FINGER-o	+definite	+atomic,+minimal
+i#FINGER-i	+definite	PLURAL-PLACEHOLDER
+la#POLE-la	+definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+uno#WOODPECKER-so	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#AEROPLANE-o#-e	-definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+uno#WOODPECKER-so#KING-osso	-definite	+atomic,+minimal
+lo#WOODPECKER-so#KING-osso	+definite	+atomic,+minimal
+uno#WOODPECKER-so#-o	-definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+la#MUSIC-a	+definite	+atomic,+minimal
+la#BAND-a	+definite	+atomic,+minimal
+la#BAND-a	+definite	+atomic,+minimal
+il#KING-tambuo	+definite	+atomic,+minimal	+feminine
+le#KING-tombe	+definite	PLURAL-PLACEHOLDER	+feminine
+le#KING-tombe	+definite	PLURAL-PLACEHOLDER	+feminine
+un#POLE-loncino	-definite	+atomic,+minimal
+un#POLE-loncino#-o	-definite	+atomic,+minimal
+un#POLE-loncino#-o	-definite	+atomic,+minimal
+la#KING-tottola	+definite	+atomic,+minimal	+feminine
+il#POLE-loncino	+definite	+atomic,+minimal
+la#WAVE-spa	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#CAT-o	-definite	+atomic,+minimal
+un#DOG-e	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#POLE-loncino	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+la#TAIL-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#TAIL-a	+definite	+atomic,+minimal
+le#EAR-e	+definite	PLURAL-PLACEHOLDER
+le#EAR-e	+definite	PLURAL-PLACEHOLDER
+la#-tre	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#-tre	+definite	+atomic,+minimal
+il#FINGER-o	+definite	+atomic,+minimal
+la#-tre	+definite	+atomic,+minimal
+un#KISS.DIM-o	-definite	+atomic,+minimal
+un#KISS.DIM-o	-definite	+atomic,+minimal
+un#CAT-o	-definite	+atomic,+minimal
+un#KISS.DIM-o	-definite	+atomic,+minimal
+la#MOUTH-a	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+il#CAT-ino	+definite	+atomic,+minimal
+il#FINGER-o	+definite	+atomic,+minimal
+il#FINGER-o	+definite	+atomic,+minimal
+il#FINGER-o	+definite	+atomic,+minimal
+una#-tre#-a	-definite	+atomic,+minimal
+la#-tre	+definite	+atomic,+minimal
+il#POLE-lone#-o	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+una#-a#-a	-definite	+atomic,+minimal
+una#-a#KING-vede	-definite	+atomic,+minimal
+una#-ola	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#TABLE-o	+definite	+atomic,+minimal
+il#-signe	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#BOOK-etto	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+l'#AEROPLANE-o	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+un#AEROPLANE-o	-definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+la#STOMACH-a	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#STOMACH-a	+definite	+atomic,+minimal
+la#STOMACH-a	+definite	+atomic,+minimal
+la#STOMACH-a	+definite	+atomic,+minimal
+l'#AEROPLANE-o	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+la#STOMACH-a	+definite	+atomic,+minimal
+la#KING-tataughina	+definite	+atomic,+minimal	+feminine
+la#KING-tatauga	+definite	+atomic,+minimal	+feminine
+le#LEG-e	+definite	PLURAL-PLACEHOLDER
+la#KING-tatauga#POORONE-ina	+definite	+atomic,+minimal	+feminine
+un#NOSE-o	-definite	+atomic,+minimal
+una#KING-enna	-definite	+atomic,+minimal	+feminine
+una#STAR-a	-definite	+atomic,+minimal
+le#POLE-e	+definite	PLURAL-PLACEHOLDER
+una#STAR-a#-a	-definite	+atomic,+minimal
+l'#TREE-o	+definite	+atomic,+minimal
+l'#TREE-o	+definite	+atomic,+minimal
+una#-a#-a	-definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+i#FEATHER-arelli	+definite	PLURAL-PLACEHOLDER
+le#KING-ighe#-e	+definite	PLURAL-PLACEHOLDER	+feminine
+un#KING-ighello	-definite	+atomic,+minimal	+feminine
+una#POLE-la	-definite	+atomic,+minimal
+un#HAIRDRYER-teleo	-definite	+atomic,+minimal
+le#CARD-e	+definite	PLURAL-PLACEHOLDER
+un#FLOWER-e	-definite	+atomic,+minimal
+un#-so	-definite	+atomic,+minimal
+una#KIND-null	-definite
+un#TRUCK-null	-definite
+gli#GOOSE-chi	+definite	PLURAL-PLACEHOLDER
+gli#GOOSE-chi	+definite	PLURAL-PLACEHOLDER
+il#FINGER-o	+definite	+atomic,+minimal
+il#FINGER-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#BOW-ba	-definite	+atomic,+minimal
+l'#ORANGE-one	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#BEE-pà	+definite
+un#DECORATION-o	-definite	+atomic,+minimal
+l'#TREE-o	+definite	+atomic,+minimal
+una#PAPER-oncino	-definite	+atomic,+minimal
+il#PAPER-oncino	+definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+la#POINT-a#-a	+definite	+atomic,+minimal
+la#POINT-a#-a	+definite	+atomic,+minimal
+i#CONTOUR-i	+definite	PLURAL-PLACEHOLDER
+la#-e	+definite	+atomic,+minimal
+una#PAPER-a#-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#-proo	+definite	+atomic,+minimal
+la#KING-osa	+definite	+atomic,+minimal	+feminine
+l'#ORANGE-one	+definite	+atomic,+minimal
+un#NOSE-one	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#KING-egina	-definite	+atomic,+minimal	+feminine
+una#KING-egina	-definite	+atomic,+minimal	+feminine
+la#CROWN-a	+definite	+atomic,+minimal
+una#CROWN-a	-definite	+atomic,+minimal
+le#-e#-e	+definite	PLURAL-PLACEHOLDER
+il#HORSE-o	+definite	+atomic,+minimal
+la#KING-egina	+definite	+atomic,+minimal	+feminine
+i#BEE-celli#-ghi	+definite	PLURAL-PLACEHOLDER
+il#DOG-estro	+definite	+atomic,+minimal
+il#DOG-estro+/.	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+la#NEEDLE-mlia	+definite	+atomic,+minimal
+un#STOMACH-one	-definite
+la#STOMACH-a	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+i#BEE-celli#-ghi	+definite	PLURAL-PLACEHOLDER
+la#YEAR-na>	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#POLE-loncino#KING-vede	+definite	+atomic,+minimal
+la#STAIN-na	+definite	+atomic,+minimal
+la#POINT-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#POINT-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#PACKAGE.DIM-ino	-definite	+atomic,+minimal
+il#PACKAGE.DIM-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#SHEET-o	-definite	+atomic,+minimal
+la#-a#KING-vede	+definite	+atomic,+minimal
+il#KING-tonco	+definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#POINT-a	+definite	+atomic,+minimal
+la#POINT-a	+definite	+atomic,+minimal
+la#POINT-a	+definite	+atomic,+minimal
+il#BEE-tpeto	+definite	+atomic,+minimal
+le#-scae	+definite	PLURAL-PLACEHOLDER
+il#BEE-tpetino	+definite	+atomic,+minimal
+la#KING-tottola	+definite	+atomic,+minimal	+feminine
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+il#LION-e	+definite	+atomic,+minimal
+il#LION-e	+definite	+atomic,+minimal
+il#LION-e	+definite	+atomic,+minimal
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+un#LION-e	-definite	+atomic,+minimal
+un#NEEDLE-pliaccio	-definite	+atomic,+minimal
+l'#-setto	+definite	+atomic,+minimal
+la#-pta	+definite	+atomic,+minimal
+la#-pta	+definite	+atomic,+minimal
+l'#-setto	+definite	+atomic,+minimal
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+il#LION-e	+definite	+atomic,+minimal
+un#KISS.DIM-o	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#KING-teno	+definite	+atomic,+minimal	+feminine
+un#-o	-definite	+atomic,+minimal
+i#GRANDPARENT-i	+definite	PLURAL-PLACEHOLDER	+feminine
+i#GRANDPARENT-i	+definite	PLURAL-PLACEHOLDER	+feminine
+i#KISS.DIM-i	+definite	PLURAL-PLACEHOLDER
+i#GRANDPARENT-i	+definite	PLURAL-PLACEHOLDER	+feminine
+la#KING-tottola	+definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+l'#-setto	+definite	+atomic,+minimal
+l'#-setto	+definite	+atomic,+minimal
+una#KING-tottola	-definite	+atomic,+minimal	+feminine
+il#FATHER-o	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#LION-e	-definite	+atomic,+minimal
+un#DOG-e	-definite	+atomic,+minimal
+un#BULLDOG-null	-definite
+un#BULLDOG-null	-definite
+gli#ANIMAL-i	+definite	PLURAL-PLACEHOLDER
+l'#-o	+definite	+atomic,+minimal
+un#BOOK-etto	-definite	+atomic,+minimal
+un#BOOK-etto	-definite	+atomic,+minimal
+lo#-o	+definite	+atomic,+minimal
+i#SOCK-etti	+definite	PLURAL-PLACEHOLDER
+la#KING-tottolina	+definite	+atomic,+minimal	+feminine
+il#HAIRDRYER-do	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#BEE-tpeto	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+le#CANDLE-ine	+definite	PLURAL-PLACEHOLDER
+una#CANDLE-ina	-definite	+atomic,+minimal
+un#KING-tenino	-definite	+atomic,+minimal	+feminine
+il#-otondo	+definite	+atomic,+minimal
+il#KING-tenino	+definite	+atomic,+minimal	+feminine
+il#KING-teno	+definite	+atomic,+minimal	+feminine
+una#STAIN-na	-definite	+atomic,+minimal
+la#-risa	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#BEE-cpello	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#CAP-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#MAIZE-null#-o	+definite
+il#-ino	+definite	+atomic,+minimal
+la#GRANDPARENT-a	+definite	+atomic,+minimal	+feminine
+i#BEE-cpelli	+definite	PLURAL-PLACEHOLDER
+le#BANANA-e	+definite	PLURAL-PLACEHOLDER
+un#-o	-definite	+atomic,+minimal
+la#KING-uota	+definite	+atomic,+minimal	+feminine
+una#-e	-definite	+atomic,+minimal
+un#AEROPLANE-o	-definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+un#POLE-cello	-definite	+atomic,+minimal
+una#GIRAFFE-a	-definite	+atomic,+minimal
+gli#GOOSE-chiali	+definite	PLURAL-PLACEHOLDER
+una#GIRAFFE-a	-definite	+atomic,+minimal
+gli#GOOSE-chiali	+definite	PLURAL-PLACEHOLDER
+la#GIRAFFE-a	+definite	+atomic,+minimal
+il#POLE-loncino#-ola	+definite	+atomic,+minimal
+un#POLE-loncino#-ola	-definite	+atomic,+minimal
+un#KING-teno	-definite	+atomic,+minimal	+feminine
+un#BABYBOTTLE-null	-definite
+la#POLE-lina	+definite	+atomic,+minimal
+la#POLE-lina#-serina	+definite	+atomic,+minimal
+il#MAIZE-null#-o	+definite
+la#STAIN-na	+definite	+atomic,+minimal
+le#KING-uote	+definite	PLURAL-PLACEHOLDER	+feminine
+la#STAIN-na	+definite	+atomic,+minimal
+la#KING-siena	+definite	+atomic,+minimal	+feminine
+la#KING-siena	+definite	+atomic,+minimal	+feminine
+un'#GOOSE-chiata	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+la#STAIN-nina	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+la#-pta	+definite	+atomic,+minimal
+un#YEAR-o	-definite	+atomic,+minimal
+la#BEARD-a	+definite	+atomic,+minimal
+la#STAIN-na	+definite	+atomic,+minimal
+la#STAIN-na	+definite	+atomic,+minimal
+la#-pta	+definite	+atomic,+minimal
+lo#KING-schezetto	+definite	+atomic,+minimal	+feminine
+il#BOOK-etto	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+i#PACKAGE.DIM-i	+definite	PLURAL-PLACEHOLDER
+i#PACKAGE.DIM-i	+definite	PLURAL-PLACEHOLDER
+i#POLE-nri	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+il#FINGER-o	+definite	+atomic,+minimal
+una#WHATSIT-a	-definite	+atomic,+minimal
+l'#TREE-o	+definite	+atomic,+minimal
+il#FIREPLACE-o	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+l'#TREE-o	+definite	+atomic,+minimal
+il#FIREPLACE-o	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+il#LITTLE_FINGER-o	+definite	+atomic,+minimal
+il#LITTLE_FINGER-o	+definite	+atomic,+minimal
+il#FINGERS-o	+definite	+atomic,+minimal
+una#BEE-criola	-definite	+atomic,+minimal
+un#KNOT.DIM-o	-definite	+atomic,+minimal
+la#-ina	+definite	+atomic,+minimal
+la#-ina	+definite	+atomic,+minimal
+la#-ina	+definite	+atomic,+minimal
+la#-ina	+definite	+atomic,+minimal
+il#LID-o	+definite	+atomic,+minimal
+i#ACE-cetti	+definite	PLURAL-PLACEHOLDER
+un#NAIL.DIM-o	-definite	+atomic,+minimal
+il#BREATHLESSNESS-e	+definite	+atomic,+minimal
+il#FINGER-o	+definite	+atomic,+minimal
+una#HAND-null	-definite
+la#ACE-cettiera	+definite	+atomic,+minimal
+la#POLE-lina#-a	+definite	+atomic,+minimal
+l'#AEROPLANE-o	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+la#POLE-lina	+definite	+atomic,+minimal
+la#POLE-lina#KING-ossa	+definite	+atomic,+minimal
+la#POLE-lina#-null	+definite	+atomic,+minimal
+il#POLE-bone	+definite	+atomic,+minimal
+i#-i	+definite	PLURAL-PLACEHOLDER
+la#-e	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#COMB?-e	+definite	+atomic,+minimal
+la#SAW-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#SAW-a	+definite	+atomic,+minimal
+le#STEM-e	+definite	PLURAL-PLACEHOLDER
+l'#-o	+definite	+atomic,+minimal
+un#MOVEMENT-null	-definite
+i#SOLDIER-i	+definite	PLURAL-PLACEHOLDER	+feminine
+i#GUN-i	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+il#HORSE-o	+definite	+atomic,+minimal
+il#-so	+definite	+atomic,+minimal
+un#GOOSE-phino	-definite	+atomic,+minimal
+i#PIECE-i#-null	+definite	PLURAL-PLACEHOLDER
+i#GRANDPARENT-i	+definite	PLURAL-PLACEHOLDER	+feminine
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+i#GRANDPARENT-i	+definite	PLURAL-PLACEHOLDER	+feminine
+la#MEDICINE-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+il#-)	+definite	+atomic,+minimal
+il#YEAR-polino	+definite	+atomic,+minimal
+un#GOOSE-phino#-o	-definite	+atomic,+minimal
+la#MEDICINE-a	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#MEDICINE-a#-a	-definite	+atomic,+minimal
+un#PIECE-etto	-definite	+atomic,+minimal
+una#CRUMB.DIM-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#-o	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+un#KING-tiangolo	-definite	+atomic,+minimal	+feminine
+un#KING-tiangolo	-definite	+atomic,+minimal	+feminine
+le#FINGERS-a	+definite
+le#ARMS-a	+definite
+le#-null	+definite	PLURAL-PLACEHOLDER
+la#HAND-null	+definite
+il#BEE-pà	+definite
+la#TRAIL-null	+definite
+un#PIECE-o	-definite	+atomic,+minimal
+la#PISTOL-a	+definite	+atomic,+minimal
+la#-pta	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+il#GALLEON-e	+definite	+atomic,+minimal
+il#GALLEON-e	+definite	+atomic,+minimal
+le#-e	+definite	+atomic,+minimal
+la#BAND-iera	+definite	+atomic,+minimal
+la#BAND-iera	+definite	+atomic,+minimal
+un#SKULL-o	-definite	+atomic,+minimal
+un#-e	-definite	+atomic,+minimal
+l'#AEROPLANE-o	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+la#YEAR-na	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+l'#AEROPLANE-o	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+un#-o	-definite	+atomic,+minimal
+il#NEEDLE-sottopassgio	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+un#HORSE-o	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+un#POLE-loncino	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+la#HAND-pola	+definite	+atomic,+minimal
+una#HAND-pola	-definite	+atomic,+minimal
+la#TRAIL-null	+definite
+i#NEEDLE-sottopassgi	+definite	PLURAL-PLACEHOLDER
+il#BEE-cogiro	+definite	+atomic,+minimal
+il#BEE-cogiro	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#KING-tottola	+definite	+atomic,+minimal	+feminine
+il#-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+una#POLE-la#-e	-definite	+atomic,+minimal
+la#POLE-la#-e	+definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+una#-a#KING-ossa	-definite	+atomic,+minimal
+un#SHEET-o	-definite	+atomic,+minimal
+un#SHEET-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#POLE-la#-issima	-definite	+atomic,+minimal
+la#KING-scivania	+definite	+atomic,+minimal	+feminine
+una#POLE-la#-e	-definite	+atomic,+minimal
+una#POLE-la#LITTLEONE-ina	-definite	+atomic,+minimal
+la#POLE-la#-e	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#POLE-lina	-definite	+atomic,+minimal
+una#-lina	-definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+un#KING-ecinto	-definite	+atomic,+minimal	+feminine
+un#FINGER-o	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+il#NOSE-o	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+la#GRANDPARENT-a	+definite	+atomic,+minimal	+feminine
+la#-stia	+definite	+atomic,+minimal
+le#KING-tigi	+definite	PLURAL-PLACEHOLDER	+feminine
+la#POLE-la	+definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+la#-a#KING-ossa	+definite	+atomic,+minimal
+la#POINT-a	+definite	+atomic,+minimal
+una#-e	-definite	+atomic,+minimal
+uno#WOODPECKER-so#-o	-definite	+atomic,+minimal
+le#KING-tigi	+definite	PLURAL-PLACEHOLDER	+feminine
+le#KING-tigi	+definite	PLURAL-PLACEHOLDER	+feminine
+il#COLOR-e#-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+uno#WOODPECKER-so#KING-vede	-definite	+atomic,+minimal
+uno#WOODPECKER-so#-issimo	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+il#KING-vede#KING-scuo	+definite	+atomic,+minimal	+feminine
+l'#ORANGE-one	+definite	+atomic,+minimal
+uno#WOODPECKER-so	-definite	+atomic,+minimal
+la#POINT-a	+definite	+atomic,+minimal
+il#-temperae	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+la#POINT-a	+definite	+atomic,+minimal
+la#POINT-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#HORSE-o	+definite	+atomic,+minimal
+la#LIGHT-e	+definite
+il#BEE-pà	+definite
+il#BEE-pà	+definite
+una#DOG-zoncina	-definite	+atomic,+minimal
+la#-tta	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#CANDLE-ina	+definite	+atomic,+minimal
+il#NUMBER-o	+definite	+atomic,+minimal
+la#CANDLE-ina	+definite	+atomic,+minimal
+la#CANDLE-ina	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+il#ACE-cettino	+definite	+atomic,+minimal
+la#PISTOL-a	+definite	+atomic,+minimal
+la#PISTOL-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+gli#POLE-elici	+definite	PLURAL-PLACEHOLDER
+la#PISTOL-a	+definite	+atomic,+minimal
+una#POLE-lina	-definite	+atomic,+minimal
+il#TRIGGER-o	+definite	+atomic,+minimal
+la#POLE-lina	+definite	+atomic,+minimal
+la#PISTOL-a	+definite	+atomic,+minimal
+la#POLE-lina	+definite	+atomic,+minimal
+la#PISTOL-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#POLE-lina	+definite	+atomic,+minimal
+la#POLE-lina	+definite	+atomic,+minimal
+la#POLE-lina	+definite	+atomic,+minimal
+il#RABBIT-etto#KING-osso	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#TRAIL-null	+definite
+il#NEEDLE-sottopassgio	+definite	+atomic,+minimal
+la#TRAIL-null	+definite
+una#WHATSIT-a#-a	-definite	+atomic,+minimal
+il#PIECE-o#KING-vede	+definite	+atomic,+minimal
+l'#WADDING-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#TEASPOON-o	+definite	+atomic,+minimal
+le#-pae	+definite	PLURAL-PLACEHOLDER
+il#TEASPOON-o	+definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+la#ICE_CREAM_PARLOR-a	+definite	+atomic,+minimal
+un#PIECE-etto	-definite	+atomic,+minimal
+un#.DIM-ino#FROG-sto	-definite	+atomic,+minimal
+il#-pianofte	+definite	+atomic,+minimal
+il#.DIM-o	+definite	+atomic,+minimal
+il#-pianofte	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#HAND-null	+definite
+la#HAND-null	+definite
+la#-tre	+definite	+atomic,+minimal
+le#-tri	+definite	PLURAL-PLACEHOLDER
+il#.DIM-o	+definite	+atomic,+minimal
+la#RACKET-a#-a	+definite	+atomic,+minimal
+la#POLE-lina#ORANGE-one	+definite	+atomic,+minimal
+la#POLE-lina	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#KING-vede	-definite	+atomic,+minimal	+feminine
+i#PIECE-i	+definite	PLURAL-PLACEHOLDER
+una#POLE-lina	-definite	+atomic,+minimal
+la#HAND-null	+definite
+la#RACKET-a	+definite	+atomic,+minimal
+un#BABYBOTTLE-null	-definite
+la#YEAR-na	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+i#POLE-loni	+definite	PLURAL-PLACEHOLDER
+le#-pal	+definite	PLURAL-PLACEHOLDER
+una#-a	-definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#NEEDLE-pliaccio	-definite	+atomic,+minimal
+il#NOSE-o	+definite	+atomic,+minimal
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+il#NOSE-o	+definite	+atomic,+minimal
+il#NOSE-o#KING-osso	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+la#RACKET-a	+definite	+atomic,+minimal
+la#POLE-lina#-a	+definite	+atomic,+minimal
+la#KING-scivania	+definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+un#GOOSE-phino	-definite	+atomic,+minimal
+un#GOOSE-phino	-definite	+atomic,+minimal
+un#BOOK-etto	-definite	+atomic,+minimal
+un#BOOK-etto	-definite	+atomic,+minimal
+una#CITY-null	-definite
+lo#UNCLE-o	+definite	+atomic,+minimal	+feminine
+un#TICKET-o	-definite	+atomic,+minimal
+l'#-ologio	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+l'#-setto	+definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+le#STAR-e	+definite	PLURAL-PLACEHOLDER
+l'#FRIEND-o	+definite	+atomic,+minimal	+feminine
+un#-settino	-definite	+atomic,+minimal
+il#RABBIT-etto	+definite	+atomic,+minimal
+i#TOOTH-i	+definite	PLURAL-PLACEHOLDER
+la#YEAR-na	+definite	+atomic,+minimal
+l'#-setto	+definite	+atomic,+minimal
+l'#-setto	+definite	+atomic,+minimal
+il#NEEDLE-bno	+definite	+atomic,+minimal
+la#BEE-peretta	+definite	+atomic,+minimal
+la#BEE-peretta	+definite	+atomic,+minimal
+il#NEEDLE-bno	+definite	+atomic,+minimal
+la#BEE-peretta	+definite	+atomic,+minimal
+il#FISH-iolino	+definite	+atomic,+minimal
+un#HARE-otto	-definite	+atomic,+minimal
+un#COLOR-e	-definite	+atomic,+minimal
+il#RABBIT-etto	+definite	+atomic,+minimal
+il#NEEDLE-bno	+definite	+atomic,+minimal
+il#FISH-e	+definite	+atomic,+minimal
+il#RABBIT-etto	+definite	+atomic,+minimal
+la#-stia	+definite	+atomic,+minimal
+il#RABBIT-etto#-o	+definite	+atomic,+minimal
+la#BEE-peretta	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+una#-ea	-definite	+atomic,+minimal
+il#-hino	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#-o#-smemato	+definite	+atomic,+minimal
+la#-stia	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+gli#BOOT-i	+definite	PLURAL-PLACEHOLDER
+i#-i	+definite	PLURAL-PLACEHOLDER
+i#BOOT-i	+definite	PLURAL-PLACEHOLDER
+i#-i	+definite	PLURAL-PLACEHOLDER
+la#KING-sciapa	+definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+i#COPYBOOK-i	+definite	PLURAL-PLACEHOLDER
+il#COPYBOOK-o	+definite	+atomic,+minimal
+il#-e	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+il#PYJAMAS-null	+definite
+l'#HELIX-ottero#LITTLEONE-o	+definite	+atomic,+minimal
+la#HOUSE-etta	+definite	+atomic,+minimal
+l'#HELIX-ottero	+definite	+atomic,+minimal
+l'#HELIX-ottero	+definite	+atomic,+minimal
+l'#HELIX-a	+definite	+atomic,+minimal
+la#DRUMS-a	+definite	+atomic,+minimal
+le#KING-uote	+definite	PLURAL-PLACEHOLDER	+feminine
+le#KING-uote	+definite	PLURAL-PLACEHOLDER	+feminine
+il#PYJAMAS.DIM-o	+definite	+atomic,+minimal
+i#TOOTH-i	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+il#MILK-e	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+la#PISTOL-a#-a	+definite	+atomic,+minimal
+la#PISTOL-a#-a	+definite	+atomic,+minimal
+la#SEQUENCE-a	+definite	+atomic,+minimal
+un#KNEE-i	-definite	PLURAL-PLACEHOLDER
+il#HAIRDRYER-teleo	+definite	+atomic,+minimal
+il#-ino#ORANGE-one	+definite	+atomic,+minimal
+il#TOKEN-e	+definite	+atomic,+minimal
+il#NUMBER-o	+definite	+atomic,+minimal
+il#-ino	+definite	+atomic,+minimal
+il#-ino	+definite	+atomic,+minimal
+il#-ino	+definite	+atomic,+minimal
+il#-ino	+definite	+atomic,+minimal
+la#POLE-lina	+definite	+atomic,+minimal
+il#RING-o#-o	+definite	+atomic,+minimal
+la#HOUSE-a	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#FRISBY-null	+definite
+il#-o	+definite	+atomic,+minimal
+il#BEE-tpetino	+definite	+atomic,+minimal
+il#PYJAMAS.DIM-o	+definite	+atomic,+minimal
+il#PYJAMAS-null	+definite
+una#WHATSIT-a	-definite	+atomic,+minimal
+il#HORSE-o#KING-vede	+definite	+atomic,+minimal
+il#PYJAMAS.DIM-o	+definite	+atomic,+minimal
+il#KING-tamonto	+definite	+atomic,+minimal	+feminine
+un#KING-tamonto	-definite	+atomic,+minimal	+feminine
+le#WHATSIT-truzioni	+definite	PLURAL-PLACEHOLDER
+un#KING-tamonto#KING-osso	-definite	+atomic,+minimal	+feminine
+un#KING-tamonto	-definite	+atomic,+minimal	+feminine
+il#KING-tamonto#KING-osso	+definite	+atomic,+minimal	+feminine
+un#HAIRDRYER-null	-definite
+una#PISTOL-a	-definite	+atomic,+minimal
+il#-ino	+definite	+atomic,+minimal
+il#PYJAMAS.DIM-o	+definite	+atomic,+minimal
+un#DIVE-o	-definite	+atomic,+minimal
+il#PYJAMAS.DIM-o#KING-osso	+definite	+atomic,+minimal
+una#UNCLE-a	-definite	+atomic,+minimal	+feminine
+la#PISTOL-a	+definite	+atomic,+minimal
+le#DOG-ottiere	+definite	PLURAL-PLACEHOLDER
+la#PISTOL-a#-a	+definite	+atomic,+minimal
+la#STOMACH-a	+definite	+atomic,+minimal
+la#STOMACH-a#-a	+definite	+atomic,+minimal
+la#STOMACH-a	+definite	+atomic,+minimal
+l'#HELIX-ombo	+definite	+atomic,+minimal
+la#SHIT-a	+definite	+atomic,+minimal
+gli#KING-stumenti	+definite	PLURAL-PLACEHOLDER	+feminine
+il#BOOK-etti	+definite	PLURAL-PLACEHOLDER
+la#KING-tomba	+definite	+atomic,+minimal	+feminine
+la#KING-tomba	+definite	+atomic,+minimal	+feminine
+il#KING-tambuo	+definite	+atomic,+minimal	+feminine
+la#GUITAR-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#CAR-flo	+definite	+atomic,+minimal
+il#PIPE-)	+definite	+atomic,+minimal
+il#SOCK-etto	+definite	+atomic,+minimal
+il#PIPE-o	+definite	+atomic,+minimal
+il#PIPE-o	+definite	+atomic,+minimal
+le#BEE-criole	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#BEE-pà	+definite
+la#SHELL-a	+definite	+atomic,+minimal
+la#NEEDLE-stione	+definite
+la#NEEDLE-stione	+definite
+la#SHELL-a	+definite	+atomic,+minimal
+il#COMB?-e	+definite	+atomic,+minimal
+una#ANT-a	-definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+il#COMB?-e#-o	+definite	+atomic,+minimal
+una#PISTOL-a	-definite	+atomic,+minimal
+il#BEE-pà	+definite
+l'#POLE-elico	+definite	+atomic,+minimal
+l'#POLE-elico	+definite	+atomic,+minimal
+la#PISTOL-a	+definite	+atomic,+minimal
+la#WAVE-spa	+definite	+atomic,+minimal
+la#WAVE-spa	+definite	+atomic,+minimal
+una#STAR-a#-ante	-definite	+atomic,+minimal
+una#POLE-lina	-definite	+atomic,+minimal
+il#SHEET-o	+definite	+atomic,+minimal
+il#SHEET-o	+definite	+atomic,+minimal
+una#KING-vede	-definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+la#POLE-lina#-a	+definite	+atomic,+minimal
+il#-gine#ORANGE-one	+definite	+atomic,+minimal
+i#-i	+definite	PLURAL-PLACEHOLDER
+un#MOMENT-o	-definite	+atomic,+minimal
+i#BEE-cricci	+definite	PLURAL-PLACEHOLDER
+i#CONFETTI-i	+definite	PLURAL-PLACEHOLDER
+i#CONFETTI-i	+definite	PLURAL-PLACEHOLDER
+i#CONFETTI-i	+definite	PLURAL-PLACEHOLDER
+il#NOSE-o	+definite	+atomic,+minimal
+l'#-null	+definite
+il#NEEDLE-pliaccio	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#GOOSE-phino	-definite	+atomic,+minimal
+la#POLE-lina	+definite	+atomic,+minimal
+la#POLE-lina	+definite	+atomic,+minimal
+l'#ANTISLIP-o	+definite	+atomic,+minimal
+il#POLE-lone	+definite	+atomic,+minimal
+una#STAIN-nina	-definite	+atomic,+minimal
+la#PHOTO-o	+definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+un#KING-tambuo	-definite	+atomic,+minimal	+feminine
+un#KING-tambuo	-definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+il#-registrate	+definite	+atomic,+minimal
+i#POLE-boncini	+definite	PLURAL-PLACEHOLDER
+il#KING-tambuello	+definite	+atomic,+minimal	+feminine
+il#-registrate	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+l'#AEROPLANE-o	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+una#STAIN-na	-definite	+atomic,+minimal
+una#STAIN-na#-sptiva	-definite	+atomic,+minimal
+una#TRAIL-null#BEE-posita	-definite
+la#TRAIL-null	+definite
+il#-o#-o	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#KING-veità	+definite	-feminine
+la#TRAIL-null	+definite
+l'#AIRPLANE-ino	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+la#HAND-null	+definite
+il#BAMBINO-o	+definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#BAMBINO-o	+definite	+atomic,+minimal	+feminine
+un#KING-suggeimento	-definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+la#TRAIL-null	+definite
+un#MOMENT-o	-definite	+atomic,+minimal
+il#-o#-o	+definite	+atomic,+minimal
+la#FAMILY-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+gli#AIRPLANE-ini	+definite	PLURAL-PLACEHOLDER
+un#KING-vede	-definite	+atomic,+minimal	+feminine
+il#VEHICLENOSE-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#-signa	-definite	+atomic,+minimal
+il#CAT-ino	+definite	+atomic,+minimal
+una#-signa	-definite	+atomic,+minimal
+il#CAT-ino	+definite	+atomic,+minimal
+una#KIND-null	-definite
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+un#-ino	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#-ino	-definite	+atomic,+minimal
+la#ACE-ca	+definite	+atomic,+minimal
+la#ACE-ca	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#WAND-a	+definite	+atomic,+minimal
+il#KING-tenino	+definite	+atomic,+minimal	+feminine
+il#-o	+definite	+atomic,+minimal
+la#-e	+definite	+atomic,+minimal
+la#-e	+definite	+atomic,+minimal
+i#DOLPHIN-i	+definite	PLURAL-PLACEHOLDER
+la#-e	+definite	+atomic,+minimal
+un#BAMBINO-o	-definite	+atomic,+minimal	+feminine
+la#-stia	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+gli#BOOT-i	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+la#STOMACH-a	+definite	+atomic,+minimal
+un#KNIFE-o	-definite	+atomic,+minimal
+le#BIKE-for	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+la#STOMACH-a	+definite	+atomic,+minimal
+il#KING-e	+definite	+atomic,+minimal	+feminine
+la#SON-a	+definite	+atomic,+minimal
+la#-e	+definite	+atomic,+minimal
+la#-princisa	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+l'#OGRE-o	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+un#PIECE-ettino	-definite	+atomic,+minimal
+l'#OGRE-o	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+la#END-null	+definite
+l'#OGRE-o	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+l'#OGRE-o	+definite	+atomic,+minimal
+il#BANK-hetto	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+il#FISH-e	+definite	+atomic,+minimal
+la#TAIL-a	+definite	+atomic,+minimal
+la#MEAT-e	+definite	+atomic,+minimal
+le#-pae	+definite	PLURAL-PLACEHOLDER
+un#PUDDING-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#BEE-pà	+definite
+il#BEE-pà	+definite
+il#-o	+definite	+atomic,+minimal
+lo#BACKPACK-o	+definite	+atomic,+minimal
+la#BOW-ma	+definite	+atomic,+minimal
+la#STAR-a	+definite	+atomic,+minimal
+la#HOLE-cia	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#-paa	+definite	+atomic,+minimal
+un#BAMBINO-o	-definite	+atomic,+minimal	+feminine
+un#NEEDLE-cnolino	-definite	+atomic,+minimal
+una#WHATSIT-a	-definite	+atomic,+minimal
+lo#TOOTH-stuzzicai	+definite
+l'#-o	+definite	+atomic,+minimal
+un'#ORANGE-a	-definite	+atomic,+minimal
+il#BEE-pà	+definite
+l'#-o	+definite	+atomic,+minimal
+la#.DIM-a	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+un#GOOSE-phino	-definite	+atomic,+minimal
+la#STAR-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#PHOTO-ografia	-definite	+atomic,+minimal
+le#PHOTO-o	+definite	+atomic,+minimal
+la#STAR-a	+definite	+atomic,+minimal
+la#STAR-a	+definite	+atomic,+minimal
+la#PHOTO-o	+definite	+atomic,+minimal
+la#-a#KING-seia	+definite	+atomic,+minimal
+la#STAIN-na	+definite	+atomic,+minimal
+la#PHOTO-o	+definite	+atomic,+minimal
+la#STAIN-na#PHOTO-ografica	+definite	+atomic,+minimal
+la#-cerane	+definite	PLURAL-PLACEHOLDER
+le#-cerane	+definite	PLURAL-PLACEHOLDER
+le#-pal	+definite	PLURAL-PLACEHOLDER
+una#POLE-lina	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+una#POLE-lina#-a	-definite	+atomic,+minimal
+il#BEE-pà	+definite
+le#CARD-e	+definite	PLURAL-PLACEHOLDER
+le#CARD-e	+definite	PLURAL-PLACEHOLDER
+il#KING-teno	+definite	+atomic,+minimal	+feminine
+il#KING-teno	+definite	+atomic,+minimal	+feminine
+lo#HAIRDRYER-sdo	+definite	+atomic,+minimal
+lo#HAIRDRYER-sdo#KING-osso	+definite	+atomic,+minimal
+le#KING-uote	+definite	PLURAL-PLACEHOLDER	+feminine
+lo#HAIRDRYER-sdo	+definite	+atomic,+minimal
+la#BOW-ba	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#KING-teno	+definite	+atomic,+minimal	+feminine
+il#KING-teno	+definite	+atomic,+minimal	+feminine
+le#CARD-e	+definite	PLURAL-PLACEHOLDER
+l'#AIRPLANE-o	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+lo#HAIRDRYER-sdo#KING-vede	+definite	+atomic,+minimal
+il#NOSE-o	+definite	+atomic,+minimal
+l'#AIRPLANE-o	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+l'#AIRPLANE-o	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+lo#HAIRDRYER-sdo	+definite	+atomic,+minimal
+lo#HAIRDRYER-sdo	+definite	+atomic,+minimal
+lo#HAIRDRYER-sdo#-null	+definite	+atomic,+minimal
+l'#-setto	+definite	+atomic,+minimal
+la#PISTOL-a	+definite	+atomic,+minimal
+la#-pta	+definite	+atomic,+minimal
+la#-pta	+definite	+atomic,+minimal
+la#COMBINATION-e	+definite
+una#POSITION-null	-definite
+il#POLE-lino	+definite	+atomic,+minimal
+la#-pta	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#HAMPER-ino	+definite	+atomic,+minimal
+una#WHATSIT-a	-definite	+atomic,+minimal
+i#JIGSAW-e	+definite	+atomic,+minimal
+il#JIGSAW-e	+definite	+atomic,+minimal
+un#PIECE-etto	-definite	+atomic,+minimal
+il#JIGSAW-e	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#JIGSAW-e	+definite	+atomic,+minimal
+un#PIECE-o	-definite	+atomic,+minimal
+i#BLU-i	+definite	PLURAL-PLACEHOLDER
+un#ACE-so	-definite	+atomic,+minimal
+la#POLE-la#-e	+definite	+atomic,+minimal
+la#MUSIC-hetta	+definite	+atomic,+minimal
+un#DIVE-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#LITTLEONE-o	-definite	+atomic,+minimal
+la#POLE-lina	+definite	+atomic,+minimal
+l'#TREE-o	+definite	+atomic,+minimal
+l'#TREE-o	+definite	+atomic,+minimal
+l'#TREE-o	+definite	+atomic,+minimal
+le#POLE-le	+definite	PLURAL-PLACEHOLDER
+i#-oni	+definite	PLURAL-PLACEHOLDER
+i#-i	+definite	PLURAL-PLACEHOLDER
+la#POLE-lina	+definite	+atomic,+minimal
+un#EGG-o	-definite	+atomic,+minimal
+un#-etto	-definite	+atomic,+minimal
+il#-o#-o	+definite	+atomic,+minimal
+una#WHATSIT-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#BEE-ppa	+definite	+atomic,+minimal
+la#BEE-ppa	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#JIGSAW-e	+definite	+atomic,+minimal
+un#-ore	-definite	+atomic,+minimal
+i#PIECE-i	+definite	PLURAL-PLACEHOLDER
+il#PIECE-o	+definite	+atomic,+minimal
+la#END-stra	+definite	+atomic,+minimal
+il#PIECE-etto	+definite	+atomic,+minimal
+il#PIECE-o	+definite	+atomic,+minimal
+il#PIECE-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#HICCUP-o	+definite	+atomic,+minimal
+il#PIECE-etto	+definite	+atomic,+minimal
+un#PIECE-o	-definite	+atomic,+minimal
+il#JIGSAW-e	+definite	+atomic,+minimal
+un#PIECE-o	-definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+la#KING-tatauga	+definite	+atomic,+minimal	+feminine
+il#KING-ospo	+definite	+atomic,+minimal	+feminine
+il#NECK-o	+definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+la#MOLE-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#MOLE-ina	-definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+un#-o	-definite	+atomic,+minimal
+gli#NEEDLE-sphetti	+definite	PLURAL-PLACEHOLDER
+le#TUNNEL-e	+definite	PLURAL-PLACEHOLDER
+i#AIR-canni	+definite	PLURAL-PLACEHOLDER
+i#AIR-canni	+definite	PLURAL-PLACEHOLDER
+i#NEEDLE-pappallini	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+la#WAVE-rine	+definite
+il#KING-veme	+definite	+atomic,+minimal	+feminine
+le#APHID-i	+definite
+la#SNAIL-hina	+definite	+atomic,+minimal
+una#SNAIL-hina	-definite	+atomic,+minimal
+le#EGG-a	+definite
+un#HOLE-hetto	-definite	+atomic,+minimal
+le#EGG-a	+definite
+la#-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#-ina	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+gli#ANIMAL-i	+definite	PLURAL-PLACEHOLDER
+gli#ANIMAL-i	+definite	PLURAL-PLACEHOLDER
+gli#ANIMAL-i	+definite	PLURAL-PLACEHOLDER
+le#-e	+definite	PLURAL-PLACEHOLDER
+la#MOLE-ina	+definite	+atomic,+minimal
+la#DINNER-a	+definite	+atomic,+minimal
+la#POLE-pasciutta	+definite	+atomic,+minimal
+il#.DIM-o	+definite	+atomic,+minimal
+un'#FRIEND-a	-definite	+atomic,+minimal	+feminine
+l'#NEEDLE-o	+definite	+atomic,+minimal
+un#PIECE-o	-definite	+atomic,+minimal
+un#NEEDLE-o	-definite	+atomic,+minimal
+l'#-o	+definite	+atomic,+minimal
+una#STAIN-na	-definite	+atomic,+minimal
+la#STAIN-na	+definite	+atomic,+minimal
+gli#CAR-oscontri	+definite	PLURAL-PLACEHOLDER
+un#-ino	-definite	+atomic,+minimal
+il#TOKEN-e	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+la#BILL-a	+definite	+atomic,+minimal
+il#-ino#-o	+definite	+atomic,+minimal
+uno#ORANGE-one	-definite	+atomic,+minimal
+il#-ino#KING-veo	+definite	+atomic,+minimal
+il#KING-ticiclo	+definite	+atomic,+minimal	+feminine
+il#-null	+definite
+la#HORN-etta	+definite	+atomic,+minimal
+i#GRANDPARENT-i	+definite	PLURAL-PLACEHOLDER	+feminine
+l'#AIRPLANE-o	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+la#TAIL-a	+definite	+atomic,+minimal
+un#AIRPLANE-o	-definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+la#TAIL-a	+definite	+atomic,+minimal
+il#VEHICLENOSE-o	+definite	+atomic,+minimal
+la#TAIL-a	+definite	+atomic,+minimal
+un#AIRPLANE-o	-definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+una#-tre	-definite	+atomic,+minimal
+una#PISTOL-a	-definite	+atomic,+minimal
+una#PISTOL-a	-definite	+atomic,+minimal
+una#PISTOL-a#-null	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#-raffredde	+definite	+atomic,+minimal
+il#TRIGGER-o	+definite	+atomic,+minimal
+l'#HULA_HOOP-null	+definite
+le#-pal#-e	+definite	PLURAL-PLACEHOLDER
+lo#-o	+definite	+atomic,+minimal
+il#JIGSAW-e	+definite	+atomic,+minimal
+il#JIGSAW-e	+definite	+atomic,+minimal
+i#JIGSAW-e	+definite	+atomic,+minimal
+i#JIGSAW-e	+definite	+atomic,+minimal
+il#JIGSAW-e	+definite	+atomic,+minimal
+un#PIECE-o	-definite	+atomic,+minimal
+il#NOSE-etto	+definite	+atomic,+minimal
+un#-ino	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#PIECE-ettino	-definite	+atomic,+minimal
+un#BLU-o	-definite	+atomic,+minimal
+un#ACE-so	-definite	+atomic,+minimal
+un#PIECE-etto	-definite	+atomic,+minimal
+un#ACE-so	-definite	+atomic,+minimal
+i#JIGSAW-e	+definite	+atomic,+minimal
+un#GOOSE-phino	-definite	+atomic,+minimal
+la#-pta	+definite	+atomic,+minimal
+il#TRUCK-null	+definite
+la#-paa	+definite	+atomic,+minimal
+la#-paa	+definite	+atomic,+minimal
+il#POLE-rrello	+definite	+atomic,+minimal
+un#-hio	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#JIGSAW-e	+definite	+atomic,+minimal
+l'#-a	+definite	+atomic,+minimal
+l'#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#NEEDLE-frole	+definite	PLURAL-PLACEHOLDER
+un#CORN-o	-definite	+atomic,+minimal
+la#BEE-criola	+definite	+atomic,+minimal
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+una#KICK-a	-definite	+atomic,+minimal
+il#BEE-pà	+definite
+i#CYLINDER-i	+definite	PLURAL-PLACEHOLDER
+il#KING-vede	+definite	+atomic,+minimal	+feminine
+il#KING-vede	+definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+i#SOCK-etti	+definite	PLURAL-PLACEHOLDER
+i#KING-tiangoli	+definite	PLURAL-PLACEHOLDER	+feminine
+una#-tre	-definite	+atomic,+minimal
+i#KING-tiangoli	+definite	PLURAL-PLACEHOLDER	+feminine
+i#KING-tiangoli	+definite	PLURAL-PLACEHOLDER	+feminine
+la#-a	+definite	+atomic,+minimal
+un#HAMPER-ino	-definite	+atomic,+minimal
+i#KING-tiangoli	+definite	PLURAL-PLACEHOLDER	+feminine
+la#-a	+definite	+atomic,+minimal
+il#NAME-e	+definite	+atomic,+minimal
+il#-o#-o	+definite	+atomic,+minimal
+un#EVENT-o	-definite	+atomic,+minimal
+i#-ini	+definite	PLURAL-PLACEHOLDER
+il#TRIGGER-o	+definite	+atomic,+minimal
+una#PISTOL-a	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+le#BIKE-for	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+la#PISTOL-a	+definite	+atomic,+minimal
+un#ACE-portacetta	-definite
+la#KEEPER-ia	+definite	+atomic,+minimal
+una#KIND-null	-definite
+la#PISTOL-a	+definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+un#-etto	-definite	+atomic,+minimal
+il#TEA-null	+definite
+il#TEA-null	+definite
+un#TEA-null	-definite
+le#PISTOL-e	+definite	PLURAL-PLACEHOLDER
+il#LION-cino	+definite	+atomic,+minimal
+il#KING-teno	+definite	+atomic,+minimal	+feminine
+la#HAND-null	+definite
+un#-ino	-definite	+atomic,+minimal
+il#NOSE-o	+definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+il#NOSE-ino	+definite	+atomic,+minimal
+un#MOMENT-ino	-definite	+atomic,+minimal
+l'#AIR-a	+definite	+atomic,+minimal
+un#POLE-elico	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+un#POLE-elico	-definite	+atomic,+minimal
+l'#POLE-elico	+definite	+atomic,+minimal
+l'#POLE-elico	+definite	+atomic,+minimal
+l'#POLE-elico	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#HOLE-o	-definite	+atomic,+minimal
+un#GOOSE-phino	-definite	+atomic,+minimal
+il#POLE-loncino	+definite	+atomic,+minimal
+il#POLE-loncino	+definite	+atomic,+minimal
+la#KING-veità	+definite	-feminine
+una#-e	-definite	+atomic,+minimal
+un#-o#-o	-definite	+atomic,+minimal
+i#SOCK-etti	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#POLE-loncino	+definite	+atomic,+minimal
+i#POLE-celli	+definite	PLURAL-PLACEHOLDER
+il#KING-teno	+definite	+atomic,+minimal	+feminine
+un#BOOK-etto	-definite	+atomic,+minimal
+le#EAR-e#-e	+definite	PLURAL-PLACEHOLDER
+i#NEEDLE-cnolini	+definite	PLURAL-PLACEHOLDER
+il#-o	+definite	+atomic,+minimal
+i#AIR-coll	+definite	PLURAL-PLACEHOLDER
+una#WHATSIT-a	-definite	+atomic,+minimal
+un#NUMBER-o	-definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+i#PUP-i	+definite	PLURAL-PLACEHOLDER
+le#EAR-e#-e	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+le#EAR-e#-e	+definite	PLURAL-PLACEHOLDER
+un#PUP-o	-definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#NEEDLE-guinzlio	+definite	+atomic,+minimal
+il#POLE-loncino	+definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+la#-ta	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#PUP-o	-definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+i#SON-null	+definite	PLURAL-PLACEHOLDER
+la#-signa#-a	+definite	+atomic,+minimal
+la#-signa#-a	+definite	+atomic,+minimal
+una#-iccia	-definite	+atomic,+minimal
+i#PUP-otti	+definite	PLURAL-PLACEHOLDER
+i#PUP-i	+definite	PLURAL-PLACEHOLDER
+la#HAMPER-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+la#HAMPER-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+un#NEEDLE-messgio	-definite	+atomic,+minimal
+il#NEEDLE-messgio	+definite	+atomic,+minimal
+una#FAIRY-toria	-definite	+atomic,+minimal
+una#HOUSE-a	-definite	+atomic,+minimal
+un#DOG-e	-definite	+atomic,+minimal
+il#KING-segente	+definite	+atomic,+minimal	+feminine
+un#CAT-o	-definite	+atomic,+minimal
+il#DOG-e	+definite	+atomic,+minimal
+il#KING-segente	+definite	+atomic,+minimal	+feminine
+il#CAT-o	+definite	+atomic,+minimal
+il#HORSE-o	+definite	+atomic,+minimal
+il#DOG-e	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+il#HORSE-o	+definite	+atomic,+minimal
+il#DOG-e	+definite	+atomic,+minimal
+le#-i	+definite	PLURAL-PLACEHOLDER
+il#-o	+definite	+atomic,+minimal
+le#-i	+definite	PLURAL-PLACEHOLDER
+la#-iccia	+definite	+atomic,+minimal
+una#KIND-null	-definite
+il#-o	+definite	+atomic,+minimal
+il#HORSE-o	+definite	+atomic,+minimal
+il#DOG-e	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+i#PUP-i	+definite	PLURAL-PLACEHOLDER
+il#NEEDLE-messgio	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+i#PUP-i	+definite	PLURAL-PLACEHOLDER
+il#-o	+definite	+atomic,+minimal
+il#NOSE-o	+definite	+atomic,+minimal
+la#MASTER-a	+definite	+atomic,+minimal	+feminine
+il#-o	+definite	+atomic,+minimal
+la#WAVE-spa	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+la#-stia	+definite	+atomic,+minimal
+un#MOUSE-o#NEEDLE-mico	-definite	+atomic,+minimal
+la#LOCOMOTIVE-a	+definite	+atomic,+minimal
+il#.DIM-o	+definite	+atomic,+minimal
+la#BABY-a	+definite	+atomic,+minimal
+il#ROOF-o	+definite	+atomic,+minimal
+l'#POLE-elico	+definite	+atomic,+minimal
+il#POLE-loncino	+definite	+atomic,+minimal
+la#POLE-pasciutta	+definite	+atomic,+minimal
+il#POLE-loncino	+definite	+atomic,+minimal
+le#-pal	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+la#-ina	+definite	+atomic,+minimal
+la#PETROL-a	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+una#KIND-null	-definite
+un#-o	-definite	+atomic,+minimal
+una#-etta	-definite	+atomic,+minimal
+i#POLE-loncini	+definite	PLURAL-PLACEHOLDER
+un#-e	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+un#RASCAL-ante	-definite	+atomic,+minimal	+feminine
+la#DOG-zone	+definite
+la#DOG-zone	+definite
+la#-a	+definite	+atomic,+minimal
+uno#SPACE-o	-definite	+atomic,+minimal
+il#-registrate	+definite	+atomic,+minimal
+il#-registrate	+definite	+atomic,+minimal
+un#BOOK-etto	-definite	+atomic,+minimal
+il#BOOK-etto#-e	+definite	+atomic,+minimal
+il#-e#-e	+definite	+atomic,+minimal
+il#NOSE-o	+definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+un#GOOSE-phino	-definite	+atomic,+minimal
+la#STOMACH-a	+definite	+atomic,+minimal
+la#STOMACH-a	+definite	+atomic,+minimal
+il#-)	+definite	+atomic,+minimal
+il#-e	+definite	+atomic,+minimal
+il#LION-e	+definite	+atomic,+minimal
+il#LION-e	+definite	+atomic,+minimal
+un#-to	-definite	+atomic,+minimal
+il#DOG-e	+definite	+atomic,+minimal
+l'#-o	+definite	+atomic,+minimal
+un#FISH-e	-definite	+atomic,+minimal
+un#FISH-e	-definite	+atomic,+minimal
+le#FIN-e	+definite	PLURAL-PLACEHOLDER
+una#-a	-definite	+atomic,+minimal
+una#-a#-e	-definite	+atomic,+minimal
+la#GIRAFFE-a	+definite	+atomic,+minimal
+il#ROOF-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#PIECE-ettino	-definite	+atomic,+minimal
+un#POLE-cello	-definite	+atomic,+minimal
+il#KING-teno	+definite	+atomic,+minimal	+feminine
+una#-pecella	-definite	+atomic,+minimal
+il#-e	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+un#FLOATING-e	-definite	+atomic,+minimal
+una#WHATSIT-a	-definite	+atomic,+minimal
+un'#CAR-omobilina	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#WHEEL-e	+definite	+atomic,+minimal
+la#STAIN-na	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+una#MOWER-null	-definite
+la#MOWER-null	+definite
+un#MOMENT-o	-definite	+atomic,+minimal
+la#MOWER-null	+definite
+l'#-a	+definite	+atomic,+minimal
+la#GRANDPARENT-a	+definite	+atomic,+minimal	+feminine
+la#MOWER-null	+definite
+l'#-a	+definite	+atomic,+minimal
+un#CAP-o	-definite	+atomic,+minimal
+il#-ptiere	+definite	+atomic,+minimal
+il#KEEPER-e	+definite	+atomic,+minimal
+il#CARETAKER-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+lo#-ino	+definite	+atomic,+minimal
+il#PANDA-null	+definite
+la#POLE-ginnica	+definite	+atomic,+minimal
+un#TREE-ello	-definite	+atomic,+minimal
+una#BARROW-a	-definite	+atomic,+minimal
+un#KISS.DIM-o	-definite	+atomic,+minimal
+un#POLE-corino	-definite	+atomic,+minimal
+la#TAIL-a#-a	+definite	+atomic,+minimal
+il#CAT-ino	+definite	+atomic,+minimal
+il#-pianofte	+definite	+atomic,+minimal
+il#-pianofte	+definite	+atomic,+minimal
+il#-pianofte	+definite	+atomic,+minimal
+la#KING-tomba	+definite	+atomic,+minimal	+feminine
+una#-null	-definite
+il#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#PIG-ino	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+il#-e	+definite	+atomic,+minimal
+il#NEEDLE-bno	+definite	+atomic,+minimal
+l'#-e	+definite	+atomic,+minimal
+la#KING-tatauga	+definite	+atomic,+minimal	+feminine
+la#KING-tataughina	+definite	+atomic,+minimal	+feminine
+il#-tra(tte)	+definite	+atomic,+minimal
+una#KING-uota#-e	-definite	+atomic,+minimal	+feminine
+una#KING-uota#LITTLEONE-a	-definite	+atomic,+minimal	+feminine
+le#WHATSIT-e	+definite	+atomic,+minimal
+una#BILL-a	-definite	+atomic,+minimal
+le#-pal	+definite	PLURAL-PLACEHOLDER
+un#KING-ticiclo	-definite	+atomic,+minimal	+feminine
+il#HUMPBACKED-o	+definite	+atomic,+minimal
+un#-pianofte	-definite	+atomic,+minimal
+una#ACCORDION-a	-definite	+atomic,+minimal
+i#POLE-ti	+definite	PLURAL-PLACEHOLDER
+il#-pianofte	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+la#HOUSE-a	+definite	+atomic,+minimal
+la#FAIRY-toria	+definite	+atomic,+minimal
+il#HAY-o	+definite	+atomic,+minimal
+un#SHEAF-e	-definite	+atomic,+minimal
+il#NEEDLE-fottino	+definite	+atomic,+minimal
+i#.DIM-ini	+definite	PLURAL-PLACEHOLDER
+il#-o	+definite	+atomic,+minimal
+le#LIGHT-i#-e	+definite	PLURAL-PLACEHOLDER
+un#WOLF-o	-definite	+atomic,+minimal
+un#AIR-canno	-definite	+atomic,+minimal
+un#OWL-o	-definite	+atomic,+minimal
+il#AIR-canno	+definite	+atomic,+minimal
+il#OWL-o	+definite	+atomic,+minimal
+una#KIND-null	-definite
+uno#FLAGEOLET-o	-definite	+atomic,+minimal
+la#ACCORDION-a	+definite	+atomic,+minimal
+una#HOUSE-a	-definite	+atomic,+minimal
+il#-sude	+definite	+atomic,+minimal
+l'#WATER-a	+definite	+atomic,+minimal
+i#-i	+definite	PLURAL-PLACEHOLDER
+una#HOUSE-a	-definite	+atomic,+minimal
+una#HOUSE-a	-definite	+atomic,+minimal
+l'#-e	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+i#OGRE-pellini	+definite	PLURAL-PLACEHOLDER
+i#BEE-cretti	+definite	PLURAL-PLACEHOLDER
+l'#CAR-unno	+definite	+atomic,+minimal
+lo#-o	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+il#POORONE-o	+definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+il#OWL-o	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+la#YEAR-capa	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+il#POLE-bone	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+la#NEEDLE-pina	+definite	+atomic,+minimal
+un'#-a	-definite	+atomic,+minimal
+i#OGRE-pellini	+definite	PLURAL-PLACEHOLDER
+la#SHIT-ia	+definite	+atomic,+minimal
+l'#WATER-a	+definite	+atomic,+minimal
+la#MEAT-e	+definite	+atomic,+minimal
+la#-pta	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+il#FIREPLACE-o	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+la#HOUSE-a	+definite	+atomic,+minimal
+il#FIREPLACE-o	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+il#FIREPLACE-o	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+il#WOLF-o	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+la#-stia	+definite	+atomic,+minimal
+il#HUMPBACKED-o	+definite	+atomic,+minimal
+un#GOOSE-chio	-definite	+atomic,+minimal
+la#BEAST-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#SOLDIER-ino	+definite	+atomic,+minimal	+feminine
+la#SWORD-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#NEEDLE-razza	-definite	+atomic,+minimal
+il#HUMPBACKED-o	+definite	+atomic,+minimal
+il#HUMPBACKED-o	+definite	+atomic,+minimal
+una#WHATSIT-a	-definite	+atomic,+minimal
+una#HUMPBACKED-a	-definite	+atomic,+minimal
+una#KIND-null	-definite
+la#-a	+definite	+atomic,+minimal
+un#BOOK-etto#-o	-definite	+atomic,+minimal
+la#-stia	+definite	+atomic,+minimal
+la#FOX-null	+definite
+un#-o	-definite	+atomic,+minimal
+un#ACE-cetto	-definite	+atomic,+minimal
+la#-a#-a	+definite	+atomic,+minimal
+il#-mangiao	+definite	+atomic,+minimal
+il#-mangiao	+definite	+atomic,+minimal
+le#AIR-monette	+definite	PLURAL-PLACEHOLDER
+il#CAT-o	+definite	+atomic,+minimal
+la#FOX-null	+definite
+un#TREE-o	-definite	+atomic,+minimal
+i#-i	+definite	PLURAL-PLACEHOLDER
+un#NEEDLE-vigio	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+il#PYJAMAS.DIM-o	+definite	+atomic,+minimal
+la#GRANDPARENT-a	+definite	+atomic,+minimal	+feminine
+il#BEE-cpello	+definite	+atomic,+minimal
+il#DARKNESS-o	+definite	+atomic,+minimal
+il#BEE-cpello	+definite	+atomic,+minimal
+un#BEE-cpello	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+un#BOOK-etto	-definite	+atomic,+minimal
+gli#GOOSE-chi#-i	+definite	PLURAL-PLACEHOLDER
+un#CAT-o	-definite	+atomic,+minimal
+il#DOG-e	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#MASTER-e	+definite	+atomic,+minimal	+feminine
+il#BEE-pà	+definite
+un'#FRIEND-a	-definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+gli#PUP-otti	+definite	PLURAL-PLACEHOLDER
+le#EAR-e#-e	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#NEEDLE-frola	+definite	+atomic,+minimal
+un#KISS.DIM-o	-definite	+atomic,+minimal
+il#KISS.DIM-o	+definite	+atomic,+minimal
+un#CAMEL-o	-definite	+atomic,+minimal
+la#-pecella	+definite	+atomic,+minimal
+il#PIG-ino	+definite	+atomic,+minimal
+l'#GOOSE-a	+definite	+atomic,+minimal
+la#LION-essa	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+una#DOG-zone	-definite
+la#AEROSOL-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#BOOK-etto	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+l'#FRIEND-o	+definite	+atomic,+minimal	+feminine
+un#-o	-definite	+atomic,+minimal
+le#YEAR-ce	+definite	PLURAL-PLACEHOLDER
+il#KING-ticiclo	+definite	+atomic,+minimal	+feminine
+le#-e	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+i#OGRE-pellini	+definite	PLURAL-PLACEHOLDER
+la#FAIRY-toria	+definite	+atomic,+minimal
+il#FIREPLACE-o	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+il#WOLF-o	+definite	+atomic,+minimal
+il#NINEPIN-o	+definite	+atomic,+minimal
+la#-stia	+definite	+atomic,+minimal
+un#NINEPIN-o	-definite	+atomic,+minimal
+il#-e	+definite	+atomic,+minimal
+i#CAMEL-i	+definite	PLURAL-PLACEHOLDER
+le#HUMPBACKED-e	+definite	+atomic,+minimal
+i#CAMEL-i	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+uno#TOOTH-stuzzicai	-definite
+le#-e	+definite	PLURAL-PLACEHOLDER
+le#KEY-i	+definite	PLURAL-PLACEHOLDER
+il#WOLF-o	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+un#WOLF-o#-o	-definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+le#COMB?-scare	+definite	PLURAL-PLACEHOLDER
+gli#GOOSE-zcoli	+definite	PLURAL-PLACEHOLDER
+la#-stia	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+i#BEE-cretti	+definite	PLURAL-PLACEHOLDER
+i#OGRE-pellini	+definite	PLURAL-PLACEHOLDER
+la#-a#-a	+definite	+atomic,+minimal
+la#GOOSE-ve	+definite
+la#GOOSE-ve#-a	+definite
+la#-a	+definite	+atomic,+minimal
+la#GOOSE-ve	+definite
+i#BEE-cretti	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+i#BEE-cretti	+definite	PLURAL-PLACEHOLDER
+la#POLE-la	+definite	+atomic,+minimal
+la#POLE-la#-a	+definite	+atomic,+minimal
+una#TRAIL-null	-definite
+un#MOMENT-o	-definite	+atomic,+minimal
+lo#-one	+definite	+atomic,+minimal
+il#-paloliere	+definite	+atomic,+minimal
+il#-paloliere	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#POLE-boncino	+definite	+atomic,+minimal
+la#PITCHFORK-a	+definite	+atomic,+minimal
+un#CABBAGE.DIM-o	-definite	+atomic,+minimal
+la#PITCHFORK-a	+definite	+atomic,+minimal
+le#KING-sbele	+definite	PLURAL-PLACEHOLDER	+feminine
+le#KING-sbele	+definite	PLURAL-PLACEHOLDER	+feminine
+il#POLE-bone	+definite	+atomic,+minimal
+il#POLE-bone	+definite	+atomic,+minimal
+il#-pianofte	+definite	+atomic,+minimal
+il#-pianofte	+definite	+atomic,+minimal
+il#PIANO-o	+definite	+atomic,+minimal
+una#PITCHFORK-a	-definite	+atomic,+minimal
+le#HORN-a	+definite	+atomic,+minimal
+un#CABBAGE.DIM-o	-definite	+atomic,+minimal
+le#STAIN-nette	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+il#TRUCK-null	+definite
+la#HOUSE-a	+definite	+atomic,+minimal
+una#WHATSIT-a	-definite	+atomic,+minimal
+il#-tratte	+definite	+atomic,+minimal
+l'#MAN.DIM-o	+definite	+atomic,+minimal
+il#WHEEL-e	+definite	+atomic,+minimal
+la#POLE-lina#-a	+definite	+atomic,+minimal
+la#POLE-lina	+definite	+atomic,+minimal
+la#-tre	+definite	+atomic,+minimal
+la#-tre	+definite	+atomic,+minimal
+la#TRAIL-null	+definite
+il#TRUCK-null	+definite
+il#-tratte	+definite	+atomic,+minimal
+il#AIR-cllon	+definite
+la#PITCHFORK-a	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+il#POLE-bone	+definite	+atomic,+minimal
+il#POLE-bone	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+un#-o#-e	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+la#POLE-lina	+definite	+atomic,+minimal
+una#HOLE-a	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+le#WHATSIT-e	+definite	PLURAL-PLACEHOLDER
+la#TRAIL-null	+definite
+l'#WATER-a	+definite	+atomic,+minimal
+il#YEAR-polino	+definite	+atomic,+minimal
+la#TRAIL-null	+definite
+la#POLE-lina#ORANGE-one	+definite	+atomic,+minimal
+la#RACKET-a	+definite	+atomic,+minimal
+la#-lina	+definite	+atomic,+minimal
+il#CHANGING_TABLE-o	+definite	+atomic,+minimal
+la#POLE-lina	+definite	+atomic,+minimal
+lo#KING-schezetto	+definite	+atomic,+minimal	+feminine
+la#POLE-lina#ORANGE-one	+definite	+atomic,+minimal
+la#RACKET-a	+definite	+atomic,+minimal
+la#POLE-lina	+definite	+atomic,+minimal
+il#AIR-calend	+definite	PLURAL-PLACEHOLDER
+il#AIR-calendo	+definite	+atomic,+minimal
+i#POLE-loncini	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+l'#WATER-a	+definite	+atomic,+minimal
+il#KNOT.DIM-o	+definite	+atomic,+minimal
+l'#POLE-elico	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+gli#-ini	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+i#-gili	+definite	PLURAL-PLACEHOLDER
+gli#-ini	+definite	PLURAL-PLACEHOLDER
+il#POLE-loncino#-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+i#-i	+definite	PLURAL-PLACEHOLDER
+il#KNOT.DIM-o	+definite	+atomic,+minimal
+la#RACKET-a	+definite	+atomic,+minimal
+la#NEEDLE-mlia	+definite	+atomic,+minimal
+il#STOMACH-one	+definite
+la#NEEDLE-mlia	+definite	+atomic,+minimal
+il#POLE-loncino	+definite	+atomic,+minimal
+la#CLUB-a	+definite	+atomic,+minimal
+i#POLE-loncini	+definite	PLURAL-PLACEHOLDER
+la#CLUB-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+un#POLE-loncino	-definite	+atomic,+minimal
+la#HOUSE-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#TABLE-o	+definite	+atomic,+minimal
+il#POLE-loncino	+definite	+atomic,+minimal
+il#LID-o	+definite	+atomic,+minimal
+lo#NEEDLE-spo	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#POLE-loncino	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+lo#NEEDLE-spo	+definite	+atomic,+minimal
+la#KING-tomba	+definite	+atomic,+minimal	+feminine
+il#KING-tambuello	+definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+uno#-one	-definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+il#BODY-o	+definite	+atomic,+minimal
+una#AIR-monetta	-definite	+atomic,+minimal
+lo#NEEDLE-spo	+definite	+atomic,+minimal
+una#-e	-definite	+atomic,+minimal
+le#LEG-ette	+definite	PLURAL-PLACEHOLDER
+il#HORSE-o	+definite	+atomic,+minimal
+un#HAMPER-ino	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#NAME-e	+definite	+atomic,+minimal
+la#-stia	+definite	+atomic,+minimal
+le#SLIPPER-e	+definite	PLURAL-PLACEHOLDER
+le#SOCK-ette	+definite	PLURAL-PLACEHOLDER
+i#-i	+definite	PLURAL-PLACEHOLDER
+un#-o	-definite	+atomic,+minimal
+il#WOODS-o	+definite	+atomic,+minimal
+un#MOUSE-o	-definite	+atomic,+minimal
+una#BEE-trpola	-definite	+atomic,+minimal
+un#MOUSE-o	-definite	+atomic,+minimal
+un#MOUSE-o#-e	-definite	+atomic,+minimal
+il#MOUSE-o	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+il#MOUSE-o	+definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+un#-o#-o	-definite	+atomic,+minimal
+il#KING-teno	+definite	+atomic,+minimal	+feminine
+la#LOCOMOTIVE-a	+definite	+atomic,+minimal
+la#LOCOMOTIVE-a	+definite	+atomic,+minimal
+una#STAIN-na	-definite	+atomic,+minimal
+la#NEEDLE-razzina	+definite	+atomic,+minimal
+il#MOUSE-o	+definite	+atomic,+minimal
+il#END-strino	+definite	+atomic,+minimal
+una#KING-tatauga	-definite	+atomic,+minimal	+feminine
+una#SEAL-a	-definite	+atomic,+minimal
+la#STAIN-na	+definite	+atomic,+minimal
+una#SEAL-a	-definite	+atomic,+minimal
+la#TAIL-a	+definite	+atomic,+minimal
+un#DINOSAUR-o	-definite	+atomic,+minimal
+il#DINOSAUR-o	+definite	+atomic,+minimal
+un#FLOWER-e	-definite	+atomic,+minimal
+la#KING-uota#-o	+definite	+atomic,+minimal	+feminine
+un#AIRPLANE-o	-definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+gli#AIRPLANE-i	+definite	PLURAL-PLACEHOLDER
+gli#CAR-omobili	+definite	PLURAL-PLACEHOLDER
+il#KING-e	+definite	+atomic,+minimal	+feminine
+la#CROWN-a	+definite	+atomic,+minimal
+la#KING-egina	+definite	+atomic,+minimal	+feminine
+una#KING-egina	-definite	+atomic,+minimal	+feminine
+un#-io	-definite	+atomic,+minimal
+il#MOUSE-olino	+definite	+atomic,+minimal
+la#NEEDLE-mlia	+definite	+atomic,+minimal
+un#OBJECT.DIM-o	-definite	+atomic,+minimal
+una#BEE-peretta	-definite	+atomic,+minimal
+un'#-a#POLE-fantica	-definite	+atomic,+minimal
+la#-stia	+definite	+atomic,+minimal
+i#BAMBINO-i	+definite	PLURAL-PLACEHOLDER	+feminine
+il#BEE-pà	+definite
+un#DISK-o	-definite	+atomic,+minimal
+il#DISK-o	+definite	+atomic,+minimal
+il#DISK-o	+definite	+atomic,+minimal
+il#FRISBY-null	+definite
+il#FRISBY-null	+definite
+la#POLE-la	+definite	+atomic,+minimal
+le#STAR-e	+definite	PLURAL-PLACEHOLDER
+un#KING-teno	-definite	+atomic,+minimal	+feminine
+un#KING-teno	-definite	+atomic,+minimal	+feminine
+la#-e	+definite	+atomic,+minimal
+la#-e#KING-ossa	+definite	+atomic,+minimal
+la#POLE-estra	+definite	+atomic,+minimal
+la#POLE-ginnica	+definite	+atomic,+minimal
+la#POLE-estra	+definite	+atomic,+minimal
+la#POLE-estra	+definite	+atomic,+minimal
+il#KING-teno	+definite	+atomic,+minimal	+feminine
+un#KING-egalo	-definite	+atomic,+minimal	+feminine
+il#BEE-pà	+definite
+un#FISH-e	-definite	+atomic,+minimal
+un#FISH-e	-definite	+atomic,+minimal
+un#PIECE-ettino	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+le#KING-ighette	+definite	PLURAL-PLACEHOLDER	+feminine
+una#BANANA-a	-definite	+atomic,+minimal
+un#BEE-grpolo	-definite	+atomic,+minimal
+la#STAIN-na	+definite	+atomic,+minimal
+un#-ino	-definite	+atomic,+minimal
+il#-ino	+definite	+atomic,+minimal
+le#KING-sbae	+definite	PLURAL-PLACEHOLDER	+feminine
+le#KING-sbae	+definite	PLURAL-PLACEHOLDER	+feminine
+le#KING-sbae	+definite	PLURAL-PLACEHOLDER	+feminine
+il#HAIRDRYER-do	+definite	+atomic,+minimal
+le#KING-uote	+definite	PLURAL-PLACEHOLDER	+feminine
+la#-a	+definite	+atomic,+minimal
+il#FISHING_LINE-uolo	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#KING-sbae	+definite	PLURAL-PLACEHOLDER	+feminine
+il#FISHING_LINE-uolo	+definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+un#BOOK-etto	-definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+la#WOODS-proide	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+gli#-i	+definite	PLURAL-PLACEHOLDER
+il#FISH-iolino	+definite	+atomic,+minimal
+un#-so	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+gli#-si	+definite	PLURAL-PLACEHOLDER
+i#PANDA-null	+definite
+gli#-si#-i	+definite	PLURAL-PLACEHOLDER
+lo#ZOO-o	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+i#-piccoi	+definite	PLURAL-PLACEHOLDER
+la#FAMILY-a	+definite	+atomic,+minimal
+gli#KING-stuzzi	+definite	PLURAL-PLACEHOLDER	+feminine
+gli#KING-stuzzi	+definite	PLURAL-PLACEHOLDER	+feminine
+una#HUMPBACKED-a#-a	-definite	+atomic,+minimal
+il#AIR-dromedo	+definite	+atomic,+minimal
+un#CAMEL-o	-definite	+atomic,+minimal
+i#FLAMINGO-i	+definite	PLURAL-PLACEHOLDER
+le#GIRAFFE-e	+definite	PLURAL-PLACEHOLDER
+l'#POLE-elico	+definite	+atomic,+minimal
+la#PISTOL-a#-a	+definite	+atomic,+minimal
+l'#POLE-elico	+definite	+atomic,+minimal
+il#POLE-loncino#KING-vede	+definite	+atomic,+minimal
+un#POLE-loncino#-e	-definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+una#WHATSIT-a	-definite	+atomic,+minimal
+la#PISTOL-a#KING-vede	+definite	+atomic,+minimal
+il#MOUSE-olino#-o	+definite	+atomic,+minimal
+la#PHOTO-o	+definite	+atomic,+minimal
+le#PHOTO-o	+definite	+atomic,+minimal
+il#FLASH-null	+definite
+un#KING-teno	-definite	+atomic,+minimal	+feminine
+i#GRANDPARENT-i	+definite	PLURAL-PLACEHOLDER	+feminine
+la#CITY-null	+definite
+il#BEE-pà	+definite
+l'#-setto	+definite	+atomic,+minimal
+le#LEG-e	+definite	PLURAL-PLACEHOLDER
+una#-e	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#HORSE-ino	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#COCONUT-odrillo	+definite	+atomic,+minimal
+il#HORSE-o	+definite	+atomic,+minimal
+la#COACH-a	+definite	+atomic,+minimal
+la#PISTOL-a	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+gli#CAR-oscontri	+definite	PLURAL-PLACEHOLDER
+la#FOX-null	+definite
+il#-o	+definite	+atomic,+minimal
+un#BUS-null	-definite
+i#POLE-loncini	+definite	PLURAL-PLACEHOLDER
+i#POLE-loncini	+definite	PLURAL-PLACEHOLDER
+la#GIRAFFE-a	+definite	+atomic,+minimal
+la#STAIN-nina#-a	+definite	+atomic,+minimal
+le#STAIN-nine#-e	+definite	PLURAL-PLACEHOLDER
+la#-ita	+definite	+atomic,+minimal
+la#STAIN-na#-a	+definite	+atomic,+minimal
+il#POLE-cello	+definite	+atomic,+minimal
+un#POLE-cello	-definite	+atomic,+minimal
+un#POLE-cello	-definite	+atomic,+minimal
+una#PUMPKIN-a	-definite	+atomic,+minimal
+gli#NEEDLE-aspari	+definite	PLURAL-PLACEHOLDER
+un#-to	-definite	+atomic,+minimal
+un#-tone#-e	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#SHEET-o	-definite	+atomic,+minimal
+il#SHEET-o	+definite	+atomic,+minimal
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+il#WOLF-o	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+il#FINGER-o	+definite	+atomic,+minimal
+una#CURIOSITY-null	-definite
+il#NAME-e	+definite	+atomic,+minimal
+la#PHARMACY-a	+definite	+atomic,+minimal
+un#PIECE-etto	-definite	+atomic,+minimal
+la#PHARMACY-a	+definite	+atomic,+minimal
+l'#HOSPITAL-e	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+un#DOLPHIN-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#WILD_BOAR-e	+definite	+atomic,+minimal
+le#KING-ighe	+definite	PLURAL-PLACEHOLDER	+feminine
+il#WOLF-o	+definite	+atomic,+minimal
+un#OWL-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#GOOSE-phino	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+la#-pta	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+un#CAT-o	-definite	+atomic,+minimal
+la#GOOSE-ve#-a	+definite
+la#GOOSE-ve	+definite
+la#GOOSE-ve	+definite
+la#-a	+definite	+atomic,+minimal
+la#GOOSE-ve	+definite
+la#-a	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+la#-stia	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#STOMACH-a	+definite	+atomic,+minimal
+i#BEE-cretti	+definite	PLURAL-PLACEHOLDER
+il#WOLF-o	+definite	+atomic,+minimal
+la#STOMACH-a	+definite	+atomic,+minimal
+i#ACE-si	+definite	PLURAL-PLACEHOLDER
+una#UGGO-a	-definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+una#UGGO-a	-definite	+atomic,+minimal
+il#FIREPLACE-o	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+il#BEE-pà	+definite
+la#JACKET-a	+definite	+atomic,+minimal
+il#BARRACKS-o	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#TROLLEY-o	+definite	+atomic,+minimal
+il#TROLLEY-o	+definite	+atomic,+minimal
+il#BOOK-o	+definite	+atomic,+minimal
+la#JUNGLE-a	+definite	+atomic,+minimal
+un#WOODS-o#-o	-definite	+atomic,+minimal
+la#-tera	+definite	+atomic,+minimal
+la#-tera	+definite	+atomic,+minimal
+il#BAMBINO-o	+definite	+atomic,+minimal	+feminine
+la#-tera	+definite	+atomic,+minimal
+il#BAMBINO-o	+definite	+atomic,+minimal	+feminine
+i#WOLF-i	+definite	PLURAL-PLACEHOLDER
+i#WOLF-i	+definite	PLURAL-PLACEHOLDER
+il#WOLF-o	+definite	+atomic,+minimal
+la#STOMACH-a	+definite	+atomic,+minimal
+l'#-ino	+definite	+atomic,+minimal
+l'#ANTENNA-a	+definite	+atomic,+minimal
+l'#-ino	+definite	+atomic,+minimal
+le#KING-uote	+definite	PLURAL-PLACEHOLDER	+feminine
+le#-null	+definite	PLURAL-PLACEHOLDER
+i#BEE-cretti	+definite	PLURAL-PLACEHOLDER
+un#-o	-definite	+atomic,+minimal
+un#-o#-e	-definite	+atomic,+minimal
+un#SHEET-o	-definite	+atomic,+minimal
+i#BEE-cretti	+definite	PLURAL-PLACEHOLDER
+il#WOLF-o	+definite	+atomic,+minimal
+i#BEE-cretti	+definite	PLURAL-PLACEHOLDER
+i#BEE-cretti	+definite	PLURAL-PLACEHOLDER
+il#WOLF-o	+definite	+atomic,+minimal
+i#DWARF-i	+definite	PLURAL-PLACEHOLDER	+feminine
+i#DWARF-i	+definite	PLURAL-PLACEHOLDER	+feminine
+il#BAMBINO-o	+definite	+atomic,+minimal	+feminine
+i#WOLF-i	+definite	PLURAL-PLACEHOLDER
+una#-stia	-definite	+atomic,+minimal
+i#WOLF-i	+definite	PLURAL-PLACEHOLDER
+la#-tera	+definite	+atomic,+minimal
+la#KING-tige	+definite	+atomic,+minimal	+feminine
+il#NEEDLE-villgio	+definite	+atomic,+minimal
+una#POLE-filrocca	-definite	+atomic,+minimal
+il#PYJAMAS.DIM-o	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+una#KING-tottola	-definite	+atomic,+minimal	+feminine
+un#-accio	-definite	+atomic,+minimal
+la#PISTOL-a	+definite	+atomic,+minimal
+il#PYJAMAS-null	+definite
+il#PYJAMAS-null	+definite
+la#POLE-la	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+il#PYJAMAS.DIM-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#PYJAMAS.DIM-o	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#KISS.DIM-o	-definite	+atomic,+minimal
+la#-pta	+definite	+atomic,+minimal
+la#-pta	+definite	+atomic,+minimal
+un'#FRIEND-a	-definite	+atomic,+minimal	+feminine
+la#-a	+definite	+atomic,+minimal
+la#BANK-a	+definite	+atomic,+minimal
+la#BANK-a	+definite	+atomic,+minimal
+il#KNEE-io	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+le#-nacchie	+definite	PLURAL-PLACEHOLDER
+la#CROWN-cina	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+la#CROWN-a	+definite	+atomic,+minimal
+i#FINGER-i	+definite	PLURAL-PLACEHOLDER
+la#CROWN-a	+definite	+atomic,+minimal
+un#KING-e	-definite	+atomic,+minimal	+feminine
+la#CROWN-a	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+un#GOOSE-phino	-definite	+atomic,+minimal
+il#NAME-e	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+una#BAMBINO-a	-definite	+atomic,+minimal	+feminine
+un#BAMBINO-o	-definite	+atomic,+minimal	+feminine
+il#BAMBINO-o	+definite	+atomic,+minimal	+feminine
+i#BEE-celli#-null	+definite	PLURAL-PLACEHOLDER
+le#TAIL-ine	+definite	PLURAL-PLACEHOLDER
+i#BEE-celli	+definite	PLURAL-PLACEHOLDER
+una#BAMBINO-a	-definite	+atomic,+minimal	+feminine
+un#BAMBINO-o	-definite	+atomic,+minimal	+feminine
+una#FEMALE-a	-definite	+atomic,+minimal	+feminine
+una#FEMALE-a	-definite	+atomic,+minimal	+feminine
+un#-etto	-definite	+atomic,+minimal
+un#NEEDLE-razzo	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+un#HOSTEL-o	-definite	+atomic,+minimal
+il#BRAIN-o	+definite	+atomic,+minimal
+il#BRAIN-o	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+un#BOOK-etto	-definite	+atomic,+minimal
+la#STEPMOTHER-a	+definite	+atomic,+minimal	+feminine
+la#STEPMOTHER-a	+definite	+atomic,+minimal	+feminine
+uno#KING-staccio	-definite	+atomic,+minimal	+feminine
+la#HOUSE-a#POORONE-a	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#KING-e	+definite	+atomic,+minimal	+feminine
+il#SON-o	+definite	+atomic,+minimal
+il#PRINCE-e	+definite	+atomic,+minimal	+feminine
+le#KING-tombe	+definite	PLURAL-PLACEHOLDER	+feminine
+le#KING-tombe	+definite	PLURAL-PLACEHOLDER	+feminine
+il#PRINCE-e	+definite	+atomic,+minimal	+feminine
+la#KING-sea	+definite	+atomic,+minimal	+feminine
+un#DANCER-o	-definite	+atomic,+minimal	+feminine
+un#PIECE-ettino	-definite	+atomic,+minimal
+la#NEPHEW.DIM-a	+definite	+atomic,+minimal	+feminine
+la#GRANDPARENT-a	+definite	+atomic,+minimal	+feminine
+le#BELL-e	+definite	PLURAL-PLACEHOLDER
+una#KING-scapetta	-definite	+atomic,+minimal	+feminine
+il#PRINCE-e	+definite	+atomic,+minimal	+feminine
+la#KING-scapetta	+definite	+atomic,+minimal	+feminine
+la#KING-scapetta	+definite	+atomic,+minimal	+feminine
+la#KING-scapetta	+definite	+atomic,+minimal	+feminine
+la#KING-scapa	+definite	+atomic,+minimal	+feminine
+il#PRINCE-e	+definite	+atomic,+minimal	+feminine
+le#-e	+definite	PLURAL-PLACEHOLDER
+un#DANCE-o#-o	-definite	+atomic,+minimal
+un#KING-valze	-definite	-feminine
+un#KING-valze	-definite	-feminine
+un#-o	-definite	+atomic,+minimal
+il#KING-valze	+definite	-feminine
+il#KING-valze	+definite	-feminine
+la#-stia	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+la#GRANDPARENT-ina	+definite	+atomic,+minimal	+feminine
+il#SHIT-iatore	+definite	+atomic,+minimal
+la#HAND-null	+definite
+la#-stia	+definite	+atomic,+minimal
+il#MILK-e	+definite	+atomic,+minimal
+la#-stia	+definite	+atomic,+minimal
+un#KING-iccio	-definite	+atomic,+minimal	+feminine
+il#CAT-o	+definite	+atomic,+minimal
+gli#BOOT-i	+definite	PLURAL-PLACEHOLDER
+la#KING-egina	+definite	+atomic,+minimal	+feminine
+la#KING-egina#-a	+definite	+atomic,+minimal	+feminine
+il#DOG-estro	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+le#-pal	+definite	PLURAL-PLACEHOLDER
+un#PIECE-o	-definite	+atomic,+minimal
+il#DOG-estro	+definite	+atomic,+minimal
+gli#WISH-i	+definite	PLURAL-PLACEHOLDER
+il#YEAR-compleo	+definite	+atomic,+minimal	PLURAL-PLACEHOLDER
+gli#WISH-i	+definite	PLURAL-PLACEHOLDER
+la#GRANDPARENT-a	+definite	+atomic,+minimal	+feminine
+una#COLLECTION-null	-definite
+una#COLLECTION-null	-definite
+la#-pta	+definite	+atomic,+minimal
+il#WOLF-o#-o	+definite	+atomic,+minimal
+le#MONKEY-ette	+definite	PLURAL-PLACEHOLDER	+feminine
+le#MONKEY-ette	+definite	PLURAL-PLACEHOLDER	+feminine
+un#NEEDLE-drhetto	-definite	+atomic,+minimal
+un#DINOSAUR-o	-definite	+atomic,+minimal
+le#STAIN-ne	+definite	PLURAL-PLACEHOLDER
+il#POLE-loncino	+definite	+atomic,+minimal
+la#GRANDPARENT-a	+definite	+atomic,+minimal	+feminine
+un#RABBIT-etto#-o	-definite	+atomic,+minimal
+i#POLE-loncini	+definite	PLURAL-PLACEHOLDER
+i#POLE-loncini	+definite	PLURAL-PLACEHOLDER
+gli#POLE-elici	+definite	PLURAL-PLACEHOLDER
+una#-a	-definite	+atomic,+minimal
+un#BEE-pà>.	-definite
+la#MONKEY-a	+definite	+atomic,+minimal	+feminine
+una#MONKEY-a	-definite	+atomic,+minimal	+feminine
+un#-one	-definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+le#MONKEY-e	+definite	+atomic,+minimal	+feminine
+un#HORSE-o	-definite	+atomic,+minimal
+un#HORSE-ino	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+i#SON-oletti	+definite	PLURAL-PLACEHOLDER
+i#BEE-cretti	+definite	PLURAL-PLACEHOLDER
+i#BEE-cretti	+definite	PLURAL-PLACEHOLDER
+il#KING-teno	+definite	+atomic,+minimal	+feminine
+il#KING-veso	+definite	+atomic,+minimal	+feminine
+il#DOG-e	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+il#CAT-o	+definite	+atomic,+minimal
+i#KING-vemi	+definite	PLURAL-PLACEHOLDER	+feminine
+il#GOOSE-rineronte	+definite	+atomic,+minimal
+un#HORN-o	-definite	+atomic,+minimal
+il#GOOSE-rineronte	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#WHATSIT-a	-definite	+atomic,+minimal
+l'#-e	+definite	+atomic,+minimal
+un#-e	-definite	+atomic,+minimal
+le#YEAR-ze	+definite	PLURAL-PLACEHOLDER
+la#WOODS-proide	+definite	+atomic,+minimal
+le#HORN-a	+definite	+atomic,+minimal
+un#HORN-o	-definite	+atomic,+minimal
+la#WOODS-proide	+definite	+atomic,+minimal
+le#YEAR-ze	+definite	PLURAL-PLACEHOLDER
+una#-a	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+l'#EGG.DIM-o	+definite	+atomic,+minimal
+un#KING-ecinto	-definite	+atomic,+minimal	+feminine
+una#-a	-definite	+atomic,+minimal
+i#-ini	+definite	PLURAL-PLACEHOLDER
+il#KING-ecinto	+definite	+atomic,+minimal	+feminine
+i#-ini	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+una#BEE-cretta	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#GIRAFFE-a	+definite	+atomic,+minimal
+la#POLE-la	+definite	+atomic,+minimal
+il#BAMBINO-o#-o	+definite	+atomic,+minimal	+feminine
+il#BEE-pà	+definite
+il#BAMBINO-o#-o	+definite	+atomic,+minimal	+feminine
+una#POLE-la	-definite	+atomic,+minimal
+l'#WATER-a	+definite	+atomic,+minimal
+il#NECK-o#-o	+definite	+atomic,+minimal
+gli#RING-i#-null	+definite	PLURAL-PLACEHOLDER
+la#BASE-null	+definite
+la#BAMBINO-a	+definite	+atomic,+minimal	+feminine
+la#BAMBINO-a	+definite	+atomic,+minimal	+feminine
+il#BAMBINO-o	+definite	+atomic,+minimal	+feminine
+il#DOCUMENT-o	+definite	+atomic,+minimal
+la#-a#-a	+definite	+atomic,+minimal
+il#MAIZE-null	+definite
+le#STORK-e	+definite	PLURAL-PLACEHOLDER
+le#STORK-e	+definite	PLURAL-PLACEHOLDER
+il#NECK-o#-o	+definite	+atomic,+minimal
+una#PHOTO-o	-definite	+atomic,+minimal
+una#PHOTO-o#DINNER-dete	-definite	+atomic,+minimal
+il#POLE-loncino#-o	+definite	+atomic,+minimal
+i#POLE-loncini#-i	+definite	PLURAL-PLACEHOLDER
+un#POLE-loncino#-o	-definite	+atomic,+minimal
+un#GOOSE-phino	-definite	+atomic,+minimal
+l'#-e	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+i#TOOTH-i	+definite	PLURAL-PLACEHOLDER
+i#BEE-celli	+definite	PLURAL-PLACEHOLDER
+il#RABBIT-etto#LITTLEONE-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+l'#CAR-o	+definite	+atomic,+minimal
+le#KING-uote	+definite	PLURAL-PLACEHOLDER	+feminine
+un#PROBLEM-null	-definite
+una#POLE-lina#KING-ossa	-definite	+atomic,+minimal
+le#-pal	+definite	PLURAL-PLACEHOLDER
+le#KING-uote	+definite	PLURAL-PLACEHOLDER	+feminine
+le#-pal	+definite	PLURAL-PLACEHOLDER
+il#-o	+definite	+atomic,+minimal
+lo#KING-schezetto	+definite	+atomic,+minimal	+feminine
+il#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#DRINKINGGLASS-e#-o	+definite	+atomic,+minimal
+il#BEE-tpeto	+definite	+atomic,+minimal
+una#POLE-lina	-definite	+atomic,+minimal
+il#BLUEBERRY-o	+definite	+atomic,+minimal
+la#STOMACH-a#-a	+definite	+atomic,+minimal
+il#SHEET-millee	+definite	+atomic,+minimal
+il#BLUEBERRY-o	+definite	+atomic,+minimal
+un#COCONUT-o	-definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#COCONUT-o	+definite	+atomic,+minimal
+la#STOMACH-a	+definite	+atomic,+minimal
+la#COUGH-null	+definite
+le#NEEDLE-froline	+definite	PLURAL-PLACEHOLDER
+le#NEEDLE-frole	+definite	PLURAL-PLACEHOLDER
+le#NEEDLE-frole	+definite	PLURAL-PLACEHOLDER
+i#PIECE-i	+definite	PLURAL-PLACEHOLDER
+una#KIND-null	-definite
+un#KING-tiangolo	-definite	+atomic,+minimal	+feminine
+le#-pal	+definite	PLURAL-PLACEHOLDER
+una#HAND-null	-definite
+un#KING-tiangolo	-definite	+atomic,+minimal	+feminine
+la#DOCTORESS-a	+definite	+atomic,+minimal	+feminine
+la#DOCTORESS-a	+definite	+atomic,+minimal	+feminine
+la#STOMACH-a	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#-paloliere	+definite	+atomic,+minimal
+il#-e	+definite	+atomic,+minimal
+un#POLE-lone	-definite	+atomic,+minimal
+il#POLE-lone	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+i#-null	+definite	PLURAL-PLACEHOLDER
+i#TOOTH-i	+definite	PLURAL-PLACEHOLDER
+la#MOUTH-a	+definite	+atomic,+minimal
+i#TOOTH-i	+definite	PLURAL-PLACEHOLDER
+gli#ANIMAL-etti	+definite	PLURAL-PLACEHOLDER
+una#POLECAT-ina	-definite	+atomic,+minimal
+una#MONKEY-a	-definite	+atomic,+minimal	+feminine
+le#KING-uote	+definite	PLURAL-PLACEHOLDER	+feminine
+la#-a	+definite	+atomic,+minimal
+uno#KING-sconto	-definite	+atomic,+minimal	+feminine
+la#-e	+definite	+atomic,+minimal
+il#-o#-o	+definite	+atomic,+minimal
+la#TUNNEL-a	+definite	+atomic,+minimal
+un#KING-sconto	-definite	+atomic,+minimal	+feminine
+un#NEEDLE-rnetto	-definite	+atomic,+minimal
+una#ANT-a	-definite	+atomic,+minimal
+lo#KING-sconto	+definite	+atomic,+minimal	+feminine
+il#-o#-o	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+uno#KING-sconto	-definite	+atomic,+minimal	+feminine
+un#TOOTH-incie	-definite	+atomic,+minimal
+uno#KING-sconto	-definite	+atomic,+minimal	+feminine
+una#-signa	-definite	+atomic,+minimal
+la#STAIN-na	+definite	+atomic,+minimal
+un#-o#-o	-definite	+atomic,+minimal
+un#POLE-cello	-definite	+atomic,+minimal
+il#-signe	+definite	+atomic,+minimal
+una#-princisa	-definite	+atomic,+minimal
+il#-e	+definite	+atomic,+minimal
+le#STAIN-nine	+definite	PLURAL-PLACEHOLDER
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+il#BEE-pà	+definite
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+i#-i	+definite	PLURAL-PLACEHOLDER
+il#BEE-pà	+definite
+una#-piram	-definite
+una#POLE-la	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#POLE-lone	+definite	+atomic,+minimal
+l'#-a	+definite	+atomic,+minimal
+una#MOWER-null	-definite
+il#-o	+definite	+atomic,+minimal
+il#NEEDLE-pappallo	+definite	+atomic,+minimal
+il#MOUSE-olino#-o	+definite	+atomic,+minimal
+la#-paa	+definite	+atomic,+minimal
+i#POINT-ini#-i	+definite	PLURAL-PLACEHOLDER
+il#-pianofte	+definite	+atomic,+minimal
+una#TRIP-a	-definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+un#PIPE-o	-definite	+atomic,+minimal
+la#HAND-null	+definite
+le#FINGERS-a	+definite
+la#-a	+definite	+atomic,+minimal
+un#-e	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+una#KING-tige	-definite	+atomic,+minimal	+feminine
+il#NEEDLE-bnetto	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#-tta	-definite	+atomic,+minimal
+la#UNCLE-a	+definite	+atomic,+minimal	+feminine
+un#-ino	-definite	+atomic,+minimal
+le#-null	+definite	PLURAL-PLACEHOLDER
+i#-i	+definite	PLURAL-PLACEHOLDER
+i#-i	+definite	PLURAL-PLACEHOLDER
+un#RIBBON.DIM-ino	-definite	+atomic,+minimal
+le#-null	+definite	PLURAL-PLACEHOLDER
+i#-i	+definite	PLURAL-PLACEHOLDER
+il#RIBBON.DIM-o	+definite	+atomic,+minimal
+il#KNOT.DIM-o	+definite	+atomic,+minimal
+le#-null	+definite	PLURAL-PLACEHOLDER
+le#-e	+definite	PLURAL-PLACEHOLDER
+le#-e	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#STAIN-nine	+definite	PLURAL-PLACEHOLDER
+gli#POLE-elici	+definite	PLURAL-PLACEHOLDER
+un#POLE-loncino	-definite	+atomic,+minimal
+l'#POLE-elico	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a#-a	+definite	+atomic,+minimal
+il#POLE-loncino	+definite	+atomic,+minimal
+l'#AIR-a	+definite	+atomic,+minimal
+il#POLE-loncino	+definite	+atomic,+minimal
+la#-a#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+un#PIECE-o	-definite	+atomic,+minimal
+un#PIECE-etto	-definite	+atomic,+minimal
+un#PROBLEM-null	-definite
+il#POLE-nro	+definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+il#-raffredde	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+le#WHATSIT-truzioni	+definite	PLURAL-PLACEHOLDER
+una#-a	-definite	+atomic,+minimal
+una#KIND-null	-definite
+la#-a	+definite	+atomic,+minimal
+la#COLUMN-a#-a	+definite	+atomic,+minimal
+uno#-e	-definite	+atomic,+minimal
+i#PIECE-i	+definite	PLURAL-PLACEHOLDER
+la#CANDY-a	+definite	+atomic,+minimal
+la#COLUMN-a	+definite	+atomic,+minimal
+un#OGRE-pellino	-definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+un#BOOK-etto	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#NAME-e	+definite	+atomic,+minimal
+un#-ino	-definite	+atomic,+minimal
+il#BEE-pà	+definite
+la#-a	+definite	+atomic,+minimal
+un#KING-wustel	-definite	-feminine
+una#ACE-peggiata	-definite	+atomic,+minimal
+i#NEEDLE-lhi	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+la#STAIN-na#KING-ossa	+definite	+atomic,+minimal
+le#-ptiere	+definite	PLURAL-PLACEHOLDER
+il#NEEDLE-bliaio	+definite	+atomic,+minimal
+la#STAIN-na#KING-ossa	+definite	+atomic,+minimal
+la#STAIN-na#KING-ossa	+definite	+atomic,+minimal
+le#WAVE-e#-e	+definite	PLURAL-PLACEHOLDER
+il#BOOK-etto	+definite	+atomic,+minimal
+un#-rume	-definite	+atomic,+minimal
+la#STAIN-na	+definite	+atomic,+minimal
+la#MOTO-o	+definite	+atomic,+minimal
+gli#KING-schezetti	+definite	PLURAL-PLACEHOLDER	+feminine
+gli#GOOSE-chi	+definite	PLURAL-PLACEHOLDER
+un#GOOSE-chio#KING-osso	-definite	+atomic,+minimal
+gli#GOOSE-chi#KING-ossi	+definite	PLURAL-PLACEHOLDER
+gli#GOOSE-chi#-i	+definite	PLURAL-PLACEHOLDER
+un#BABY-o#-e	-definite	+atomic,+minimal
+un#FIELD-o	-definite	+atomic,+minimal
+il#KING-teeno	+definite	+atomic,+minimal	+feminine
+il#-ino	+definite	+atomic,+minimal
+una#-cina	-definite	+atomic,+minimal
+il#BARN-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#WHEAT-o	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#-e	+definite	PLURAL-PLACEHOLDER
+le#-e	+definite	PLURAL-PLACEHOLDER
+i#CORN-i	+definite	PLURAL-PLACEHOLDER
+i#KING-vemetti	+definite	PLURAL-PLACEHOLDER	+feminine
+la#-signa	+definite	+atomic,+minimal
+una#-tta	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-signa	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+la#BEAST-a	+definite	+atomic,+minimal
+un#-signe	-definite	+atomic,+minimal
+un#HORSE-o	-definite	+atomic,+minimal
+il#-signe	+definite	+atomic,+minimal
+il#-signe	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#HORSE-o	+definite	+atomic,+minimal
+le#LEG-e	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+un#HORSE-o	-definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+il#RIDING_WHIP-o	+definite	+atomic,+minimal
+la#SADDLE-a	+definite	+atomic,+minimal
+la#-signa	+definite	+atomic,+minimal
+un#PIG-e	-definite	+atomic,+minimal
+il#UNCLE-o	+definite	+atomic,+minimal	+feminine
+la#YEAR-na	+definite	+atomic,+minimal
+la#TELEVISION-null	+definite
+la#YEAR-na	+definite	+atomic,+minimal
+la#NIGHT-e	+definite	+atomic,+minimal
+il#-rume	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+la#PRECEDENCE-)	+definite	+atomic,+minimal
+il#-e	+definite	+atomic,+minimal
+il#-e	+definite	+atomic,+minimal
+gli#-i	+definite	PLURAL-PLACEHOLDER
+l'#WATER-a	+definite	+atomic,+minimal
+una#SWIMMING_POOL-etta	-definite	+atomic,+minimal
+la#SWIMMING_POOL-a	+definite	+atomic,+minimal
+il#FINGERS-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#ELBOW-o	+definite	+atomic,+minimal
+il#-e	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+i#WOLF-i	+definite	PLURAL-PLACEHOLDER
+i#WOLF-i	+definite	PLURAL-PLACEHOLDER
+la#DEMONSTRATION-null	+definite
+la#-a	+definite	+atomic,+minimal
+le#-null	+definite	PLURAL-PLACEHOLDER
+un#DUEL-o	-definite	+atomic,+minimal
+il#POLE-loncino	+definite	+atomic,+minimal
+le#SLEEVE-e#-ghe	+definite	PLURAL-PLACEHOLDER
+una#KING-oba	-definite	+atomic,+minimal	+feminine
+una#UGGO-a	-definite	+atomic,+minimal
+il#POLE-lone	+definite	+atomic,+minimal
+il#POLE-lone	+definite	+atomic,+minimal
+il#POLE-lone	+definite	+atomic,+minimal
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+i#-i	+definite	PLURAL-PLACEHOLDER
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+i#-i	+definite	PLURAL-PLACEHOLDER
+le#KING-scape	+definite	PLURAL-PLACEHOLDER	+feminine
+i#-i	+definite	PLURAL-PLACEHOLDER
+i#-i	+definite	PLURAL-PLACEHOLDER
+il#NEEDLE-formgio	+definite	+atomic,+minimal
+il#BOOK-o	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+la#YEAR-na	+definite	+atomic,+minimal
+un#BOOK-etto	-definite	+atomic,+minimal
+la#HAND-null	+definite
+una#PREFERENCE-a	-definite	+atomic,+minimal
+la#-na	+definite	+atomic,+minimal
+la#STOMACH-a	+definite	+atomic,+minimal
+la#STOMACH-a	+definite	+atomic,+minimal
+gli#ANIMAL-etti	+definite	PLURAL-PLACEHOLDER
+un#PRINCE-e	-definite	+atomic,+minimal	+feminine
+il#RABBIT-etto	+definite	+atomic,+minimal
+il#RABBIT-etto	+definite	+atomic,+minimal
+il#OWL-o	+definite	+atomic,+minimal
+il#RABBIT-etto	+definite	+atomic,+minimal
+gli#-ini	+definite	PLURAL-PLACEHOLDER
+la#POLECAT-a	+definite	+atomic,+minimal
+l'#-setto	+definite	+atomic,+minimal
+la#TAIL-a	+definite	+atomic,+minimal
+il#SON-o	+definite	+atomic,+minimal
+il#BEE-pà	+definite
+il#KING-e	+definite	+atomic,+minimal	+feminine
+un#GOOSE-phino	-definite	+atomic,+minimal
+gli#GOOSE-chi	+definite	PLURAL-PLACEHOLDER
+il#HAIRDRYER-teleo	+definite	+atomic,+minimal
+una#-a	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+una#KING-teccina	-definite	+atomic,+minimal	+feminine
+l'#-a	+definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+i#-ini	+definite	PLURAL-PLACEHOLDER
+la#STAIN-na#-a	+definite	+atomic,+minimal
+la#STAIN-na#-a	+definite	+atomic,+minimal
+la#SALVE-a	+definite	+atomic,+minimal
+la#SALVE-ina	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+una#POLE-lina	-definite	+atomic,+minimal
+il#BEE-cpello	+definite	+atomic,+minimal
+i#PIECE-i#-null	+definite	PLURAL-PLACEHOLDER
+la#STAIN-na#-a	+definite	+atomic,+minimal
+una#STAIN-na#KING-vea	-definite	+atomic,+minimal
+una#STAIN-na	-definite	+atomic,+minimal
+la#STAIN-na#-a	+definite	+atomic,+minimal
+un#NEEDLE-cnolino	-definite	+atomic,+minimal
+il#KING-ecinto	+definite	+atomic,+minimal	+feminine
+le#BEAST-oline#-i	+definite	PLURAL-PLACEHOLDER
+un#-a	-definite	+atomic,+minimal
+il#LION-e	+definite	+atomic,+minimal
+una#LION-essa	-definite	+atomic,+minimal
+la#LION-essa	+definite	+atomic,+minimal
+il#LION-e	+definite	+atomic,+minimal
+il#LION-e	+definite	+atomic,+minimal
+<il#LION-e	+definite	+atomic,+minimal
+un#KING-ecinto	-definite	+atomic,+minimal	+feminine
+l'#-so	+definite	+atomic,+minimal
+l'#-so	+definite	+atomic,+minimal
+il#LION-e	+definite	+atomic,+minimal
+le#STAIN-e#-e	+definite	PLURAL-PLACEHOLDER
+il#-ino	+definite	+atomic,+minimal
+il#NOSE-o	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+le#-pal	+definite	PLURAL-PLACEHOLDER
+le#STAIN-nine	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+gli#ANIMAL-etti	+definite	PLURAL-PLACEHOLDER
+le#KING-uote	+definite	PLURAL-PLACEHOLDER	+feminine
+le#KING-uote	+definite	PLURAL-PLACEHOLDER	+feminine
+le#KING-uote#-posterii	+definite	PLURAL-PLACEHOLDER	+feminine
+le#KING-uote#-posterii	+definite	PLURAL-PLACEHOLDER	+feminine
+le#-he	+definite	PLURAL-PLACEHOLDER
+le#EAR-e	+definite	+atomic,+minimal
+il#COLT-o	+definite	+atomic,+minimal
+il#HORSE-o#LITTLEONE-o	+definite	+atomic,+minimal
+un#HORSE-o#LITTLEONE-ino	-definite	+atomic,+minimal
+un#COLT-o	-definite	+atomic,+minimal
+il#DOG-e	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+l'#EGG.DIM-o	+definite	+atomic,+minimal
+la#PEEPEE-null	+definite
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+l'#EGG.DIM-o	+definite	+atomic,+minimal
+gli#MAN.DIM-i	+definite	PLURAL-PLACEHOLDER
+i#FEATHER-arelli	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+una#POLE-la	-definite	+atomic,+minimal
+un#EGG-o	-definite	+atomic,+minimal
+un#EGG-o	-definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+un#NEEDLE-divazione	-definite
+l'#EGG-o	+definite	+atomic,+minimal
+un#PIECE-etto	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+l'#EGG-o#KING-otto	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+un#EGG-o	-definite	+atomic,+minimal
+un#EGG-o	-definite	+atomic,+minimal
+il#NOSE-o	+definite	+atomic,+minimal
+le#EGG-a	+definite
+un#EGG-o#-e	-definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+la#LEG-etta	+definite	+atomic,+minimal
+l'#EGG-o	+definite	+atomic,+minimal
+il#FEATHER-arello#-o	+definite	+atomic,+minimal
+un#BEE-tpo	-definite	+atomic,+minimal
+un#BEE-tpo#-go	-definite	+atomic,+minimal
+la#TRIP-a	+definite	+atomic,+minimal
+l'#-ino	+definite	+atomic,+minimal
+gli#GOOSE-chi	+definite	PLURAL-PLACEHOLDER
+i#FRANKFURTER-null	+definite
+i#KING-wustel	+definite	-feminine
+i#KING-wustel	+definite	-feminine
+la#-a	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#GRANDPARENT-o	+definite	+atomic,+minimal	+feminine
+la#GRANDPARENT-a	+definite	+atomic,+minimal	+feminine
+i#-i	+definite	PLURAL-PLACEHOLDER
+le#EAR-e#-ghe	+definite	PLURAL-PLACEHOLDER
+i#RABBIT-null	+definite	PLURAL-PLACEHOLDER
+la#-a	+definite	+atomic,+minimal
+la#VACCINATION-null	+definite
+la#-a	+definite	+atomic,+minimal
+una#VACCINATION-null	-definite
+il#MEASLES-o	+definite	+atomic,+minimal
+l'#HEPATITIS-null	+definite
+l'#HEPATITIS-null	+definite
+una#MILK-maia	-definite	+atomic,+minimal
+la#-polioite	+definite
+il#TETANUS-o	+definite	+atomic,+minimal
+lo#BACKPACK-o	+definite	+atomic,+minimal
+l'#OTITIS-e	+definite	+atomic,+minimal
+lo#BACKPACK-o	+definite	+atomic,+minimal
+la#-sellina	+definite	+atomic,+minimal
+la#PISTOL-a	+definite	+atomic,+minimal
+un#WOLF-o	-definite	+atomic,+minimal
+la#PISTOL-a	+definite	+atomic,+minimal
+un#-so	-definite	+atomic,+minimal
+la#PISTOL-a	+definite	+atomic,+minimal
+la#NEEDLE-montna	+definite	+atomic,+minimal
+i#BLUEBERRY-i	+definite	PLURAL-PLACEHOLDER
+un#GOOSE-phino	-definite	+atomic,+minimal
+la#PISTOL-a	+definite	+atomic,+minimal
+un#POLE-coro	-definite	+atomic,+minimal
+un#-ino	-definite	+atomic,+minimal
+un#COCKTAIL-null	-definite
+la#GRANDPARENT-a	+definite	+atomic,+minimal	+feminine
+una#STAIN-nina	-definite	+atomic,+minimal
+il#POLE-lone	+definite	+atomic,+minimal
+il#POLE-lone	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+le#-pae	+definite	PLURAL-PLACEHOLDER
+le#.DIM-e	+definite	PLURAL-PLACEHOLDER
+la#-stia	+definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+la#-stia	+definite	+atomic,+minimal
+la#-a	+definite	+atomic,+minimal
+il#BOOK-etto	+definite	+atomic,+minimal
+un#MOMENT-o	-definite	+atomic,+minimal
+il#-ino	+definite	+atomic,+minimal
+la#-stia	+definite	+atomic,+minimal
+un#-o	-definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+il#WOLF-o	+definite	+atomic,+minimal
+il#-o	+definite	+atomic,+minimal
+il#WOODPECKER-o	+definite	+atomic,+minimal
+un#PIPE-o	-definite	+atomic,+minimal
+una#ACCORDION-a	-definite	+atomic,+minimal
+il#WOODS-o	+definite	+atomic,+minimal
+un#GOOSE-phino	-definite	+atomic,+minimal
+l'#-e	+definite	+atomic,+minimal
+una#HOUSE-a	-definite	+atomic,+minimal
+il#.DIM-o	+definite	+atomic,+minimal
+la#HOUSE-a	+definite	+atomic,+minimal

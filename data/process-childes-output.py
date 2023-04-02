@@ -13,7 +13,7 @@ class Utterance:
         print("mother: " + self.mother + "\n" + "gloss: " + self.gloss)
 
 class Observation:
-    def __init__(self, filename, linenumber, mother, gloss, dptype, pronunCHILDES, glossCHILDES, oglemma1, rootmeaning1, oglemma2, rootmeaning2, values, potentially_invariable_n, potentially_invariable_a):
+    def __init__(self, filename, linenumber, mother, gloss, dptype, pronunCHILDES, glossCHILDES, oglemma1, rootmeaning1, oglemma2, rootmeaning2, values, potentially_invariable_n, potentially_invariable_a, x):
         self.filename = filename
         self.linenumber = linenumber
         self.mother = mother
@@ -28,6 +28,7 @@ class Observation:
         self.values = values
         self.potentially_invariable_n = potentially_invariable_n
         self.potentially_invariable_a = potentially_invariable_a
+        self.x = x
 
     def show(self):
         print("pronunciation: " + ' '.join(self.pronunCHILDES) + "\n" + "gloss: " + self.glossCHILDES)
@@ -245,15 +246,20 @@ for obj in Utterance_list:
 
         if 'il' in gloss_CHILDES.split(" ")[0]:
             values.append("+definite")
+            x = "-feminine"
         if 'uno' in gloss_CHILDES.split(" ")[0]:
             values.append("-definite")
+            x = "-feminine"
         if 'sg' in gloss_CHILDES.split(" ")[1]:
             values.append("+atomic,+minimal")
+            x = "+feminine"
         if 'pl' in gloss_CHILDES.split(" ")[1]:
             values.append("PLURAL-PLACEHOLDER")
+            x = "+feminine"
+
         # print(values)
 
-        Observation_list.append(Observation(obj.filename, obj.linenumber, obj.mother, obj.gloss, obj.dptype, pronunc_CHILDES, gloss_CHILDES, oglemma1, rootmeaning1, oglemma2, rootmeaning2, values, potentially_invariable_n, potentially_invariable_a))
+        Observation_list.append(Observation(obj.filename, obj.linenumber, obj.mother, obj.gloss, obj.dptype, pronunc_CHILDES, gloss_CHILDES, oglemma1, rootmeaning1, oglemma2, rootmeaning2, values, potentially_invariable_n, potentially_invariable_a, x))
 
 # Observation_list[0].show()
 
@@ -314,40 +320,54 @@ def read_csv_to_dict(filename, key_column_name, val_column_name):
 
 stem_to_root = read_csv_to_dict("./data/italian-declension - tonelli-ROOTS-list.csv", "Italian stem form", "UPPER")
 
+stem_to_feminine = read_csv_to_dict("./data/italian-declension - tonelli-ROOTS-list.csv", "Italian stem form", "feminine?")
+
 def find_first_substring(substrings, string):
     for substring in substrings:
         if substring in string:
             return substring
     assert False
 
-def process_token(token, substrings):
+def process_token(token, substrings, x):
     substring = find_first_substring(substrings, token)
 
     remainder = token.replace(substring, "")
 
-    if len(remainder) == 0:
-        return f"{stem_to_root[substring]}-null"
+    if stem_to_feminine[substring] != "":
+        feminine = x
     else:
-        return f"{stem_to_root[substring]}-{remainder}"
+        feminine = ""
+
+    if len(remainder) == 0:
+        return feminine, f"{stem_to_root[substring]}-null"
+    else:
+        return feminine, f"{stem_to_root[substring]}-{remainder}"
 
 
-with open("./data/tonelli_input.txt", 'w') as file:       
-    for observation in sorted_observation_list:
-        tokens = (
-            [observation.pronunCHILDES[0]]
-            + 
-            [
-                process_token(token, stems)
-                for token
-                in observation.pronunCHILDES[1:]
+with open("./data/learner1_input.txt", 'w') as learner1_input:
+    with open("./data/learner2_input.txt", 'w') as learner2_input:       
+        for observation in sorted_observation_list:
+            feminine, token_1 = process_token(observation.pronunCHILDES[1], stems, observation.x)
+
+            tokens = [
+                observation.pronunCHILDES[0],
+                token_1
             ]
-        )
 
-        token_str = "#".join(tokens)
-        values_str = "\t".join(observation.values)
+            if len(observation.pronunCHILDES) == 3:
+                _, token_2 = process_token(observation.pronunCHILDES[2], stems, observation.x)
+                
+                tokens.append(token_2)
 
-        file.write(f"{token_str}\t{values_str}\n") #test
+            token_str = "#".join(tokens)
+            values_str = "\t".join(observation.values)
 
+            learner1_input.write(f"{token_str}\t{values_str}\n")
+
+            if feminine == "":
+                learner2_input.write(f"{token_str}\t{values_str}\n")
+            else:
+                learner2_input.write(f"{token_str}\t{values_str}\t{feminine}\n")
 
 # Root_list = []
 # # gram_gen = ""
