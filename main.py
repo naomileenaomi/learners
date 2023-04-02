@@ -1605,13 +1605,13 @@ def run(
             )
 
             is_new, null_nom, vocabulary_items = create_vi(
-            pronunciation="null",
-            label="nominalizer",
-            values=set(),
-            triggers = set(),
-            vocabulary_items=vocabulary_items,
-            redo_bonus=False 
-        )
+                pronunciation="null",
+                label="nominalizer",
+                values=set(),
+                triggers = set(),
+                vocabulary_items=vocabulary_items,
+                redo_bonus=False 
+            )
 
             for nom1 in nominalizer_terminals:
                 print(f"made our very first nominalizer: {nom1.big_string()}")
