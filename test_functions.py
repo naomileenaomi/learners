@@ -269,3 +269,26 @@ def test_insert_agr(semantic_terminal1, nominalizer_terminal1, adjectivalizer_te
     assert main.insert_agr([semantic_terminal1, adjectivalizer_terminal, nominalizer_terminal1]) == [
         semantic_terminal1, adjectivalizer_terminal, main.AgrTerminal(values=adjectivalizer_terminal.values), nominalizer_terminal1
     ]
+
+def test_select_vis_to_combine(vocabulary_realistic_1, vocabulary_realistic_2, vocabulary_realistic_3, vocabulary_realistic_4, nominalizer_terminal_realistic_1, nominalizer_terminal_realistic_2):
+    assert main.select_vis_to_combine(
+        vocabulary_items=[
+            vocabulary_realistic_1,
+            vocabulary_realistic_2, 
+            vocabulary_realistic_3,
+            vocabulary_realistic_4,
+        ],
+        nominalizer_vi_used=[vocabulary_realistic_1],
+        nom_being_considered=nominalizer_terminal_realistic_1
+    ) == [vocabulary_realistic_3]
+
+    assert main.select_vis_to_combine(
+        vocabulary_items=[
+            vocabulary_realistic_1,
+            vocabulary_realistic_2, 
+            vocabulary_realistic_3,
+            vocabulary_realistic_4,
+        ],
+        nominalizer_vi_used=[vocabulary_realistic_3],
+        nom_being_considered=nominalizer_terminal_realistic_2
+    ) == [vocabulary_realistic_1, vocabulary_realistic_4]

@@ -36,6 +36,356 @@ hand-removed:
 	det|altro-m&pl=other num|due n|lato-m&pl=side prep|con=with
 	(1)art|il&f&pl (1)n|maniglia-f&pl=handle conj|e pro:det|questo-m&sg=this
 	v|esse-3S&PRES=be (2)art|il&m&sg (2)n|coperchio-m&sg=lid .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 1814.
+*MOT:	te l' avevo detto io forse o ti ricordi che questo con l' arancione
+	è il disegno della barca ?
+%mor:	pro:clit|ti&2S pro:clit|lo&3S&m v|ave-1S&PAST=have
+	v|detta-1S&PRES=dictate pro:pers|io&1S&SUBJ=I adv|forse conj|o
+	pro:clit|ti&2S v|ricorda-2S&PRES=remind pro:rel|che=that
+	pro:det|questo-m&sg=this prep|con=with (1)art|il&sg
+	(1)n|arancio-AUG-m&sg=orange v|esse-3S&PRES=be (2)art|il&m&sg
+	(2)n|disegno-m&sg prepart|de-f&sg n|barca-f&sg ?
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 2042.
+*MOT:	ecco l' arancione si vede un po' di più ma non tanto .
+%mor:	adv:dem|ecco (1)art|il&sg (1)n|arancio-AUG-m&sg=orange pro:clit|si&3SP
+	v|vede-3S&PRES=see art|uno&m&sg pro:det|poco-m&sg=few prep|di=of
+	adv|più conj|ma adv|non adv|tanto .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/020000.cha": line 2176.
+*MOT:	se è l' arancione o il verde scuro anche va bene .
+%mor:	conj|se v|esse-3S&PRES=be (1)art|il&sg (1)n|arancio-AUG-m&sg=orange
+	conj|o art|il&m&sg n|verde-m&sg adj|scuro-m&sg=dark conj|anche
+	v|anda-3S&PRES=go adv|bene .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/020111.cha": line 1888.
+*MOT:	in che cosa Marco , vuoi uno arancione ?
+%mor:	prep|in=in pro:int|che=what pro:int|cosa=what n:prop|Marco cm|cm
+	v|vole-2S&PRES=want (1)art|uno&m&sg (1)n|arancio-AUG-m&sg=orange ?
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/020329.cha": line 1685.
+*MOT:	e così fa una brutta fine .
+%mor:	conj|e adv|così v|face-3S&PRES=do (1)art|uno&f&sg (1)n|brutto-f&sg
+	n|fine&f=end .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/020329.cha": line 1688.
+*MOT:	il lupo in [/] in fondo fa sempre una brutta fine .
+%mor:	(1)art|il&m&sg (1)n|lupo-m&sg=wolf prep|in=in n|fondo-m&sg=bottom
+	v|face-3S&PRES=do adv|sempre (2)art|uno&f&sg (2)n|brutto-f&sg n|fine&f=end
+	.
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010803.cha": line 444.
+*MOT:	insomma , in poche parole xxx xxx il topolino e poi gli dà la
+	caccia e se lo mangia .
+%mor:	adv|insomma cm|cm prep|in=in det|poco-f&pl=few n|parola-f&pl
+	(1)art|il&m&sg (1)n|topo-DIM-m&sg=mouse conj|e adv|poi pro:clit|gli&3S&m
+	v|da-3S&PRES=give (2)art|il&f&sg (2)n|caccia-f&sg conj|e conj|se
+	pro:clit|lo&3S&m v|mangia-3S&PRES=eat .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 1730.
+*MOT:	è un po' arrabbiato perché è arrabbiato col lupo , sai , che da la
+	caccia ai suoi fratelli .
+%mor:	v|esse-3S&PRES=be art|uno&m&sg pro:det|poco-m&sg=few
+	adj|arrabbiato-m&sg conj|perché v|esse-3S&PRES=be
+	v|arrabbia-PPART&sg&m=anger prepart|co-m&sg n|lupo-m&sg=wolf cm|cm
+	v|sape-2S&PRES=know cm|cm pro:int|che=what v|da-3S&PRES=give
+	(1)art|il&f&sg (1)n|caccia-f&sg co|ai pro:poss|suo-3S&m&pl=his
+	n|frate-DIM-m&pl .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 844.
+*MOT:	ma non è una tata [: palla] .
+%mor:	conj|ma adv|non v|esse-3S&PRES=be (1)art|uno&f&sg (1)n|palla-f&sg .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 1591.
+*MOT:	uhiahiahi@i raggiunse il povero Zampetta , baracca di Podicchio .
+%mor:	co|uhiahiahi v|raggiunge-PPART&pl&f=reach (1)art|il&m&sg (1)n|povero-m&sg
+	n:prop|Zampetta cm|cm n|baracca-f&sg=hut prep|di=of n:prop|Podicchio
+	.
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 2078.
+*MOT:	e qua c' è il povero Pinocchio tutto spaventato .
+%mor:	conj|e adv|qua pro:clit|ci&1P v|esse-3S&PRES=be (1)art|il&m&sg
+	(1)n|povero-m&sg n:prop|Pinocchio adv|tutto
+	v|spaventa-PPART&sg&m=frighten .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010929.cha": line 1878.
+*MOT:	povero Paperino , si trova nel mezzo di un temporale .
+%mor:	n|povero-m&sg n:prop|Paperino cm|cm pro:clit|si&3SP
+	v|trova-3S&PRES=find prepart|ne-m&sg n|mezzo-m&sg prep|di=of
+	(1)art|uno&m&sg (1)n|temporale-m&sg .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 606.
+*MOT:	guarda che strano questo ragno si fa un buco <anziché la
+	ragnatela>[>] .
+%mor:	co|guarda det|che=which adj|strano-m&sg det|questo-m&sg=this
+	n|ragno-m&sg pro:clit|si&3SP v|face-3S&PRES=do (1)art|uno&m&sg
+	(1)n|buco-m&sg=hole conj|anziché (2)art|il&f&sg (2)n|ragnatela-f&sg .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 1747.
+*MOT:	un <soffione> [<] sì .
+%mor:	(1)art|uno&m&sg (1)n|soffione-m&sg=dandelion adv|sì .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 1982.
+*MOT:	il grillo talpa .
+%mor:	(1)art|il&m&sg (1)n|grillo-m&sg=cricket n|talpa-f&sg=mole .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 314.
+*MOT:	dunque ce ne sono due gialli , uno rosso , uno verde , uno blu .
+%mor:	conj|dunque pro:clit|ci&1P pro:clit|ne v|esse-3P&PRES=be num|due
+	adj|giallo-m&pl cm|cm art|uno&m&sg adj|rosso-m&sg=red cm|cm
+	(1)art|uno&m&sg (1)n|verde-m&sg cm|cm art|uno&m&sg adj|blu=blue .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 460.
+*MOT:	quattro ancora uno giallo , cinque uno verde , sei e ne mettiamo
+	ancora uno .
+%mor:	num|quattro v|ancora-3S&PRES=anchor art|uno&m&sg adj|giallo-m&sg
+	cm|cm num|cinque (1)art|uno&m&sg (1)n|verde-m&sg cm|cm v|esse-2S&PRES=be
+	conj|e pro:clit|ne v|mette-1P&PRES&SUB=put adv|ancora art|uno&m&sg .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 1721.
+*MOT:	uno verde e uno azzurro .
+%mor:	(1)art|uno&m&sg (1)n|verde-m&sg conj|e num|uno adj|azzurro-m&sg=azure .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010929.cha": line 17.
+*MOT:	una verde una rosa .
+%mor:	(1)art|uno&f&sg (1)n|verde-m&sg art|uno&f&sg adj|roso-f&sg=rose .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 1507.
+*MOT:	eh , io metterei il verde poi il giallo .
+%mor:	co|eh cm|cm pro:pers|io&1S&SUBJ=I v|mette-1S&COND=put (1)art|il&m&sg
+	(1)n|verde-m&sg adv|poi art|il&m&sg adj|giallo-m&sg .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/020014.cha": line 366.
+*MOT:	una verde , ma proprio palline arancioni +...
+%mor:	(1)art|uno&f&sg (1)n|verde-m&sg cm|cm conj|ma adv|proprio
+	n|palla-DIM-f&pl adj|arancione-pl +...
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/020027.cha": line 413.
+*MOT:	e poi ne facciamo una verde [/] verde [/] verde se trovo la matita
+	.
+%mor:	conj|e adv|poi pro:clit|ne v|face-1P&PRES&SUB=do (1)art|uno&f&sg
+	(1)n|verde-m&sg conj|se v|trova-1S&PRES=find (2)art|il&f&sg (2)n|matita-f&sg
+	.
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/020027.cha": line 1399.
+*MOT:	un verde , sì .
+%mor:	(1)art|uno&m&sg (1)n|verde-m&sg cm|cm adv|sì .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 686.
+*MOT:	mhm@i che sia il verde che il rosso ?
+%mor:	co|mhm det|che=which v|esse-sg&SUB=be (1)art|il&m&sg (1)n|verde-m&sg
+	pro:rel|che=that art|il&m&sg adj|rosso-m&sg=red ?
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 703.
+*MOT:	io là ho solo il verde allora sarà nello scatolone , sai penso .
+%mor:	pro:pers|io&1S&SUBJ=I adv|là v|ave-1S&PRES=have adv|solo
+	(1)art|il&m&sg (1)n|verde-m&sg adv|allora v|esse-3S&FUT=be prepart|ne-m&sg
+	n|scatolone-m&sg=carton cm|cm v|sape-2S&PRES=know
+	v|pensa-1S&PRES=think .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 1242.
+*MOT:	una tuta verde una tutta rossa una viola una nera .
+%mor:	art|uno&f&sg n|tuta-f&sg adj|verde-sg art|uno&f&sg
+	det|tutto-f&sg=all adj|rosso-f&sg=red (1)art|uno&f&sg (1)n|viola-f&sg
+	art|uno&f&sg adj|nero-f&sg .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 926.
+*MOT:	la gomma piuma è quella sì .
+%mor:	(1)art|il&f&sg (1)n|gomma-f&sg n|piuma-f&sg v|esse-3S&PRES=be
+	pro:det|quello-f&sg=that adv|sì .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 935.
+*MOT:	mi serve la gomma piuma sotto .
+%mor:	pro:clit|mi&1S v|servi-3S&PRES=serve (1)art|il&f&sg (1)n|gomma-f&sg
+	n|piuma-f&sg adv|sotto .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/020524.cha": line 794.
+*MOT:	c' è la gomma piuma .
+%mor:	pro:clit|ci&1P v|esse-3S&PRES=be (1)art|il&f&sg (1)n|gomma-f&sg
+	n|piuma-f&sg .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 1319.
+*MOT:	vediamo se la mamma la sistema un po' .
+%mor:	v|vede-1P&PRES&SUB=see conj|se (1)art|il&f&sg (1)n|mamma-f&sg (2)art|il&f&sg
+	(2)n|sistema-f&sg art|uno&m&sg pro:det|poco-m&sg=few .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010803.cha": line 2371.
+*MOT:	domani viene la Giuliana e le sistema .
+%mor:	adv|domani v|veni-3S&PRES=come art|il&f&sg n:prop|Giuliana conj|e
+	(1)art|il&f&pl (1)n|sistema-f&sg .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/020510.cha": line 133.
+*MOT:	okay , così uno sale [/] sale .
+%mor:	co|okay cm|cm adv|così (1)art|uno&m&sg (1)n|sale-m&sg .
+----------------------------------------
+hand-corrections:
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 1211.
+*MOT:	eh la mamma .
+%mor:	co|eh (1)art|il&f&sg (1)n|mamma-f&sg .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 972.
+*MOT:	il tra(ttore) +...
+%mor:	(1)art|il&m&sg (1)n|trattore-m&sg=tractor +...
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 1211.
+*MOT:	eh la mam(m)a .
+%mor:	co|eh (1)art|il&f&sg (1)n|mamma-f&sg .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 1527.
+*MOT:	come sono le fragoline [>] ?
+%mor:	adv|come v|esse-3P&PRES=be (1)art|il&f&pl (1)n|fragola-DIM-f&pl ?
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/020111.cha": line 1973.
+*MOT:	cosa racconta il pa(pà) Paolo . [+ r]
+%mor:	pro:int|cosa=what v|racconta-3S&PRES=narrate (1)art|il&m&sg (1)n|papà&m
+	n:prop|Paolo .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/020014.cha": line 2148.
+*MOT:	e c' era anche il pi(ffero) +...
+%mor:	conj|e pro:clit|ci&1P v|esse-3S&PAST=be conj|anche (1)art|il&m&sg
+	(1)n|piffero-m&sg=pipe +...
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/020510.cha": line 1557.
+*MOT:	no [/] no [/] no [/] no , fammi sentir(e) bene , la pre(cedenza)
+	+...
+%mor:	adv|no cm|cm vimp|face-2S&IMP~pro:clit|1S=do inf|senti-INF=feel
+	adv|bene cm|cm (1)art|il&f&sg (1)n|precedenza-f&sg=precedence +...
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010901.cha": line 1664.
+*MOT:	vieni qua lascia stare il registr(atore) +/.
+%mor:	vimp|veni-2S&IMP=come adv|qua v|lascia-3S&PRES=leave
+	inf|sta-INF=stay (1)art|il&m&sg (1)n|registratore-m&sg=tape_recorder +/.
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010817.cha": line 269.
+*MOT:	<un calcio> [<] certo .
+%mor:	(1)art|uno&m&sg (1)n|calcio-m&sg adv|certo .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010602.cha": line 836.
+*MOT:	stranamente in questa camera non c' è neanche <una pallina> [>] .
+%mor:	adv:adj|strano-ADV prep|in=in det|questo-f&sg=this n|camera-f&sg
+	adv|non pro:clit|ci&1P v|esse-3S&PRES=be adv|neanche (1)art|uno&f&sg
+	(1)n|palla-DIM-f&sg .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010817.cha": line 700.
+*MOT:	<già che ci siamo facciamo anche una torre> [>] ?
+%mor:	adv|già pro:rel|che=that pro:clit|ci&1P v|esse-1P&PRES&SUB=be
+	v|face-1P&PRES&SUB=do conj|anche (1)art|uno&f&sg (1)n|torre-f&sg ?
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 185.
+*MOT:	<c' è l' orso> [>] .
+%mor:	pro:clit|ci&1P v|esse-3S&PRES=be (1)art|il&sg (1)n|orso-m&sg .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 2217.
+*MOT:	io volevo sempre <provare a far(e) la nanna> [>] .
+%mor:	pro:pers|io&1S&SUBJ=I v|vole-1S&PAST=wish adv|sempre
+	inf|prova-INF=try prep|a=to inf|face-INF=do (1)art|il&f&sg (1)n|nanna-f&sg
+	.
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 2485.
+*MOT:	riesci <a far(e) la matita> [//] a far(e) la punta ?
+%mor:	v|riusci-2S&PRES=succeed prep|a=to inf|face-INF=do (1)art|il&f&sg
+	(1)n|punta-f&sg=point ?
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 1519.
+*MOT:	<i bimbi> [<] che davano da mangiare al cigno ?
+%mor:	(1)art|il&m&pl (1)n|bimbo-m&pl pro:rel|che=that v|da-3P&PAST=give
+	prep|da=at inf|mangia-INF=eat prepart|a-m&sg n|cigno-m&sg=swan ?
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 256.
+*MOT:	io continuo a dire che quella è una candela in una <bottiglia> [>]
+	.
+%mor:	pro:pers|io&1S&SUBJ=I v|continua-1S&PRES=continue prep|a=to
+	inf|dice-INF=say pro:int|che=what pro:det|quello-f&sg=that
+	v|esse-3S&PRES=be (1)art|uno&f&sg (1)n|candela-f&sg prep|in=in
+	(2)art|uno&f&sg (2)n|bottiglia-f&sg .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 1724.
+*MOT:	c' è tutto il <castello> [>] .
+%mor:	pro:clit|ci&1P v|esse-3S&PRES=be adv|tutto (1)art|il&m&sg
+	(1)n|castello-m&sg .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 1527.
+*MOT:	come sono le <fragoline> [>] ?
+%mor:	adv|come v|esse-3P&PRES=be (1)art|il&f&pl (1)n|fragola-DIM-f&pl ?
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010901.cha": line 2457.
+*MOT:	se no il gatt(o) +/.
+%mor:	conj|se adv|no (1)art|il&m&sg (1)n|gatto-m&sg +/.
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 1947.
+*MOT:	ti [<] piace tanto <guardare i libri>[>] .
+%mor:	pro:clit|ti&2S v|piace-3S&PRES=please adv|tanto inf|guarda-INF=look
+	(1)art|il&m&pl (1)n|libro-m&pl .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/020413.cha": line 1404.
+*MOT:	<forse un papà[>] .
+%mor:	adv|forse (1)art|uno&m&sg (1)n|papà&m .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 284.
+*MOT:	io farò adesso una <torre coi> [>] dadi .
+%mor:	pro:pers|io&1S&SUBJ=I v|face-1S&FUT=do adv|adesso (1)art|uno&f&sg
+	(1)n|torre-f&sg prepart|co-m&pl n|dado-m&pl .
+----------------------------------------
+*** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 2143.
+*MOT:	così il canestro[>] +/.
+%mor:	adv|così (1)art|il&m&sg (1)n|canestro-m&sg=basket +/.
+----------------------------------------
+analyzed as diminutive:
+----------------------------------------
+n|palloncino-... to n|pallone-DIM-...
+----------------------------------------
+undid analysis as diminutive:
+----------------------------------------
+n|pane-DIM-m&sg to n|pancino-m&sg
+----------------------------------------
+changed from &f to -f&sg
+----------------------------------------
+n|costruzione&f=construction
+luce&f=light
+lepre&f=hare
+lezione&f
+n|mano&f=hand to n|mano-f&sg=hand
+n|mano&f-f&pl to n|mano-f&pl
+n|volpe&f=fox
+n|combinazione&f=combination
+n|pancione&f to n|pancione-m&sg
+n|canzone&f to n|canzone-f&sg
+n|tosse&f to n|tosse-f&sg
+n|tv&f=televisione
+n|pista&f=trail to n|pista-f&sg=trail
+n|voce&f to n|voce-f&sg
+n|piramide&f to n|piramide-f&sg
+n|collezione&f to n|collezione-f&sg
+n|dimostrazione&f to n|dimostrazione-f&sg
+n|divagazione&f
+n|falciatrice&f to n|falciatrice-f&sg
+n|fase&f
+
+todo:
+forbice
+specie
+pancione
+stagione
+espressione
+fine
+combinazione
+posizione
+rondine
+televisione
+vaccinazione
+epatite
+poliomelite
+
+----------------------------------------
+changed incorrect gender:
+----------------------------------------
+n|pipì&mas to n|pipì-f&sg=peepee
+n|torre-m& to n|torre-f&
+n|carne-m& to n|carne-f&
+n|moto&m&sg to n|moto&f&sg
+n|papa-f&sg to n|papa-m&sg
 
 ****************************************
 From file </Applications/CLAN/Tonelli/Marco/010504.cha>
@@ -118,7 +468,7 @@ From file </Applications/CLAN/Tonelli/Marco/010504.cha>
 	(2)n|tetto-m&sg=roof .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 185.
-*MOT:	<c' è l' orso> [>] .
+*MOT:	c' è l' orso [>] .
 %mor:	pro:clit|ci&1P v|esse-3S&PRES=be (1)art|il&sg (1)n|orso-m&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 215.
@@ -128,26 +478,20 @@ From file </Applications/CLAN/Tonelli/Marco/010504.cha>
 	n|casa-DIM-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 284.
-*MOT:	io farò adesso una <torre coi> [>] dadi .
+*MOT:	io farò adesso una torre coi dadi .
 %mor:	pro:pers|io&1S&SUBJ=I v|face-1S&FUT=do adv|adesso (1)art|uno&f&sg
-	(1)n|torre-m&sg prepart|co-m&pl n|dado-m&pl .
+	(1)n|torre-f&sg prepart|co-m&pl n|dado-m&pl .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 293.
 *MOT:	vuoi fare una torre con la mamma ?
-%mor:	v|vole-2S&PRES=want inf|face-INF=do (1)art|uno&f&sg (1)n|torre-m&sg
+%mor:	v|vole-2S&PRES=want inf|face-INF=do (1)art|uno&f&sg (1)n|torre-f&sg
 	prep|con=with (2)art|il&f&sg (2)n|mamma-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 310.
 *MOT:	allora dai@i io tiro fuori i dadi e tu fai la torre .
 %mor:	adv|allora co|dai pro:pers|io&1S&SUBJ=I v|tira-1S&PRES=pull
 	adv|fuori (1)art|il&m&pl (1)n|dado-m&pl conj|e pro:pers|tu&2S&SUBJ=you
-	v|face-2S&PRES=do (2)art|il&f&sg (2)n|torre-m&sg .
-----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 314.
-*MOT:	dunque ce ne sono due gialli , uno rosso , uno verde , uno blu .
-%mor:	conj|dunque pro:clit|ci&1P pro:clit|ne v|esse-3P&PRES=be num|due
-	adj|giallo-m&pl cm|cm art|uno&m&sg adj|rosso-m&sg=red cm|cm
-	(1)art|uno&m&sg (1)n|verde-m&sg cm|cm art|uno&m&sg adj|blu=blue .
+	v|face-2S&PRES=do (2)art|il&f&sg (2)n|torre-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 354.
 *MOT:	è un dado , ma di che colore ?
@@ -157,11 +501,11 @@ From file </Applications/CLAN/Tonelli/Marco/010504.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 402.
 *MOT:	adesso cominciamo a far(e) la torre .
 %mor:	adv|adesso vimp|comincia-1P&IMP=begin prep|a=to inf|face-INF=do
-	(1)art|il&f&sg (1)n|torre-m&sg .
+	(1)art|il&f&sg (1)n|torre-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 407.
 *MOT:	la torre dai@i .
-%mor:	(1)art|il&f&sg (1)n|torre-m&sg co|dai .
+%mor:	(1)art|il&f&sg (1)n|torre-f&sg co|dai .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 439.
 *MOT:	è inutile che fai di no con la testa .
@@ -171,14 +515,7 @@ From file </Applications/CLAN/Tonelli/Marco/010504.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 453.
 *MOT:	dai@i fa la mamma la torre .
 %mor:	co|dai v|face-3S&PRES=do (1)art|il&f&sg (1)n|mamma-f&sg (2)art|il&f&sg
-	(2)n|torre-m&sg .
-----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 460.
-*MOT:	quattro ancora uno giallo , cinque uno verde , sei e ne mettiamo
-	ancora uno .
-%mor:	num|quattro v|ancora-3S&PRES=anchor art|uno&m&sg adj|giallo-m&sg
-	cm|cm num|cinque (1)art|uno&m&sg (1)n|verde-m&sg cm|cm v|esse-2S&PRES=be
-	conj|e pro:clit|ne v|mette-1P&PRES&SUB=put adv|ancora art|uno&m&sg .
+	(2)n|torre-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 511.
 *MOT:	la palla .
@@ -205,12 +542,12 @@ From file </Applications/CLAN/Tonelli/Marco/010504.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 668.
 *MOT:	facciamo ancora una torre ?
-%mor:	v|face-1P&PRES&SUB=do adv|ancora (1)art|uno&f&sg (1)n|torre-m&sg ?
+%mor:	v|face-1P&PRES&SUB=do adv|ancora (1)art|uno&f&sg (1)n|torre-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 677.
 *MOT:	vuoi fare ancora una torre ?
 %mor:	v|vole-2S&PRES=want inf|face-INF=do adv|ancora (1)art|uno&f&sg
-	(1)n|torre-m&sg ?
+	(1)n|torre-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 692.
 *MOT:	andiamo a bere il latte ?
@@ -250,13 +587,9 @@ From file </Applications/CLAN/Tonelli/Marco/010504.cha>
 %mor:	pro:pers|io&1S&SUBJ=I v|gioca-1S&PRES=play prep|con=with
 	(1)art|il&m&pl (1)n|gioco-DIM-m&pl prep|di=of n:prop|Marco adv|adesso .
 ----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 844.
-*MOT:	ma non è una tata [: palla] .
-%mor:	conj|ma adv|non v|esse-3S&PRES=be (1)art|uno&f&sg (1)n|palla-f&sg .
-----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 849.
 *MOT:	la mano del topolino .
-%mor:	(1)art|il&f&sg (1)n|mano&f=hand prepart|de-m&sg n|topo-DIM-m&sg=mouse .
+%mor:	(1)art|il&f&sg (1)n|mano-f&sg=hand prepart|de-m&sg n|topo-DIM-m&sg=mouse .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 851.
 *MOT:	anche [/] anche le orecchie sono delle palline .
@@ -268,7 +601,7 @@ From file </Applications/CLAN/Tonelli/Marco/010504.cha>
 	che sono sempre delle palline e invece i piedi +...
 %mor:	det|questo-m&sg=this n|topo-DIM-m&sg=mouse v|ave-3S&PRES=have
 	num|due n|orecchio-AUG-m&pl=ear adj|grande-pl=big adj|grande-pl=big
-	num|due n|mano&f-f&pl n|piccolo-DIM-m&sg pro:rel|che=that
+	num|due n|mano-f&pl n|piccolo-DIM-m&sg pro:rel|che=that
 	v|esse-3P&PRES=be adv|sempre v|da~pro:clit|3S&f=give
 	n|palla-DIM-f&pl conj|e adv|invece (1)art|il&m&pl (1)n|piede-m&pl +...
 ----------------------------------------
@@ -361,7 +694,7 @@ From file </Applications/CLAN/Tonelli/Marco/010504.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 1005.
 *MOT:	guarda , alza le mani e le gambe .
-%mor:	co|guarda cm|cm v|alza-3S&PRES=raise (1)art|il&f&pl (1)n|mano&f-f&pl
+%mor:	co|guarda cm|cm v|alza-3S&PRES=raise (1)art|il&f&pl (1)n|mano-f&pl
 	conj|e (2)art|il&f&pl (2)n|gambo-m&sg=stem .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 1011.
@@ -544,11 +877,6 @@ From file </Applications/CLAN/Tonelli/Marco/010504.cha>
 *MOT:	la palla .
 %mor:	(1)art|il&f&sg (1)n|palla-f&sg .
 ----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 1319.
-*MOT:	vediamo se la mamma la sistema un po' .
-%mor:	v|vede-1P&PRES&SUB=see conj|se (1)art|il&f&sg (1)n|mamma-f&sg (2)art|il&f&sg
-	(2)n|sistema-f&sg art|uno&m&sg pro:det|poco-m&sg=few .
-----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 1331.
 *MOT:	oh come fa la palla bffh@o così ?
 %mor:	co|oh adv|come v|face-3S&PRES=do (1)art|il&f&sg (1)n|palla-f&sg on|bffh
@@ -574,7 +902,7 @@ From file </Applications/CLAN/Tonelli/Marco/010504.cha>
 *MOT:	poi ti riempi il pancino di succo di frutta e non mangi le patate e
 	il pesce .
 %mor:	adv|poi pro:clit|ti&2S v|riempi-2S&PRES=fill (1)art|il&m&sg
-	(1)n|pane-DIM-m&sg prep|di=of n|succo-m&sg prep|di=of n|frutta-f&sg
+	(1)n|pancino-m&sg prep|di=of n|succo-m&sg prep|di=of n|frutta-f&sg
 	conj|e adv|non v|mangia-sg&SUB=eat (2)art|il&f&pl (2)n|patata-f&pl conj|e
 	(3)art|il&m&sg (3)n|pesce-m&sg .
 ----------------------------------------
@@ -592,7 +920,7 @@ From file </Applications/CLAN/Tonelli/Marco/010504.cha>
 *MOT:	mi hai preso per il dito della mano .
 %mor:	pro:clit|mi&1S v|ave-2S&PRES=have v|prende-PPART&sg&m=catch
 	prep|per=for (1)art|il&m&sg (1)n|dito-m&sg=finger prepart|de-f&sg
-	n|mano&f=hand .
+	n|mano-f&sg=hand .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 1439.
 *MOT:	aspetta che devo spegnere il registratore .
@@ -782,13 +1110,13 @@ From file </Applications/CLAN/Tonelli/Marco/010504.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 1754.
 *MOT:	fai [/] fai con la mano premi premi più forte .
-%mor:	v|face-2S&PRES=do prep|con=with (1)art|il&f&sg (1)n|mano&f=hand
+%mor:	v|face-2S&PRES=do prep|con=with (1)art|il&f&sg (1)n|mano-f&sg=hand
 	vimp|preme-2S&IMP=press v|preme-2S&PRES=press adv|più adv|forte .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 1760.
 *MOT:	no con un dito , con la mano .
 %mor:	adv|no prep|con=with (1)art|uno&m&sg (1)n|dito-m&sg=finger cm|cm
-	prep|con=with (2)art|il&f&sg (2)n|mano&f=hand .
+	prep|con=with (2)art|il&f&sg (2)n|mano-f&sg=hand .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 1777.
 *MOT:	ti porta il papà .
@@ -917,12 +1245,6 @@ From file </Applications/CLAN/Tonelli/Marco/010504.cha>
 %mor:	adv|non v|esse-3S&PRES=be (1)art|uno&f&sg (1)n|palla-f&sg
 	pro:det|quello-f&sg=that .
 ----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 2078.
-*MOT:	e qua c' è il povero Pinocchio tutto spaventato .
-%mor:	conj|e adv|qua pro:clit|ci&1P v|esse-3S&PRES=be (1)art|il&m&sg
-	(1)n|povero-m&sg n:prop|Pinocchio adv|tutto
-	v|spaventa-PPART&sg&m=frighten .
-----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010504.cha": line 2088.
 *MOT:	e qua c' è un uccellino visto ?
 %mor:	conj|e adv|qua pro:clit|ci&1P v|esse-3S&PRES=be (1)art|uno&m&sg
@@ -960,7 +1282,7 @@ From file </Applications/CLAN/Tonelli/Marco/010504.cha>
 *MOT:	quello lì sì e l' altro è una volpe .
 %mor:	pro:det|quello-m&sg=that adv|lì adv|sì conj|e art|il&sg
 	pro:det|altro-m&sg=another_one v|esse-3S&PRES=be (1)art|uno&f&sg
-	(1)n|volpe&f=fox .
+	(1)n|volpe-f&sg=fox .
 From file </Applications/CLAN/Tonelli/Marco/010518.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 19.
@@ -1073,7 +1395,7 @@ From file </Applications/CLAN/Tonelli/Marco/010518.cha>
 	(1)n|palla-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 256.
-*MOT:	io continuo a dire che quella è una candela in una <bottiglia> [>]
+*MOT:	io continuo a dire che quella è una candela in una bottiglia [>]
 	.
 %mor:	pro:pers|io&1S&SUBJ=I v|continua-1S&PRES=continue prep|a=to
 	inf|dice-INF=say pro:int|che=what pro:det|quello-f&sg=that
@@ -1127,7 +1449,7 @@ From file </Applications/CLAN/Tonelli/Marco/010518.cha>
 	v|smette-1S&2S&SUB&PAST=stop prep|di=of inf|butta-INF=throw
 	adv|fuori (1)art|il&m&pl (1)n|dente-m&pl=tooth conj|e prep|di=of
 	inf|sbava-INF=dribble adv|non pro:clit|ti&2S v|sporca-2S&COND=dirty
-	(2)art|il&f&pl (2)n|mano&f-f&pl vimp|dice-2S&IMP=say v|sali-3S&PAST=climb
+	(2)art|il&f&pl (2)n|mano-f&pl vimp|dice-2S&IMP=say v|sali-3S&PAST=climb
 	.
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 420.
@@ -1138,12 +1460,12 @@ From file </Applications/CLAN/Tonelli/Marco/010518.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 426.
 *MOT:	nel gatto e la volpe ?
-%mor:	prepart|ne-m&sg n|gatto-m&sg conj|e (1)art|il&f&sg (1)n|volpe&f=fox ?
+%mor:	prepart|ne-m&sg n|gatto-m&sg conj|e (1)art|il&f&sg (1)n|volpe-f&sg=fox ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 432.
 *MOT:	questa è la volpe .
 %mor:	pro:det|questo-f&sg=this v|esse-3S&PRES=be (1)art|il&f&sg
-	(1)n|volpe&f=fox .
+	(1)n|volpe-f&sg=fox .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 458.
 *MOT:	dove vedi le palle ?
@@ -1164,13 +1486,13 @@ From file </Applications/CLAN/Tonelli/Marco/010518.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 537.
 *MOT:	vuoi fare una torre ?
-%mor:	v|vole-2S&PRES=want inf|face-INF=do (1)art|uno&f&sg (1)n|torre-m&sg ?
+%mor:	v|vole-2S&PRES=want inf|face-INF=do (1)art|uno&f&sg (1)n|torre-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 553.
 *MOT:	vai [/] vai a prendere i dadi che facciamo una torre .
 %mor:	vimp|anda-2S&IMP=go prep|a=to inf|prende-INF=catch (1)art|il&m&pl
 	(1)n|dado-m&pl pro:rel|che=that v|face-1P&PRES&SUB=do (2)art|uno&f&sg
-	(2)n|torre-m&sg .
+	(2)n|torre-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 557.
 *MOT:	dove sono i dadi ?
@@ -1178,14 +1500,14 @@ From file </Applications/CLAN/Tonelli/Marco/010518.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 580.
 *MOT:	dai@i , fa intanto la torre con questi due , bene .
-%mor:	co|dai cm|cm v|face-3S&PRES=do adv|intanto (1)art|il&f&sg (1)n|torre-m&sg
+%mor:	co|dai cm|cm v|face-3S&PRES=do adv|intanto (1)art|il&f&sg (1)n|torre-f&sg
 	prep|con=with pro:det|questo-m&pl=this num|due cm|cm adv|bene .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 593.
 *MOT:	eh ti conviene far(e) la torre per terra , guarda , perché sul
 	divano si ribalta .
 %mor:	co|eh pro:clit|ti&2S v|conveni-3S&PRES=agree inf|face-INF=do
-	(1)art|il&f&sg (1)n|torre-m&sg prep|per=for n|terra-f&sg cm|cm co|guarda
+	(1)art|il&f&sg (1)n|torre-f&sg prep|per=for n|terra-f&sg cm|cm co|guarda
 	cm|cm conj|perché prepart|su-m&sg n|divano-m&sg pro:clit|si&3SP
 	v|ribalta-3S&PRES=overturn .
 ----------------------------------------
@@ -1201,7 +1523,7 @@ From file </Applications/CLAN/Tonelli/Marco/010518.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 644.
 *MOT:	dai@i fai la torre Marco .
-%mor:	co|dai v|face-2S&PRES=do (1)art|il&f&sg (1)n|torre-m&sg n:prop|Marco .
+%mor:	co|dai v|face-2S&PRES=do (1)art|il&f&sg (1)n|torre-f&sg n:prop|Marco .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 648.
 *MOT:	ecco qua la palla [>] .
@@ -1237,7 +1559,7 @@ From file </Applications/CLAN/Tonelli/Marco/010518.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 683.
 *MOT:	non vuoi fare la torre ?
 %mor:	adv|non v|vole-2S&PRES=want inf|face-INF=do (1)art|il&f&sg
-	(1)n|torre-m&sg ?
+	(1)n|torre-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 692.
 *MOT:	i dadi sono laggiù .
@@ -1256,7 +1578,7 @@ From file </Applications/CLAN/Tonelli/Marco/010518.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 723.
 *MOT:	dai@i faccio io una torre ?
 %mor:	co|dai v|face-1S&PRES=do pro:pers|io&1S&SUBJ=I (1)art|uno&f&sg
-	(1)n|torre-m&sg ?
+	(1)n|torre-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 751.
 *MOT:	hai perso una calzetta .
@@ -1274,7 +1596,7 @@ From file </Applications/CLAN/Tonelli/Marco/010518.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 818.
 *MOT:	lasciamo stare la torre ?
-%mor:	v|lascia-1P&PRES=leave inf|sta-INF=stay (1)art|il&f&sg (1)n|torre-m&sg ?
+%mor:	v|lascia-1P&PRES=leave inf|sta-INF=stay (1)art|il&f&sg (1)n|torre-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 869.
 *MOT:	prendiamo il libretto del riccio .
@@ -1330,7 +1652,7 @@ From file </Applications/CLAN/Tonelli/Marco/010518.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 1008.
 *MOT:	hai fatto una costruzione ?
 %mor:	v|ave-2S&PRES=have v|face-PPART&sg&m=redo (1)art|uno&f&sg
-	(1)n|costruzione&f=construction ?
+	(1)n|costruzione-f&sg=construction ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 1021.
 *MOT:	il dado era rosso , e anche la ruota è rossa .
@@ -1357,7 +1679,7 @@ From file </Applications/CLAN/Tonelli/Marco/010518.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 1057.
 *MOT:	queste sono le mani del topolino .
 %mor:	pro:det|questo-f&pl=this v|esse-3P&PRES=be (1)art|il&f&pl
-	(1)n|mano&f-f&pl prepart|de-m&sg n|topo-DIM-m&sg=mouse .
+	(1)n|mano-f&pl prepart|de-m&sg n|topo-DIM-m&sg=mouse .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 1060.
 *MOT:	questo è il naso , questi sono gli occhi e queste sono le orecchie
@@ -1388,7 +1710,7 @@ From file </Applications/CLAN/Tonelli/Marco/010518.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 1103.
 *MOT:	oh hai fatto una torre .
 %mor:	co|oh v|ave-2S&PRES=have v|face-PPART&sg&m=redo (1)art|uno&f&sg
-	(1)n|torre-m&sg .
+	(1)n|torre-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 1115.
 *MOT:	trovato una cartina ?
@@ -1607,7 +1929,7 @@ From file </Applications/CLAN/Tonelli/Marco/010518.cha>
 	(1)n|sedano-m&sg=celery .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010518.cha": line 1724.
-*MOT:	c' è tutto il <castello> [>] .
+*MOT:	c' è tutto il castello [>] .
 %mor:	pro:clit|ci&1P v|esse-3S&PRES=be adv|tutto (1)art|il&m&sg
 	(1)n|castello-m&sg .
 ----------------------------------------
@@ -1773,7 +2095,7 @@ From file </Applications/CLAN/Tonelli/Marco/010602.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010602.cha": line 66.
 *MOT:	cosa c' è qua un palloncino ?
 %mor:	pro:int|cosa=what pro:clit|ci&1P v|esse-3S&PRES=be adv|qua
-	(1)art|uno&m&sg (1)n|palloncino-m&sg=balloon ?
+	(1)art|uno&m&sg (1)n|pallone-DIM-m&sg=balloon ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010602.cha": line 76.
 *MOT:	un bimbo ha rotto ?
@@ -1961,7 +2283,7 @@ From file </Applications/CLAN/Tonelli/Marco/010602.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010602.cha": line 434.
 *MOT:	c' ha un pancione , poi è grande questo omone .
-%mor:	pro:clit|ci&1P v|ave-3S&PRES=have (1)art|uno&m&sg (1)n|pancione&f cm|cm
+%mor:	pro:clit|ci&1P v|ave-3S&PRES=have (1)art|uno&m&sg (1)n|pancione-m&sg cm|cm
 	adv|poi v|esse-3S&PRES=be adj|grande-sg=big pro:det|questo-m&sg=this
 	n|uomo-AUG-m&sg=man .
 ----------------------------------------
@@ -2138,7 +2460,7 @@ From file </Applications/CLAN/Tonelli/Marco/010602.cha>
 	(3)art|il&f&pl (3)n|scarpa-f&pl=shoe +/.
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010602.cha": line 836.
-*MOT:	stranamente in questa camera non c' è neanche <una pallina> [>] .
+*MOT:	stranamente in questa camera non c' è neanche una pallina [>] .
 %mor:	adv:adj|strano-ADV prep|in=in det|questo-f&sg=this n|camera-f&sg
 	adv|non pro:clit|ci&1P v|esse-3S&PRES=be adv|neanche (1)art|uno&f&sg
 	(1)n|palla-DIM-f&sg .
@@ -2297,7 +2619,7 @@ From file </Applications/CLAN/Tonelli/Marco/010602.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010602.cha": line 1339.
 *MOT:	ecco , trovata la combinazione .
 %mor:	adv:dem|ecco cm|cm v|trova-PPART&sg&f=find (1)art|il&f&sg
-	(1)n|combinazione&f=combination .
+	(1)n|combinazione-f&sg=combination .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010602.cha": line 1344.
 *MOT:	son(o) tanti sì gli animaletti , eccoli .
@@ -2485,7 +2807,7 @@ From file </Applications/CLAN/Tonelli/Marco/010602.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010602.cha": line 1727.
 *MOT:	le mani ?
-%mor:	(1)art|il&f&pl (1)n|mano&f-f&pl ?
+%mor:	(1)art|il&f&pl (1)n|mano-f&pl ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010602.cha": line 1761.
 *MOT:	lo scimmiotto otto@c ?
@@ -2504,13 +2826,13 @@ From file </Applications/CLAN/Tonelli/Marco/010602.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010602.cha": line 1782.
 *MOT:	questa è la volpe .
 %mor:	pro:det|questo-f&sg=this v|esse-3S&PRES=be (1)art|il&f&sg
-	(1)n|volpe&f=fox .
+	(1)n|volpe-f&sg=fox .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010602.cha": line 1787.
 *MOT:	col fiocchettino rosso al collo , sì , la volpe .
 %mor:	prepart|co-m&sg n|fiocco-DIM-DIM-m&sg=bow adj|rosso-m&sg=red
 	prepart|a-m&sg n|collo-m&sg cm|cm adv|sì cm|cm (1)art|il&f&sg
-	(1)n|volpe&f=fox .
+	(1)n|volpe-f&sg=fox .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010602.cha": line 1804.
 *MOT:	quello è l' uccellino , il cavallo , il gatto .
@@ -2640,13 +2962,13 @@ From file </Applications/CLAN/Tonelli/Marco/010622.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 54.
 *MOT:	e con quelli cosa i la torre ?
 %mor:	conj|e prep|con=with pro:det|quello-m&pl=that n|cosa-f&sg
-	art|il&m&pl (1)art|il&f&sg (1)n|torre-m&sg ?
+	art|il&m&pl (1)art|il&f&sg (1)n|torre-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 85.
 *MOT:	vuoi che ti aiuti la mamma a r(e) la torre ?
 %mor:	v|vole-2S&PRES=want pro:rel|che=that pro:clit|ti&2S
 	v|aiuta-2S&PRES=help (1)art|il&f&sg (1)n|mamma-f&sg prep|a=to
-	n|re-m&sg=king (2)art|il&f&sg (2)n|torre-m&sg ?
+	n|re-m&sg=king (2)art|il&f&sg (2)n|torre-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 95.
 *MOT:	finiti i pezzi , e tutti i tondi dove sono ?
@@ -2656,7 +2978,7 @@ From file </Applications/CLAN/Tonelli/Marco/010622.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 126.
 *MOT:	vuoi fare la torre ?
-%mor:	v|vole-2S&PRES=want inf|face-INF=do (1)art|il&f&sg (1)n|torre-m&sg ?
+%mor:	v|vole-2S&PRES=want inf|face-INF=do (1)art|il&f&sg (1)n|torre-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 134.
 *MOT:	provi tu o la mamma ?
@@ -2677,7 +2999,7 @@ From file </Applications/CLAN/Tonelli/Marco/010622.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 191.
 *MOT:	ah hai fatto cadere subito la torre .
 %mor:	co|ah v|ave-2S&PRES=have v|face-PPART&sg&m=redo inf|cade-INF=fall
-	adv|subito (1)art|il&f&sg (1)n|torre-m&sg .
+	adv|subito (1)art|il&f&sg (1)n|torre-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 217.
 *MOT:	+, se c' era per caso un cigno .
@@ -2875,12 +3197,12 @@ From file </Applications/CLAN/Tonelli/Marco/010622.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 703.
 *MOT:	ecco i la torre coi vari pezzi .
-%mor:	adv:dem|ecco art|il&m&pl (1)art|il&f&sg (1)n|torre-m&sg prepart|co-m&pl
+%mor:	adv:dem|ecco art|il&m&pl (1)art|il&f&sg (1)n|torre-f&sg prepart|co-m&pl
 	det|vario-m&pl=quite_a_few n|pezzo-m&pl=piece .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 737.
 *MOT:	una torre !
-%mor:	(1)art|uno&f&sg (1)n|torre-m&sg !
+%mor:	(1)art|uno&f&sg (1)n|torre-f&sg !
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 746.
 *MOT:	grandi sono le orecchie .
@@ -3043,7 +3365,7 @@ From file </Applications/CLAN/Tonelli/Marco/010622.cha>
 %mor:	(1)art|il&f&sg (1)n|tasca-f&sg=pocket .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 1211.
-*MOT:	eh la mam(m)a .
+*MOT:	eh la mamma .
 %mor:	co|eh (1)art|il&f&sg (1)n|mamma-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 1225.
@@ -3116,7 +3438,7 @@ From file </Applications/CLAN/Tonelli/Marco/010622.cha>
 *MOT:	si sposta la bici , aspetta che ti do una piccola mano .
 %mor:	pro:clit|si&3SP v|sposta-3S&PRES=shift (1)art|il&f&sg (1)n|bici&m cm|cm
 	vimp|aspetta-2S&IMP=wait pro:rel|che=that pro:clit|ti&2S
-	v|da-1S&PRES=give art|uno&f&sg adj|piccolo-f&sg n|mano&f=hand .
+	v|da-1S&PRES=give art|uno&f&sg adj|piccolo-f&sg n|mano-f&sg=hand .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 1378.
 *MOT:	ecco solleva la gambetta , bene !
@@ -3130,7 +3452,7 @@ From file </Applications/CLAN/Tonelli/Marco/010622.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 1458.
 *MOT:	non tiene la mano .
-%mor:	adv|non v|tene-3S&PRES=hold (1)art|il&f&sg (1)n|mano&f=hand .
+%mor:	adv|non v|tene-3S&PRES=hold (1)art|il&f&sg (1)n|mano-f&sg=hand .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 1483.
 *MOT:	<quante s(ono)> [//] quante sono le oche ?
@@ -3161,10 +3483,6 @@ From file </Applications/CLAN/Tonelli/Marco/010622.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 1525.
 *MOT:	com' erano le fragoline ?
 %mor:	adv|come v|esse-3P&PAST=be (1)art|il&f&pl (1)n|fragola-DIM-f&pl ?
-----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 1527.
-*MOT:	come sono le <fragoline> [>] ?
-%mor:	adv|come v|esse-3P&PRES=be (1)art|il&f&pl (1)n|fragola-DIM-f&pl ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010622.cha": line 1555.
 *MOT:	ahiahiahi@o un attacco alla mamma , un attacco .
@@ -3299,13 +3617,13 @@ From file </Applications/CLAN/Tonelli/Marco/010706.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 380.
 *MOT:	la torre ?
-%mor:	(1)art|il&f&sg (1)n|torre-m&sg ?
+%mor:	(1)art|il&f&sg (1)n|torre-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 382.
 *MOT:	sì è una torre , possiamo chiamare anche torre .
-%mor:	adv|sì v|esse-3S&PRES=be (1)art|uno&f&sg (1)n|torre-m&sg cm|cm
+%mor:	adv|sì v|esse-3S&PRES=be (1)art|uno&f&sg (1)n|torre-f&sg cm|cm
 	v|pote-1P&PRES&SUB=be_able inf|chiama-INF=call conj|anche
-	n|torre-m&sg .
+	n|torre-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 386.
 *MOT:	xxx si parla di castello con le carte .
@@ -3505,7 +3823,7 @@ From file </Applications/CLAN/Tonelli/Marco/010706.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 987.
 *MOT:	cos' è una canzone .
-%mor:	pro:int|cosa=what v|esse-3S&PRES=be (1)art|uno&f&sg (1)n|canzone&f=song .
+%mor:	pro:int|cosa=what v|esse-3S&PRES=be (1)art|uno&f&sg (1)n|canzone-f&sg=song .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 997.
 *MOT:	uh@i , hai infilato una locomotiva con il pezzo giallo .
@@ -3528,15 +3846,15 @@ From file </Applications/CLAN/Tonelli/Marco/010706.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 1089.
 *MOT:	ah , fai la torre .
-%mor:	co|ah cm|cm vimp|face-2S&IMP=do (1)art|il&f&sg (1)n|torre-m&sg .
+%mor:	co|ah cm|cm vimp|face-2S&IMP=do (1)art|il&f&sg (1)n|torre-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 1093.
 *MOT:	una torre di cinque dischi .
-%mor:	(1)art|uno&f&sg (1)n|torre-m&sg prep|di=of num|cinque n|disco-m&pl=disk .
+%mor:	(1)art|uno&f&sg (1)n|torre-f&sg prep|di=of num|cinque n|disco-m&pl=disk .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 1170.
 *MOT:	in cima alla torre ci mettiamo il cavallino .
-%mor:	prep|in=in n|cima-f&sg=top prepart|a-f&sg n|torre-m&sg
+%mor:	prep|in=in n|cima-f&sg=top prepart|a-f&sg n|torre-f&sg
 	pro:clit|ci&1P v|mette-1P&PRES&SUB=put (1)art|il&m&sg
 	(1)n|cavallo-DIM-m&sg=horse .
 ----------------------------------------
@@ -3663,7 +3981,7 @@ From file </Applications/CLAN/Tonelli/Marco/010706.cha>
 %mor:	adv|dove v|esse-3P&PRES=be (1)art|il&m&pl (1)n|bimbo-m&pl ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 1519.
-*MOT:	<i bimbi> [<] che davano da mangiare al cigno ?
+*MOT:	i bimbi [<] che davano da mangiare al cigno ?
 %mor:	(1)art|il&m&pl (1)n|bimbo-m&pl pro:rel|che=that v|da-3P&PAST=give
 	prep|da=at inf|mangia-INF=eat prepart|a-m&sg n|cigno-m&sg=swan ?
 ----------------------------------------
@@ -3764,26 +4082,26 @@ From file </Applications/CLAN/Tonelli/Marco/010706.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 1681.
 *MOT:	la lepre .
-%mor:	(1)art|il&f&sg (1)n|lepre&f=hare .
+%mor:	(1)art|il&f&sg (1)n|lepre-f&sg=hare .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 1683.
 *MOT:	conosci la lepre ?
-%mor:	vimp|conosce-2S&IMP=know (1)art|il&f&sg (1)n|lepre&f=hare ?
+%mor:	vimp|conosce-2S&IMP=know (1)art|il&f&sg (1)n|lepre-f&sg=hare ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 1687.
 *MOT:	come fa la lepre quando salta ?
-%mor:	adv|come v|face-3S&PRES=do (1)art|il&f&sg (1)n|lepre&f=hare adv|quando
+%mor:	adv|come v|face-3S&PRES=do (1)art|il&f&sg (1)n|lepre-f&sg=hare adv|quando
 	v|salta-3S&PRES=jump ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 1692.
 *MOT:	quella è una lepre .
 %mor:	pro:det|quello-f&sg=that v|esse-3S&PRES=be (1)art|uno&f&sg
-	(1)n|lepre&f=hare .
+	(1)n|lepre-f&sg=hare .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 1703.
 *MOT:	la lepre è capace anche di nuotare , dicono , che fa solo quando
 	gli è costretta .
-%mor:	(1)art|il&f&sg (1)n|lepre&f=hare v|esse-3S&PRES=be
+%mor:	(1)art|il&f&sg (1)n|lepre-f&sg=hare v|esse-3S&PRES=be
 	v|capi-sg&SUB~pro:clit|1P=understand conj|anche prep|di=of
 	inf|nuota-INF=swim cm|cm v|dice-3P&PRES=say cm|cm pro:int|che=what
 	v|face-3S&PRES=do adv|solo adv|quando pro:clit|gli&3S&m
@@ -3806,10 +4124,6 @@ From file </Applications/CLAN/Tonelli/Marco/010706.cha>
 *MOT:	vedi qua i soffioni piccolini ?
 %mor:	v|vede-2S&PRES=see adv|qua (1)art|il&m&pl (1)n|soffione-m&pl=dandelion
 	n|piccolo-DIM-m&pl ?
-----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 1747.
-*MOT:	un <soffione> [<] sì .
-%mor:	(1)art|uno&m&sg (1)n|soffione-m&sg=dandelion adv|sì .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 1762.
 *MOT:	la luna il soffione le lepri .
@@ -3900,10 +4214,6 @@ From file </Applications/CLAN/Tonelli/Marco/010706.cha>
 	v|esse-3S&PRES=be (1)art|il&f&sg (1)n|formica-f&sg=ant cm|cm (2)art|il&f&sg
 	(2)n|vespa-f&sg=wasp cm|cm adv:dem|ecco~pro:clit|3S&f adv|qui .
 ----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 1982.
-*MOT:	il grillo talpa .
-%mor:	(1)art|il&m&sg (1)n|grillo-m&sg=cricket n|talpa-f&sg=mole .
-----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010706.cha": line 1984.
 *MOT:	il maialino .
 %mor:	(1)art|il&m&sg (1)n|maiale-DIM-m&sg=pig .
@@ -3984,7 +4294,7 @@ From file </Applications/CLAN/Tonelli/Marco/010719.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010719.cha": line 206.
 *MOT:	ecco puoi fare la torre con tutti questi pezzi .
 %mor:	adv:dem|ecco v|pote-2S&PRES=can inf|face-INF=do (1)art|il&f&sg
-	(1)n|torre-m&sg prep|con=with pro:det|tutto-m&pl=all
+	(1)n|torre-f&sg prep|con=with pro:det|tutto-m&pl=all
 	det|questo-m&pl=this n|pezzo-m&pl=piece .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010719.cha": line 248.
@@ -4236,7 +4546,7 @@ From file </Applications/CLAN/Tonelli/Marco/010719.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010719.cha": line 902.
 *MOT:	più che una bici sembra una moto , Marco .
 %mor:	adv|più pro:rel|che=that (1)art|uno&f&sg (1)n|bici&m
-	v|sembra-3S&PRES=seem (2)art|uno&f&sg (2)n|moto-m&sg cm|cm n:prop|Marco .
+	v|sembra-3S&PRES=seem (2)art|uno&f&sg (2)n|moto&f&sg cm|cm n:prop|Marco .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010719.cha": line 913.
 *MOT:	la palla .
@@ -4445,13 +4755,13 @@ From file </Applications/CLAN/Tonelli/Marco/010719.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010719.cha": line 1487.
 *MOT:	di che colore era il palloncino colorato che avevi tu oggi ?
 %mor:	prep|di=of pro:int|che=what n|colore-m&sg v|esse-3S&PAST=be
-	(1)art|il&m&sg (1)n|palloncino-m&sg=balloon v|colora-PPART&sg&m=color_in
+	(1)art|il&m&sg (1)n|pallone-DIM-m&sg=balloon v|colora-PPART&sg&m=color_in
 	pro:rel|che=that v|ave-2S&PAST=have pro:pers|tu&2S&SUBJ=you adv|oggi
 	?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010719.cha": line 1522.
 *MOT:	vuoi far(e) una torre ?
-%mor:	v|vole-2S&PRES=want inf|face-INF=do (1)art|uno&f&sg (1)n|torre-m&sg ?
+%mor:	v|vole-2S&PRES=want inf|face-INF=do (1)art|uno&f&sg (1)n|torre-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010719.cha": line 1524.
 *MOT:	o vuoi che [/] costruiamo il pagliaccio .
@@ -4558,7 +4868,7 @@ From file </Applications/CLAN/Tonelli/Marco/010719.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010719.cha": line 1851.
 *MOT:	dov' è il papa , il re ?
-%mor:	adv|dove v|esse-3S&PRES=be (1)art|il&m&sg (1)n|papa-f&sg cm|cm
+%mor:	adv|dove v|esse-3S&PRES=be (1)art|il&m&sg (1)n|papa-m&sg cm|cm
 	(2)art|il&m&sg (2)n|re-m&sg=king ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010719.cha": line 1867.
@@ -4932,14 +5242,6 @@ From file </Applications/CLAN/Tonelli/Marco/010803.cha>
 *MOT:	ma il gatto riesce a +...
 %mor:	conj|ma (1)art|il&m&sg (1)n|gatto-m&sg v|riusci-3S&PRES=succeed prep|a=to
 	+...
-----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/010803.cha": line 444.
-*MOT:	insomma , in poche parole xxx xxx il topolino e poi gli dà la
-	caccia e se lo mangia .
-%mor:	adv|insomma cm|cm prep|in=in det|poco-f&pl=few n|parola-f&pl
-	(1)art|il&m&sg (1)n|topo-DIM-m&sg=mouse conj|e adv|poi pro:clit|gli&3S&m
-	v|da-3S&PRES=give (2)art|il&f&sg (2)n|caccia-f&sg conj|e conj|se
-	pro:clit|lo&3S&m v|mangia-3S&PRES=eat .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010803.cha": line 469.
 *MOT:	con i bicchieri .
@@ -5629,11 +5931,6 @@ From file </Applications/CLAN/Tonelli/Marco/010803.cha>
 	pro:pers|te&2S&OBJ=you pro:clit|le&3P&f v|da-1S&PRES=give conj|anche
 	pro:pers|io&1S&SUBJ=I co|dai .
 ----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/010803.cha": line 2371.
-*MOT:	domani viene la Giuliana e le sistema .
-%mor:	adv|domani v|veni-3S&PRES=come art|il&f&sg n:prop|Giuliana conj|e
-	(1)art|il&f&pl (1)n|sistema-f&sg .
-----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010803.cha": line 2399.
 *MOT:	uh@i il topolino .
 %mor:	co|uh (1)art|il&m&sg (1)n|topo-DIM-m&sg=mouse .
@@ -5851,13 +6148,13 @@ From file </Applications/CLAN/Tonelli/Marco/010817.cha>
 	(1)n|papà&m ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010817.cha": line 269.
-*MOT:	<un calcio> [<] certo .
+*MOT:	un calcio [<] certo .
 %mor:	(1)art|uno&m&sg (1)n|calcio-m&sg adv|certo .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010817.cha": line 281.
 *MOT:	in alto adesso con le mani .
 %mor:	prep|in=in adj|alto-m&sg adv|adesso prep|con=with (1)art|il&f&pl
-	(1)n|mano&f-f&pl .
+	(1)n|mano-f&pl .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010817.cha": line 329.
 *MOT:	la scatola .
@@ -5871,7 +6168,7 @@ From file </Applications/CLAN/Tonelli/Marco/010817.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010817.cha": line 334.
 *MOT:	ah stai cercando di gonfiare il palloncino ?
 %mor:	co|ah v|sta-2S&PRES=stay v|cerca-PROG=search prep|di=of
-	inf|gonfia-INF=swell (1)art|il&m&sg (1)n|palloncino-m&sg=balloon ?
+	inf|gonfia-INF=swell (1)art|il&m&sg (1)n|pallone-DIM-m&sg=balloon ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010817.cha": line 353.
 *MOT:	vuoi che ti aiuti la mamma ?
@@ -5970,9 +6267,9 @@ From file </Applications/CLAN/Tonelli/Marco/010817.cha>
 	(2)n|locomotiva-f&sg=locomotive +...
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010817.cha": line 700.
-*MOT:	<già che ci siamo facciamo anche una torre> [>] ?
+*MOT:	già che ci siamo facciamo anche una torre [>] ?
 %mor:	adv|già pro:rel|che=that pro:clit|ci&1P v|esse-1P&PRES&SUB=be
-	v|face-1P&PRES&SUB=do conj|anche (1)art|uno&f&sg (1)n|torre-m&sg ?
+	v|face-1P&PRES&SUB=do conj|anche (1)art|uno&f&sg (1)n|torre-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010817.cha": line 705.
 *MOT:	le palle adesso le stavo cercando .
@@ -6096,7 +6393,7 @@ From file </Applications/CLAN/Tonelli/Marco/010817.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010817.cha": line 1037.
 *MOT:	hai la tosse ?
-%mor:	v|ave-2S&PRES=have (1)art|il&f&sg (1)n|tosse&f=cough ?
+%mor:	v|ave-2S&PRES=have (1)art|il&f&sg (1)n|tosse-f&sg=cough ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010817.cha": line 1057.
 *MOT:	mah@i palle mi pare che non ce ne siano qua , ma non abbiamo detto
@@ -6333,7 +6630,7 @@ From file </Applications/CLAN/Tonelli/Marco/010817.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010817.cha": line 1662.
 *MOT:	cosa vuoi adesso una mano per tirarle fuori ?
 %mor:	pro:int|cosa=what v|vole-2S&PRES=want adv|adesso (1)art|uno&f&sg
-	(1)n|mano&f=hand prep|per=for inf|tira-INF~pro:clit|3SP&f=pull
+	(1)n|mano-f&sg=hand prep|per=for inf|tira-INF~pro:clit|3SP&f=pull
 	adv|fuori ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010817.cha": line 1701.
@@ -6396,7 +6693,7 @@ From file </Applications/CLAN/Tonelli/Marco/010817.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010817.cha": line 1915.
 *MOT:	è accesa la luce , sì .
 %mor:	v|esse-3S&PRES=be v|accende-PPART&sg&f=turn_on (1)art|il&f&sg
-	(1)n|luce&f=light cm|cm adv|sì .
+	(1)n|luce-f&sg=light cm|cm adv|sì .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010817.cha": line 1936.
 *MOT:	sono là , torno subito , vado veder(e) di nuovo le carote .
@@ -6668,7 +6965,7 @@ From file </Applications/CLAN/Tonelli/Marco/010901.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010901.cha": line 428.
 *MOT:	ah ma forse papà sta guardando la tv .
 %mor:	co|ah conj|ma adv|forse n|papà&m v|sta-3S&PRES=stay
-	v|guarda-PROG=look (1)art|il&f&sg (1)n|tv&f=television .
+	v|guarda-PROG=look (1)art|il&f&sg (1)n|tv-f&sg=television .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010901.cha": line 460.
 *MOT:	un morso hai preso , eh ?
@@ -6762,7 +7059,7 @@ From file </Applications/CLAN/Tonelli/Marco/010901.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010901.cha": line 700.
 *MOT:	vuoi far(e) la torre coi dadi ?
-%mor:	v|vole-2S&PRES=want inf|face-INF=do (1)art|il&f&sg (1)n|torre-m&sg
+%mor:	v|vole-2S&PRES=want inf|face-INF=do (1)art|il&f&sg (1)n|torre-f&sg
 	prepart|co-m&pl n|dado-m&pl ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010901.cha": line 715.
@@ -6848,7 +7145,7 @@ From file </Applications/CLAN/Tonelli/Marco/010901.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010901.cha": line 1069.
 *MOT:	dai , no , facciamo la torre .
 %mor:	co|dai cm|cm adv|no cm|cm v|face-1P&PRES&SUB=do (1)art|il&f&sg
-	(1)n|torre-m&sg .
+	(1)n|torre-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010901.cha": line 1092.
 *MOT:	dimmi ancora un colore dai , scegline uno .
@@ -6860,7 +7157,7 @@ From file </Applications/CLAN/Tonelli/Marco/010901.cha>
 *MOT:	eccolo , Marco ha fatto la torre di due dadi e la mamma invece di
 	sei .
 %mor:	adv:dem|ecco~pro:clit|3S&m cm|cm n:prop|Marco v|ave-3S&PRES=have
-	v|face-PPART&sg&m=redo (1)art|il&f&sg (1)n|torre-m&sg prep|di=of num|due
+	v|face-PPART&sg&m=redo (1)art|il&f&sg (1)n|torre-f&sg prep|di=of num|due
 	n|dado-m&pl conj|e (2)art|il&f&sg (2)n|mamma-f&sg adv|invece prep|di=of
 	v|esse-2S&PRES=be .
 ----------------------------------------
@@ -6876,7 +7173,7 @@ From file </Applications/CLAN/Tonelli/Marco/010901.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010901.cha": line 1201.
 *MOT:	ti serve una mano ?
-%mor:	pro:clit|ti&2S v|servi-3S&PRES=serve (1)art|uno&f&sg (1)n|mano&f=hand ?
+%mor:	pro:clit|ti&2S v|servi-3S&PRES=serve (1)art|uno&f&sg (1)n|mano-f&sg=hand ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010901.cha": line 1250.
 *MOT:	la palla nel canestro , sì quella arancione .
@@ -6933,12 +7230,12 @@ From file </Applications/CLAN/Tonelli/Marco/010901.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010901.cha": line 1410.
 *MOT:	la alzi con le mani ?
 %mor:	pro:clit|la&3S&f v|alza-2S&PRES=raise prep|con=with (1)art|il&f&pl
-	(1)n|mano&f-f&pl ?
+	(1)n|mano-f&pl ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010901.cha": line 1417.
 *MOT:	una battaglia coi palloncini ?
 %mor:	(1)art|uno&f&sg (1)n|battaglia-f&sg=battle prepart|co-m&pl
-	n|palloncino-m&pl=balloon ?
+	n|pallone-DIM-m&pl=balloon ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010901.cha": line 1420.
 *MOT:	facciamo una battaglia .
@@ -7006,7 +7303,7 @@ From file </Applications/CLAN/Tonelli/Marco/010901.cha>
 %mor:	v|face-1P&PRES&SUB=do (1)art|il&f&sg (1)n|battaglia-f&sg=battle ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010901.cha": line 1664.
-*MOT:	vieni qua lascia stare il registr(atore) +/.
+*MOT:	vieni qua lascia stare il registratore +/.
 %mor:	vimp|veni-2S&IMP=come adv|qua v|lascia-3S&PRES=leave
 	inf|sta-INF=stay (1)art|il&m&sg (1)n|registratore-m&sg=tape_recorder +/.
 ----------------------------------------
@@ -7142,7 +7439,7 @@ From file </Applications/CLAN/Tonelli/Marco/010901.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010901.cha": line 2241.
 *MOT:	quello lì perché gli casca la torre ?
 %mor:	pro:det|quello-m&sg=that adv|lì conj|perché pro:clit|gli&3S&m
-	v|casca-3S&PRES=fall (1)art|il&f&sg (1)n|torre-m&sg ?
+	v|casca-3S&PRES=fall (1)art|il&f&sg (1)n|torre-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010901.cha": line 2248.
 *MOT:	meno male che ha il ciuccio per consolarsi .
@@ -7184,7 +7481,7 @@ From file </Applications/CLAN/Tonelli/Marco/010901.cha>
 	(1)art|uno&f&sg (1)n|corsa-DIM-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010901.cha": line 2457.
-*MOT:	se no il gatt(o) +/.
+*MOT:	se no il gatto +/.
 %mor:	conj|se adv|no (1)art|il&m&sg (1)n|gatto-m&sg +/.
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010901.cha": line 2472.
@@ -7420,13 +7717,6 @@ From file </Applications/CLAN/Tonelli/Marco/010915.cha>
 *MOT:	la casa del ragno .
 %mor:	(1)art|il&f&sg (1)n|casa-f&sg prepart|de-m&sg n|ragno-m&sg .
 ----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 606.
-*MOT:	guarda che strano questo ragno si fa un buco <anziché la
-	ragnatela>[>] .
-%mor:	co|guarda det|che=which adj|strano-m&sg det|questo-m&sg=this
-	n|ragno-m&sg pro:clit|si&3SP v|face-3S&PRES=do (1)art|uno&m&sg
-	(1)n|buco-m&sg=hole conj|anziché (2)art|il&f&sg (2)n|ragnatela-f&sg .
-----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 628.
 *MOT:	che bello far(e) canestro con le ciabatte .
 %mor:	det|che=which adj|bello-m&sg n|faro-m&sg=lighthouse
@@ -7503,7 +7793,7 @@ From file </Applications/CLAN/Tonelli/Marco/010915.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 798.
 *MOT:	adesso è la fase dell' arrampicata .
-%mor:	adv|adesso v|esse-3S&PRES=be (1)art|il&f&sg (1)n|fase&f=phase
+%mor:	adv|adesso v|esse-3S&PRES=be (1)art|il&f&sg (1)n|fase-f&sg=phase
 	prepart|de-m&sg v|arrampica-PPART&sg&f=climb .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 833.
@@ -7539,7 +7829,7 @@ From file </Applications/CLAN/Tonelli/Marco/010915.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 955.
 *MOT:	ecco , adesso Marco ha spento la luce ed è buio anche qui .
 %mor:	adv:dem|ecco cm|cm adv|adesso n:prop|Marco v|ave-3S&PRES=have
-	v|spegne-PPART&sg&m=turn_off (1)art|il&f&sg (1)n|luce&f=light conj|ed
+	v|spegne-PPART&sg&m=turn_off (1)art|il&f&sg (1)n|luce-f&sg=light conj|ed
 	v|esse-3S&PRES=be adj|buio-m&sg conj|anche adv|qui .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 1002.
@@ -7759,10 +8049,6 @@ From file </Applications/CLAN/Tonelli/Marco/010915.cha>
 *MOT:	i pappagalli .
 %mor:	(1)art|il&m&pl (1)n|pappagallo-m&pl=parrot .
 ----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 1721.
-*MOT:	uno verde e uno azzurro .
-%mor:	(1)art|uno&m&sg (1)n|verde-m&sg conj|e num|uno adj|azzurro-m&sg=azure .
-----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 1727.
 *MOT:	questo ha la coda proprio lunga .
 %mor:	pro:det|questo-m&sg=this v|ave-3S&PRES=have (1)art|il&f&sg (1)n|coda-f&sg
@@ -7774,7 +8060,7 @@ From file </Applications/CLAN/Tonelli/Marco/010915.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 1757.
 *MOT:	la mano di questa bambina .
-%mor:	(1)art|il&f&sg (1)n|mano&f=hand prep|di=of det|questo-f&sg=this
+%mor:	(1)art|il&f&sg (1)n|mano-f&sg=hand prep|di=of det|questo-f&sg=this
 	n|bambino-f&sg=child .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 1760.
@@ -7859,7 +8145,7 @@ From file </Applications/CLAN/Tonelli/Marco/010915.cha>
 %mor:	(1)art|il&m&pl (1)n|libro-m&pl .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 1947.
-*MOT:	ti [<] piace tanto <guardare i libri>[>] .
+*MOT:	ti piace tanto guardare i libri .
 %mor:	pro:clit|ti&2S v|piace-3S&PRES=please adv|tanto inf|guarda-INF=look
 	(1)art|il&m&pl (1)n|libro-m&pl .
 ----------------------------------------
@@ -7883,7 +8169,7 @@ From file </Applications/CLAN/Tonelli/Marco/010915.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 2025.
 *MOT:	era la voce della mamma quella ?
-%mor:	v|esse-3S&PAST=be (1)art|il&f&sg (1)n|voce&f prepart|de-f&sg n|mamma-f&sg
+%mor:	v|esse-3S&PAST=be (1)art|il&f&sg (1)n|voce-f&sg prepart|de-f&sg n|mamma-f&sg
 	pro:det|quello-f&sg=that ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 2028.
@@ -7966,11 +8252,11 @@ From file </Applications/CLAN/Tonelli/Marco/010915.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 2246.
 *MOT:	la lepre .
-%mor:	(1)art|il&f&sg (1)n|lepre&f=hare .
+%mor:	(1)art|il&f&sg (1)n|lepre-f&sg=hare .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 2248.
 *MOT:	anche la lepre fa dei bei salti .
-%mor:	conj|anche (1)art|il&f&sg (1)n|lepre&f=hare v|face-3S&PRES=do
+%mor:	conj|anche (1)art|il&f&sg (1)n|lepre-f&sg=hare v|face-3S&PRES=do
 	prepart|de-m&pl v|beve-2S&PRES=drink n|salto-m&pl .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 2258.
@@ -7980,7 +8266,7 @@ From file </Applications/CLAN/Tonelli/Marco/010915.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 2263.
 *MOT:	e quindi c' è [/] c' è la luce o c' è il buio ?
 %mor:	conj|e adv|quindi pro:clit|ci&1P pro:clit|ci&1P v|esse-3S&PRES=be
-	(1)art|il&f&sg (1)n|luce&f=light conj|o pro:clit|ci&1P v|esse-3S&PRES=be
+	(1)art|il&f&sg (1)n|luce-f&sg=light conj|o pro:clit|ci&1P v|esse-3S&PRES=be
 	(2)art|il&m&sg (2)n|buio-m&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010915.cha": line 2292.
@@ -8102,10 +8388,6 @@ From file </Applications/CLAN/Tonelli/Marco/010915.cha>
 *MOT:	hai il singhiozzo ?
 %mor:	v|ave-2S&PRES=have (1)art|il&m&sg (1)n|singhiozzo-m&sg=hiccup ?
 From file </Applications/CLAN/Tonelli/Marco/010929.cha>
-----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/010929.cha": line 17.
-*MOT:	una verde una rosa .
-%mor:	(1)art|uno&f&sg (1)n|verde-m&sg art|uno&f&sg adj|roso-f&sg=rose .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010929.cha": line 22.
 *MOT:	puoi disegnare con la bocca .
@@ -8578,7 +8860,7 @@ From file </Applications/CLAN/Tonelli/Marco/010929.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010929.cha": line 1537.
 *MOT:	no , non è una moto .
-%mor:	adv|no cm|cm adv|non v|esse-3S&PRES=be (1)art|uno&f&sg (1)n|moto-m&sg .
+%mor:	adv|no cm|cm adv|non v|esse-3S&PRES=be (1)art|uno&f&sg (1)n|moto&f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010929.cha": line 1545.
 *MOT:	no , non è neanche una bicicletta .
@@ -8589,11 +8871,11 @@ From file </Applications/CLAN/Tonelli/Marco/010929.cha>
 *MOT:	una macchina aperta , forse per quello ti pare una moto .
 %mor:	art|uno&f&sg n|macchina-f&sg adj|aperto-f&sg cm|cm adv|forse
 	prep|per=for det|quello-m&sg=that pro:clit|ti&2S v|pare-3S&PRES=seem
-	(1)art|uno&f&sg (1)n|moto-m&sg .
+	(1)art|uno&f&sg (1)n|moto&f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010929.cha": line 1561.
 *MOT:	no , non è una moto , <è un> [//] è la macchina di Paperino .
-%mor:	adv|no cm|cm adv|non v|esse-3S&PRES=be (1)art|uno&f&sg (1)n|moto-m&sg
+%mor:	adv|no cm|cm adv|non v|esse-3S&PRES=be (1)art|uno&f&sg (1)n|moto&f&sg
 	cm|cm v|esse-3S&PRES=be (2)art|il&f&sg (2)n|macchina-f&sg prep|di=of
 	n:prop|Paperino .
 ----------------------------------------
@@ -8679,12 +8961,6 @@ From file </Applications/CLAN/Tonelli/Marco/010929.cha>
 *MOT:	no , non mangiare il libretto , dai@i .
 %mor:	adv|no cm|cm adv|non inf|mangia-INF=eat (1)art|il&m&sg
 	(1)n|libro-DIM-m&sg cm|cm co|dai .
-----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/010929.cha": line 1878.
-*MOT:	povero Paperino , si trova nel mezzo di un temporale .
-%mor:	n|povero-m&sg n:prop|Paperino cm|cm pro:clit|si&3SP
-	v|trova-3S&PRES=find prepart|ne-m&sg n|mezzo-m&sg prep|di=of
-	(1)art|uno&m&sg (1)n|temporale-m&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010929.cha": line 1884.
 *MOT:	sì , colla pioggia il vento , il mare mosso , le onde alte [/] alte
@@ -8803,7 +9079,7 @@ From file </Applications/CLAN/Tonelli/Marco/010929.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010929.cha": line 2193.
 *MOT:	come il palloncino di Simone ?
-%mor:	adv|come (1)art|il&m&sg (1)n|palloncino-m&sg=balloon prep|di=of
+%mor:	adv|come (1)art|il&m&sg (1)n|pallone-DIM-m&sg=balloon prep|di=of
 	n:prop|Simone ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010929.cha": line 2205.
@@ -8813,13 +9089,13 @@ From file </Applications/CLAN/Tonelli/Marco/010929.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010929.cha": line 2213.
 *MOT:	il palloncino di Simone è +...
-%mor:	(1)art|il&m&sg (1)n|palloncino-m&sg=balloon prep|di=of n:prop|Simone
+%mor:	(1)art|il&m&sg (1)n|pallone-DIM-m&sg=balloon prep|di=of n:prop|Simone
 	v|esse-3S&PRES=be +...
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010929.cha": line 2223.
 *MOT:	e dove l' aveva comprato il palloncino ?
 %mor:	conj|e adv|dove pro:clit|lo&3S&m v|ave-3S&PAST=have
-	v|compra-PPART&sg&m=buy (1)art|il&m&sg (1)n|palloncino-m&sg=balloon ?
+	v|compra-PPART&sg&m=buy (1)art|il&m&sg (1)n|pallone-DIM-m&sg=balloon ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010929.cha": line 2251.
 *MOT:	sarà andato al lunapark come Marco a vedere le giostre +...
@@ -9201,7 +9477,7 @@ From file </Applications/CLAN/Tonelli/Marco/011012.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 660.
 *MOT:	il cagnolino tiene le mani sul volante .
 %mor:	(1)art|il&m&sg (1)n|cagno-DIM-m&sg=dog v|tene-3S&PRES=hold (2)art|il&f&pl
-	(2)n|mano&f-f&pl prepart|su-m&sg n|volante-m&sg=wheel .
+	(2)n|mano-f&pl prepart|su-m&sg n|volante-m&sg=wheel .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 674.
 *MOT:	tra i divani ?
@@ -9227,21 +9503,11 @@ From file </Applications/CLAN/Tonelli/Marco/011012.cha>
 %mor:	conj|e (1)art|il&f&sg (1)n|mamma-f&sg pro:clit|li&3P&m v|sta-3S&PRES=stay
 	prep|a=to inf|guarda-INF=look .
 ----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 926.
-*MOT:	la gomma piuma è quella sì .
-%mor:	(1)art|il&f&sg (1)n|gomma-f&sg n|piuma-f&sg v|esse-3S&PRES=be
-	pro:det|quello-f&sg=that adv|sì .
-----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 931.
 *MOT:	no , non si può , quella è l' asse da stiro .
 %mor:	adv|no cm|cm adv|non pro:clit|si&3SP v|pote-3S&PRES=can cm|cm
 	pro:det|quello-f&sg=that v|esse-3S&PRES=be (1)art|il&sg (1)n|asso-m&sg=ace
 	prepart|da v|stira-1S&PRES=iron .
-----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 935.
-*MOT:	mi serve la gomma piuma sotto .
-%mor:	pro:clit|mi&1S v|servi-3S&PRES=serve (1)art|il&f&sg (1)n|gomma-f&sg
-	n|piuma-f&sg adv|sotto .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 953.
 *MOT:	cerchi il bottone ?
@@ -9458,7 +9724,7 @@ From file </Applications/CLAN/Tonelli/Marco/011012.cha>
 *MOT:	guarda bisogna muovere la mano molto velocemente , e allora un po'
 	gira il cerchio .
 %mor:	co|guarda v|bisogna-3S&PRES=need inf|muove-INF=move (1)art|il&f&sg
-	(1)n|mano&f=hand det|molto-m&sg=a_lot_of adv:adj|veloce-ADV=quick cm|cm
+	(1)n|mano-f&sg=hand det|molto-m&sg=a_lot_of adv:adj|veloce-ADV=quick cm|cm
 	conj|e co|allora art|uno&m&sg pro:det|poco-m&sg=few
 	v|gira-3S&PRES=turn (2)art|il&m&sg (2)n|cerchio-m&sg=ring .
 ----------------------------------------
@@ -9466,11 +9732,6 @@ From file </Applications/CLAN/Tonelli/Marco/011012.cha>
 *MOT:	adesso ricostruiamo il pagliaccio , sai .
 %mor:	adv|adesso v|ricostrui-1P&PRES&SUB=reconstruct (1)art|il&m&sg
 	(1)n|pagliaccio-m&sg=clown cm|cm v|sape-2S&PRES=know .
-----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 1507.
-*MOT:	eh , io metterei il verde poi il giallo .
-%mor:	co|eh cm|cm pro:pers|io&1S&SUBJ=I v|mette-1S&COND=put (1)art|il&m&sg
-	(1)n|verde-m&sg adv|poi art|il&m&sg adj|giallo-m&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 1527.
 *MOT:	guarda cosa manca ancora , abbiamo il colletto che è una parte
@@ -9506,7 +9767,7 @@ From file </Applications/CLAN/Tonelli/Marco/011012.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 1592.
 *MOT:	i palloncini .
-%mor:	(1)art|il&m&pl (1)n|palloncino-m&pl=balloon .
+%mor:	(1)art|il&m&pl (1)n|pallone-DIM-m&pl=balloon .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 1606.
 *MOT:	Qui Quo Qua e quella è la macchina di Paperino .
@@ -9591,14 +9852,14 @@ From file </Applications/CLAN/Tonelli/Marco/011012.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 1846.
 *MOT:	la mano vuoi disegnare ?
-%mor:	(1)art|il&f&sg (1)n|mano&f=hand v|vole-2S&PRES=want inf|disegna-INF=draw
+%mor:	(1)art|il&f&sg (1)n|mano-f&sg=hand v|vole-2S&PRES=want inf|disegna-INF=draw
 	?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 1849.
 *MOT:	vuoi fare il contorno della tua mano ?
 %mor:	v|vole-2S&PRES=want inf|face-INF=do (1)art|il&m&sg
 	(1)n|contorno-m&sg=contour prepart|de-f&sg pro:poss|tuo-2S&f&sg=your
-	n|mano&f=hand ?
+	n|mano-f&sg=hand ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 1857.
 *MOT:	vuoi disegnarti le guance ?
@@ -9679,7 +9940,7 @@ From file </Applications/CLAN/Tonelli/Marco/011012.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 1997.
 *MOT:	dai un pugno al palloncino ?
 %mor:	co|dai (1)art|uno&m&sg (1)n|pugno-m&sg prepart|a-m&sg
-	n|palloncino-m&sg=balloon ?
+	n|pallone-DIM-m&sg=balloon ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 2002.
 *MOT:	e si rompe , sì , se gli dai un pugno .
@@ -9872,7 +10133,7 @@ From file </Applications/CLAN/Tonelli/Marco/011026.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 399.
 *MOT:	c' era anche un palloncino sì .
 %mor:	pro:clit|ci&1P v|esse-3S&PAST=be conj|anche (1)art|uno&m&sg
-	(1)n|palloncino-m&sg=balloon adv|sì .
+	(1)n|pallone-DIM-m&sg=balloon adv|sì .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 422.
 *MOT:	e Marco ha giocato con gli altri bambini a fare la trottola al
@@ -9881,13 +10142,13 @@ From file </Applications/CLAN/Tonelli/Marco/011026.cha>
 	prep|con=with art|il&m&pl pro:det|altro-m&pl=another_one
 	n|bambino-m&pl=child prep|a=to inf|face-INF=do (1)art|il&f&sg
 	(1)n|trottola-f&sg prepart|a-m&sg n|centro-m&sg=center prepart|de-f&sg
-	n|pista&f=trail .
+	n|pista-f&sg=trail .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 468.
 *MOT:	senti ti ricordi il palloncino verde che avevi prima di questo qua
 	cosa [/] cosa è successo ?
 %mor:	vimp|senti-2S&IMP=feel pro:clit|ti&2S v|ricorda-2S&PRES=remind
-	(1)art|il&m&sg (1)n|palloncino-m&sg=balloon n|verde-m&sg pro:rel|che=that
+	(1)art|il&m&sg (1)n|pallone-DIM-m&sg=balloon n|verde-m&sg pro:rel|che=that
 	v|ave-3S&PRES~pro:clit|v2P=have adv|prima prep|di=of
 	det|questo-m&sg=this adv|qua pro:int|cosa=what v|esse-3S&PRES=be
 	v|succede-PPART&sg&m=occur ?
@@ -9919,7 +10180,7 @@ From file </Applications/CLAN/Tonelli/Marco/011026.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 694.
 *MOT:	dai@i prendi [<] il palloncino viola che è là sotto .
-%mor:	co|dai v|prende-2S&PRES=catch (1)art|il&m&sg (1)n|palloncino-m&sg=balloon
+%mor:	co|dai v|prende-2S&PRES=catch (1)art|il&m&sg (1)n|pallone-DIM-m&sg=balloon
 	v|viola-3S&PRES=violate pro:rel|che=that v|esse-3S&PRES=be adv|là
 	adv|sotto .
 ----------------------------------------
@@ -9954,7 +10215,7 @@ From file </Applications/CLAN/Tonelli/Marco/011026.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 816.
 *MOT:	allora facciamo la torre ?
-%mor:	co|allora v|face-1P&PRES&SUB=do (1)art|il&f&sg (1)n|torre-m&sg ?
+%mor:	co|allora v|face-1P&PRES&SUB=do (1)art|il&f&sg (1)n|torre-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 822.
 *MOT:	ma il pulcino .
@@ -9976,7 +10237,7 @@ From file </Applications/CLAN/Tonelli/Marco/011026.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 843.
 *MOT:	io comincio a far(e) la torre dopo Marco magari [>] mi aiuta .
 %mor:	pro:pers|io&1S&SUBJ=I v|comincia-1S&PRES=begin prep|a=to
-	inf|face-INF=do (1)art|il&f&sg (1)n|torre-m&sg prep|dopo=after
+	inf|face-INF=do (1)art|il&f&sg (1)n|torre-f&sg prep|dopo=after
 	n:prop|Marco adv|magari pro:clit|mi&1S v|aiuta-3S&PRES=help .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 849.
@@ -9985,7 +10246,7 @@ From file </Applications/CLAN/Tonelli/Marco/011026.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 867.
 *MOT:	allora [<] la torre .
-%mor:	adv|allora (1)art|il&f&sg (1)n|torre-m&sg .
+%mor:	adv|allora (1)art|il&f&sg (1)n|torre-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 907.
 *MOT:	un bacino ?
@@ -10033,7 +10294,7 @@ From file </Applications/CLAN/Tonelli/Marco/011026.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 1019.
 *MOT:	sì finiamo la torre +/.
-%mor:	adv|sì v|fini-1P&PRES&SUB=finish (1)art|il&f&sg (1)n|torre-m&sg +/.
+%mor:	adv|sì v|fini-1P&PRES&SUB=finish (1)art|il&f&sg (1)n|torre-f&sg +/.
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 1109.
 *MOT:	finito su una spina e ha fatto pfh@o .
@@ -10053,12 +10314,6 @@ From file </Applications/CLAN/Tonelli/Marco/011026.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 1221.
 *MOT:	fai pure il pagliaccio ?
 %mor:	v|face-2S&PRES=do adv|pure (1)art|il&m&sg (1)n|pagliaccio-m&sg=clown ?
-----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 1242.
-*MOT:	una tuta verde una tutta rossa una viola una nera .
-%mor:	art|uno&f&sg n|tuta-f&sg adj|verde-sg art|uno&f&sg
-	det|tutto-f&sg=all adj|rosso-f&sg=red (1)art|uno&f&sg (1)n|viola-f&sg
-	art|uno&f&sg adj|nero-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 1250.
 *MOT:	devo spostare la sedia sotto il tavolo ?
@@ -10277,16 +10532,6 @@ From file </Applications/CLAN/Tonelli/Marco/011026.cha>
 %mor:	v|da-3S&PRES=give det|questo-m&sg=this n|disegno-m&sg adv|qui
 	v|veni-3S&PRES=come adv|fuori (1)art|uno&f&sg (1)n|barca-f&sg .
 ----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 1814.
-*MOT:	te l' avevo detto io forse o ti ricordi che questo con l' arancione
-	è il disegno della barca ?
-%mor:	pro:clit|ti&2S pro:clit|lo&3S&m v|ave-1S&PAST=have
-	v|detta-1S&PRES=dictate pro:pers|io&1S&SUBJ=I adv|forse conj|o
-	pro:clit|ti&2S v|ricorda-2S&PRES=remind pro:rel|che=that
-	pro:det|questo-m&sg=this prep|con=with (1)art|il&sg
-	(1)n|arancio-AUG-m&sg=orange v|esse-3S&PRES=be (2)art|il&m&sg
-	(2)n|disegno-m&sg prepart|de-f&sg n|barca-f&sg ?
-----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 1824.
 *MOT:	no , la mamma ha sbagliato l' ultimo pezzo .
 %mor:	adv|no cm|cm (1)art|il&f&sg (1)n|mamma-f&sg v|ave-3S&PRES=have
@@ -10363,12 +10608,6 @@ From file </Applications/CLAN/Tonelli/Marco/011026.cha>
 	v|vede-3S&PRES=see pro:det|molto-m&sg=a_lot pro:det|poco-m&sg=few
 	n:prop|Marco .
 ----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 2042.
-*MOT:	ecco l' arancione si vede un po' di più ma non tanto .
-%mor:	adv:dem|ecco (1)art|il&sg (1)n|arancio-AUG-m&sg=orange pro:clit|si&3SP
-	v|vede-3S&PRES=see art|uno&m&sg pro:det|poco-m&sg=few prep|di=of
-	adv|più conj|ma adv|non adv|tanto .
-----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 2055.
 *MOT:	sì e poi ci facciamo un nasone a questa luna .
 %mor:	adv|sì conj|e adv|poi pro:clit|ci&1P v|face-1P&PRES&SUB=do
@@ -10420,7 +10659,7 @@ From file </Applications/CLAN/Tonelli/Marco/011026.cha>
 %mor:	adv|dove v|esse-3S&PRES=be (1)art|il&m&sg (1)n|canestro-m&sg=basket ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 2143.
-*MOT:	così il canestro[>] +/.
+*MOT:	così il canestro +/.
 %mor:	adv|così (1)art|il&m&sg (1)n|canestro-m&sg=basket +/.
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 2151.
@@ -10434,7 +10673,7 @@ From file </Applications/CLAN/Tonelli/Marco/011026.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 2159.
 *MOT:	qui sembra che Marco abbia un pancione .
 %mor:	adv|qui vimp|sembra-2S&IMP=seem pro:rel|che=that n:prop|Marco
-	v|ave-sg&SUB=have (1)art|uno&m&sg (1)n|pancione&f .
+	v|ave-sg&SUB=have (1)art|uno&m&sg (1)n|pancione-m&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 2170.
 *MOT:	la pancia ?
@@ -10450,7 +10689,7 @@ From file </Applications/CLAN/Tonelli/Marco/011026.cha>
 	(1)n|mamma-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 2217.
-*MOT:	io volevo sempre <provare a far(e) la nanna> [>] .
+*MOT:	io volevo sempre provare a far(e) la nanna [>] .
 %mor:	pro:pers|io&1S&SUBJ=I v|vole-1S&PAST=wish adv|sempre
 	inf|prova-INF=try prep|a=to inf|face-INF=do (1)art|il&f&sg (1)n|nanna-f&sg
 	.
@@ -10548,7 +10787,7 @@ From file </Applications/CLAN/Tonelli/Marco/011026.cha>
 	n|matita-f&sg adv|qui .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 2485.
-*MOT:	riesci <a far(e) la matita> [//] a far(e) la punta ?
+*MOT:	riesci a far(e) la matita [//] a far(e) la punta ?
 %mor:	v|riusci-2S&PRES=succeed prep|a=to inf|face-INF=do (1)art|il&f&sg
 	(1)n|punta-f&sg=point ?
 ----------------------------------------
@@ -10747,7 +10986,7 @@ From file </Applications/CLAN/Tonelli/Marco/011116.cha>
 *MOT:	un libretto che questo pupazzo più grande tiene in mano .
 %mor:	(1)art|uno&m&sg (1)n|libro-DIM-m&sg pro:rel|che=that det|questo-m&sg=this
 	n|pupazzo-m&sg=puppet adj|più=more adj|grande-sg=big
-	v|tene-3S&PRES=hold prep|in=in n|mano&f=hand .
+	v|tene-3S&PRES=hold prep|in=in n|mano-f&sg=hand .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011116.cha": line 772.
 *MOT:	dov' è lo scivolo ?
@@ -11127,7 +11366,7 @@ From file </Applications/CLAN/Tonelli/Marco/011116.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011116.cha": line 2446.
 *MOT:	in una mano ?
-%mor:	prep|in=in (1)art|uno&f&sg (1)n|mano&f=hand ?
+%mor:	prep|in=in (1)art|uno&f&sg (1)n|mano-f&sg=hand ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011116.cha": line 2479.
 *MOT:	son(o) finite sotto la cassettiera ?
@@ -11350,13 +11589,13 @@ From file </Applications/CLAN/Tonelli/Marco/020000.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020000.cha": line 962.
 *MOT:	uhu@i , ci passano le mani di Marco , hai [>] visto che grande .
 %mor:	co|uhu cm|cm pro:clit|ci&1P v|passa-3P&PRES=spend (1)art|il&f&pl
-	(1)n|mano&f-f&pl prep|di=of n:prop|Marco cm|cm v|ave-2S&PRES=have
+	(1)n|mano-f&pl prep|di=of n:prop|Marco cm|cm v|ave-2S&PRES=have
 	v|vede-PPART&sg&m=see pro:rel|che=that adj|grande-sg=big .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020000.cha": line 971.
 *MOT:	vediamo se ci passa la mano della mamma .
 %mor:	vimp|vede-1P&IMP=see conj|se pro:clit|ci&1P v|passa-3S&PRES=spend
-	(1)art|il&f&sg (1)n|mano&f=hand prepart|de-f&sg n|mamma-f&sg .
+	(1)art|il&f&sg (1)n|mano-f&sg=hand prepart|de-f&sg n|mamma-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020000.cha": line 1015.
 *MOT:	finocchi mangia il papà ?
@@ -11365,7 +11604,7 @@ From file </Applications/CLAN/Tonelli/Marco/020000.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020000.cha": line 1046.
 *MOT:	allora aspetta che ricostruiamo la pista .
 %mor:	co|allora vimp|aspetta-2S&IMP=wait pro:rel|che=that
-	v|ricostrui-1P&PRES&SUB=reconstruct (1)art|il&f&sg (1)n|pista&f=trail .
+	v|ricostrui-1P&PRES&SUB=reconstruct (1)art|il&f&sg (1)n|pista-f&sg=trail .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020000.cha": line 1053.
 *MOT:	allora qua c' è un pezzo col castello .
@@ -11469,7 +11708,7 @@ From file </Applications/CLAN/Tonelli/Marco/020000.cha>
 	pro:rel|che=that pro:clit|ci&1P v|esse-3S&PRES=be
 	v|succede-PPART&sg&m=occur det|qualche=some n|volta-f&sg
 	pro:rel|che=that pro:clit|ti&2S v|esse-sg&SUB=be
-	v|scappa-PPART&sg&m=run_away (1)art|uno&m&sg (1)n|palloncino-m&sg=balloon
+	v|scappa-PPART&sg&m=run_away (1)art|uno&m&sg (1)n|pallone-DIM-m&sg=balloon
 	prep|in=in prep|in=in adj|alto-m&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020000.cha": line 1364.
@@ -11477,7 +11716,7 @@ From file </Applications/CLAN/Tonelli/Marco/020000.cha>
 	scappati .
 %mor:	conj|e adv|sì cm|cm pro:clit|ti&2S v|ricorda-2S&PRES=remind
 	prep|a=to (1)art|uno&m&sg (1)n|matrimonio-m&sg num|due
-	n|palloncino-m&pl=balloon adj|bianco-m&pl=white pro:clit|ci&1P
+	n|pallone-DIM-m&pl=balloon adj|bianco-m&pl=white pro:clit|ci&1P
 	v|esse-3P&PRES=be vimp|scappa-2S&IMP~pro:clit|2S=run_away .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020000.cha": line 1391.
@@ -11492,7 +11731,7 @@ From file </Applications/CLAN/Tonelli/Marco/020000.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020000.cha": line 1423.
 *MOT:	fagli seguire la pista .
 %mor:	vimp|face-2S&IMP~pro:clit|3SP=do inf|segui-INF=follow (1)art|il&f&sg
-	(1)n|pista&f=trail .
+	(1)n|pista-f&sg=trail .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020000.cha": line 1453.
 *MOT:	adesso cerchiamo di fare i sottopassaggi anche ?
@@ -11664,12 +11903,6 @@ From file </Applications/CLAN/Tonelli/Marco/020000.cha>
 %mor:	(1)art|uno&f&sg (1)n|matita-f&sg prep|di=of art|uno&m&sg adj|bello-m&sg
 	n|colore-m&sg .
 ----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/020000.cha": line 2176.
-*MOT:	se è l' arancione o il verde scuro anche va bene .
-%mor:	conj|se v|esse-3S&PRES=be (1)art|il&sg (1)n|arancio-AUG-m&sg=orange
-	conj|o art|il&m&sg n|verde-m&sg adj|scuro-m&sg=dark conj|anche
-	v|anda-3S&PRES=go adv|bene .
-----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020000.cha": line 2191.
 *MOT:	dai@i , che facciamo ancora uno spicchio .
 %mor:	co|dai cm|cm pro:int|che=what v|face-1P&PRES&SUB=do adv|ancora
@@ -11731,7 +11964,7 @@ From file </Applications/CLAN/Tonelli/Marco/020000.cha>
 *MOT:	no [/] no anche se mi accendi la luce non faccio la cavalcata oggi
 	Marco .
 %mor:	adv|no conj|anche conj|se pro:clit|mi&1S v|accende-2S&PRES=turn_on
-	(1)art|il&f&sg (1)n|luce&f=light adv|non v|face-1S&PRES=do art|il&f&sg
+	(1)art|il&f&sg (1)n|luce-f&sg=light adv|non v|face-1S&PRES=do art|il&f&sg
 	v|cavalca-PPART&sg&f=ride adv|oggi n:prop|Marco .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020000.cha": line 2303.
@@ -11881,7 +12114,7 @@ From file </Applications/CLAN/Tonelli/Marco/020000.cha>
 *MOT:	no , non disfare la pista Marco devo appena fare il sottopassaggio
 	.
 %mor:	adv|no cm|cm adv|non inf|disface-INF=undo (1)art|il&f&sg
-	(1)n|pista&f=trail n:prop|Marco v|dove-1S&PRES=must adv|appena
+	(1)n|pista-f&sg=trail n:prop|Marco v|dove-1S&PRES=must adv|appena
 	inf|face-INF=do (2)art|il&m&sg (2)n|sottopassaggio-m&sg=subway .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020000.cha": line 2800.
@@ -11891,7 +12124,7 @@ From file </Applications/CLAN/Tonelli/Marco/020000.cha>
 	v|rompe-PPART&sg&m=break conj|ma adv|non v|dove-2S&PRES=must
 	inf|piega-INF~pro:clit|3SP&f=fold det|questo-f&pl=this cm|cm conj|se
 	adv|no adv|dopo adv|non v|ave-2S&PRES=have adv|più (1)art|il&f&sg
-	(1)n|pista&f=trail .
+	(1)n|pista-f&sg=trail .
 From file </Applications/CLAN/Tonelli/Marco/020014.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020014.cha": line 22.
@@ -11963,18 +12196,18 @@ From file </Applications/CLAN/Tonelli/Marco/020014.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020014.cha": line 215.
 *MOT:	la mano sì , la mano entra .
-%mor:	(1)art|il&f&sg (1)n|mano&f=hand adv|sì cm|cm (2)art|il&f&sg (2)n|mano&f=hand
+%mor:	(1)art|il&f&sg (1)n|mano-f&sg=hand adv|sì cm|cm (2)art|il&f&sg (2)n|mano-f&sg=hand
 	v|entra-3S&PRES=enter .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020014.cha": line 226.
 *MOT:	far(e) la torre , di che colore ?
-%mor:	inf|face-INF=do (1)art|il&f&sg (1)n|torre-m&sg cm|cm prep|di=of
+%mor:	inf|face-INF=do (1)art|il&f&sg (1)n|torre-f&sg cm|cm prep|di=of
 	pro:int|che=what n|colore-m&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020014.cha": line 233.
 *MOT:	sei diventato veloce a far(e) le [/] le torri , eh , adesso .
 %mor:	v|esse-2S&PRES=be v|diventa-PPART&sg&m=become adj|veloce-sg=quick
-	prep|a=to inf|face-INF=do (1)art|il&f&pl (1)n|torre-m&pl cm|cm co|eh cm|cm
+	prep|a=to inf|face-INF=do (1)art|il&f&pl (1)n|torre-f&pl cm|cm co|eh cm|cm
 	adv|adesso .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020014.cha": line 251.
@@ -11993,11 +12226,6 @@ From file </Applications/CLAN/Tonelli/Marco/020014.cha>
 	(1)n|giornata-f&sg v|da~pro:clit|3S&f=give n|palla-DIM-f&pl
 	adj|roso-f&sg=rose .
 ----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/020014.cha": line 366.
-*MOT:	una verde , ma proprio palline arancioni +...
-%mor:	(1)art|uno&f&sg (1)n|verde-m&sg cm|cm conj|ma adv|proprio
-	n|palla-DIM-f&pl adj|arancione-pl +...
-----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020014.cha": line 369.
 *MOT:	ah , tiri i pezzi delle costruzioni ?
 %mor:	co|ah cm|cm v|tira-2S&PRES=pull (1)art|il&m&pl (1)n|pezzo-m&pl=piece
@@ -12012,7 +12240,7 @@ From file </Applications/CLAN/Tonelli/Marco/020014.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020014.cha": line 398.
 *MOT:	uh@i , adesso l' hai lanciata con la mano non con la racchetta .
 %mor:	co|uh cm|cm adv|adesso pro:clit|lo&3S&m v|ave-2S&PRES=have
-	v|lancia-PPART&sg&f=throw prep|con=with (1)art|il&f&sg (1)n|mano&f=hand
+	v|lancia-PPART&sg&f=throw prep|con=with (1)art|il&f&sg (1)n|mano-f&sg=hand
 	adv|non prep|con=with (2)art|il&f&sg (2)n|racchetta-f&sg=racket .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020014.cha": line 413.
@@ -12583,7 +12811,7 @@ From file </Applications/CLAN/Tonelli/Marco/020014.cha>
 %mor:	pro:clit|ci&1P v|esse-3S&PAST=be (1)art|il&m&sg (1)n|flauto-m&sg=flute .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020014.cha": line 2148.
-*MOT:	e c' era anche il pi(ffero) +...
+*MOT:	e c' era anche il piffero +...
 %mor:	conj|e pro:clit|ci&1P v|esse-3S&PAST=be conj|anche (1)art|il&m&sg
 	(1)n|piffero-m&sg=pipe +...
 ----------------------------------------
@@ -12706,13 +12934,6 @@ From file </Applications/CLAN/Tonelli/Marco/020027.cha>
 *MOT:	perché se no lo buco il foglio di carta .
 %mor:	conj|perché conj|se adv|no pro:clit|lo&3S&m v|buca-1S&PRES=pierce
 	(1)art|il&m&sg (1)n|foglio-m&sg=sheet prep|di=of n|carta-f&sg=paper .
-----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/020027.cha": line 413.
-*MOT:	e poi ne facciamo una verde [/] verde [/] verde se trovo la matita
-	.
-%mor:	conj|e adv|poi pro:clit|ne v|face-1P&PRES&SUB=do (1)art|uno&f&sg
-	(1)n|verde-m&sg conj|se v|trova-1S&PRES=find (2)art|il&f&sg (2)n|matita-f&sg
-	.
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020027.cha": line 438.
 *MOT:	i tubi ?
@@ -12851,7 +13072,7 @@ From file </Applications/CLAN/Tonelli/Marco/020027.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020027.cha": line 1087.
 *MOT:	la pista dell' aeroplanino se vuoi la costruiamo .
-%mor:	(1)art|il&f&sg (1)n|pista&f=trail prepart|de-m&sg
+%mor:	(1)art|il&f&sg (1)n|pista-f&sg=trail prepart|de-m&sg
 	n|aeroplano-DIM-m&sg=airplane conj|se v|vole-2S&PRES=want
 	art|il&f&sg v|costrui-1P&PRES&SUB=build .
 ----------------------------------------
@@ -12873,7 +13094,7 @@ From file </Applications/CLAN/Tonelli/Marco/020027.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020027.cha": line 1156.
 *MOT:	ti hanno regalato la pista ?
 %mor:	pro:clit|ti&2S v|ave-3P&PRES=have v|regala-PPART&sg&m=present_with
-	(1)art|il&f&sg (1)n|pista&f=trail ?
+	(1)art|il&f&sg (1)n|pista-f&sg=trail ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020027.cha": line 1164.
 *MOT:	tu vedi se trovi l' aeroplanino in tutta quella confusione .
@@ -12885,7 +13106,7 @@ From file </Applications/CLAN/Tonelli/Marco/020027.cha>
 *MOT:	guarda [/] guarda ci avevi la mano sopra , guarda , è tra le tue
 	gambe .
 %mor:	co|guarda pro:clit|ci&1P v|ave-2S&PAST=have (1)art|il&f&sg
-	(1)n|mano&f=hand adv|sopra cm|cm co|guarda cm|cm v|esse-3S&PRES=be
+	(1)n|mano-f&sg=hand adv|sopra cm|cm co|guarda cm|cm v|esse-3S&PRES=be
 	prep|tra=between art|il&f&pl pro:poss|tuo-2S&f&pl=your
 	n|gambo-m&sg=stem .
 ----------------------------------------
@@ -12916,7 +13137,7 @@ From file </Applications/CLAN/Tonelli/Marco/020027.cha>
 %mor:	conj|dunque cm|cm v|vede-1P&PRES&SUB=see art|uno&m&sg
 	pro:det|poco-m&sg=few cm|cm (1)art|il&f&sg (1)n|mamma-f&sg
 	v|sta-3S&PAST=stay adv|prima v|costrui-PROG=build (2)art|il&f&sg
-	(2)n|pista&f=trail .
+	(2)n|pista-f&sg=trail .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020027.cha": line 1309.
 *MOT:	ancora un attimo di pazienza .
@@ -12931,10 +13152,6 @@ From file </Applications/CLAN/Tonelli/Marco/020027.cha>
 *MOT:	eh , dunque la giostra con gli aeroplanini .
 %mor:	co|eh cm|cm conj|dunque (1)art|il&f&sg (1)n|giostra-f&sg prep|con=with
 	(2)art|il&m&pl (2)n|aeroplano-DIM-m&pl=airplane .
-----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/020027.cha": line 1399.
-*MOT:	un verde , sì .
-%mor:	(1)art|uno&m&sg (1)n|verde-m&sg cm|cm adv|sì .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020027.cha": line 1407.
 *MOT:	il muso degli aeroplani ?
@@ -13171,7 +13388,7 @@ From file </Applications/CLAN/Tonelli/Marco/020027.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020027.cha": line 2007.
 *MOT:	la carne <con la> [//] con le patate mangi domani ?
-%mor:	(1)art|il&f&sg (1)n|carne-m&sg prep|con=with (2)art|il&f&pl (2)n|patata-f&pl
+%mor:	(1)art|il&f&sg (1)n|carne-f&sg prep|con=with (2)art|il&f&pl (2)n|patata-f&pl
 	v|mangia-sg&SUB=eat adv|domani ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020027.cha": line 2012.
@@ -13448,7 +13665,7 @@ From file </Applications/CLAN/Tonelli/Marco/020111.cha>
 	aperta soltanto in una posizione .
 %mor:	co|eh adv|sì adv|adesso pro:clit|si&3SP v|esse-3S&PRES=be
 	v|chiude-PPART&sg&f=close conj|perché v|ave-2S&PRES=have
-	v|gira-PPART&sg&m=turn (1)art|il&f&sg (1)n|combinazione&f=combination
+	v|gira-PPART&sg&m=turn (1)art|il&f&sg (1)n|combinazione-f&sg=combination
 	conj|ed v|esse-3S&PRES=be v|apri-PPART&sg&f=open adv|soltanto
 	prep|in=in (2)art|uno&f&sg (2)n|posizione&f=position .
 ----------------------------------------
@@ -13937,17 +14154,12 @@ From file </Applications/CLAN/Tonelli/Marco/020111.cha>
 %mor:	v|paga-1P&PRES&SUB=pay adv|dopo (1)art|il&f&sg (1)n|bolletta-f&sg cm|cm
 	co|dai .
 ----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/020111.cha": line 1888.
-*MOT:	in che cosa Marco , vuoi uno arancione ?
-%mor:	prep|in=in pro:int|che=what pro:int|cosa=what n:prop|Marco cm|cm
-	v|vole-2S&PRES=want (1)art|uno&m&sg (1)n|arancio-AUG-m&sg=orange ?
-----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020111.cha": line 1933.
 *MOT:	vai con il triciclo ?
 %mor:	v|anda-2S&PRES=go prep|con=with (1)art|il&m&sg (1)n|triciclo-m&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020111.cha": line 1973.
-*MOT:	cosa racconta il pa(pà) Paolo . [+ r]
+*MOT:	cosa racconta il papà Paolo . [+ r]
 %mor:	pro:int|cosa=what v|racconta-3S&PRES=narrate (1)art|il&m&sg (1)n|papà&m
 	n:prop|Paolo .
 ----------------------------------------
@@ -13996,7 +14208,7 @@ From file </Applications/CLAN/Tonelli/Marco/020111.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020111.cha": line 2108.
 *MOT:	mh@i , facciamo anche una torre .
 %mor:	co|mh cm|cm v|face-1P&PRES&SUB=do conj|anche (1)art|uno&f&sg
-	(1)n|torre-m&sg .
+	(1)n|torre-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020111.cha": line 2155.
 *MOT:	e una pistola , non fai una pistola ?
@@ -14199,18 +14411,6 @@ From file </Applications/CLAN/Tonelli/Marco/020127.cha>
 *MOT:	ah , i cilindri .
 %mor:	co|ah cm|cm (1)art|il&m&pl (1)n|cilindro-m&pl=cylinder .
 ----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 686.
-*MOT:	mhm@i che sia il verde che il rosso ?
-%mor:	co|mhm det|che=which v|esse-sg&SUB=be (1)art|il&m&sg (1)n|verde-m&sg
-	pro:rel|che=that art|il&m&sg adj|rosso-m&sg=red ?
-----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 703.
-*MOT:	io là ho solo il verde allora sarà nello scatolone , sai penso .
-%mor:	pro:pers|io&1S&SUBJ=I adv|là v|ave-1S&PRES=have adv|solo
-	(1)art|il&m&sg (1)n|verde-m&sg adv|allora v|esse-3S&FUT=be prepart|ne-m&sg
-	n|scatolone-m&sg=carton cm|cm v|sape-2S&PRES=know
-	v|pensa-1S&PRES=think .
-----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 725.
 *MOT:	eh , prova guardare lì , dopo la mamma ti mette i calzetti
 	antiscivolo .
@@ -14228,7 +14428,7 @@ From file </Applications/CLAN/Tonelli/Marco/020127.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 770.
 *MOT:	eh , una torre intanto di tre con tre cilindri .
-%mor:	co|eh cm|cm (1)art|uno&f&sg (1)n|torre-m&sg adv|intanto prep|di=of
+%mor:	co|eh cm|cm (1)art|uno&f&sg (1)n|torre-f&sg adv|intanto prep|di=of
 	num|tre prep|con=with num|tre n|cilindro-m&pl=cylinder .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 773.
@@ -14366,7 +14566,7 @@ From file </Applications/CLAN/Tonelli/Marco/020127.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 1348.
 *MOT:	la mano +/.
-%mor:	(1)art|il&f&sg (1)n|mano&f=hand +/.
+%mor:	(1)art|il&f&sg (1)n|mano-f&sg=hand +/.
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 1359.
 *MOT:	vado a prendere un fazzolettino .
@@ -14425,7 +14625,7 @@ From file </Applications/CLAN/Tonelli/Marco/020127.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 1512.
 *MOT:	solo che è più pesante l' elastico del palloncino .
 %mor:	adv|solo pro:rel|che=that v|esse-3S&PRES=be adv|più adj|pesante-sg
-	(1)art|il&sg (1)n|elastico-m&sg prepart|de-m&sg n|palloncino-m&sg=balloon
+	(1)art|il&sg (1)n|elastico-m&sg prepart|de-m&sg n|pallone-DIM-m&sg=balloon
 	.
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 1562.
@@ -14447,19 +14647,19 @@ From file </Applications/CLAN/Tonelli/Marco/020127.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 1662.
 *MOT:	il palloncino qua non è .
-%mor:	(1)art|il&m&sg (1)n|palloncino-m&sg=balloon adv|qua adv|non
+%mor:	(1)art|il&m&sg (1)n|pallone-DIM-m&sg=balloon adv|qua adv|non
 	v|esse-3S&PRES=be .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 1710.
 *MOT:	io pensavo che volasse il palloncino .
 %mor:	pro:pers|io&1S&SUBJ=I v|pensa-1S&PAST=think pro:int|che=what
-	v|vola-3S&SUB&PAST=fly (1)art|il&m&sg (1)n|palloncino-m&sg=balloon .
+	v|vola-3S&SUB&PAST=fly (1)art|il&m&sg (1)n|pallone-DIM-m&sg=balloon .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 1723.
 *MOT:	sì chi l' ha legato quel palloncino di la verità !
 %mor:	adv|sì pro:int|chi=who pro:clit|lo&3S&m v|ave-3S&PRES=have
 	v|lega-PPART&sg&m=bind det|quello-m&sg=that
-	n|palloncino-m&sg=balloon prep|di=of (1)art|il&f&sg (1)n|verità&f !
+	n|pallone-DIM-m&sg=balloon prep|di=of (1)art|il&f&sg (1)n|verità&f !
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 1733.
 *MOT:	+, una parte me la dai .
@@ -14481,7 +14681,7 @@ From file </Applications/CLAN/Tonelli/Marco/020127.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 1791.
 *MOT:	e cosa fa con la sabbia il palloncino ?
 %mor:	conj|e pro:int|cosa=what v|face-3S&PRES=do prep|con=with
-	(1)art|il&f&sg (1)n|sabbia-f&sg (2)art|il&m&sg (2)n|palloncino-m&sg=balloon ?
+	(1)art|il&f&sg (1)n|sabbia-f&sg (2)art|il&m&sg (2)n|pallone-DIM-m&sg=balloon ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 1794.
 *MOT:	fa i castelli ?
@@ -14563,7 +14763,7 @@ From file </Applications/CLAN/Tonelli/Marco/020127.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 2007.
 *MOT:	mettiamo via il palloncino un attimo , dai@i , mentre leggiamo .
 %mor:	v|mette-1P&PRES&SUB=put adv|via (1)art|il&m&sg
-	(1)n|palloncino-m&sg=balloon (2)art|uno&m&sg (2)n|attimo-m&sg cm|cm co|dai
+	(1)n|pallone-DIM-m&sg=balloon (2)art|uno&m&sg (2)n|attimo-m&sg cm|cm co|dai
 	cm|cm conj|mentre v|legge-1P&PRES&SUB=read .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 2026.
@@ -14807,7 +15007,7 @@ From file </Applications/CLAN/Tonelli/Marco/020127.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 2501.
 *MOT:	si sgonfia il palloncino .
 %mor:	pro:clit|si&3SP v|sgonfia-3S&PRES=deflate (1)art|il&m&sg
-	(1)n|palloncino-m&sg=balloon .
+	(1)n|pallone-DIM-m&sg=balloon .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 2533.
 *MOT:	cos' hai mangiato la pastasciutta ?
@@ -14816,7 +15016,7 @@ From file </Applications/CLAN/Tonelli/Marco/020127.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020127.cha": line 2539.
 *MOT:	sgonfio il palloncino .
-%mor:	v|sgonfia-1S&PRES=deflate (1)art|il&m&sg (1)n|palloncino-m&sg=balloon .
+%mor:	v|sgonfia-1S&PRES=deflate (1)art|il&m&sg (1)n|pallone-DIM-m&sg=balloon .
 From file </Applications/CLAN/Tonelli/Marco/020211.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 35.
@@ -14842,8 +15042,8 @@ From file </Applications/CLAN/Tonelli/Marco/020211.cha>
 	v|servi-3S&PRES=serve prep|per=for inf|gonfia-INF=swell cm|cm
 	(2)art|uno&f&sg (2)n|specie&f=kind prep|di=of n|pompa-f&sg cm|cm adv|sì
 	(3)art|uno&m&sg (3)n|tubo-m&sg cm|cm (4)art|uno&f&sg (4)n|pompa-DIM-f&sg
-	prep|per=for inf|gonfia-INF=swell prep|a=to n|mano&f=hand
-	(5)art|il&m&pl (5)n|palloncino-m&pl=balloon prep|senza=without
+	prep|per=for inf|gonfia-INF=swell prep|a=to n|mano-f&sg=hand
+	(5)art|il&m&pl (5)n|pallone-DIM-m&pl=balloon prep|senza=without
 	inf|dove-INF=must inf|soffia-INF=blow .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 141.
@@ -14864,12 +15064,12 @@ From file </Applications/CLAN/Tonelli/Marco/020211.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 176.
 *MOT:	la canzone del cavallino ?
-%mor:	(1)art|il&f&sg (1)n|canzone&f=song prepart|de-m&sg
+%mor:	(1)art|il&f&sg (1)n|canzone-f&sg=song prepart|de-m&sg
 	n|cavallo-DIM-m&sg=horse ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 181.
 *MOT:	e com' è la canzone del cavallino ?
-%mor:	conj|e adv|come v|esse-3S&PRES=be (1)art|il&f&sg (1)n|canzone&f=song
+%mor:	conj|e adv|come v|esse-3S&PRES=be (1)art|il&f&sg (1)n|canzone-f&sg=song
 	prepart|de-m&sg n|cavallo-DIM-m&sg=horse ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 192.
@@ -15031,12 +15231,12 @@ From file </Applications/CLAN/Tonelli/Marco/020211.cha>
 *MOT:	questa è una mucca che spinge una falciatrice .
 %mor:	pro:det|questo-f&sg=this v|esse-3S&PRES=be (1)art|uno&f&sg
 	(1)n|mucca-f&sg pro:rel|che=that v|spinge-3S&PRES=push (2)art|uno&f&sg
-	(2)n|falciatrice&f=mower .
+	(2)n|falciatrice-f&sg=mower .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 609.
 *MOT:	sai a che cosa serve la falciatrice ?
 %mor:	v|sape-2S&PRES=know prep|a=to pro:int|che=what pro:int|cosa=what
-	v|servi-3S&PRES=serve (1)art|il&f&sg (1)n|falciatrice&f=mower ?
+	v|servi-3S&PRES=serve (1)art|il&f&sg (1)n|falciatrice-f&sg=mower ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 612.
 *MOT:	soffia un attimo col nasino .
@@ -15045,7 +15245,7 @@ From file </Applications/CLAN/Tonelli/Marco/020211.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 619.
 *MOT:	la falciatrice serve per tagliare l' erba .
-%mor:	(1)art|il&f&sg (1)n|falciatrice&f=mower v|servi-3S&PRES=serve
+%mor:	(1)art|il&f&sg (1)n|falciatrice-f&sg=mower v|servi-3S&PRES=serve
 	prep|per=for inf|taglia-INF=cut (2)art|il&sg (2)n|erba-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 622.
@@ -15055,7 +15255,7 @@ From file </Applications/CLAN/Tonelli/Marco/020211.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 630.
 *MOT:	sì , la falciatrice .
-%mor:	adv|sì cm|cm (1)art|il&f&sg (1)n|falciatrice&f=mower .
+%mor:	adv|sì cm|cm (1)art|il&f&sg (1)n|falciatrice-f&sg=mower .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 633.
 *MOT:	quando [<] nonna Piera taglia l' erba nel giardino .
@@ -15146,7 +15346,7 @@ From file </Applications/CLAN/Tonelli/Marco/020211.cha>
 	spiega a [/] a gli altri animaletti , dice , gli alberi son(o) fatti
 	di radici tronco e foglie .
 %mor:	co|eh adv|sì cm|cm pro:det|questo-m&pl=this v|sta-3P&PRES=stay
-	v|face-PROG=do (1)art|uno&f&sg (1)n|lezione&f prep|in=in n|giardino-m&sg
+	v|face-PROG=do (1)art|uno&f&sg (1)n|lezione-f&sg prep|in=in n|giardino-m&sg
 	conj|e (2)art|il&m&sg (2)n|maestro-m&sg v|spiega-3S&PRES=explain prep|a=to
 	pro:clit|gli&3S&m det|altro-m&pl=other n|animale-DIM-m&pl=animal
 	cm|cm v|dice-3S&PRES=say cm|cm pro:clit|gli&3S&m n|albero-m&pl=tree
@@ -15192,7 +15392,7 @@ From file </Applications/CLAN/Tonelli/Marco/020211.cha>
 	pro:pers|noi&1P=we .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 972.
-*MOT:	il tra(ttore) +...
+*MOT:	il trattore +...
 %mor:	(1)art|il&m&sg (1)n|trattore-m&sg=tractor +...
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 992.
@@ -15390,12 +15590,6 @@ From file </Applications/CLAN/Tonelli/Marco/020211.cha>
 %mor:	adv|adesso v|sta-3S&PRES=stay v|scende-PROG=descend (1)art|il&m&sg
 	(1)n|lupo-m&sg=wolf .
 ----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 1591.
-*MOT:	uhiahiahi@i raggiunse il povero Zampetta , baracca di Podicchio .
-%mor:	co|uhiahiahi v|raggiunge-PPART&pl&f=reach (1)art|il&m&sg (1)n|povero-m&sg
-	n:prop|Zampetta cm|cm n|baracca-f&sg=hut prep|di=of n:prop|Podicchio
-	.
-----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 1599.
 *MOT:	aspetta un attimo abbiamo saltato Ma(rco) ?
 %mor:	v|aspetta-3S&PRES=wait (1)art|uno&m&sg (1)n|attimo-m&sg
@@ -15463,16 +15657,6 @@ From file </Applications/CLAN/Tonelli/Marco/020211.cha>
 	vimp|ritrova-2S&IMP~pro:clit|2S=regain pro:det|tutto-m&pl=all conj|e
 	num|tre (1)art|il&m&pl (1)n|porcello-DIM-m&pl=pig .
 ----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 1730.
-*MOT:	è un po' arrabbiato perché è arrabbiato col lupo , sai , che da la
-	caccia ai suoi fratelli .
-%mor:	v|esse-3S&PRES=be art|uno&m&sg pro:det|poco-m&sg=few
-	adj|arrabbiato-m&sg conj|perché v|esse-3S&PRES=be
-	v|arrabbia-PPART&sg&m=anger prepart|co-m&sg n|lupo-m&sg=wolf cm|cm
-	v|sape-2S&PRES=know cm|cm pro:int|che=what v|da-3S&PRES=give
-	(1)art|il&f&sg (1)n|caccia-f&sg co|ai pro:poss|suo-3S&m&pl=his
-	n|frate-DIM-m&pl .
-----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 1759.
 *MOT:	là mettono questo pentolone grande [/] grande con l' acqua a
 	bollire .
@@ -15483,7 +15667,7 @@ From file </Applications/CLAN/Tonelli/Marco/020211.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 1770.
 *MOT:	eh la carne del lupo perché a [//] poi aprono la porta e il lupo
 	correndo budubududun@o va finire nel pentolone +...
-%mor:	co|eh (1)art|il&f&sg (1)n|carne-m&sg prepart|de-m&sg n|lupo-m&sg=wolf
+%mor:	co|eh (1)art|il&f&sg (1)n|carne-f&sg prepart|de-m&sg n|lupo-m&sg=wolf
 	conj|perché conj|poi v|apri-3P&PRES=open (2)art|il&f&sg (2)n|porta-f&sg
 	conj|e (3)art|il&m&sg (3)n|lupo-m&sg=wolf v|corre-PROG=run on|budubududun
 	v|anda-3S&PRES=go inf|fini-INF=finish prepart|ne-m&sg
@@ -15625,7 +15809,7 @@ From file </Applications/CLAN/Tonelli/Marco/020211.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 2129.
 *MOT:	la volpe e questo il +...
-%mor:	(1)art|il&f&sg (1)n|volpe&f=fox conj|e pro:det|questo-m&sg=this
+%mor:	(1)art|il&f&sg (1)n|volpe-f&sg=fox conj|e pro:det|questo-m&sg=this
 	art|il&m&sg +...
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020211.cha": line 2159.
@@ -15660,7 +15844,7 @@ From file </Applications/CLAN/Tonelli/Marco/020211.cha>
 	Pinocchio , l' ha tutto legato al ramo di un albero .
 %mor:	co|guarda adv|come v|esse-3S&PRES=be cm|cm pro:int|cosa=what
 	v|ave-3P&PRES=have v|face-PPART&sg&m=redo (1)art|il&m&sg (1)n|gatto-m&sg
-	conj|e (2)art|il&f&sg (2)n|volpe&f=fox prep|di=of n:prop|Pinocchio cm|cm
+	conj|e (2)art|il&f&sg (2)n|volpe-f&sg=fox prep|di=of n:prop|Pinocchio cm|cm
 	art|il&sg v|ave-3S&PRES=have adv|tutto v|lega-PPART&sg&m=bind
 	prepart|a-m&sg n|ramo-m&sg prep|di=of (3)art|uno&m&sg
 	(3)n|albero-m&sg=tree .
@@ -15816,7 +16000,7 @@ From file </Applications/CLAN/Tonelli/Marco/020302.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020302.cha": line 322.
 *MOT:	una canzone ?
-%mor:	(1)art|uno&f&sg (1)n|canzone&f=song ?
+%mor:	(1)art|uno&f&sg (1)n|canzone-f&sg=song ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020302.cha": line 349.
 *MOT:	ah con la bomboletta scivoli adesso , che bello , anch' io vorrei
@@ -16019,7 +16203,7 @@ From file </Applications/CLAN/Tonelli/Marco/020302.cha>
 *MOT:	mi pare che prima mangi qualcosa per avere la voce +...
 %mor:	pro:clit|mi&1S v|pare-3S&PRES=seem pro:rel|che=that adv|prima
 	v|mangia-sg&SUB=eat pro:det|qualcosa=something prep|per=for
-	inf|ave-INF=have (1)art|il&f&sg (1)n|voce&f +...
+	inf|ave-INF=have (1)art|il&f&sg (1)n|voce-f&sg +...
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020302.cha": line 1043.
 *MOT:	fa finta di essere la mamma ?
@@ -16030,7 +16214,7 @@ From file </Applications/CLAN/Tonelli/Marco/020302.cha>
 *MOT:	e gli dice solo al lupo con la voce fina [/] fina della mamma capra
 	?
 %mor:	conj|e pro:clit|gli&3S&m v|dice-3S&PRES=say adv|solo prepart|a-m&sg
-	n|lupo-m&sg=wolf prep|con=with (1)art|il&f&sg (1)n|voce&f
+	n|lupo-m&sg=wolf prep|con=with (1)art|il&f&sg (1)n|voce-f&sg
 	v|fini-sg&SUB=finish prepart|de-f&sg n|mamma-f&sg n|capra-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020302.cha": line 1063.
@@ -16054,7 +16238,7 @@ From file </Applications/CLAN/Tonelli/Marco/020302.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020302.cha": line 1167.
 *MOT:	una pista .
-%mor:	(1)art|uno&f&sg (1)n|pista&f=trail .
+%mor:	(1)art|uno&f&sg (1)n|pista-f&sg=trail .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020302.cha": line 1181.
 *MOT:	sì Marco , solo un attimo che xxx tagliare xxx .
@@ -16217,12 +16401,12 @@ From file </Applications/CLAN/Tonelli/Marco/020302.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020302.cha": line 1599.
 *MOT:	vuoi far(e) la torre con questi cubi ?
-%mor:	v|vole-2S&PRES=want inf|face-INF=do (1)art|il&f&sg (1)n|torre-m&sg
+%mor:	v|vole-2S&PRES=want inf|face-INF=do (1)art|il&f&sg (1)n|torre-f&sg
 	prep|con=with det|questo-m&pl=this n|cubo-m&pl ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020302.cha": line 1602.
 *MOT:	vuoi far(e) la torre coi cubi ?
-%mor:	v|vole-2S&PRES=want inf|face-INF=do (1)art|il&f&sg (1)n|torre-m&sg
+%mor:	v|vole-2S&PRES=want inf|face-INF=do (1)art|il&f&sg (1)n|torre-f&sg
 	prepart|co-m&pl n|cubo-m&pl ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020302.cha": line 1615.
@@ -16230,7 +16414,7 @@ From file </Applications/CLAN/Tonelli/Marco/020302.cha>
 	pista qua non ci sta .
 %mor:	adv|prima co|allora v|mette-1P&PRES&SUB=put adv|via art|uno&m&sg
 	pro:det|poco-m&sg=few prep|di=of n|coso-DIM-m&sg=whatsit cm|cm
-	conj|perché adv|altrimenti (1)art|il&f&sg (1)n|pista&f=trail adv|qua
+	conj|perché adv|altrimenti (1)art|il&f&sg (1)n|pista-f&sg=trail adv|qua
 	adv|non pro:clit|ci&1P v|sta-3S&PRES=stay .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020302.cha": line 1632.
@@ -16302,7 +16486,7 @@ From file </Applications/CLAN/Tonelli/Marco/020302.cha>
 	cm|cm conj|e adv|poi cm|cm conj|se pro:pers|tu&2S&SUBJ=you adv|non
 	v|rovesci&2S&PRES=spill adv|niente pro:det|altro-m&sg=another_one
 	n:prop|Marco cm|cm v|pote-1P&COND=be_able conj|anche
-	inf|costrui-INF=build (2)art|il&f&sg (2)n|pista&f=trail .
+	inf|costrui-INF=build (2)art|il&f&sg (2)n|pista-f&sg=trail .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020302.cha": line 1966.
 *MOT:	allora , facciamo così Marco adesso vado a prendere l' acqua per
@@ -16312,7 +16496,7 @@ From file </Applications/CLAN/Tonelli/Marco/020302.cha>
 	(1)art|il&sg (1)n|acqua-f&sg=water prep|per=for
 	inf|cambia-INF~pro:clit|2S=exchange (2)art|il&m&sg (2)n|pannolino-m&sg
 	cm|cm pro:clit|lo&3S&m v|cambia-1P&PRES&SUB=exchange conj|e adv|dopo
-	v|costrui-1P&PRES&SUB=build (3)art|il&f&sg (3)n|pista&f=trail .
+	v|costrui-1P&PRES&SUB=build (3)art|il&f&sg (3)n|pista-f&sg=trail .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020302.cha": line 1989.
 *MOT:	ahi@i mi hai dato la racchetta da tennis in testa .
@@ -16376,7 +16560,7 @@ From file </Applications/CLAN/Tonelli/Marco/020315.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020315.cha": line 18.
 *MOT:	ah stai gonfiando i palloncini .
 %mor:	co|ah v|sta-2S&PRES=stay v|gonfia-PROG=swell (1)art|il&m&pl
-	(1)n|palloncino-m&pl=balloon .
+	(1)n|pallone-DIM-m&pl=balloon .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020315.cha": line 50.
 *MOT:	ci vuole la pompa ma sai che non so dove sia andata .
@@ -16461,7 +16645,7 @@ From file </Applications/CLAN/Tonelli/Marco/020315.cha>
 %mor:	v|veni-2S&PRES=come adv|qua pro:rel|che=that pro:clit|ti&2S
 	pro:clit|lo&3S&m v|mette-1S&PRES=put adv|sotto (1)art|il&f&sg
 	(1)n|maglia-f&sg=stitch adv|così v|face-1P&PRES&SUB=do (2)art|il&m&sg
-	(2)n|pancione&f adv|ancora adv|più adj|grande-sg=big .
+	(2)n|pancione-m&sg adv|ancora adv|più adj|grande-sg=big .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020315.cha": line 407.
 *MOT:	due palloncini ti vuoi metter(e) sotto la maglia ?
@@ -16475,7 +16659,7 @@ From file </Applications/CLAN/Tonelli/Marco/020315.cha>
 	v|esse-3S&PRES=be adv|troppo adj|stretto-f&sg det|quello-f&sg=that
 	n|maglia-DIM-f&sg=stitch cm|cm adv|non v|vole-1S&COND=wish
 	pro:rel|che=that adv|poi v|scoppia-3S&SUB&PAST=burst (1)art|il&m&sg
-	(1)n|palloncino-m&sg=balloon .
+	(1)n|pallone-DIM-m&sg=balloon .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020315.cha": line 430.
 *MOT:	la mazza da golf ?
@@ -16483,7 +16667,7 @@ From file </Applications/CLAN/Tonelli/Marco/020315.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020315.cha": line 432.
 *MOT:	i palloncini , ah è la mazza per picchiar(e) la mamma è questa .
-%mor:	(1)art|il&m&pl (1)n|palloncino-m&pl=balloon cm|cm co|ah v|esse-3S&PRES=be
+%mor:	(1)art|il&m&pl (1)n|pallone-DIM-m&pl=balloon cm|cm co|ah v|esse-3S&PRES=be
 	(2)art|il&f&sg (2)n|mazza-f&sg=club prep|per=for inf|picchia-INF=prick
 	(3)art|il&f&sg (3)n|mamma-f&sg v|esse-3S&PRES=be pro:det|questo-f&sg=this
 	.
@@ -16495,12 +16679,12 @@ From file </Applications/CLAN/Tonelli/Marco/020315.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020315.cha": line 462.
 *MOT:	ancora un palloncino ?
-%mor:	adv|ancora (1)art|uno&m&sg (1)n|palloncino-m&sg=balloon ?
+%mor:	adv|ancora (1)art|uno&m&sg (1)n|pallone-DIM-m&sg=balloon ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020315.cha": line 476.
 *MOT:	ci riempiamo tutta la casa di palloncini .
 %mor:	pro:clit|ci&1P v|riempi-1P&PRES&SUB=fill pro:det|tutto-f&sg=all
-	(1)art|il&f&sg (1)n|casa-f&sg prep|di=of n|palloncino-m&pl=balloon .
+	(1)art|il&f&sg (1)n|casa-f&sg prep|di=of n|pallone-DIM-m&pl=balloon .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020315.cha": line 532.
 *MOT:	eh Marco ma la pompa non so dove sia finita .
@@ -16519,7 +16703,7 @@ From file </Applications/CLAN/Tonelli/Marco/020315.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020315.cha": line 581.
 *MOT:	sì , bisogna prima infilare il palloncino sulla pompa .
 %mor:	adv|sì cm|cm v|bisogna-3S&PRES=need adv|prima inf|infila-INF=thread
-	(1)art|il&m&sg (1)n|palloncino-m&sg=balloon prepart|su-f&sg n|pompa-f&sg .
+	(1)art|il&m&sg (1)n|pallone-DIM-m&sg=balloon prepart|su-f&sg n|pompa-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020315.cha": line 599.
 *MOT:	e &lal , e il coperchio della scatola l' avete buttato via ?
@@ -16544,7 +16728,7 @@ From file </Applications/CLAN/Tonelli/Marco/020315.cha>
 %mor:	adv|sì cm|cm adv|dopo pro:clit|si&3SP v|pote-3S&PRES=can
 	inf|scioglie-INF=dissolve cm|cm adv|no cm|cm pro:clit|lo&3S&m
 	n|spago-m&sg=string cm|cm adv|invece v|annoda-2S&PRES=rope
-	adv:adj|diretto-ADV (1)art|il&m&sg (1)n|palloncino-m&sg=balloon conj|e
+	adv:adj|diretto-ADV (1)art|il&m&sg (1)n|pallone-DIM-m&sg=balloon conj|e
 	adj|difficile-sg inf|molla-INF~pro:clit|3S&m=release .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020315.cha": line 659.
@@ -17333,7 +17517,7 @@ From file </Applications/CLAN/Tonelli/Marco/020329.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020329.cha": line 781.
 *MOT:	e invece la volpe cos' ha qua ?
-%mor:	conj|e adv|invece (1)art|il&f&sg (1)n|volpe&f=fox pro:int|cosa=what
+%mor:	conj|e adv|invece (1)art|il&f&sg (1)n|volpe-f&sg=fox pro:int|cosa=what
 	v|ave-3S&PRES=have adv|qua ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020329.cha": line 819.
@@ -17347,13 +17531,13 @@ From file </Applications/CLAN/Tonelli/Marco/020329.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020329.cha": line 840.
 *MOT:	i palloncini sono legati sulla giraffa ?
-%mor:	(1)art|il&m&pl (1)n|palloncino-m&pl=balloon v|esse-3P&PRES=be
+%mor:	(1)art|il&m&pl (1)n|pallone-DIM-m&pl=balloon v|esse-3P&PRES=be
 	vimp|lega-2S&IMP~pro:clit|2S=bind prepart|su-f&sg n|giraffa-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020329.cha": line 847.
 *MOT:	chissà perché si è legata i palloncini .
 %mor:	adv|chissà conj|perché pro:clit|si&3SP v|esse-3S&PRES=be
-	v|lega-PPART&sg&f=bind (1)art|il&m&pl (1)n|palloncino-m&pl=balloon .
+	v|lega-PPART&sg&f=bind (1)art|il&m&pl (1)n|pallone-DIM-m&pl=balloon .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020329.cha": line 850.
 *MOT:	cosa vende la giraffa ?
@@ -17546,12 +17730,12 @@ From file </Applications/CLAN/Tonelli/Marco/020329.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020329.cha": line 1615.
 *MOT:	è la voce della mamma ?
-%mor:	v|esse-3S&PRES=be (1)art|il&f&sg (1)n|voce&f prepart|de-f&sg n|mamma-f&sg
+%mor:	v|esse-3S&PRES=be (1)art|il&f&sg (1)n|voce-f&sg prepart|de-f&sg n|mamma-f&sg
 	?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020329.cha": line 1624.
 *MOT:	e poi con la voce fina [/] fina cosa fa ?
-%mor:	conj|e adv|poi prep|con=with (1)art|il&f&sg (1)n|voce&f
+%mor:	conj|e adv|poi prep|con=with (1)art|il&f&sg (1)n|voce-f&sg
 	v|fini-sg&SUB=finish pro:int|cosa=what v|face-3S&PRES=do ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020329.cha": line 1629.
@@ -17559,7 +17743,7 @@ From file </Applications/CLAN/Tonelli/Marco/020329.cha>
 	fina grazie alla liquirizia .
 %mor:	adv|sì cm|cm adv|prima pro:clit|li&3P&m v|chiama-3S&PRES=call
 	v|face-PROG=do n|finta-f&sg prep|di=of inf|esse-INF=be (1)art|il&f&sg
-	(1)n|mamma-f&sg cm|cm prep|con=with (2)art|il&f&sg (2)n|voce&f
+	(1)n|mamma-f&sg cm|cm prep|con=with (2)art|il&f&sg (2)n|voce-f&sg
 	v|fini-sg&SUB=finish n|grazie-m&sg prepart|a-f&sg
 	n|liquirizia-f&sg=liquorice .
 ----------------------------------------
@@ -17603,17 +17787,6 @@ From file </Applications/CLAN/Tonelli/Marco/020329.cha>
 *MOT:	i sassi , e poi dove lo butta ?
 %mor:	(1)art|il&m&pl (1)n|sasso-m&pl cm|cm conj|e adv|poi adv|dove
 	pro:clit|lo&3S&m v|butta-3S&PRES=throw ?
-----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/020329.cha": line 1685.
-*MOT:	e così fa una brutta fine .
-%mor:	conj|e adv|così v|face-3S&PRES=do (1)art|uno&f&sg (1)n|brutto-f&sg
-	n|fine&f=end .
-----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/020329.cha": line 1688.
-*MOT:	il lupo in [/] in fondo fa sempre una brutta fine .
-%mor:	(1)art|il&m&sg (1)n|lupo-m&sg=wolf prep|in=in n|fondo-m&sg=bottom
-	v|face-3S&PRES=do adv|sempre (2)art|uno&f&sg (2)n|brutto-f&sg n|fine&f=end
-	.
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020329.cha": line 1707.
 *MOT:	vuole entrare per il camino .
@@ -17722,7 +17895,7 @@ From file </Applications/CLAN/Tonelli/Marco/020329.cha>
 *MOT:	voi cosa avete fatto , avete battuto le mani ?
 %mor:	pro:pers|voi&2P=you n|cosa-f&sg v|ave-3S&PRES~pro:clit|2S=have
 	n|fatto-m&sg cm|cm v|ave-3S&PRES~pro:clit|2S=have
-	v|batte-PPART&sg&m=beat (1)art|il&f&pl (1)n|mano&f-f&pl ?
+	v|batte-PPART&sg&m=beat (1)art|il&f&pl (1)n|mano-f&pl ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020329.cha": line 2046.
 *MOT:	ah i capretti che vengono fuori dalla pancia .
@@ -18289,7 +18462,7 @@ From file </Applications/CLAN/Tonelli/Marco/020413.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020413.cha": line 842.
 *MOT:	sì sta baciando la mano .
 %mor:	adv|sì v|sta-3S&PRES=stay v|bacia-PROG=kiss (1)art|il&f&sg
-	(1)n|mano&f=hand .
+	(1)n|mano-f&sg=hand .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020413.cha": line 861.
 *MOT:	allora la storia , quella lì , la leggiamo domani ?
@@ -18367,9 +18540,9 @@ From file </Applications/CLAN/Tonelli/Marco/020413.cha>
 	collezione di macchinine , vero ?
 %mor:	adv|non v|sape-1S&PRES=know cm|cm pro:pers|io&1S&SUBJ=I
 	v|sta-1S&PRES=stay v|face-PROG=do (1)art|uno&f&sg
-	(1)n|collezione&f=collection vimp|dice-2S&IMP=say
+	(1)n|collezione-f&sg=collection vimp|dice-2S&IMP=say
 	n|scimmio-DIM-m&sg=monkey cm|cm pro:pers|tu&2S&SUBJ=you (2)art|uno&f&sg
-	(2)n|collezione&f=collection vimp|dice-2S&IMP=say n|macchina-DIM-f&pl
+	(2)n|collezione-f&sg=collection vimp|dice-2S&IMP=say n|macchina-DIM-f&pl
 	cm|cm adj|vero-m&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020413.cha": line 1203.
@@ -18408,7 +18581,7 @@ From file </Applications/CLAN/Tonelli/Marco/020413.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020413.cha": line 1296.
 *MOT:	sai che il palloncino arancione è scoppiato da tanto tempo .
 %mor:	v|sape-2S&PRES=know pro:rel|che=that (1)art|il&m&sg
-	(1)n|palloncino-m&sg=balloon n|arancio-AUG-m&sg=orange
+	(1)n|pallone-DIM-m&sg=balloon n|arancio-AUG-m&sg=orange
 	v|esse-3S&PRES=be v|scoppia-PPART&sg&m=burst prep|da=at
 	det|tanto-m&sg=so_much n|tempo-m&sg .
 ----------------------------------------
@@ -18422,12 +18595,12 @@ From file </Applications/CLAN/Tonelli/Marco/020413.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020413.cha": line 1363.
 *MOT:	mh@i , per chiudere i palloncini ?
 %mor:	co|mh cm|cm prep|per=for inf|chiude-INF=close (1)art|il&m&pl
-	(1)n|palloncino-m&pl=balloon ?
+	(1)n|pallone-DIM-m&pl=balloon ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020413.cha": line 1366.
 *MOT:	per legare i palloncini Marco ?
 %mor:	prep|per=for inf|lega-INF=bind (1)art|il&m&pl
-	(1)n|palloncino-m&pl=balloon n:prop|Marco ?
+	(1)n|pallone-DIM-m&pl=balloon n:prop|Marco ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020413.cha": line 1375.
 *MOT:	a cosa ti servono gli elastici ?
@@ -18440,7 +18613,7 @@ From file </Applications/CLAN/Tonelli/Marco/020413.cha>
 	(1)n|mamma-f&sg n|canguro-f&sg=kangaroo .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020413.cha": line 1404.
-*MOT:	<forse un papà>[>] .
+*MOT:	forse un papà .
 %mor:	adv|forse (1)art|uno&m&sg (1)n|papà&m .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020413.cha": line 1409.
@@ -18825,7 +18998,7 @@ From file </Applications/CLAN/Tonelli/Marco/020426.cha>
 *MOT:	tu sai come mai ti è venuta la tosse ?
 %mor:	pro:pers|tu&2S&SUBJ=you v|sape-2S&PRES=know adv|come adv|mai
 	pro:clit|ti&2S v|esse-3S&PRES=be v|veni-PPART&sg&f=come (1)art|il&f&sg
-	(1)n|tosse&f=cough ?
+	(1)n|tosse-f&sg=cough ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 545.
 *MOT:	cosa ci va con le fragoline ?
@@ -18866,7 +19039,7 @@ From file </Applications/CLAN/Tonelli/Marco/020426.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 662.
 *MOT:	allora xxx dammi una mano qua .
 %mor:	adv|allora vimp|da-2S&IMP~pro:clit|1S=give (1)art|uno&f&sg
-	(1)n|mano&f=hand adv|qua .
+	(1)n|mano-f&sg=hand adv|qua .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 692.
 *MOT:	un triangolo per poter(e) montare qui ?
@@ -19082,7 +19255,7 @@ From file </Applications/CLAN/Tonelli/Marco/020426.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 1492.
 *MOT:	sì , è una piramide di barattoli e c' è un altro orsetto che tira
 	una palla .
-%mor:	adv|sì cm|cm v|esse-3S&PRES=be (1)art|uno&f&sg (1)n|piramide&f=pyramid
+%mor:	adv|sì cm|cm v|esse-3S&PRES=be (1)art|uno&f&sg (1)n|piramide-f&sg=pyramid
 	prep|di=of n|barattolo-m&pl=pot conj|e pro:clit|ci&1P
 	v|esse-3S&PRES=be art|uno&m&sg det|altro-m&sg=other n|orso-DIM-m&sg
 	pro:rel|che=that v|tira-3S&PRES=pull (2)art|uno&f&sg (2)n|palla-f&sg .
@@ -19107,7 +19280,7 @@ From file </Applications/CLAN/Tonelli/Marco/020426.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 1574.
 *MOT:	&-eh con una falciatrice .
-%mor:	prep|con=with (1)art|uno&f&sg (1)n|falciatrice&f=mower .
+%mor:	prep|con=with (1)art|uno&f&sg (1)n|falciatrice-f&sg=mower .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 1597.
 *MOT:	anzi qua c' è il maestro e ci son(o) tutti gli scolari .
@@ -19154,7 +19327,7 @@ From file </Applications/CLAN/Tonelli/Marco/020426.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 1797.
 *MOT:	non mangiarmi la mano <per favore> [/] <per favore> [/] <per
 	favore> [/] per favore .
-%mor:	adv|non inf|mangia-INF~pro:clit|1S=eat (1)art|il&f&sg (1)n|mano&f=hand
+%mor:	adv|non inf|mangia-INF~pro:clit|1S=eat (1)art|il&f&sg (1)n|mano-f&sg=hand
 	prep|per=for n|favore-m&sg=favor .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 1805.
@@ -19203,7 +19376,7 @@ From file </Applications/CLAN/Tonelli/Marco/020426.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 2064.
 *MOT:	ti lego le mani così non dai più colpi .
-%mor:	pro:clit|ti&2S v|lega-1S&PRES=bind (1)art|il&f&pl (1)n|mano&f-f&pl
+%mor:	pro:clit|ti&2S v|lega-1S&PRES=bind (1)art|il&f&pl (1)n|mano-f&pl
 	adv|così adv|non co|dai adv|più v|colpi-2S&PRES=strike .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 2108.
@@ -19224,7 +19397,7 @@ From file </Applications/CLAN/Tonelli/Marco/020426.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 2131.
 *MOT:	allora dai@i fammi legare le mani .
 %mor:	adv|allora co|dai vimp|face-2S&IMP~pro:clit|1S=do inf|lega-INF=bind
-	(1)art|il&f&pl (1)n|mano&f-f&pl .
+	(1)art|il&f&pl (1)n|mano-f&pl .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 2140.
 *MOT:	di nuovo i piedi ?
@@ -19243,7 +19416,7 @@ From file </Applications/CLAN/Tonelli/Marco/020426.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 2220.
 *MOT:	vediamo come mi leghi le mani .
 %mor:	v|vede-1P&PRES&SUB=see adv|come pro:clit|mi&1S v|lega-sg&SUB=bind
-	(1)art|il&f&pl (1)n|mano&f-f&pl .
+	(1)art|il&f&pl (1)n|mano-f&pl .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 2241.
 *MOT:	no , io non do le botte sei tu quello che da le botte .
@@ -19274,7 +19447,7 @@ From file </Applications/CLAN/Tonelli/Marco/020426.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 2285.
 *MOT:	ah mi stavo inciampando in un palloncino .
 %mor:	co|ah pro:clit|mi&1S v|sta-1S&PAST=stay v|inciampa-PROG=stumble
-	prep|in=in (1)art|uno&m&sg (1)n|palloncino-m&sg=balloon .
+	prep|in=in (1)art|uno&m&sg (1)n|pallone-DIM-m&sg=balloon .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 2292.
 *MOT:	e l' elastico verde per legare +...
@@ -19289,7 +19462,7 @@ From file </Applications/CLAN/Tonelli/Marco/020426.cha>
 *MOT:	&-eh noi non vogliamo , no , che scoppi il palloncino ?
 %mor:	pro:pers|noi&1P=we adv|non v|vole-1P&PRES&SUB=wish cm|cm adv|no
 	cm|cm pro:int|che=what v|scoppia-sg&SUB=burst (1)art|il&m&sg
-	(1)n|palloncino-m&sg=balloon ?
+	(1)n|pallone-DIM-m&sg=balloon ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 2390.
 *MOT:	vuoi che facciamo uscire l' aria ?
@@ -19299,7 +19472,7 @@ From file </Applications/CLAN/Tonelli/Marco/020426.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 2403.
 *MOT:	no , bisogna proprio sfilare il palloncino .
 %mor:	adv|no cm|cm v|bisogna-3S&PRES=need adv|proprio
-	inf|sfila-INF=unthread (1)art|il&m&sg (1)n|palloncino-m&sg=balloon .
+	inf|sfila-INF=unthread (1)art|il&m&sg (1)n|pallone-DIM-m&sg=balloon .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020426.cha": line 2467.
 *MOT:	o durante la settimana visto che siamo martedì ?
@@ -19354,10 +19527,6 @@ From file </Applications/CLAN/Tonelli/Marco/020510.cha>
 %mor:	co|ah adv|adesso pro:clit|ci&1P v|esse-3S&PRES=be (1)art|uno&f&sg
 	(1)n|specie&f=kind prep|di=of n|pianerottolo-m&sg=landing prep|con=with
 	(2)art|il&f&sg (2)n|scala-f&sg .
-----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/020510.cha": line 133.
-*MOT:	okay , così uno sale [/] sale .
-%mor:	co|okay cm|cm adv|così (1)art|uno&m&sg (1)n|sale-m&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020510.cha": line 177.
 *MOT:	ah ecco i pezzi della xxx .
@@ -19490,7 +19659,7 @@ From file </Applications/CLAN/Tonelli/Marco/020510.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020510.cha": line 681.
 *MOT:	con la moto quella gialla ?
-%mor:	prep|con=with (1)art|il&f&sg (1)n|moto-m&sg det|quello-f&sg=that
+%mor:	prep|con=with (1)art|il&f&sg (1)n|moto&f&sg det|quello-f&sg=that
 	adj|giallo-f&sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020510.cha": line 693.
@@ -19710,7 +19879,7 @@ From file </Applications/CLAN/Tonelli/Marco/020510.cha>
 	adv|ancora (1)art|uno&f&sg (1)n|volta-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020510.cha": line 1557.
-*MOT:	no [/] no [/] no [/] no , fammi sentir(e) bene , la pre(cedenza)
+*MOT:	no [/] no [/] no [/] no , fammi sentir(e) bene , la precedenza
 	+...
 %mor:	adv|no cm|cm vimp|face-2S&IMP~pro:clit|1S=do inf|senti-INF=feel
 	adv|bene cm|cm (1)art|il&f&sg (1)n|precedenza-f&sg=precedence +...
@@ -19793,7 +19962,7 @@ From file </Applications/CLAN/Tonelli/Marco/020510.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020510.cha": line 1860.
 *MOT:	vediamo , vediamo la dimostrazione .
 %mor:	v|vede-1P&PRES&SUB=see cm|cm v|vede-1P&PRES&SUB=see (1)art|il&f&sg
-	(1)n|dimostrazione&f=demonsration .
+	(1)n|dimostrazione-f&sg=demonsration .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020510.cha": line 1869.
 *MOT:	M(arco) no Marco la mamma non ti sta a xxx tanto bene .
@@ -19804,17 +19973,17 @@ From file </Applications/CLAN/Tonelli/Marco/020510.cha>
 *MOT:	allora , lo proviamo ma ti tengo io con le mani .
 %mor:	adv|allora cm|cm pro:clit|lo&3S&m v|prova-1P&PRES&SUB=try conj|ma
 	pro:clit|ti&2S v|tene-1S&PRES=hold pro:pers|io&1S&SUBJ=I
-	prep|con=with (1)art|il&f&pl (1)n|mano&f-f&pl .
+	prep|con=with (1)art|il&f&pl (1)n|mano-f&pl .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020510.cha": line 1926.
 *MOT:	un duello di palloncini ?
 %mor:	(1)art|uno&m&sg (1)n|duello-m&sg=duel prep|di=of
-	n|palloncino-m&pl=balloon ?
+	n|pallone-DIM-m&pl=balloon ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020510.cha": line 1982.
 *MOT:	cosa vuoi fare il palloncino nella manica ?
 %mor:	pro:int|cosa=what v|vole-2S&PRES=want inf|face-INF=do (1)art|il&m&sg
-	(1)n|palloncino-m&sg=balloon prepart|ne-f&sg n|manica-f&sg=sleeve ?
+	(1)n|pallone-DIM-m&sg=balloon prepart|ne-f&sg n|manica-f&sg=sleeve ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020510.cha": line 1988.
 *MOT:	io non posso fare una roba del genere .
@@ -19907,7 +20076,7 @@ From file </Applications/CLAN/Tonelli/Marco/020510.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020510.cha": line 2255.
 *MOT:	ah , la mano ?
-%mor:	co|ah cm|cm (1)art|il&f&sg (1)n|mano&f=hand ?
+%mor:	co|ah cm|cm (1)art|il&f&sg (1)n|mano-f&sg=hand ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020510.cha": line 2269.
 *MOT:	non ha una preferenza ?
@@ -20209,13 +20378,8 @@ From file </Applications/CLAN/Tonelli/Marco/020524.cha>
 %mor:	pro:pers|io&1S&SUBJ=I pro:clit|ti&2S pro:clit|lo&3S&m
 	v|face-1S&PRES=do inf|vede-INF=see conj|se pro:pers|tu&2S&SUBJ=you
 	pro:clit|mi&1S v|promette-2S&PRES=promise pro:rel|che=that
-	adv|domani v|face-2S&PRES=do (1)art|il&f&sg (1)n|pipì&mas=peepee
+	adv|domani v|face-2S&PRES=do (1)art|il&f&sg (1)n|pipì-f&sg=peepee
 	prepart|ne-m&sg n|vaso-DIM-m&sg .
-----------------------------------------
-*** File "/Applications/CLAN/Tonelli/Marco/020524.cha": line 794.
-*MOT:	c' è la gomma piuma .
-%mor:	pro:clit|ci&1P v|esse-3S&PRES=be (1)art|il&f&sg (1)n|gomma-f&sg
-	n|piuma-f&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020524.cha": line 800.
 *MOT:	ah , c' era la gallina .
@@ -20268,7 +20432,7 @@ From file </Applications/CLAN/Tonelli/Marco/020524.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020524.cha": line 985.
 *MOT:	eh , ma qua c' è stata un divagazione .
 %mor:	co|eh cm|cm conj|ma adv|qua pro:clit|ci&1P v|esse-3S&PRES=be
-	v|sta-PPART&sg&f=stay (1)art|uno&m&sg (1)n|divagazione&f=wandering .
+	v|sta-PPART&sg&f=stay (1)art|uno&m&sg (1)n|divagazione-f&sg=wandering .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020524.cha": line 1008.
 *MOT:	ed adesso facciamo che [//] e [//] l' uovo che è stato rotto .
