@@ -238,3 +238,59 @@ def vocabulary_items_super_matches(vocabulary_item_no_values_1, vocabulary_item_
     return [
         vocabulary_item_no_values_1, vocabulary_item_no_values_2, vocabulary_item_no_values_3
     ]
+
+@pytest.fixture
+def vocabulary_realistic_1():
+    return main.VocabularyItem(
+        pronunciation="null",
+        label="nominalizer",
+        values={'i_1'},
+        diacritic="null_3",
+        triggers={("e", frozenset("+atomic"))}
+    )
+
+@pytest.fixture
+def vocabulary_realistic_2():
+    return main.VocabularyItem(
+        pronunciation="null",
+        label="nominalizer",
+        values={'o_2'},
+        diacritic="null_4",
+        triggers={("o", frozenset("+atomic"))}
+    )
+
+@pytest.fixture
+def vocabulary_realistic_3():
+    return main.VocabularyItem(
+        pronunciation="null",
+        label="nominalizer",
+        values={'o_2'},
+        diacritic="null_5",
+        triggers={("i", frozenset("-atomic"))}
+    )
+
+@pytest.fixture
+def vocabulary_realistic_4():
+    return main.VocabularyItem(
+        pronunciation="null",
+        label="nominalizer",
+        values={'i_1'},
+        diacritic="null_6",
+        triggers={("a", frozenset("+atomic"))}
+    )
+
+@pytest.fixture
+def nominalizer_terminal_realistic_1():
+    nominalizer_terminal = main.NominalizerTerminal(
+        values={'o_2'},
+        selectional={"KEY"},
+    )
+    yield nominalizer_terminal
+
+@pytest.fixture
+def nominalizer_terminal_realistic_2():
+    nominalizer_terminal = main.NominalizerTerminal(
+        values={'i_1'},
+        selectional={"KEY"},
+    )
+    yield nominalizer_terminal

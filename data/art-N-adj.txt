@@ -23,7 +23,7 @@ hand-removed:
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010602.cha": line 320.
 *MOT:	grandi le mani , grandi anche quelle .
-%mor:	adj|grande-pl=big (1)art|il&f&pl (1)n|mano&f-f&pl cm|cm (1)adj|grande-pl=big
+%mor:	adj|grande-pl=big (1)art|il&f&pl (1)n|mano-f&pl cm|cm (1)adj|grande-pl=big
 	conj|anche pro:det|quello-f&pl=that .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010602.cha": line 749.
@@ -163,6 +163,12 @@ hand-removed:
 %mor:	adv|quando v|passa-3S&PRES=spend (1)art|uno&f&sg (1)n|macchina-f&sg
 	(1)adj|giallo-f&sg pro:pers|tu&2S&SUBJ=you pro:clit|lo&3S&m
 	v|dice-2S&PRES=say cm|cm adj|vero-m&sg ?
+----------------------------------------
+ added a missing space after punta
+*** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 1968.
+*MOT:	la punta [<] nera .
+%mor:	(1)art|il&f&sg (1)n|punta-f&sg=point (1)adj|nero-f&sg .
+
 ****************************************
 From file </Applications/CLAN/Tonelli/Marco/010504.cha>
 ----------------------------------------
@@ -1062,7 +1068,7 @@ From file </Applications/CLAN/Tonelli/Marco/010929.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010929.cha": line 1409.
 *MOT:	vuoi un palloncino bianco ?
-%mor:	v|vole-2S&PRES=want (1)art|uno&m&sg (1)n|palloncino-m&sg=balloon
+%mor:	v|vole-2S&PRES=want (1)art|uno&m&sg (1)n|pallone-DIM-m&sg=balloon
 	(1)adj|bianco-m&sg=white ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/010929.cha": line 1552.
@@ -1138,7 +1144,7 @@ From file </Applications/CLAN/Tonelli/Marco/011012.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/011012.cha": line 1812.
 *MOT:	dov' è finito il palloncino giallo da tirare in alto in alto ?
 %mor:	adv|dove v|esse-3S&PRES=be v|fini-PPART&sg&m=finish (1)art|il&m&sg
-	(1)n|palloncino-m&sg=balloon (1)adj|giallo-m&sg prep|da=at
+	(1)n|pallone-DIM-m&sg=balloon (1)adj|giallo-m&sg prep|da=at
 	inf|tira-INF=pull prep|in=in adj|alto-m&sg prep|in=in adj|alto-m&sg
 	?
 ----------------------------------------
@@ -1187,13 +1193,13 @@ From file </Applications/CLAN/Tonelli/Marco/011026.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 402.
 *MOT:	un palloncino bianco .
-%mor:	(1)art|uno&m&sg (1)n|palloncino-m&sg=balloon (1)adj|bianco-m&sg=white .
+%mor:	(1)art|uno&m&sg (1)n|pallone-DIM-m&sg=balloon (1)adj|bianco-m&sg=white .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 406.
 *MOT:	questo è verde sì ma ieri c' era un palloncino bianco .
 %mor:	pro:det|questo-m&sg=this v|esse-3S&PRES=be n|verde-m&sg adv|sì
 	conj|ma adv|ieri pro:clit|ci&1P v|esse-3S&PAST=be (1)art|uno&m&sg
-	(1)n|palloncino-m&sg=balloon (1)adj|bianco-m&sg=white .
+	(1)n|pallone-DIM-m&sg=balloon (1)adj|bianco-m&sg=white .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 999.
 *MOT:	facciamo una torre doppia ?
@@ -1279,7 +1285,7 @@ From file </Applications/CLAN/Tonelli/Marco/011026.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 2255.
 *MOT:	dov' è andato il palloncino verde ?
 %mor:	adv|dove v|esse-3S&PRES=be v|anda-PPART&sg&m=go (1)art|il&m&sg
-	(1)n|palloncino-m&sg=balloon (1)adj|verde-sg ?
+	(1)n|pallone-DIM-m&sg=balloon (1)adj|verde-sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011026.cha": line 2429.
 *MOT:	non ha la punta la matita verde ?
@@ -1295,12 +1301,12 @@ From file </Applications/CLAN/Tonelli/Marco/011116.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/011116.cha": line 1405.
 *MOT:	ehe@i dove può essere il palloncino viola .
 %mor:	co|ehe adv|dove v|pote-3S&PRES=can inf|esse-INF=be (1)art|il&m&sg
-	(1)n|palloncino-m&sg=balloon (1)adj|viola=violet .
+	(1)n|pallone-DIM-m&sg=balloon (1)adj|viola=violet .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011116.cha": line 1416.
 *MOT:	mh@i , vediamo se trovi un palloncino viola in questo libro .
 %mor:	co|mh cm|cm v|vede-1P&PRES&SUB=see conj|se v|trova-2S&PRES=find
-	(1)art|uno&m&sg (1)n|palloncino-m&sg=balloon (1)adj|viola=violet prep|in=in
+	(1)art|uno&m&sg (1)n|pallone-DIM-m&sg=balloon (1)adj|viola=violet prep|in=in
 	det|questo-m&sg=this n|libro-m&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/011116.cha": line 1512.
@@ -1525,7 +1531,7 @@ From file </Applications/CLAN/Tonelli/Marco/020027.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020027.cha": line 1077.
 *MOT:	c' è una pista apposita per queste macchine .
-%mor:	pro:clit|ci&1P v|esse-3S&PRES=be (1)art|uno&f&sg (1)n|pista&f=trail
+%mor:	pro:clit|ci&1P v|esse-3S&PRES=be (1)art|uno&f&sg (1)n|pista-f&sg=trail
 	(1)adj|apposito-f&sg=proper prep|per=for det|questo-f&pl=this
 	n|macchina-f&pl .
 ----------------------------------------
@@ -1770,7 +1776,7 @@ From file </Applications/CLAN/Tonelli/Marco/020315.cha>
 %mor:	v|ave-2S&PRES=have v|vede-PPART&sg&m=see pro:rel|che=that
 	pro:pers|tu&2S&SUBJ=you adv|stamattina v|piange-2S&PAST=cry
 	pro:int|che=what v|vole-2S&PAST=wish (1)art|il&m&sg
-	(1)n|palloncino-m&sg=balloon (1)adj|giallo-m&sg adv|adesso pro:clit|ci&1P
+	(1)n|pallone-DIM-m&sg=balloon (1)adj|giallo-m&sg adv|adesso pro:clit|ci&1P
 	pro:clit|lo&3S&m v|ave-2S&PRES=have .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020315.cha": line 971.
@@ -1834,14 +1840,14 @@ From file </Applications/CLAN/Tonelli/Marco/020329.cha>
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020329.cha": line 72.
 *MOT:	il palloncino verde ?
-%mor:	(1)art|il&m&sg (1)n|palloncino-m&sg=balloon (1)adj|verde-sg ?
+%mor:	(1)art|il&m&sg (1)n|pallone-DIM-m&sg=balloon (1)adj|verde-sg ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020329.cha": line 98.
 *MOT:	tu [/] tu intendi molto più gonfio , un palloncino grande [/]
 	grande ?
 %mor:	pro:pers|tu&2S&SUBJ=you v|intende-2S&PRES=mean
 	pro:det|molto-m&sg=a_lot adv|più v|gonfia-1S&PRES=swell cm|cm
-	(1)art|uno&m&sg (1)n|palloncino-m&sg=balloon (1)adj|grande-sg=big ?
+	(1)art|uno&m&sg (1)n|pallone-DIM-m&sg=balloon (1)adj|grande-sg=big ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020329.cha": line 212.
 *MOT:	la pistola verde forse l' abbiamo anche buttata via perché si è
@@ -1973,16 +1979,16 @@ From file </Applications/CLAN/Tonelli/Marco/020413.cha>
 *** File "/Applications/CLAN/Tonelli/Marco/020413.cha": line 2289.
 *MOT:	compreremo prima o poi il palloncino giallo .
 %mor:	v|compra-1P&FUT=buy adv|prima conj|o adv|poi (1)art|il&m&sg
-	(1)n|palloncino-m&sg=balloon (1)adj|giallo-m&sg .
+	(1)n|pallone-DIM-m&sg=balloon (1)adj|giallo-m&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020413.cha": line 2323.
 *MOT:	dov' erano i palloncini gialli ?
-%mor:	adv|dove v|esse-3P&PAST=be (1)art|il&m&pl (1)n|palloncino-m&pl=balloon
+%mor:	adv|dove v|esse-3P&PAST=be (1)art|il&m&pl (1)n|pallone-DIM-m&pl=balloon
 	(1)adj|giallo-m&pl ?
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020413.cha": line 2334.
 *MOT:	sì compreremo un palloncino giallo .
-%mor:	adv|sì v|compra-1P&FUT=buy (1)art|uno&m&sg (1)n|palloncino-m&sg=balloon
+%mor:	adv|sì v|compra-1P&FUT=buy (1)art|uno&m&sg (1)n|pallone-DIM-m&sg=balloon
 	(1)adj|giallo-m&sg .
 ----------------------------------------
 *** File "/Applications/CLAN/Tonelli/Marco/020413.cha": line 2466.

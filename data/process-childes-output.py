@@ -36,10 +36,10 @@ class Observation:
         print("adj lemma: " + self.oglemma2 + "\n" + "adj root meaning: " + self.rootmeaning2)
         print("full pronunc: " + self.mother + "\n" + "full gloss: " + self.gloss + "\n")
 
-with open('./data/art-N-adj.txt', encoding="utf-8") as f:
+with open('./art-N-adj.txt', encoding="utf-8") as f:
     raw_DNA = f.read()
 
-with open('./data/art-N.txt', encoding="utf-8") as g:
+with open('./art-N.txt', encoding="utf-8") as g:
     raw_DN = g.read()
 
 raw_utterances_DNA = [x for x in raw_DNA.split("****************************************")[1].split("----------------------------------------") if not x.startswith("\nFrom file")]
@@ -246,16 +246,16 @@ for obj in Utterance_list:
 
         if 'il' in gloss_CHILDES.split(" ")[0]:
             values.append("+definite")
-            x = "-feminine"
         if 'uno' in gloss_CHILDES.split(" ")[0]:
             values.append("-definite")
+        if 'sg' in gloss_CHILDES.split(" ")[0]:
+            values.append("+atomic")
+        if 'pl' in gloss_CHILDES.split(" ")[0]:
+            values.append("-atomic")
+        if '&f' in gloss_CHILDES.split(" ")[0]:
+            x = "+feminine"
+        if '&m' in gloss_CHILDES.split(" ")[0]:
             x = "-feminine"
-        if 'sg' in gloss_CHILDES.split(" ")[1]:
-            values.append("+atomic,+minimal")
-            x = "+feminine"
-        if 'pl' in gloss_CHILDES.split(" ")[1]:
-            values.append("PLURAL-PLACEHOLDER")
-            x = "+feminine"
 
         # print(values)
 
@@ -263,21 +263,30 @@ for obj in Utterance_list:
 
 # Observation_list[0].show()
 
+#TOTALS
 print("total observations: ") 
-print(len(Observation_list)) #4844 originally, 4807 after exclusions of intervening commas, etc.
+print(len(Observation_list)) #4844 originally, 4807, finally 4768 after exclusions of intervening commas, etc.
 
 print("total [D N] observations: ") 
-print(len([x for x in Observation_list if x.dptype == 'DN'])) #4434 originally, 4428 after exclusions
+print(len([x for x in Observation_list if x.dptype == 'DN'])) #4434 originally, 4428, final = 4389 after exclusions
 
 print("total [D N Adj] observations: ") 
-print(len([x for x in Observation_list if x.dptype == 'DNA'])) #410 originally, 379 after exclusions
+print(len([x for x in Observation_list if x.dptype == 'DNA'])) #410 originally, 379, final = 379 after exclusions
 
+# PHONO EXCLUSIONS
 init_seg_exclude_list = ("gn", "ps", "pn", "x", "z", "sb", "sc", "sd", "sf", "sg", "sk", "sl", "sm", "sn", "sp", "squ", "sr", "st", "sv", "a", "e", "i", "o", "u", "y", "j", "è", "à", "ù", "ò", "é")
 
 Include_list = [obs for obs in Observation_list if not obs.pronunCHILDES[1].startswith(init_seg_exclude_list)]
-print("phono regular subset of data has " + str(len(Include_list)) + " observations") #4102
+print("phono regular subset of data has " + str(len(Include_list)) + " observations") #4066
+
+print("included [D N] observations: ") 
+print(len([x for x in Include_list if x.dptype == 'DN'])) #3729
+
+print("included [D N Adj] observations: ") 
+print(len([x for x in Include_list if x.dptype == 'DNA'])) #327
 
 
+# GENERATE LEARNER INPUT FILE
 print(Observation_list[0].filename + " " + Observation_list[0].linenumber)
 print(Observation_list[1].filename + " " + Observation_list[1].linenumber)
 print(Observation_list[2].filename + " " + Observation_list[2].linenumber)
@@ -288,7 +297,7 @@ print(Observation_list[-5].filename + " " + Observation_list[-5].linenumber)
 def extract_number(linenumber):
     return int(linenumber.split(" ")[-1][:-1])
 
-sorted_observation_list = sorted(Observation_list, key=lambda x: extract_number(x.linenumber))
+sorted_observation_list = sorted(Include_list, key=lambda x: extract_number(x.linenumber))
 sorted_observation_list = sorted(sorted_observation_list, key=lambda x: x.filename)
 
 print(sorted_observation_list[0].filename + " " + sorted_observation_list[0].linenumber)
@@ -298,6 +307,7 @@ print(sorted_observation_list[3].filename + " " + sorted_observation_list[3].lin
 print(sorted_observation_list[4].filename + " " + sorted_observation_list[4].linenumber)
 print(sorted_observation_list[-5].filename + " " + sorted_observation_list[-5].linenumber)
 
+sorted_observation_list_dn_only = [observation for observation in sorted_observation_list if observation.dptype == 'DN']
 
 def read_csv_column(filename, column_name):
     with open(filename, mode='r') as csv_file:
@@ -307,7 +317,7 @@ def read_csv_column(filename, column_name):
             data.append(row[column_name])
     return data
 
-stems = read_csv_column("./data/italian-declension - tonelli-ROOTS-list.csv", "Italian stem form")
+stems = read_csv_column("./tonelli-ROOTS-list.csv", "Italian stem form")
 
 def read_csv_to_dict(filename, key_column_name, val_column_name):
     with open(filename, mode='r') as csv_file:
@@ -318,18 +328,21 @@ def read_csv_to_dict(filename, key_column_name, val_column_name):
     return data
 
 
-stem_to_root = read_csv_to_dict("./data/italian-declension - tonelli-ROOTS-list.csv", "Italian stem form", "UPPER")
+stem_to_root = read_csv_to_dict("./tonelli-ROOTS-list.csv", "Italian stem form", "UPPER")
 
-stem_to_feminine = read_csv_to_dict("./data/italian-declension - tonelli-ROOTS-list.csv", "Italian stem form", "feminine?")
+stem_to_feminine = read_csv_to_dict("./tonelli-ROOTS-list.csv", "Italian stem form", "feminine?")
 
 def find_first_substring(substrings, string):
     for substring in substrings:
-        if substring in string:
+        if string.startswith(substring):
             return substring
-    assert False
+    # assert False
 
 def process_token(token, substrings, x):
     substring = find_first_substring(substrings, token)
+
+    if substring is None:
+        return "", token
 
     remainder = token.replace(substring, "")
 
@@ -344,8 +357,8 @@ def process_token(token, substrings, x):
         return feminine, f"{stem_to_root[substring]}-{remainder}"
 
 
-with open("./data/learner1_input.txt", 'w') as learner1_input:
-    with open("./data/learner2_input.txt", 'w') as learner2_input:       
+with open("./learner1_input.txt", 'w') as learner1_input:
+    with open("./learner2_input.txt", 'w') as learner2_input:       
         for observation in sorted_observation_list:
             feminine, token_1 = process_token(observation.pronunCHILDES[1], stems, observation.x)
 
@@ -368,6 +381,31 @@ with open("./data/learner1_input.txt", 'w') as learner1_input:
                 learner2_input.write(f"{token_str}\t{values_str}\n")
             else:
                 learner2_input.write(f"{token_str}\t{values_str}\t{feminine}\n")
+
+with open("./learner1_input_dn.txt", 'w') as learner1_input_dn:
+    with open("./learner2_input_dn.txt", 'w') as learner2_input_dn:       
+        for observation in sorted_observation_list_dn_only:
+            feminine, token_1 = process_token(observation.pronunCHILDES[1], stems, observation.x)
+
+            tokens = [
+                observation.pronunCHILDES[0],
+                token_1
+            ]
+
+            if len(observation.pronunCHILDES) == 3:
+                _, token_2 = process_token(observation.pronunCHILDES[2], stems, observation.x)
+                
+                tokens.append(token_2)
+
+            token_str = "#".join(tokens)
+            values_str = "\t".join(observation.values)
+
+            learner1_input_dn.write(f"{token_str}\t{values_str}\n")
+
+            if feminine == "":
+                learner2_input_dn.write(f"{token_str}\t{values_str}\n")
+            else:
+                learner2_input_dn.write(f"{token_str}\t{values_str}\t{feminine}\n")
 
 # Root_list = []
 # # gram_gen = ""
