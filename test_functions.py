@@ -23,7 +23,10 @@ def test_select_nominalizer(nominalizer_terminal1, nominalizer_terminal2):
 
     assert main.select_nominalizer(
         root=main.Root(next(iter(nominalizer_terminal1.selectional))),
-        existing_nominalizers=[nominalizer_terminal1, nominalizer_terminal2]
+        existing_nominalizers=[nominalizer_terminal1, nominalizer_terminal2],
+        values=set(),
+        learner_version=1,
+        phase=None
     ) == nominalizer_terminal1
 
 def test_select_semantic(semantic_terminal1, semantic_terminal2, semantic_terminal3):
