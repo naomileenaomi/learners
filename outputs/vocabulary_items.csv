@@ -1,0 +1,97 @@
+diacritic,pronunciation,label,values,triggers,weight
+null_1,null,nominalizer,set(),set(),8.000000000000007
+le_1,le,definite,"{'-atomic', '+definite'}",set(),9.8
+i_1,i,atomic,{'-atomic'},set(),8.900000000000004
+null_2,null,nominalizer,{'le_1'},set(),10.0
+null_3,null,nominalizer,{'le_1'},"{('i', frozenset({'-atomic'}))}",10.2
+SHIP_1,SHIP,SHIP,set(),set(),10.0
+SHIP_2,SHIP,SHIP,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",9.600000000000001
+lo_1,lo,definite,"{'+atomic', '+definite'}",set(),9.200000000000003
+l_1,l,definite,{'+definite'},set(),43.100000000000364
+e_1,e,Agr,{'-atomic'},set(),19.300000000000026
+o_1,o,Agr,{'+atomic'},set(),23.300000000000082
+o_2,o,atomic,{'+atomic'},set(),8.700000000000005
+null_4,null,nominalizer,{'o_1'},set(),10.0
+null_5,null,nominalizer,{'o_1'},"{('o', frozenset({'+atomic'}))}",9.9
+BOOK_1,BOOK,BOOK,set(),set(),9.8
+BOOK_2,BOOK,BOOK,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",9.8
+una_1,una,definite,"{'+atomic', '-definite'}",set(),9.8
+a_1,a,atomic,{'+atomic'},set(),7.500000000000009
+null_6,null,nominalizer,{'una_1'},set(),10.0
+null_7,null,nominalizer,{'una_1'},"{('a', frozenset({'+atomic'}))}",10.0
+BALL_1,BALL,BALL,set(),set(),9.8
+BALL_2,BALL,BALL,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",9.500000000000002
+la_1,la,definite,"{'+atomic', '+definite'}",set(),9.9
+a_2,a,Agr,{'+atomic'},set(),22.50000000000007
+un_1,un,definite,{'-definite'},set(),22.200000000000067
+null_8,null,nominalizer,{'a_2'},set(),10.1
+null_9,null,nominalizer,{'a_2'},"{('a', frozenset({'+atomic'}))}",9.700000000000001
+ANCHOR_1,ANCHOR,ANCHOR,set(),set(),9.9
+ANCHOR_2,ANCHOR,ANCHOR,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",9.600000000000001
+li_1,li,definite,"{'-atomic', '+definite'}",set(),9.700000000000001
+i_2,i,Agr,{'-atomic'},set(),19.200000000000024
+null_10,null,nominalizer,{'i_2'},set(),9.200000000000003
+null_11,null,nominalizer,{'i_2'},"{('i', frozenset({'-atomic'}))}",9.600000000000001
+TOMATO_1,TOMATO,TOMATO,set(),set(),9.700000000000001
+TOMATO_2,TOMATO,TOMATO,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+POTATO_1,POTATO,POTATO,set(),set(),9.9
+POTATO_2,POTATO,POTATO,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.1
+e_2,e,atomic,{'+atomic'},set(),7.6000000000000085
+null_12,null,nominalizer,{'a_2'},"{('e', frozenset({'+atomic'}))}",9.700000000000001
+SHIP_3,SHIP,SHIP,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",9.8
+SHIP_4,SHIP,SHIP,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+e_3,e,atomic,{'-atomic'},set(),9.100000000000003
+null_13,null,nominalizer,{'e_1'},set(),10.0
+null_14,null,nominalizer,{'e_1'},"{('e', frozenset({'-atomic'}))}",10.1
+ANCHOR_3,ANCHOR,ANCHOR,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",9.600000000000001
+ANCHOR_4,ANCHOR,ANCHOR,set(),"{('a', frozenset({'+atomic'})), ('e', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+uno_1,uno,definite,"{'+atomic', '-definite'}",set(),9.600000000000001
+CASTLE_1,CASTLE,CASTLE,set(),set(),9.8
+CASTLE_2,CASTLE,CASTLE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.1
+null_15,null,nominalizer,{'e_1'},"{('i', frozenset({'-atomic'}))}",9.700000000000001
+KEY_1,KEY,KEY,set(),set(),9.700000000000001
+KEY_2,KEY,KEY,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",9.600000000000001
+null_16,null,nominalizer,{'o_1'},"{('e', frozenset({'+atomic'}))}",10.2
+SHELF_1,SHELF,SHELF,set(),set(),10.0
+SHELF_2,SHELF,SHELF,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",9.8
+MOUSE_1,MOUSE,MOUSE,set(),set(),9.500000000000002
+MOUSE_2,MOUSE,MOUSE,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+SHELF_3,SHELF,SHELF,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+SHELF_4,SHELF,SHELF,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",9.700000000000001
+CASTLE_3,CASTLE,CASTLE,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+CASTLE_4,CASTLE,CASTLE,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",9.600000000000001
+MOUSE_3,MOUSE,MOUSE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",9.9
+MOUSE_4,MOUSE,MOUSE,set(),"{('i', frozenset({'-atomic'})), ('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+FROG_1,FROG,FROG,set(),set(),9.700000000000001
+FROG_2,FROG,FROG,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.1
+POTATO_3,POTATO,POTATO,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",9.8
+POTATO_4,POTATO,POTATO,set(),"{('a', frozenset({'+atomic'})), ('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+FROG_3,FROG,FROG,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",9.700000000000001
+FROG_4,FROG,FROG,set(),"{('a', frozenset({'+atomic'})), ('e', frozenset({'-atomic'})), ('null', frozenset())}",10.1
+FLOWER_1,FLOWER,FLOWER,set(),set(),9.700000000000001
+FLOWER_2,FLOWER,FLOWER,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",9.9
+null_17,null,nominalizer,"{'o_1', 'i_2'}","{('e', frozenset({'+atomic'}))}",11.099999999999996
+null_18,null,nominalizer,"{'o_1', 'i_2'}","{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'}))}",11.199999999999996
+BALL_3,BALL,BALL,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+BALL_4,BALL,BALL,set(),"{('a', frozenset({'+atomic'})), ('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+KEY_3,KEY,KEY,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",9.8
+KEY_4,KEY,KEY,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+BOOK_3,BOOK,BOOK,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",9.8
+BOOK_4,BOOK,BOOK,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",9.600000000000001
+TOMATO_3,TOMATO,TOMATO,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",9.9
+TOMATO_4,TOMATO,TOMATO,set(),"{('i', frozenset({'-atomic'})), ('o', frozenset({'+atomic'})), ('null', frozenset())}",9.8
+null_19,null,nominalizer,"{'e_1', 'a_2'}","{('e', frozenset({'-atomic'}))}",11.099999999999996
+null_20,null,nominalizer,"{'e_1', 'a_2'}","{('a', frozenset({'+atomic'})), ('e', frozenset({'-atomic'}))}",10.999999999999996
+null_21,null,nominalizer,"{'e_1', 'a_2'}","{('e', frozenset({'+atomic'})), ('e', frozenset({'-atomic'}))}",11.299999999999995
+FLOWER_3,FLOWER,FLOWER,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",9.700000000000001
+FLOWER_4,FLOWER,FLOWER,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+null_22,null,nominalizer,"{'e_1', 'a_2'}",set(),10.699999999999998
+null_23,null,nominalizer,"{'e_1', 'a_2'}","{('i', frozenset({'-atomic'}))}",10.599999999999998
+null_24,null,nominalizer,"{'e_1', 'a_2'}","{('a', frozenset({'+atomic'}))}",10.299999999999999
+null_25,null,nominalizer,"{'e_1', 'a_2'}","{('e', frozenset({'+atomic'}))}",10.699999999999998
+null_26,null,nominalizer,"{'e_1', 'a_2'}","{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'}))}",10.299999999999999
+null_27,null,nominalizer,"{'i_2', 'o_1'}","{('i', frozenset({'-atomic'}))}",10.299999999999999
+null_28,null,nominalizer,"{'i_2', 'o_1'}","{('i', frozenset({'-atomic'})), ('o', frozenset({'+atomic'}))}",10.399999999999999
+null_29,null,nominalizer,"{'o_1', 'i_2'}",set(),10.2
+null_30,null,nominalizer,"{'e_1', 'a_2'}","{('a', frozenset({'+atomic'})), ('i', frozenset({'-atomic'}))}",10.1
+null_31,null,nominalizer,"{'o_1', 'i_2'}","{('o', frozenset({'+atomic'}))}",10.1

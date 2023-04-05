@@ -1,0 +1,67 @@
+diacritic,pronunciation,label,values,triggers,weight
+lo_1,lo,definite,"{'+definite', '+atomic'}",set(),10.1
+e_1,e,atomic,{'+atomic'},set(),9.500000000000002
+null_1,null,nominalizer,{'lo_1'},set(),10.0
+null_2,null,nominalizer,{'lo_1'},"{('e', frozenset({'+atomic'}))}",9.9
+FLOWER_1,FLOWER,FLOWER,set(),set(),10.0
+FLOWER_2,FLOWER,FLOWER,set(),"{('null', frozenset()), ('e', frozenset({'+atomic'}))}",10.1
+li_1,li,definite,"{'-atomic', '+definite'}",set(),10.0
+l_1,l,definite,{'+definite'},set(),26.60000000000013
+o_1,o,Agr,{'+atomic'},set(),16.19999999999998
+i_1,i,Agr,{'-atomic'},set(),14.299999999999985
+i_2,i,atomic,{'-atomic'},set(),10.0
+null_3,null,nominalizer,{'i_1'},set(),9.700000000000001
+null_4,null,nominalizer,{'i_1'},"{('i', frozenset({'-atomic'}))}",10.0
+FLOWER_3,FLOWER,FLOWER,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+uno_1,uno,definite,"{'-definite', '+atomic'}",set(),9.8
+un_1,un,definite,{'-definite'},set(),15.99999999999998
+null_5,null,nominalizer,{'o_1'},set(),9.8
+null_6,null,nominalizer,{'o_1'},"{('e', frozenset({'+atomic'}))}",9.9
+la_1,la,definite,"{'+definite', '+atomic'}",set(),10.0
+a_1,a,Agr,{'+atomic'},set(),16.09999999999998
+null_7,null,nominalizer,{'a_1'},set(),9.700000000000001
+null_8,null,nominalizer,{'a_1'},"{('e', frozenset({'+atomic'}))}",10.0
+KEY_1,KEY,KEY,set(),set(),10.0
+KEY_2,KEY,KEY,set(),"{('null', frozenset()), ('e', frozenset({'+atomic'}))}",9.9
+le_1,le,definite,"{'-atomic', '+definite'}",set(),9.9
+e_2,e,Agr,{'-atomic'},set(),14.299999999999985
+null_9,null,nominalizer,{'e_2'},set(),9.9
+null_10,null,nominalizer,{'e_2'},"{('i', frozenset({'-atomic'}))}",10.1
+KEY_3,KEY,KEY,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+una_1,una,definite,"{'-definite', '+atomic'}",set(),10.2
+SHIP_1,SHIP,SHIP,set(),set(),10.0
+SHIP_2,SHIP,SHIP,set(),"{('null', frozenset()), ('e', frozenset({'+atomic'}))}",10.1
+SHIP_3,SHIP,SHIP,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+SHELF_1,SHELF,SHELF,set(),set(),10.2
+SHELF_2,SHELF,SHELF,set(),"{('null', frozenset()), ('e', frozenset({'+atomic'}))}",9.9
+SHELF_3,SHELF,SHELF,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+a_2,a,atomic,{'+atomic'},set(),9.700000000000001
+null_11,null,nominalizer,{'a_1'},"{('a', frozenset({'+atomic'}))}",9.700000000000001
+BALL_1,BALL,BALL,set(),set(),9.9
+BALL_2,BALL,BALL,set(),"{('null', frozenset()), ('a', frozenset({'+atomic'}))}",9.8
+e_3,e,atomic,{'-atomic'},set(),9.400000000000002
+null_12,null,nominalizer,{'e_2'},"{('e', frozenset({'-atomic'}))}",9.9
+BALL_3,BALL,BALL,set(),"{('null', frozenset()), ('e', frozenset({'-atomic'}))}",10.0
+FROG_1,FROG,FROG,set(),set(),9.9
+FROG_2,FROG,FROG,set(),"{('null', frozenset()), ('a', frozenset({'+atomic'}))}",10.0
+FROG_3,FROG,FROG,set(),"{('null', frozenset()), ('e', frozenset({'-atomic'}))}",10.0
+ANCHOR_1,ANCHOR,ANCHOR,set(),set(),9.8
+ANCHOR_2,ANCHOR,ANCHOR,set(),"{('null', frozenset()), ('a', frozenset({'+atomic'}))}",10.0
+ANCHOR_3,ANCHOR,ANCHOR,set(),"{('null', frozenset()), ('e', frozenset({'-atomic'}))}",9.9
+POTATO_1,POTATO,POTATO,set(),set(),10.0
+POTATO_2,POTATO,POTATO,set(),"{('null', frozenset()), ('a', frozenset({'+atomic'}))}",9.9
+POTATO_3,POTATO,POTATO,set(),"{('null', frozenset()), ('e', frozenset({'-atomic'}))}",10.0
+o_2,o,atomic,{'+atomic'},set(),9.8
+null_13,null,nominalizer,{'o_1'},"{('o', frozenset({'+atomic'}))}",10.0
+BOOK_1,BOOK,BOOK,set(),set(),10.0
+BOOK_2,BOOK,BOOK,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",9.8
+BOOK_3,BOOK,BOOK,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+MOUSE_1,MOUSE,MOUSE,set(),set(),10.0
+MOUSE_2,MOUSE,MOUSE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",9.9
+MOUSE_3,MOUSE,MOUSE,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",9.8
+CASTLE_1,CASTLE,CASTLE,set(),set(),10.0
+CASTLE_2,CASTLE,CASTLE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",9.8
+CASTLE_3,CASTLE,CASTLE,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+TOMATO_1,TOMATO,TOMATO,set(),set(),9.9
+TOMATO_2,TOMATO,TOMATO,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",9.9
+TOMATO_3,TOMATO,TOMATO,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.1
