@@ -1,0 +1,26 @@
+trigger_label,trigger_values,trigger_diacritic,keep_values,weight
+definite,"{'+feminine', '+atomic', '+definite'}",a_2,"{'+feminine', '+definite'}",16.999999999999975
+definite,"{'+feminine', '+definite', '-atomic'}",e_1,"{'+feminine', '+definite'}",14.799999999999965
+definite,"{'+atomic', '+definite'}",a_2,{'+definite'},42.30000000000033
+definite,"{'+feminine', '+definite', '-atomic'}",e_2,{'+definite'},57.10000000000054
+definite,"{'+feminine', '+atomic', '+definite'}",a_3,{'+definite'},30.10000000000016
+definite,"{'-atomic', '-feminine', '+definite'}",i_1,{'+definite'},40.500000000000306
+definite,"{'+feminine', '+definite', '-atomic'}",e_4,"{'+definite', '-atomic'}",42.40000000000033
+definite,"{'-atomic', '-feminine', '+definite'}",i_2,"{'+definite', '-atomic'}",27.20000000000012
+definite,"{'+feminine', '-definite', '+atomic'}",a_3,{'-definite'},15.099999999999964
+definite,"{'+feminine', '-definite', '+atomic'}",a_2,"{'+feminine', '-definite'}",14.399999999999967
+definite,"{'+atomic', '-definite'}",a_2,{'-definite'},3.300000000000002
+definite,"{'+feminine', '+atomic', '+definite'}",a_4,"{'+atomic', '+definite'}",15.999999999999961
+definite,"{'+atomic', '-feminine', '+definite'}",o_1,"{'+atomic', '+definite'}",26.50000000000011
+definite,"{'+atomic', '-feminine', '+definite'}",o_2,{'+definite'},53.70000000000049
+definite,"{'-atomic', '-feminine', '+definite'}",i_4,"{'-feminine', '+definite'}",27.400000000000123
+definite,"{'+atomic', '-feminine', '+definite'}",o_3,"{'-feminine', '+definite'}",28.300000000000136
+definite,"{'+feminine', '-definite', '+atomic'}",a_4,"{'+atomic', '-definite'}",16.999999999999975
+definite,"{'+atomic', '-definite', '-feminine'}",o_1,"{'+atomic', '-definite'}",28.50000000000014
+definite,"{'+atomic', '-definite', '-feminine'}",o_2,{'-definite'},27.90000000000013
+definite,"{'+atomic', '+definite'}",o_3,{'+definite'},42.500000000000334
+definite,"{'+definite', '-atomic'}",i_4,{'+definite'},5.099999999999999
+definite,"{'+atomic', '-definite', '-feminine'}",o_3,"{'-definite', '-feminine'}",15.199999999999964
+definite,"{'+atomic', '-definite'}",o_3,{'-definite'},2.100000000000001
+definite,"{'+definite', '-atomic'}",e_1,{'+definite'},2.100000000000001
+definite,"{'-atomic', '-feminine', '+definite'}",e_6,{'+definite'},1.1

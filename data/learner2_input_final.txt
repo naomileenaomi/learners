@@ -384,11 +384,11 @@ un#KISSDIM-o	-definite	+atomic
 la#MOON-a	+definite	+atomic
 la#MOON-a	+definite	+atomic
 un#PLANET-a	-definite	+atomic
-il#LONE-e	+definite	+atomic
-il#LONE-e	+definite	+atomic
+il#SUN-e	+definite	+atomic
+il#SUN-e	+definite	+atomic
 la#MOON-a	+definite	+atomic
 la#SLEEPYTIME-a	+definite	+atomic
-il#LONE-e	+definite	+atomic
+il#SUN-e	+definite	+atomic
 un#CRICKET-o	-definite	+atomic
 il#CRICKET-o	+definite	+atomic
 un#OWLB-o	-definite	+atomic
@@ -942,7 +942,6 @@ la#HEAD-a	+definite	+atomic
 il#NECKDIM-o	+definite	+atomic
 i#RINGA-i	+definite	-atomic
 il#CLOWN-o	+definite	+atomic	-feminine
-uno#ROSE-a	-definite	+atomic
 la#HEAD-a	+definite	+atomic
 il#NECKDIM-o	+definite	+atomic
 il#RINGA-o#YELLOW-o	+definite	+atomic
@@ -2098,7 +2097,6 @@ una#BOAT-a	-definite	+atomic
 la#MOTHER-a	+definite	+atomic	+feminine
 il#PAPA-null	+definite	+atomic	-feminine
 il#PAPA-null	+definite	+atomic	-feminine
-una#PASTEBOARD-o	-definite	+atomic
 il#PASTEBOARD-o	+definite	+atomic
 le#TRIAL-e	+definite	-atomic
 la#MOON-a	+definite	+atomic
@@ -2559,7 +2557,6 @@ la#STOMACH-a	+definite	+atomic
 la#STOMACH-a#YELLOW-a	+definite	+atomic
 la#STOMACH-a	+definite	+atomic
 la#SHIT-a	+definite	+atomic
-il#BOOKDIM-i	+definite	+atomic
 la#TRUMPET-a	+definite	+atomic
 la#TRUMPET-a	+definite	+atomic
 il#DRUMB-o	+definite	+atomic
@@ -2702,7 +2699,6 @@ la#FACE-a#SERIOUS-a	+definite	+atomic
 la#CAR-a	+definite	+atomic
 la#PHOTO-null	+definite	+atomic
 la#CAR-a#PHOTOGRAPHIC-a	+definite	+atomic
-la#PEASHOOTER-e	+definite	+atomic
 le#PEASHOOTER-e	+definite	-atomic
 le#BALLDIM-e	+definite	-atomic
 una#BALLDIM-a	-definite	+atomic
@@ -2723,16 +2719,15 @@ la#GATE-a	+definite	+atomic
 la#GATE-a	+definite	+atomic
 la#COMBINATION-e	+definite	+atomic
 una#POSITION-e	-definite	+atomic
-il#BALLDIM-o	+definite	+atomic
 la#GATE-a	+definite	+atomic
 la#MOTHER-a	+definite	+atomic	+feminine
 il#TRASHCANDIM-o	+definite	+atomic
 la#THING-a	-definite	+atomic
-i#JIGSAW-e	+definite	-atomic
-il#JIGSAW-e	+definite	+atomic
+i#JIGSAW-null	+definite	-atomic
+il#JIGSAW-null	+definite	+atomic
 un#PIECEDIM-o	-definite	+atomic
-il#JIGSAW-e	+definite	+atomic
-il#JIGSAW-e	+definite	+atomic
+il#JIGSAW-null	+definite	+atomic
+il#JIGSAW-null	+definite	+atomic
 un#PIECE-o	-definite	+atomic
 i#BLU-i	+definite	-atomic
 un#STONEB-o	-definite	+atomic
@@ -2756,7 +2751,7 @@ la#MOTHER-a	+definite	+atomic	+feminine
 la#BABYFOOD-a	+definite	+atomic
 la#BABYFOOD-a	+definite	+atomic
 il#PAPA-null	+definite	+atomic	-feminine
-il#JIGSAW-e	+definite	+atomic
+il#JIGSAW-null	+definite	+atomic
 un#READER-e	-definite	+atomic	-feminine
 i#PIECE-i	+definite	-atomic
 il#PIECE-o	+definite	+atomic
@@ -2768,7 +2763,7 @@ la#MOTHER-a	+definite	+atomic	+feminine
 il#HICCUP-o	+definite	+atomic
 il#PIECEDIM-o	+definite	+atomic
 un#PIECE-o	-definite	+atomic
-il#JIGSAW-e	+definite	+atomic
+il#JIGSAW-null	+definite	+atomic
 un#PIECE-o	-definite	+atomic
 il#BOOKDIM-o	+definite	+atomic
 la#TURTLE-a	+definite	+atomic
@@ -2825,11 +2820,11 @@ la#MOTHER-a	+definite	+atomic	+feminine
 il#COMMONCOLD-e	+definite	+atomic
 il#TRIGGER-o	+definite	+atomic
 le#BALLDIM-e#WHITE-e	+definite	-atomic
-il#JIGSAW-e	+definite	+atomic
-il#JIGSAW-e	+definite	+atomic
-i#JIGSAW-e	+definite	-atomic
-i#JIGSAW-e	+definite	-atomic
-il#JIGSAW-e	+definite	+atomic
+il#JIGSAW-null	+definite	+atomic
+il#JIGSAW-null	+definite	+atomic
+i#JIGSAW-null	+definite	-atomic
+i#JIGSAW-null	+definite	-atomic
+il#JIGSAW-null	+definite	+atomic
 un#PIECE-o	-definite	+atomic
 il#NOSEDIMA-o	+definite	+atomic
 un#HANDKERCHIEFDIM-o	-definite	+atomic
@@ -2838,7 +2833,7 @@ un#BLU-o	-definite	+atomic
 un#STONEB-o	-definite	+atomic
 un#PIECEDIM-o	-definite	+atomic
 un#STONEB-o	-definite	+atomic
-i#JIGSAW-e	+definite	-atomic
+i#JIGSAW-null	+definite	-atomic
 un#LITTLEBIT-o	-definite	+atomic
 la#GATE-a	+definite	+atomic
 il#TRUCK-null	+definite	+atomic
@@ -2847,7 +2842,7 @@ la#SHOVELDIM-a	+definite	+atomic
 il#RAKE-o	+definite	+atomic
 un#BUNCHB-o	-definite	+atomic
 la#FRUITSALAD-a	+definite	+atomic
-il#JIGSAW-e	+definite	+atomic
+il#JIGSAW-null	+definite	+atomic
 la#APPLE-a	+definite	+atomic
 la#PEAR-a	+definite	+atomic
 le#STRAWBERRY-e	+definite	-atomic
@@ -2954,9 +2949,9 @@ il#DOG-e	+definite	+atomic
 il#CAT-o	+definite	+atomic
 il#HORSE-o	+definite	+atomic
 il#DOG-e	+definite	+atomic
-le#KICKC-i	+definite	-atomic
+le#SKIN-i	+definite	-atomic
 il#DAYB-o	+definite	+atomic
-le#KICKC-i	+definite	-atomic
+le#SKIN-i	+definite	-atomic
 la#FUR-a	+definite	+atomic
 il#BODYHAIR-o	+definite	+atomic
 il#HORSE-o	+definite	+atomic
@@ -3136,7 +3131,6 @@ la#MOTHER-a	+definite	+atomic	+feminine
 un#BOOKDIM-o#NEW-o	-definite	+atomic
 la#FOX-e	+definite	+atomic
 un#HANDKERCHIEF-o	-definite	+atomic
-un#DRAWER-i	-definite	+atomic
 la#MEMORY-a#SHORT-a	+definite	+atomic
 il#FIREEATER-o	+definite	+atomic
 il#FIREEATER-o	+definite	+atomic
@@ -3144,7 +3138,7 @@ le#PUPPET-e	+definite	-atomic
 il#CAT-o	+definite	+atomic
 la#FOX-e	+definite	+atomic
 i#CENT-i	+definite	-atomic
-un#TRIP-o	-definite	+atomic
+un#TRIPB-o	-definite	+atomic
 la#SUITCASE-a	+definite	+atomic
 una#WORD-a	-definite	+atomic
 il#PYJAMASDIM-o	+definite	+atomic
@@ -3779,7 +3773,7 @@ il#MOUSEDIM-o#WHITE-o	+definite	+atomic
 la#SHOVELDIM-a	+definite	+atomic
 i#POINTDIM-i#BLACK-i	+definite	-atomic
 il#PIANOFORTE-e	+definite	+atomic
-una#TRIP-a	-definite	+atomic
+una#TRIPA-a	-definite	+atomic
 il#WOLF-o	+definite	+atomic
 un#PIPE-o	-definite	+atomic
 la#HAND-o	+definite	+atomic
@@ -3911,7 +3905,6 @@ un#DUEL-o	-definite	+atomic
 il#BALLOONDIM-o	+definite	+atomic
 le#SLEEVE-e#LONG-e	+definite	-atomic
 una#STUFF-a	-definite	+atomic
-una#UGGO-a	-definite	+atomic
 il#BALLOON-e	+definite	+atomic
 il#BALLOON-e	+definite	+atomic
 il#BALLOON-e	+definite	+atomic
@@ -3960,7 +3953,6 @@ la#CAR-a#YELLOW-a	+definite	+atomic
 un#DOGDIM-o	-definite	+atomic
 il#ENCLOSURE-o	+definite	+atomic
 le#BEASTDIM-e#FEROCIOUS-i	+definite	-atomic
-un#CAGE-a	-definite	+atomic
 il#LION-e	+definite	+atomic
 una#LIONESS-a	-definite	+atomic	+feminine
 la#LIONESS-a	+definite	+atomic	+feminine
@@ -3993,7 +3985,6 @@ i#FELTTIPPEN-i	+definite	-atomic
 la#MOTHER-a	+definite	+atomic	+feminine
 una#BALL-a	-definite	+atomic
 il#CHICK-o	+definite	+atomic
-un#WANDERING-e	-definite	+atomic
 un#PIECEDIM-o	-definite	+atomic
 un#CHICK-o	-definite	+atomic
 il#CHICK-o	+definite	+atomic
@@ -4005,7 +3996,7 @@ un#CHICK-o	-definite	+atomic
 il#FELTTIPPEN-o#AZURE-o	+definite	+atomic
 un#CAPA-o	-definite	+atomic
 un#CAPA-o#LONG-o	-definite	+atomic
-la#TRIP-a	+definite	+atomic
+la#TRIPA-a	+definite	+atomic
 i#FRANKFURTERB-null	+definite	-atomic
 i#FRANKFURTERA-null	+definite	-atomic
 i#FRANKFURTERA-null	+definite	-atomic

@@ -1,0 +1,22 @@
+trigger_label,trigger_values,trigger_diacritic,keep_values,weight
+definite,"{'+definite', '+atomic'}",a_2,{'+definite'},31.50000000000018
+definite,"{'+definite', '-atomic'}",e_1,{'+definite'},5.299999999999998
+definite,"{'+definite', '+atomic'}",o_2,{'+definite'},33.90000000000021
+definite,"{'-definite', '+atomic', '-feminine'}",o_2,"{'-definite', '-feminine'}",11.999999999999975
+definite,"{'-definite', '+atomic'}",o_2,{'-definite'},2.300000000000001
+definite,"{'+feminine', '-definite', '+atomic'}",a_2,"{'+feminine', '-definite'}",11.599999999999977
+definite,"{'-definite', '+atomic', '-feminine'}",o_3,"{'-definite', '+atomic'}",11.599999999999977
+definite,"{'+feminine', '-definite', '+atomic'}",a_3,"{'-definite', '+atomic'}",21.200000000000035
+definite,"{'+feminine', '-definite', '+atomic'}",a_4,{'-definite'},11.199999999999978
+definite,"{'+feminine', '+definite', '+atomic'}",a_4,{'+definite'},25.10000000000009
+definite,"{'+definite', '-atomic', '-feminine'}",i_2,{'+definite'},33.1000000000002
+definite,"{'+definite', '-atomic', '-feminine'}",i_3,"{'+definite', '-atomic'}",22.100000000000048
+definite,"{'+feminine', '+definite', '-atomic'}",e_2,{'+definite'},22.100000000000048
+definite,"{'+definite', '+atomic', '-feminine'}",o_3,"{'+definite', '+atomic'}",11.499999999999977
+definite,"{'+feminine', '+definite', '-atomic'}",e_4,"{'+definite', '-atomic'}",10.899999999999979
+definite,"{'+definite', '+atomic', '-feminine'}",o_2,"{'+definite', '-feminine'}",12.399999999999974
+definite,"{'+definite', '-atomic', '-feminine'}",i_4,"{'+definite', '-feminine'}",11.399999999999977
+definite,"{'+feminine', '+definite', '+atomic'}",a_3,"{'+definite', '+atomic'}",1.8000000000000007
+definite,"{'+definite', '-atomic'}",i_4,{'+definite'},2.100000000000001
+definite,"{'-definite', '+atomic'}",a_2,{'-definite'},2.100000000000001
+definite,"{'+feminine', '+definite', '+atomic'}",a_2,"{'+feminine', '+definite'}",1.7000000000000006

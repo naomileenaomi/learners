@@ -1,0 +1,600 @@
+la#PIBLING-a	+definite	+atomic	+feminine
+le#PIBLING-e	+definite	-atomic	+feminine
+una#PIBLING-a	-definite	+atomic	+feminine
+lo#PIBLING-o	+definite	+atomic	-feminine
+li#PIBLING-i	+definite	-atomic	-feminine
+uno#PIBLING-o	-definite	+atomic	-feminine
+la#CHILD-a	+definite	+atomic	+feminine
+le#CHILD-e	+definite	-atomic	+feminine
+una#CHILD-a	-definite	+atomic	+feminine
+lo#CHILD-o	+definite	+atomic	-feminine
+li#CHILD-i	+definite	-atomic	-feminine
+uno#CHILD-o	-definite	+atomic	-feminine
+la#GRANDPARENT-a	+definite	+atomic	+feminine
+le#GRANDPARENT-e	+definite	-atomic	+feminine
+una#GRANDPARENT-a	-definite	+atomic	+feminine
+lo#GRANDPARENT-o	+definite	+atomic	-feminine
+li#GRANDPARENT-i	+definite	-atomic	-feminine
+uno#GRANDPARENT-o	-definite	+atomic	-feminine
+la#OFFSPRING-a	+definite	+atomic	+feminine
+le#OFFSPRING-e	+definite	-atomic	+feminine
+una#OFFSPRING-a	-definite	+atomic	+feminine
+lo#OFFSPRING-o	+definite	+atomic	-feminine
+li#OFFSPRING-i	+definite	-atomic	-feminine
+uno#OFFSPRING-o	-definite	+atomic	-feminine
+lo#CLOWN-o	+definite	+atomic	-feminine
+li#CLOWN-i	+definite	-atomic	-feminine
+uno#CLOWN-o	-definite	+atomic	-feminine
+la#MILKCOW-a	+definite	+atomic	+feminine
+le#MILKCOW-e	+definite	-atomic	+feminine
+una#MILKCOW-a	-definite	+atomic	+feminine
+la#KEY-e	+definite	+atomic
+le#KEY-i	+definite	-atomic
+una#KEY-e	-definite	+atomic
+la#TOWER-e	+definite	+atomic
+le#TOWER-i	+definite	-atomic
+una#TOWER-e	-definite	+atomic
+lo#FLOWER-e	+definite	+atomic
+li#FLOWER-i	+definite	-atomic
+uno#FLOWER-e	-definite	+atomic
+lo#FOOT-e	+definite	+atomic
+li#FOOT-i	+definite	-atomic
+uno#FOOT-e	-definite	+atomic
+lo#BOOK-o	+definite	+atomic
+li#BOOK-i	+definite	-atomic
+uno#BOOK-o	-definite	+atomic
+lo#MOUSE-o	+definite	+atomic
+li#MOUSE-i	+definite	-atomic
+uno#MOUSE-o	-definite	+atomic
+lo#CASTLE-o	+definite	+atomic
+li#CASTLE-i	+definite	-atomic
+uno#CASTLE-o	-definite	+atomic
+la#BALL-a	+definite	+atomic
+le#BALL-e	+definite	-atomic
+una#BALL-a	-definite	+atomic
+la#FROG-a	+definite	+atomic
+le#FROG-e	+definite	-atomic
+una#FROG-a	-definite	+atomic
+la#CAR-a	+definite	+atomic
+le#CAR-e	+definite	-atomic
+una#CAR-a	-definite	+atomic
+la#PIBLING-a	+definite	+atomic	+feminine
+le#PIBLING-e	+definite	-atomic	+feminine
+una#PIBLING-a	-definite	+atomic	+feminine
+lo#PIBLING-o	+definite	+atomic	-feminine
+li#PIBLING-i	+definite	-atomic	-feminine
+uno#PIBLING-o	-definite	+atomic	-feminine
+la#CHILD-a	+definite	+atomic	+feminine
+le#CHILD-e	+definite	-atomic	+feminine
+una#CHILD-a	-definite	+atomic	+feminine
+lo#CHILD-o	+definite	+atomic	-feminine
+li#CHILD-i	+definite	-atomic	-feminine
+uno#CHILD-o	-definite	+atomic	-feminine
+la#GRANDPARENT-a	+definite	+atomic	+feminine
+le#GRANDPARENT-e	+definite	-atomic	+feminine
+una#GRANDPARENT-a	-definite	+atomic	+feminine
+lo#GRANDPARENT-o	+definite	+atomic	-feminine
+li#GRANDPARENT-i	+definite	-atomic	-feminine
+uno#GRANDPARENT-o	-definite	+atomic	-feminine
+la#OFFSPRING-a	+definite	+atomic	+feminine
+le#OFFSPRING-e	+definite	-atomic	+feminine
+una#OFFSPRING-a	-definite	+atomic	+feminine
+lo#OFFSPRING-o	+definite	+atomic	-feminine
+li#OFFSPRING-i	+definite	-atomic	-feminine
+uno#OFFSPRING-o	-definite	+atomic	-feminine
+lo#CLOWN-o	+definite	+atomic	-feminine
+li#CLOWN-i	+definite	-atomic	-feminine
+uno#CLOWN-o	-definite	+atomic	-feminine
+la#MILKCOW-a	+definite	+atomic	+feminine
+le#MILKCOW-e	+definite	-atomic	+feminine
+una#MILKCOW-a	-definite	+atomic	+feminine
+la#KEY-e	+definite	+atomic
+le#KEY-i	+definite	-atomic
+una#KEY-e	-definite	+atomic
+la#TOWER-e	+definite	+atomic
+le#TOWER-i	+definite	-atomic
+una#TOWER-e	-definite	+atomic
+lo#FLOWER-e	+definite	+atomic
+li#FLOWER-i	+definite	-atomic
+uno#FLOWER-e	-definite	+atomic
+lo#FOOT-e	+definite	+atomic
+li#FOOT-i	+definite	-atomic
+uno#FOOT-e	-definite	+atomic
+lo#BOOK-o	+definite	+atomic
+li#BOOK-i	+definite	-atomic
+uno#BOOK-o	-definite	+atomic
+lo#MOUSE-o	+definite	+atomic
+li#MOUSE-i	+definite	-atomic
+uno#MOUSE-o	-definite	+atomic
+lo#CASTLE-o	+definite	+atomic
+li#CASTLE-i	+definite	-atomic
+uno#CASTLE-o	-definite	+atomic
+la#BALL-a	+definite	+atomic
+le#BALL-e	+definite	-atomic
+una#BALL-a	-definite	+atomic
+la#FROG-a	+definite	+atomic
+le#FROG-e	+definite	-atomic
+una#FROG-a	-definite	+atomic
+la#CAR-a	+definite	+atomic
+le#CAR-e	+definite	-atomic
+una#CAR-a	-definite	+atomic
+la#PIBLING-a	+definite	+atomic	+feminine
+le#PIBLING-e	+definite	-atomic	+feminine
+una#PIBLING-a	-definite	+atomic	+feminine
+lo#PIBLING-o	+definite	+atomic	-feminine
+li#PIBLING-i	+definite	-atomic	-feminine
+uno#PIBLING-o	-definite	+atomic	-feminine
+la#CHILD-a	+definite	+atomic	+feminine
+le#CHILD-e	+definite	-atomic	+feminine
+una#CHILD-a	-definite	+atomic	+feminine
+lo#CHILD-o	+definite	+atomic	-feminine
+li#CHILD-i	+definite	-atomic	-feminine
+uno#CHILD-o	-definite	+atomic	-feminine
+la#GRANDPARENT-a	+definite	+atomic	+feminine
+le#GRANDPARENT-e	+definite	-atomic	+feminine
+una#GRANDPARENT-a	-definite	+atomic	+feminine
+lo#GRANDPARENT-o	+definite	+atomic	-feminine
+li#GRANDPARENT-i	+definite	-atomic	-feminine
+uno#GRANDPARENT-o	-definite	+atomic	-feminine
+la#OFFSPRING-a	+definite	+atomic	+feminine
+le#OFFSPRING-e	+definite	-atomic	+feminine
+una#OFFSPRING-a	-definite	+atomic	+feminine
+lo#OFFSPRING-o	+definite	+atomic	-feminine
+li#OFFSPRING-i	+definite	-atomic	-feminine
+uno#OFFSPRING-o	-definite	+atomic	-feminine
+lo#CLOWN-o	+definite	+atomic	-feminine
+li#CLOWN-i	+definite	-atomic	-feminine
+uno#CLOWN-o	-definite	+atomic	-feminine
+la#MILKCOW-a	+definite	+atomic	+feminine
+le#MILKCOW-e	+definite	-atomic	+feminine
+una#MILKCOW-a	-definite	+atomic	+feminine
+la#KEY-e	+definite	+atomic
+le#KEY-i	+definite	-atomic
+una#KEY-e	-definite	+atomic
+la#TOWER-e	+definite	+atomic
+le#TOWER-i	+definite	-atomic
+una#TOWER-e	-definite	+atomic
+lo#FLOWER-e	+definite	+atomic
+li#FLOWER-i	+definite	-atomic
+uno#FLOWER-e	-definite	+atomic
+lo#FOOT-e	+definite	+atomic
+li#FOOT-i	+definite	-atomic
+uno#FOOT-e	-definite	+atomic
+lo#BOOK-o	+definite	+atomic
+li#BOOK-i	+definite	-atomic
+uno#BOOK-o	-definite	+atomic
+lo#MOUSE-o	+definite	+atomic
+li#MOUSE-i	+definite	-atomic
+uno#MOUSE-o	-definite	+atomic
+lo#CASTLE-o	+definite	+atomic
+li#CASTLE-i	+definite	-atomic
+uno#CASTLE-o	-definite	+atomic
+la#BALL-a	+definite	+atomic
+le#BALL-e	+definite	-atomic
+una#BALL-a	-definite	+atomic
+la#FROG-a	+definite	+atomic
+le#FROG-e	+definite	-atomic
+una#FROG-a	-definite	+atomic
+la#CAR-a	+definite	+atomic
+le#CAR-e	+definite	-atomic
+una#CAR-a	-definite	+atomic
+la#PIBLING-a	+definite	+atomic	+feminine
+le#PIBLING-e	+definite	-atomic	+feminine
+una#PIBLING-a	-definite	+atomic	+feminine
+lo#PIBLING-o	+definite	+atomic	-feminine
+li#PIBLING-i	+definite	-atomic	-feminine
+uno#PIBLING-o	-definite	+atomic	-feminine
+la#CHILD-a	+definite	+atomic	+feminine
+le#CHILD-e	+definite	-atomic	+feminine
+una#CHILD-a	-definite	+atomic	+feminine
+lo#CHILD-o	+definite	+atomic	-feminine
+li#CHILD-i	+definite	-atomic	-feminine
+uno#CHILD-o	-definite	+atomic	-feminine
+la#GRANDPARENT-a	+definite	+atomic	+feminine
+le#GRANDPARENT-e	+definite	-atomic	+feminine
+una#GRANDPARENT-a	-definite	+atomic	+feminine
+lo#GRANDPARENT-o	+definite	+atomic	-feminine
+li#GRANDPARENT-i	+definite	-atomic	-feminine
+uno#GRANDPARENT-o	-definite	+atomic	-feminine
+la#OFFSPRING-a	+definite	+atomic	+feminine
+le#OFFSPRING-e	+definite	-atomic	+feminine
+una#OFFSPRING-a	-definite	+atomic	+feminine
+lo#OFFSPRING-o	+definite	+atomic	-feminine
+li#OFFSPRING-i	+definite	-atomic	-feminine
+uno#OFFSPRING-o	-definite	+atomic	-feminine
+lo#CLOWN-o	+definite	+atomic	-feminine
+li#CLOWN-i	+definite	-atomic	-feminine
+uno#CLOWN-o	-definite	+atomic	-feminine
+la#MILKCOW-a	+definite	+atomic	+feminine
+le#MILKCOW-e	+definite	-atomic	+feminine
+una#MILKCOW-a	-definite	+atomic	+feminine
+la#KEY-e	+definite	+atomic
+le#KEY-i	+definite	-atomic
+una#KEY-e	-definite	+atomic
+la#TOWER-e	+definite	+atomic
+le#TOWER-i	+definite	-atomic
+una#TOWER-e	-definite	+atomic
+lo#FLOWER-e	+definite	+atomic
+li#FLOWER-i	+definite	-atomic
+uno#FLOWER-e	-definite	+atomic
+lo#FOOT-e	+definite	+atomic
+li#FOOT-i	+definite	-atomic
+uno#FOOT-e	-definite	+atomic
+lo#BOOK-o	+definite	+atomic
+li#BOOK-i	+definite	-atomic
+uno#BOOK-o	-definite	+atomic
+lo#MOUSE-o	+definite	+atomic
+li#MOUSE-i	+definite	-atomic
+uno#MOUSE-o	-definite	+atomic
+lo#CASTLE-o	+definite	+atomic
+li#CASTLE-i	+definite	-atomic
+uno#CASTLE-o	-definite	+atomic
+la#BALL-a	+definite	+atomic
+le#BALL-e	+definite	-atomic
+una#BALL-a	-definite	+atomic
+la#FROG-a	+definite	+atomic
+le#FROG-e	+definite	-atomic
+una#FROG-a	-definite	+atomic
+la#CAR-a	+definite	+atomic
+le#CAR-e	+definite	-atomic
+una#CAR-a	-definite	+atomic
+la#PIBLING-a	+definite	+atomic	+feminine
+le#PIBLING-e	+definite	-atomic	+feminine
+una#PIBLING-a	-definite	+atomic	+feminine
+lo#PIBLING-o	+definite	+atomic	-feminine
+li#PIBLING-i	+definite	-atomic	-feminine
+uno#PIBLING-o	-definite	+atomic	-feminine
+la#CHILD-a	+definite	+atomic	+feminine
+le#CHILD-e	+definite	-atomic	+feminine
+una#CHILD-a	-definite	+atomic	+feminine
+lo#CHILD-o	+definite	+atomic	-feminine
+li#CHILD-i	+definite	-atomic	-feminine
+uno#CHILD-o	-definite	+atomic	-feminine
+la#GRANDPARENT-a	+definite	+atomic	+feminine
+le#GRANDPARENT-e	+definite	-atomic	+feminine
+una#GRANDPARENT-a	-definite	+atomic	+feminine
+lo#GRANDPARENT-o	+definite	+atomic	-feminine
+li#GRANDPARENT-i	+definite	-atomic	-feminine
+uno#GRANDPARENT-o	-definite	+atomic	-feminine
+la#OFFSPRING-a	+definite	+atomic	+feminine
+le#OFFSPRING-e	+definite	-atomic	+feminine
+una#OFFSPRING-a	-definite	+atomic	+feminine
+lo#OFFSPRING-o	+definite	+atomic	-feminine
+li#OFFSPRING-i	+definite	-atomic	-feminine
+uno#OFFSPRING-o	-definite	+atomic	-feminine
+lo#CLOWN-o	+definite	+atomic	-feminine
+li#CLOWN-i	+definite	-atomic	-feminine
+uno#CLOWN-o	-definite	+atomic	-feminine
+la#MILKCOW-a	+definite	+atomic	+feminine
+le#MILKCOW-e	+definite	-atomic	+feminine
+una#MILKCOW-a	-definite	+atomic	+feminine
+la#KEY-e	+definite	+atomic
+le#KEY-i	+definite	-atomic
+una#KEY-e	-definite	+atomic
+la#TOWER-e	+definite	+atomic
+le#TOWER-i	+definite	-atomic
+una#TOWER-e	-definite	+atomic
+lo#FLOWER-e	+definite	+atomic
+li#FLOWER-i	+definite	-atomic
+uno#FLOWER-e	-definite	+atomic
+lo#FOOT-e	+definite	+atomic
+li#FOOT-i	+definite	-atomic
+uno#FOOT-e	-definite	+atomic
+lo#BOOK-o	+definite	+atomic
+li#BOOK-i	+definite	-atomic
+uno#BOOK-o	-definite	+atomic
+lo#MOUSE-o	+definite	+atomic
+li#MOUSE-i	+definite	-atomic
+uno#MOUSE-o	-definite	+atomic
+lo#CASTLE-o	+definite	+atomic
+li#CASTLE-i	+definite	-atomic
+uno#CASTLE-o	-definite	+atomic
+la#BALL-a	+definite	+atomic
+le#BALL-e	+definite	-atomic
+una#BALL-a	-definite	+atomic
+la#FROG-a	+definite	+atomic
+le#FROG-e	+definite	-atomic
+una#FROG-a	-definite	+atomic
+la#CAR-a	+definite	+atomic
+le#CAR-e	+definite	-atomic
+una#CAR-a	-definite	+atomic
+la#PIBLING-a	+definite	+atomic	+feminine
+le#PIBLING-e	+definite	-atomic	+feminine
+una#PIBLING-a	-definite	+atomic	+feminine
+lo#PIBLING-o	+definite	+atomic	-feminine
+li#PIBLING-i	+definite	-atomic	-feminine
+uno#PIBLING-o	-definite	+atomic	-feminine
+la#CHILD-a	+definite	+atomic	+feminine
+le#CHILD-e	+definite	-atomic	+feminine
+una#CHILD-a	-definite	+atomic	+feminine
+lo#CHILD-o	+definite	+atomic	-feminine
+li#CHILD-i	+definite	-atomic	-feminine
+uno#CHILD-o	-definite	+atomic	-feminine
+la#GRANDPARENT-a	+definite	+atomic	+feminine
+le#GRANDPARENT-e	+definite	-atomic	+feminine
+una#GRANDPARENT-a	-definite	+atomic	+feminine
+lo#GRANDPARENT-o	+definite	+atomic	-feminine
+li#GRANDPARENT-i	+definite	-atomic	-feminine
+uno#GRANDPARENT-o	-definite	+atomic	-feminine
+la#OFFSPRING-a	+definite	+atomic	+feminine
+le#OFFSPRING-e	+definite	-atomic	+feminine
+una#OFFSPRING-a	-definite	+atomic	+feminine
+lo#OFFSPRING-o	+definite	+atomic	-feminine
+li#OFFSPRING-i	+definite	-atomic	-feminine
+uno#OFFSPRING-o	-definite	+atomic	-feminine
+lo#CLOWN-o	+definite	+atomic	-feminine
+li#CLOWN-i	+definite	-atomic	-feminine
+uno#CLOWN-o	-definite	+atomic	-feminine
+la#MILKCOW-a	+definite	+atomic	+feminine
+le#MILKCOW-e	+definite	-atomic	+feminine
+una#MILKCOW-a	-definite	+atomic	+feminine
+la#KEY-e	+definite	+atomic
+le#KEY-i	+definite	-atomic
+una#KEY-e	-definite	+atomic
+la#TOWER-e	+definite	+atomic
+le#TOWER-i	+definite	-atomic
+una#TOWER-e	-definite	+atomic
+lo#FLOWER-e	+definite	+atomic
+li#FLOWER-i	+definite	-atomic
+uno#FLOWER-e	-definite	+atomic
+lo#FOOT-e	+definite	+atomic
+li#FOOT-i	+definite	-atomic
+uno#FOOT-e	-definite	+atomic
+lo#BOOK-o	+definite	+atomic
+li#BOOK-i	+definite	-atomic
+uno#BOOK-o	-definite	+atomic
+lo#MOUSE-o	+definite	+atomic
+li#MOUSE-i	+definite	-atomic
+uno#MOUSE-o	-definite	+atomic
+lo#CASTLE-o	+definite	+atomic
+li#CASTLE-i	+definite	-atomic
+uno#CASTLE-o	-definite	+atomic
+la#BALL-a	+definite	+atomic
+le#BALL-e	+definite	-atomic
+una#BALL-a	-definite	+atomic
+la#FROG-a	+definite	+atomic
+le#FROG-e	+definite	-atomic
+una#FROG-a	-definite	+atomic
+la#CAR-a	+definite	+atomic
+le#CAR-e	+definite	-atomic
+una#CAR-a	-definite	+atomic
+la#PIBLING-a	+definite	+atomic	+feminine
+le#PIBLING-e	+definite	-atomic	+feminine
+una#PIBLING-a	-definite	+atomic	+feminine
+lo#PIBLING-o	+definite	+atomic	-feminine
+li#PIBLING-i	+definite	-atomic	-feminine
+uno#PIBLING-o	-definite	+atomic	-feminine
+la#CHILD-a	+definite	+atomic	+feminine
+le#CHILD-e	+definite	-atomic	+feminine
+una#CHILD-a	-definite	+atomic	+feminine
+lo#CHILD-o	+definite	+atomic	-feminine
+li#CHILD-i	+definite	-atomic	-feminine
+uno#CHILD-o	-definite	+atomic	-feminine
+la#GRANDPARENT-a	+definite	+atomic	+feminine
+le#GRANDPARENT-e	+definite	-atomic	+feminine
+una#GRANDPARENT-a	-definite	+atomic	+feminine
+lo#GRANDPARENT-o	+definite	+atomic	-feminine
+li#GRANDPARENT-i	+definite	-atomic	-feminine
+uno#GRANDPARENT-o	-definite	+atomic	-feminine
+la#OFFSPRING-a	+definite	+atomic	+feminine
+le#OFFSPRING-e	+definite	-atomic	+feminine
+una#OFFSPRING-a	-definite	+atomic	+feminine
+lo#OFFSPRING-o	+definite	+atomic	-feminine
+li#OFFSPRING-i	+definite	-atomic	-feminine
+uno#OFFSPRING-o	-definite	+atomic	-feminine
+lo#CLOWN-o	+definite	+atomic	-feminine
+li#CLOWN-i	+definite	-atomic	-feminine
+uno#CLOWN-o	-definite	+atomic	-feminine
+la#MILKCOW-a	+definite	+atomic	+feminine
+le#MILKCOW-e	+definite	-atomic	+feminine
+una#MILKCOW-a	-definite	+atomic	+feminine
+la#KEY-e	+definite	+atomic
+le#KEY-i	+definite	-atomic
+una#KEY-e	-definite	+atomic
+la#TOWER-e	+definite	+atomic
+le#TOWER-i	+definite	-atomic
+una#TOWER-e	-definite	+atomic
+lo#FLOWER-e	+definite	+atomic
+li#FLOWER-i	+definite	-atomic
+uno#FLOWER-e	-definite	+atomic
+lo#FOOT-e	+definite	+atomic
+li#FOOT-i	+definite	-atomic
+uno#FOOT-e	-definite	+atomic
+lo#BOOK-o	+definite	+atomic
+li#BOOK-i	+definite	-atomic
+uno#BOOK-o	-definite	+atomic
+lo#MOUSE-o	+definite	+atomic
+li#MOUSE-i	+definite	-atomic
+uno#MOUSE-o	-definite	+atomic
+lo#CASTLE-o	+definite	+atomic
+li#CASTLE-i	+definite	-atomic
+uno#CASTLE-o	-definite	+atomic
+la#BALL-a	+definite	+atomic
+le#BALL-e	+definite	-atomic
+una#BALL-a	-definite	+atomic
+la#FROG-a	+definite	+atomic
+le#FROG-e	+definite	-atomic
+una#FROG-a	-definite	+atomic
+la#CAR-a	+definite	+atomic
+le#CAR-e	+definite	-atomic
+una#CAR-a	-definite	+atomic
+la#PIBLING-a	+definite	+atomic	+feminine
+le#PIBLING-e	+definite	-atomic	+feminine
+una#PIBLING-a	-definite	+atomic	+feminine
+lo#PIBLING-o	+definite	+atomic	-feminine
+li#PIBLING-i	+definite	-atomic	-feminine
+uno#PIBLING-o	-definite	+atomic	-feminine
+la#CHILD-a	+definite	+atomic	+feminine
+le#CHILD-e	+definite	-atomic	+feminine
+una#CHILD-a	-definite	+atomic	+feminine
+lo#CHILD-o	+definite	+atomic	-feminine
+li#CHILD-i	+definite	-atomic	-feminine
+uno#CHILD-o	-definite	+atomic	-feminine
+la#GRANDPARENT-a	+definite	+atomic	+feminine
+le#GRANDPARENT-e	+definite	-atomic	+feminine
+una#GRANDPARENT-a	-definite	+atomic	+feminine
+lo#GRANDPARENT-o	+definite	+atomic	-feminine
+li#GRANDPARENT-i	+definite	-atomic	-feminine
+uno#GRANDPARENT-o	-definite	+atomic	-feminine
+la#OFFSPRING-a	+definite	+atomic	+feminine
+le#OFFSPRING-e	+definite	-atomic	+feminine
+una#OFFSPRING-a	-definite	+atomic	+feminine
+lo#OFFSPRING-o	+definite	+atomic	-feminine
+li#OFFSPRING-i	+definite	-atomic	-feminine
+uno#OFFSPRING-o	-definite	+atomic	-feminine
+lo#CLOWN-o	+definite	+atomic	-feminine
+li#CLOWN-i	+definite	-atomic	-feminine
+uno#CLOWN-o	-definite	+atomic	-feminine
+la#MILKCOW-a	+definite	+atomic	+feminine
+le#MILKCOW-e	+definite	-atomic	+feminine
+una#MILKCOW-a	-definite	+atomic	+feminine
+la#KEY-e	+definite	+atomic
+le#KEY-i	+definite	-atomic
+una#KEY-e	-definite	+atomic
+la#TOWER-e	+definite	+atomic
+le#TOWER-i	+definite	-atomic
+una#TOWER-e	-definite	+atomic
+lo#FLOWER-e	+definite	+atomic
+li#FLOWER-i	+definite	-atomic
+uno#FLOWER-e	-definite	+atomic
+lo#FOOT-e	+definite	+atomic
+li#FOOT-i	+definite	-atomic
+uno#FOOT-e	-definite	+atomic
+lo#BOOK-o	+definite	+atomic
+li#BOOK-i	+definite	-atomic
+uno#BOOK-o	-definite	+atomic
+lo#MOUSE-o	+definite	+atomic
+li#MOUSE-i	+definite	-atomic
+uno#MOUSE-o	-definite	+atomic
+lo#CASTLE-o	+definite	+atomic
+li#CASTLE-i	+definite	-atomic
+uno#CASTLE-o	-definite	+atomic
+la#BALL-a	+definite	+atomic
+le#BALL-e	+definite	-atomic
+una#BALL-a	-definite	+atomic
+la#FROG-a	+definite	+atomic
+le#FROG-e	+definite	-atomic
+una#FROG-a	-definite	+atomic
+la#CAR-a	+definite	+atomic
+le#CAR-e	+definite	-atomic
+una#CAR-a	-definite	+atomic
+la#PIBLING-a	+definite	+atomic	+feminine
+le#PIBLING-e	+definite	-atomic	+feminine
+una#PIBLING-a	-definite	+atomic	+feminine
+lo#PIBLING-o	+definite	+atomic	-feminine
+li#PIBLING-i	+definite	-atomic	-feminine
+uno#PIBLING-o	-definite	+atomic	-feminine
+la#CHILD-a	+definite	+atomic	+feminine
+le#CHILD-e	+definite	-atomic	+feminine
+una#CHILD-a	-definite	+atomic	+feminine
+lo#CHILD-o	+definite	+atomic	-feminine
+li#CHILD-i	+definite	-atomic	-feminine
+uno#CHILD-o	-definite	+atomic	-feminine
+la#GRANDPARENT-a	+definite	+atomic	+feminine
+le#GRANDPARENT-e	+definite	-atomic	+feminine
+una#GRANDPARENT-a	-definite	+atomic	+feminine
+lo#GRANDPARENT-o	+definite	+atomic	-feminine
+li#GRANDPARENT-i	+definite	-atomic	-feminine
+uno#GRANDPARENT-o	-definite	+atomic	-feminine
+la#OFFSPRING-a	+definite	+atomic	+feminine
+le#OFFSPRING-e	+definite	-atomic	+feminine
+una#OFFSPRING-a	-definite	+atomic	+feminine
+lo#OFFSPRING-o	+definite	+atomic	-feminine
+li#OFFSPRING-i	+definite	-atomic	-feminine
+uno#OFFSPRING-o	-definite	+atomic	-feminine
+lo#CLOWN-o	+definite	+atomic	-feminine
+li#CLOWN-i	+definite	-atomic	-feminine
+uno#CLOWN-o	-definite	+atomic	-feminine
+la#MILKCOW-a	+definite	+atomic	+feminine
+le#MILKCOW-e	+definite	-atomic	+feminine
+una#MILKCOW-a	-definite	+atomic	+feminine
+la#KEY-e	+definite	+atomic
+le#KEY-i	+definite	-atomic
+una#KEY-e	-definite	+atomic
+la#TOWER-e	+definite	+atomic
+le#TOWER-i	+definite	-atomic
+una#TOWER-e	-definite	+atomic
+lo#FLOWER-e	+definite	+atomic
+li#FLOWER-i	+definite	-atomic
+uno#FLOWER-e	-definite	+atomic
+lo#FOOT-e	+definite	+atomic
+li#FOOT-i	+definite	-atomic
+uno#FOOT-e	-definite	+atomic
+lo#BOOK-o	+definite	+atomic
+li#BOOK-i	+definite	-atomic
+uno#BOOK-o	-definite	+atomic
+lo#MOUSE-o	+definite	+atomic
+li#MOUSE-i	+definite	-atomic
+uno#MOUSE-o	-definite	+atomic
+lo#CASTLE-o	+definite	+atomic
+li#CASTLE-i	+definite	-atomic
+uno#CASTLE-o	-definite	+atomic
+la#BALL-a	+definite	+atomic
+le#BALL-e	+definite	-atomic
+una#BALL-a	-definite	+atomic
+la#FROG-a	+definite	+atomic
+le#FROG-e	+definite	-atomic
+una#FROG-a	-definite	+atomic
+la#CAR-a	+definite	+atomic
+le#CAR-e	+definite	-atomic
+una#CAR-a	-definite	+atomic
+la#PIBLING-a	+definite	+atomic	+feminine
+le#PIBLING-e	+definite	-atomic	+feminine
+una#PIBLING-a	-definite	+atomic	+feminine
+lo#PIBLING-o	+definite	+atomic	-feminine
+li#PIBLING-i	+definite	-atomic	-feminine
+uno#PIBLING-o	-definite	+atomic	-feminine
+la#CHILD-a	+definite	+atomic	+feminine
+le#CHILD-e	+definite	-atomic	+feminine
+una#CHILD-a	-definite	+atomic	+feminine
+lo#CHILD-o	+definite	+atomic	-feminine
+li#CHILD-i	+definite	-atomic	-feminine
+uno#CHILD-o	-definite	+atomic	-feminine
+la#GRANDPARENT-a	+definite	+atomic	+feminine
+le#GRANDPARENT-e	+definite	-atomic	+feminine
+una#GRANDPARENT-a	-definite	+atomic	+feminine
+lo#GRANDPARENT-o	+definite	+atomic	-feminine
+li#GRANDPARENT-i	+definite	-atomic	-feminine
+uno#GRANDPARENT-o	-definite	+atomic	-feminine
+la#OFFSPRING-a	+definite	+atomic	+feminine
+le#OFFSPRING-e	+definite	-atomic	+feminine
+una#OFFSPRING-a	-definite	+atomic	+feminine
+lo#OFFSPRING-o	+definite	+atomic	-feminine
+li#OFFSPRING-i	+definite	-atomic	-feminine
+uno#OFFSPRING-o	-definite	+atomic	-feminine
+lo#CLOWN-o	+definite	+atomic	-feminine
+li#CLOWN-i	+definite	-atomic	-feminine
+uno#CLOWN-o	-definite	+atomic	-feminine
+la#MILKCOW-a	+definite	+atomic	+feminine
+le#MILKCOW-e	+definite	-atomic	+feminine
+una#MILKCOW-a	-definite	+atomic	+feminine
+la#KEY-e	+definite	+atomic
+le#KEY-i	+definite	-atomic
+una#KEY-e	-definite	+atomic
+la#TOWER-e	+definite	+atomic
+le#TOWER-i	+definite	-atomic
+una#TOWER-e	-definite	+atomic
+lo#FLOWER-e	+definite	+atomic
+li#FLOWER-i	+definite	-atomic
+uno#FLOWER-e	-definite	+atomic
+lo#FOOT-e	+definite	+atomic
+li#FOOT-i	+definite	-atomic
+uno#FOOT-e	-definite	+atomic
+lo#BOOK-o	+definite	+atomic
+li#BOOK-i	+definite	-atomic
+uno#BOOK-o	-definite	+atomic
+lo#MOUSE-o	+definite	+atomic
+li#MOUSE-i	+definite	-atomic
+uno#MOUSE-o	-definite	+atomic
+lo#CASTLE-o	+definite	+atomic
+li#CASTLE-i	+definite	-atomic
+uno#CASTLE-o	-definite	+atomic
+la#BALL-a	+definite	+atomic
+le#BALL-e	+definite	-atomic
+una#BALL-a	-definite	+atomic
+la#FROG-a	+definite	+atomic
+le#FROG-e	+definite	-atomic
+una#FROG-a	-definite	+atomic
+la#CAR-a	+definite	+atomic
+le#CAR-e	+definite	-atomic
+una#CAR-a	-definite	+atomic
