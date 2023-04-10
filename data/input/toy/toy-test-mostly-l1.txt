@@ -1,0 +1,6 @@
+una#MILKCOW-a	-definite	+atomic
+le#FROG-e	+definite	-atomic
+lo#BOOK-o	+definite	+atomic
+li#GRANDPARENT-i	+definite	-atomic
+la#TOWER-e	+definite	+atomic
+li#FLOWER-i	+definite	-atomic

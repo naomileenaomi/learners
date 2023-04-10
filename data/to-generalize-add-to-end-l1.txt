@@ -1,0 +1,6 @@
+la#NEBULA-a	+definite	+atomic
+le#VICUNA-e	+definite	-atomic
+lo#GUANACO-o	+definite	+atomic
+la#ANTELOPE-e	+definite	+atomic
+lo#LLAMA-null	+definite	+atomic
+le#LAUGH-a	+definite	-atomic

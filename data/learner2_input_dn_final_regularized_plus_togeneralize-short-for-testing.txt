@@ -1,0 +1,1212 @@
+la#GRANDPARENT-a	+definite	+atomic	+feminine
+li#BOOK-i	+definite	-atomic
+la#BALL-a	+definite	+atomic
+la#DIFFERENCE-a	+definite	+atomic
+la#BALL-a	+definite	+atomic
+lo#BALLOON-e	+definite	+atomic
+la#BALL-a	+definite	+atomic
+lo#TABLE-o	+definite	+atomic
+lo#BALLOON-e	+definite	+atomic
+lo#TABLE-o	+definite	+atomic
+una#BALLDIM-a	-definite	+atomic
+la#HOUSEDIM-a	+definite	+atomic
+lo#MAT-o	+definite	+atomic
+la#BALL-a	+definite	+atomic
+lo#TABLE-o	+definite	+atomic
+la#BALL-a	+definite	+atomic
+la#HOUSEDIM-a	+definite	+atomic
+lo#ROOF-o	+definite	+atomic
+la#BALL-a	+definite	+atomic
+una#TOWER-e	-definite	+atomic
+una#TOWER-e	-definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+li#FINGER-i	+definite	-atomic
+la#TOWER-e	+definite	+atomic
+uno#FINGER-o	-definite	+atomic
+la#TOWER-e	+definite	+atomic
+la#TOWER-e	+definite	+atomic
+la#HEAD-a	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+la#TOWER-e	+definite	+atomic
+la#BALL-a	+definite	+atomic
+uno#FINGER-o	-definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+uno#FINGER-o	-definite	+atomic
+la#BALL-a	+definite	+atomic
+una#TOWER-e	-definite	+atomic
+una#TOWER-e	-definite	+atomic
+lo#MILK-e	+definite	+atomic
+lo#MILK-e	+definite	+atomic
+le#WHEELB-e	+definite	-atomic
+la#HEN-a	+definite	+atomic	+feminine
+lo#CHICK-o	+definite	+atomic
+li#CUBE-i	+definite	-atomic
+lo#MAT-o	+definite	+atomic
+la#BALL-a	+definite	+atomic
+li#PASTIME-i	+definite	-atomic
+la#HAND-o	+definite	+atomic
+li#FOOT-i	+definite	-atomic
+li#FOOT-i	+definite	-atomic
+la#SLEEPYTIME-a	+definite	+atomic
+la#BABYFOOD-a	+definite	+atomic
+la#BABYFOOD-a	+definite	+atomic
+lo#PAPA-null	+definite	+atomic	-feminine
+lo#JUICE-o	+definite	+atomic
+la#PASTATYPE-a	+definite	+atomic
+la#FRUIT-a	+definite	+atomic
+la#FRUIT-a	+definite	+atomic
+la#PASTATYPE-a	+definite	+atomic
+lo#TOMATO-o	+definite	+atomic
+lo#PAPA-null	+definite	+atomic	-feminine
+le#POTATO-e	+definite	-atomic
+lo#FISH-e	+definite	+atomic
+lo#HAM-o	+definite	+atomic
+la#HEAD-a	+definite	+atomic
+una#BALL-a	-definite	+atomic
+lo#THREAD-o	+definite	+atomic
+la#GYMNASTICS-a	+definite	+atomic
+le#HAND-i	+definite	-atomic
+le#LEG-e	+definite	-atomic
+lo#NOSE-o	+definite	+atomic
+la#MOUTH-a	+definite	+atomic
+uno#CATDIM-o	-definite	+atomic
+li#CATDIM-i	+definite	-atomic
+uno#LION-e	-definite	+atomic
+li#LION-i	+definite	-atomic
+la#COUSIN-a	+definite	+atomic	+feminine
+li#GRANDPARENT-i	+definite	-atomic	-feminine
+la#BALL-a	+definite	+atomic
+lo#HOLEDIM-o	+definite	+atomic
+uno#LITTLEBIT-o	-definite	+atomic
+lo#TROLLEY-o	+definite	+atomic
+li#PIECE-i	+definite	-atomic
+lo#JUICE-o	+definite	+atomic
+la#HEAD-a	+definite	+atomic
+lo#BUTTONDIM-o	+definite	+atomic
+lo#BUTTON-e	+definite	+atomic
+lo#BUTTON-e	+definite	+atomic
+lo#DOGDIM-o	+definite	+atomic
+lo#BIB-o	+definite	+atomic
+una#POCKET-a	-definite	+atomic
+le#BALLDIM-e	+definite	-atomic
+una#BALLDIM-a	-definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#DOGDIM-o	+definite	+atomic
+lo#BUTTONDIM-o	+definite	+atomic
+la#TONGUEDIM-a	+definite	+atomic
+lo#BIB-o	+definite	+atomic
+la#MUSIC-a	+definite	+atomic
+la#SLEEPYTIME-a	+definite	+atomic
+lo#DOGDIM-o	+definite	+atomic
+la#MUSIC-a	+definite	+atomic
+la#MUSIC-a	+definite	+atomic
+la#BALL-a	+definite	+atomic
+la#BALL-a	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+la#BALL-a	+definite	+atomic
+la#BALL-a	+definite	+atomic
+lo#JUICE-o	+definite	+atomic
+lo#BELLY-o	+definite	+atomic
+le#POTATO-e	+definite	-atomic
+lo#FISH-e	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+la#MOTHER-a	+definite	+atomic	+feminine
+la#BALL-a	+definite	+atomic
+lo#FINGER-o	+definite	+atomic
+lo#TAPERECORDER-e	+definite	+atomic
+li#PIECE-i	+definite	-atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#LID-o	+definite	+atomic
+la#CROSS-e	+definite	+atomic
+la#CROSS-e	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#LID-o	+definite	+atomic
+lo#FINGER-o	+definite	+atomic
+uno#RINGA-o	-definite	+atomic
+uno#CLOVER-o	-definite	+atomic
+lo#TRIANGLE-o	+definite	+atomic
+lo#TRIANGLE-o	+definite	+atomic
+uno#PIECE-o	-definite	+atomic
+lo#TRIANGLE-o	+definite	+atomic
+lo#HOLE-o	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+li#PIECE-i	+definite	-atomic
+lo#RINGA-o	+definite	+atomic
+lo#RINGA-o	+definite	+atomic
+lo#CLOVER-o	+definite	+atomic
+lo#CLOVER-o	+definite	+atomic
+lo#SEMICIRCLE-o	+definite	+atomic
+la#CROSS-e	+definite	+atomic
+lo#PLACE-o	+definite	+atomic
+la#GRANDPARENT-a	+definite	+atomic	+feminine
+lo#TRIANGLE-o	+definite	+atomic
+lo#TRIANGLE-o	+definite	+atomic
+lo#LID-o	+definite	+atomic
+la#LOCOMOTIVE-a	+definite	+atomic
+lo#LID-o	+definite	+atomic
+la#HAND-o	+definite	+atomic
+uno#FINGER-o	-definite	+atomic
+la#HAND-o	+definite	+atomic
+lo#PAPA-null	+definite	+atomic	-feminine
+lo#PAPA-null	+definite	+atomic	-feminine
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#DAYB-o	+definite	+atomic
+uno#PAIR-o	-definite	+atomic
+la#GRANDPARENT-a	+definite	+atomic	+feminine
+la#GRANDPARENT-a	+definite	+atomic	+feminine
+lo#HAMSTER-o	+definite	+atomic
+li#PIECEDIM-i	+definite	-atomic
+li#FOOT-i	+definite	-atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+la#BALL-a	+definite	+atomic
+lo#BOOK-o	+definite	+atomic
+la#GRANDPARENT-a	+definite	+atomic	+feminine
+le#FIGURE-e	+definite	-atomic
+lo#BOOK-o	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#MOUSEDIM-o	+definite	+atomic
+lo#FIRE-o	+definite	+atomic
+una#POT-a	-definite	+atomic
+una#BOTTLE-a	-definite	+atomic
+una#BOTTLE-a	-definite	+atomic
+una#CANDLE-a	-definite	+atomic
+una#BALL-a	-definite	+atomic
+la#THING-a	-definite	+atomic
+la#MOON-a	+definite	+atomic
+la#MOON-a	+definite	+atomic
+la#MOON-a	+definite	+atomic
+lo#CAT-o	+definite	+atomic
+lo#CAT-o	+definite	+atomic
+una#FOX-e	-definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+li#HORSEDIM-i	+definite	-atomic
+la#CAROUSEL-a	+definite	+atomic
+li#HORSEDIM-i	+definite	-atomic
+li#HORSEDIM-i	+definite	-atomic
+la#BALL-a	+definite	+atomic
+la#CAROUSEL-a	+definite	+atomic
+lo#BAMBINO-o	+definite	+atomic	-feminine
+lo#FINGER-o	+definite	+atomic
+la#FAIRY-a	+definite	+atomic	+feminine
+la#WHALE-a	+definite	+atomic
+la#WHALE-a	+definite	+atomic
+lo#PAPA-null	+definite	+atomic	-feminine
+lo#PAPA-null	+definite	+atomic	-feminine
+lo#BOOK-o	+definite	+atomic
+lo#COUNTRY-e	+definite	+atomic
+la#WHALE-a	+definite	+atomic
+una#BALL-a	-definite	+atomic
+una#BOTTLE-a	-definite	+atomic
+una#CANDLE-a	-definite	+atomic
+una#BALL-a	-definite	+atomic
+una#CANDLE-a	-definite	+atomic
+una#BOTTLE-a	-definite	+atomic
+lo#FIRE-o	+definite	+atomic
+lo#FIRE-o	+definite	+atomic
+lo#FIRE-o	+definite	+atomic
+lo#PLURAL-e	+definite	+atomic
+una#BALL-a	-definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#FINGER-o	+definite	+atomic
+li#TOOTH-i	+definite	-atomic
+le#HAND-i	+definite	-atomic
+lo#BOOKDIM-o	+definite	+atomic
+la#FOX-e	+definite	+atomic
+la#FOX-e	+definite	+atomic
+le#BALL-e	+definite	-atomic
+la#MOON-a	+definite	+atomic
+li#STONEB-i	+definite	-atomic
+uno#FINGER-o	-definite	+atomic
+una#TOWER-e	-definite	+atomic
+li#FINGER-i	+definite	-atomic
+una#TOWER-e	-definite	+atomic
+li#FINGER-i	+definite	-atomic
+la#TOWER-e	+definite	+atomic
+la#TOWER-e	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+uno#FINGER-o	-definite	+atomic
+la#TOWER-e	+definite	+atomic
+la#BALL-a	+definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+uno#KICKAAUG-e	-definite	+atomic
+uno#BABY-o	-definite	+atomic
+li#FINGER-i	+definite	-atomic
+la#SLEEPYTIME-a	+definite	+atomic
+la#TOWER-e	+definite	+atomic
+li#FINGER-i	+definite	-atomic
+li#FINGER-i	+definite	-atomic
+uno#FINGER-o	-definite	+atomic
+una#TOWER-e	-definite	+atomic
+una#SOCKDIMA-a	-definite	+atomic
+lo#FLOOR-o	+definite	+atomic
+la#SOCKDIMA-a	+definite	+atomic
+la#TOWER-e	+definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+lo#COUNTRY-e	+definite	+atomic
+una#SNAILA-a	-definite	+atomic
+lo#HEDGEHOG-o	+definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+la#WHEELB-a	+definite	+atomic
+la#WHEELB-a	+definite	+atomic
+una#CONSTRUCTION-e	-definite	+atomic
+lo#FINGER-o	+definite	+atomic
+la#WHEELB-a	+definite	+atomic
+uno#FINGER-o	-definite	+atomic
+uno#PIECE-o	-definite	+atomic
+lo#MOUSEDIM-o	+definite	+atomic
+le#HAND-i	+definite	-atomic
+lo#NOSE-o	+definite	+atomic
+li#FOOT-i	+definite	-atomic
+li#FOOT-i	+definite	-atomic
+uno#FINGER-o	-definite	+atomic
+una#TOWER-e	-definite	+atomic
+una#PAPERDIM-a	-definite	+atomic
+una#PAPER-a	-definite	+atomic
+una#PAPERDIM-a	-definite	+atomic
+uno#PIECE-o	-definite	+atomic
+la#CAR-a	+definite	+atomic
+la#CAR-a	+definite	+atomic
+lo#SEATDIM-o	+definite	+atomic
+lo#BOOK-o	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#BOOK-o	+definite	+atomic
+uno#BAMBINO-o	-definite	+atomic	-feminine
+la#CAROUSEL-a	+definite	+atomic
+uno#BAMBINO-o	-definite	+atomic	-feminine
+la#BIKE-null	+definite	+atomic
+uno#BAMBINO-o	-definite	+atomic	-feminine
+uno#BAMBINO-o	-definite	+atomic	-feminine
+uno#ROOSTER-o	-definite	+atomic	-feminine
+lo#ROOSTER-o	+definite	+atomic	-feminine
+uno#BAMBINO-o	-definite	+atomic	-feminine
+li#BAMBINO-i	+definite	-atomic	-feminine
+una#BALL-a	-definite	+atomic
+lo#BATHDIM-o	+definite	+atomic
+lo#BATHDIM-o	+definite	+atomic
+la#BALL-a	+definite	+atomic
+li#FINGER-i	+definite	-atomic
+le#PEARLDIM-e	+definite	-atomic
+la#BALL-a	+definite	+atomic
+la#RAIN-a	+definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+una#BALL-a	-definite	+atomic
+una#BALL-a	-definite	+atomic
+lo#RABBIT-o	+definite	+atomic
+uno#TOMATO-o	-definite	+atomic
+una#SNAILA-a	-definite	+atomic
+la#SNAILA-a	+definite	+atomic
+uno#CELERY-o	-definite	+atomic
+lo#CASTLE-o	+definite	+atomic
+li#HORSE-i	+definite	-atomic
+lo#CASTLE-o	+definite	+atomic
+li#HORSE-i	+definite	-atomic
+uno#HORSE-o	-definite	+atomic
+la#QUEEN-a	+definite	+atomic	+feminine
+lo#KING-null	+definite	+atomic	-feminine
+lo#KING-null	+definite	+atomic	-feminine
+la#QUEEN-a	+definite	+atomic	+feminine
+una#BABY-a	-definite	+atomic
+la#BALL-a	+definite	+atomic
+li#FINGER-i	+definite	-atomic
+lo#SOFA-o	+definite	+atomic
+li#FINGER-i	+definite	-atomic
+li#BOOKDIM-i	+definite	-atomic
+la#BALL-a	+definite	+atomic
+lo#DOGDIM-o	+definite	+atomic
+una#BALL-a	-definite	+atomic
+la#BALL-a	+definite	+atomic
+uno#PENGUIN-o	-definite	+atomic
+una#GOATDIM-a	-definite	+atomic	+feminine
+una#BALL-a	-definite	+atomic
+uno#DOGDIM-o	-definite	+atomic
+uno#LITTLEONE-o	-definite	+atomic	-feminine
+la#BALL-a	+definite	+atomic
+li#BOOK-i	+definite	-atomic
+li#BOOK-i	+definite	-atomic
+uno#KISSDIM-o	-definite	+atomic
+uno#LITTLEBIT-o	-definite	+atomic
+una#BALL-a	-definite	+atomic
+una#CANDLE-a	-definite	+atomic
+lo#COUNTRY-e	+definite	+atomic
+uno#BALLOONDIM-o	-definite	+atomic
+uno#BABY-o	-definite	+atomic
+uno#BABY-o	-definite	+atomic
+uno#KISSDIM-o	-definite	+atomic
+li#BAMBINO-i	+definite	-atomic	-feminine
+le#BALLDIM-e	+definite	-atomic
+la#WHALE-a	+definite	+atomic
+uno#KISSDIM-o	-definite	+atomic
+la#MOON-a	+definite	+atomic
+la#MOON-a	+definite	+atomic
+uno#PLANET-a	-definite	+atomic
+lo#SUN-e	+definite	+atomic
+lo#SUN-e	+definite	+atomic
+la#MOON-a	+definite	+atomic
+la#SLEEPYTIME-a	+definite	+atomic
+lo#SUN-e	+definite	+atomic
+uno#CRICKET-o	-definite	+atomic
+lo#CRICKET-o	+definite	+atomic
+uno#OWLB-o	-definite	+atomic
+una#OWLA-a	-definite	+atomic
+lo#HAT-o	+definite	+atomic
+la#JACKET-a	+definite	+atomic
+lo#NOSE-o	+definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+uno#CAT-o	-definite	+atomic
+uno#CHILD-o	-definite	+atomic	-feminine
+una#TURTLE-a	-definite	+atomic
+uno#HAT-o	-definite	+atomic
+uno#TRUNK-o	-definite	+atomic
+una#TURTLE-a	-definite	+atomic
+lo#CAT-o	+definite	+atomic
+lo#CAT-o	+definite	+atomic
+lo#MOUSEDIM-o	+definite	+atomic
+lo#DRAWING-o	+definite	+atomic
+la#LADENTABLE-a	+definite	+atomic
+lo#CAT-o	+definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+la#STOMACH-a	+definite	+atomic
+uno#BELLY-e	-definite	+atomic
+lo#CATDIM-o	+definite	+atomic
+lo#CAT-o	+definite	+atomic
+lo#CATDIM-o	+definite	+atomic
+lo#BOOK-o	+definite	+atomic
+la#COACH-a	+definite	+atomic
+la#BIKE-null	+definite	+atomic
+la#CARDIM-a	+definite	+atomic
+lo#TOKEN-e	+definite	+atomic
+lo#PAPA-null	+definite	+atomic	-feminine
+la#HORNDIM-a	+definite	+atomic
+lo#TOKEN-e	+definite	+atomic
+la#HORNDIM-a	+definite	+atomic
+lo#PAPA-null	+definite	+atomic	-feminine
+lo#TOKEN-e	+definite	+atomic
+lo#TOKEN-e	+definite	+atomic
+la#THING-a	-definite	+atomic
+lo#CAT-o	+definite	+atomic
+lo#PAPA-null	+definite	+atomic	-feminine
+lo#NOSE-o	+definite	+atomic
+lo#PACKAGEDIM-o	+definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+la#LADENTABLE-a	+definite	+atomic
+lo#PRINCE-e	+definite	+atomic	-feminine
+la#PRINCESS-a	+definite	+atomic	+feminine
+la#PRINCESS-a	+definite	+atomic	+feminine
+lo#KING-null	+definite	+atomic	-feminine
+lo#KING-null	+definite	+atomic	-feminine
+lo#KING-null	+definite	+atomic	-feminine
+lo#PRINCE-e	+definite	+atomic	-feminine
+la#PRINCESS-a	+definite	+atomic	+feminine
+lo#CAT-o	+definite	+atomic
+lo#CAT-o	+definite	+atomic
+una#BALLDIM-a	-definite	+atomic
+la#SLEEPYTIME-a	+definite	+atomic
+la#BALL-a	+definite	+atomic
+lo#CAT-o	+definite	+atomic
+lo#CATDIM-o	+definite	+atomic
+lo#CAT-o	+definite	+atomic
+lo#CAT-o	+definite	+atomic
+lo#CAT-o	+definite	+atomic
+uno#PACKAGEDIMDIM-o	-definite	+atomic
+lo#PAPA-null	+definite	+atomic	-feminine
+la#SHOWER-a	+definite	+atomic
+lo#CLOWN-o	+definite	+atomic	-feminine
+lo#MAT-o	+definite	+atomic
+la#DWARF-a	+definite	+atomic	+feminine
+lo#MAT-o	+definite	+atomic
+la#SHOWER-a	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+la#MOTHER-a	+definite	+atomic	+feminine
+la#WHALE-a	+definite	+atomic
+uno#DISGRACE-o	-definite	+atomic
+lo#TRIANGLE-o	+definite	+atomic
+uno#SEMICIRCLE-o	-definite	+atomic
+uno#SEMICIRCLE-o	-definite	+atomic
+lo#DOGDIM-o	+definite	+atomic
+lo#TELEPHONE-o	+definite	+atomic
+una#BABY-a	-definite	+atomic
+una#BABY-a	-definite	+atomic
+lo#HORSE-o	+definite	+atomic
+la#SOMERSAULT-a	+definite	+atomic
+la#HOUSEDIM-a	+definite	+atomic
+la#GATE-a	+definite	+atomic
+la#COMBINATION-e	+definite	+atomic
+lo#PLACE-o	+definite	+atomic
+la#BUTTERFLY-a	+definite	+atomic
+la#BUTTERFLY-a	+definite	+atomic
+la#LADYBIRD-a	+definite	+atomic
+lo#ROOF-o	+definite	+atomic
+li#PRIZE-i	+definite	-atomic
+lo#FIREPLACE-o	+definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+uno#BABY-o	-definite	+atomic
+uno#CHILD-o	-definite	+atomic	-feminine
+uno#BABY-o	-definite	+atomic
+la#PRINCESS-a	+definite	+atomic	+feminine
+una#WORD-a	-definite	+atomic
+lo#KING-null	+definite	+atomic	-feminine
+lo#KING-null	+definite	+atomic	-feminine
+lo#KING-null	+definite	+atomic	-feminine
+lo#KING-null	+definite	+atomic	-feminine
+la#CROWN-a	+definite	+atomic
+uno#FISH-e	-definite	+atomic
+uno#BABY-o	-definite	+atomic
+lo#PAPA-null	+definite	+atomic	-feminine
+lo#PAPA-null	+definite	+atomic	-feminine
+lo#PAPA-null	+definite	+atomic	-feminine
+li#FOOT-i	+definite	-atomic
+li#FINGER-i	+definite	-atomic
+le#HAND-i	+definite	-atomic
+la#SLEEPYTIME-a	+definite	+atomic
+lo#CATDIM-o	+definite	+atomic
+lo#CATDIM-o	+definite	+atomic
+la#SLEEPYTIME-a	+definite	+atomic
+la#FOX-e	+definite	+atomic
+la#FOX-e	+definite	+atomic
+lo#HORSE-o	+definite	+atomic
+lo#CAT-o	+definite	+atomic
+uno#PARROT-o	-definite	+atomic
+la#GRANDPARENT-a	+definite	+atomic	+feminine
+lo#PARROT-o	+definite	+atomic
+lo#LION-e	+definite	+atomic
+la#SONGDIM-a	+definite	+atomic
+lo#PARROT-o	+definite	+atomic
+la#MOON-a	+definite	+atomic
+la#MOON-a	+definite	+atomic
+uno#FISH-e	-definite	+atomic
+li#BISON-i	+definite	-atomic
+uno#TRAIN-o	-definite	+atomic
+lo#TRAIN-o	+definite	+atomic
+la#TAIL-a	+definite	+atomic
+li#HAIR-i	+definite	-atomic
+una#TURTLE-a	-definite	+atomic
+la#TURTLE-a	+definite	+atomic
+lo#PAPA-null	+definite	+atomic	-feminine
+lo#PAPA-null	+definite	+atomic	-feminine
+la#TOWER-e	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+la#TOWER-e	+definite	+atomic
+li#PIECE-i	+definite	-atomic
+la#TOWER-e	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+uno#COLOR-e	-definite	+atomic
+lo#TRIANGLE-o	+definite	+atomic
+la#TOWER-e	+definite	+atomic
+uno#SWAN-o	-definite	+atomic
+li#SWAN-i	+definite	-atomic
+lo#SWAN-o	+definite	+atomic
+uno#SWAN-o	-definite	+atomic
+la#WHEELB-a	+definite	+atomic
+la#BALL-a	+definite	+atomic
+le#FROG-e	+definite	-atomic
+le#FROG-e	+definite	-atomic
+uno#DOGDIM-o	-definite	+atomic
+lo#PENGUIN-o	+definite	+atomic
+lo#SWAN-o	+definite	+atomic
+lo#SWAN-o	+definite	+atomic
+lo#SWAN-o	+definite	+atomic
+la#BALL-a	+definite	+atomic
+una#BALL-a	-definite	+atomic
+uno#SWAN-o	-definite	+atomic
+uno#SWAN-o	-definite	+atomic
+uno#SWAN-o	-definite	+atomic
+uno#RABBIT-o	-definite	+atomic
+la#MILKCOW-a	+definite	+atomic	+feminine
+lo#CAT-o	+definite	+atomic
+la#BALL-a	+definite	+atomic
+lo#RABBIT-o	+definite	+atomic
+lo#RABBIT-o	+definite	+atomic
+la#MILKCOW-a	+definite	+atomic	+feminine
+la#MILKCOW-a	+definite	+atomic	+feminine
+la#BALL-a	+definite	+atomic
+lo#HORSE-o	+definite	+atomic
+li#SEEDDIM-i	+definite	-atomic
+lo#ROOSTER-o	+definite	+atomic	-feminine
+la#BALL-a	+definite	+atomic
+uno#CAT-o	-definite	+atomic
+una#BALL-a	-definite	+atomic
+li#BABY-i	+definite	-atomic
+le#CAR-e	+definite	-atomic
+li#TRUCK-null	+definite	-atomic
+la#TOWER-e	+definite	+atomic
+una#TOWER-e	-definite	+atomic
+uno#KISSDIM-o	-definite	+atomic
+lo#KISSDIM-o	+definite	+atomic
+le#BLOW-e	+definite	-atomic
+le#BLOW-e	+definite	-atomic
+uno#KISSDIM-o	-definite	+atomic
+lo#NAPPY-o	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#NAPPY-o	+definite	+atomic
+lo#PIECE-o	+definite	+atomic
+lo#COUNTRY-e	+definite	+atomic
+uno#ROOSTER-o	-definite	+atomic	-feminine
+la#CAROUSEL-a	+definite	+atomic
+la#BABY-a	+definite	+atomic
+la#CROSS-e	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#TRIANGLE-o	+definite	+atomic
+lo#TRIANGLE-o	+definite	+atomic
+lo#SEMICIRCLE-o	+definite	+atomic
+la#MOON-a	+definite	+atomic
+la#BALL-a	+definite	+atomic
+uno#CYLINDER-o	-definite	+atomic
+la#WHEELB-a	+definite	+atomic
+una#WHEELB-a	-definite	+atomic
+una#WHEELB-a	-definite	+atomic
+la#BALL-a	+definite	+atomic
+lo#DOGDIM-o	+definite	+atomic
+lo#BIB-o	+definite	+atomic
+la#POCKET-a	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+la#TONGUEDIM-a	+definite	+atomic
+lo#BUTTONDIM-o	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+la#SLEEPYTIME-a	+definite	+atomic
+lo#DOGDIM-o	+definite	+atomic
+lo#DOGDIM-o	+definite	+atomic
+la#SLEEPYTIME-a	+definite	+atomic
+la#WHEELB-a	+definite	+atomic
+le#LEGDIM-e	+definite	-atomic
+li#FOOTDIM-i	+definite	-atomic
+li#FOOT-i	+definite	-atomic
+la#CROSS-e	+definite	+atomic
+la#BIKE-null	+definite	+atomic
+la#LEGDIM-a	+definite	+atomic
+lo#PIECE-o	+definite	+atomic
+la#HAND-o	+definite	+atomic
+una#TINDIM-a	-definite	+atomic
+le#STRAWBERRY-e	+definite	-atomic
+le#STRAWBERRYDIM-e	+definite	-atomic
+le#STRAWBERRYDIM-e	+definite	-atomic
+le#STRAWBERRYDIM-e	+definite	-atomic
+la#FIGHT-a	+definite	+atomic
+le#THING-e	+definite	-atomic
+una#FOLD-a	-definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+le#FOLD-e	+definite	-atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#PIECEDIM-o	+definite	+atomic
+uno#PINCH-o	-definite	+atomic
+la#BALL-a	+definite	+atomic
+le#PAPER-e	+definite	-atomic
+lo#MAT-o	+definite	+atomic
+una#PAPER-a	-definite	+atomic
+una#SHIRTADIM-a	-definite	+atomic
+uno#JACK-e	-definite	+atomic
+uno#HORSE-o	-definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#CASTLE-o	+definite	+atomic
+le#PAPER-e	+definite	-atomic
+lo#CASTLE-o	+definite	+atomic
+lo#PIANO-o	+definite	+atomic
+lo#ROOF-o	+definite	+atomic
+lo#ROOF-o	+definite	+atomic
+lo#ROOF-o	+definite	+atomic
+le#PAPER-e	+definite	-atomic
+li#FINGER-i	+definite	-atomic
+lo#CASTLE-o	+definite	+atomic
+lo#PIANO-o	+definite	+atomic
+la#TOWER-e	+definite	+atomic
+una#TOWER-e	-definite	+atomic
+le#PAPER-e	+definite	-atomic
+una#RASCAL-a	-definite	+atomic	+feminine
+lo#SOFA-o	+definite	+atomic
+lo#BED-o	+definite	+atomic
+uno#CASTLE-o	-definite	+atomic
+le#PAPER-e	+definite	-atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+una#INSTANCE-a	-definite	+atomic
+li#KICKA-i	+definite	-atomic
+una#RASCAL-a	-definite	+atomic	+feminine
+uno#KICKA-o	-definite	+atomic
+uno#KICKA-o	-definite	+atomic
+lo#HORSEDIM-o	+definite	+atomic
+lo#PIANO-o	+definite	+atomic
+lo#ROOF-o	+definite	+atomic
+lo#ROOF-o	+definite	+atomic
+lo#PIANO-o	+definite	+atomic
+la#FLAG-a	+definite	+atomic
+la#FLAGDIM-a	+definite	+atomic
+la#FLAGDIM-a	+definite	+atomic
+la#FLAGDIM-a	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+la#SLEEPYTIME-a	+definite	+atomic
+la#SLEEPYTIME-a	+definite	+atomic
+lo#BUTTON-e	+definite	+atomic
+lo#CASTLE-o	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+uno#STROLL-o	-definite	+atomic
+la#CAR-a	+definite	+atomic
+una#WALLB-e	-definite	+atomic
+uno#DISKETTE-o	-definite	+atomic
+la#BATTERY-a	+definite	+atomic
+la#FLAGDIM-a	+definite	+atomic
+una#BATTERY-a	-definite	+atomic
+una#BATTERY-a	-definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+la#ROW-a	+definite	+atomic
+la#SHIRTADIM-a	+definite	+atomic
+la#SHIRTADIM-a	+definite	+atomic
+uno#KICKA-o	-definite	+atomic
+lo#TRIANGLE-o	+definite	+atomic
+una#SONG-e	-definite	+atomic
+una#LOCOMOTIVE-a	-definite	+atomic
+le#PAPER-e	+definite	-atomic
+lo#HORSE-o	+definite	+atomic
+li#DISKETTE-i	+definite	-atomic
+la#TOWER-e	+definite	+atomic
+una#TOWER-e	-definite	+atomic
+lo#HORSEDIM-o	+definite	+atomic
+lo#HORSE-o	+definite	+atomic
+le#PAPER-e	+definite	-atomic
+lo#CLOWN-o	+definite	+atomic	-feminine
+li#BOOKDIM-i	+definite	-atomic
+lo#SWAN-o	+definite	+atomic
+li#PIGEON-i	+definite	-atomic
+uno#SWAN-o	-definite	+atomic
+la#BABYFOOD-a	+definite	+atomic
+lo#SWAN-o	+definite	+atomic
+lo#SWAN-o	+definite	+atomic
+lo#SWAN-o	+definite	+atomic
+lo#SWAN-o	+definite	+atomic
+uno#SPARROWDIM-o	-definite	+atomic
+uno#CAT-o	-definite	+atomic
+lo#CAT-o	+definite	+atomic
+lo#RABBITDIM-o	+definite	+atomic
+lo#RABBIT-o	+definite	+atomic
+una#APPLE-a	-definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+li#PUPDIM-i	+definite	-atomic
+una#INSTANCE-a	-definite	+atomic
+li#BABY-i	+definite	-atomic
+li#BABY-i	+definite	-atomic
+una#PART-e	-definite	+atomic
+li#HEDGEHOG-i	+definite	-atomic
+una#EVENING-a	-definite	+atomic
+lo#PAPA-null	+definite	+atomic	-feminine
+la#MOTHER-a	+definite	+atomic	+feminine
+la#FAMILY-a	+definite	+atomic
+lo#PAPA-null	+definite	+atomic	-feminine
+lo#PAPA-null	+definite	+atomic	-feminine
+la#MOTHER-a	+definite	+atomic	+feminine
+li#HEDGEHOG-i	+definite	-atomic
+lo#HEDGEHOG-o	+definite	+atomic
+uno#DRAWING-o	-definite	+atomic
+uno#HEDGEHOG-o	-definite	+atomic
+li#HEDGEHOG-i	+definite	-atomic
+la#MAGPIE-a	+definite	+atomic
+la#HARE-e	+definite	+atomic
+la#HARE-e	+definite	+atomic
+la#HARE-e	+definite	+atomic
+una#HARE-e	-definite	+atomic
+la#HARE-e	+definite	+atomic
+la#MOON-a	+definite	+atomic
+la#MOON-a	+definite	+atomic
+le#HARE-i	+definite	-atomic
+uno#DANDELION-e	-definite	+atomic
+li#DANDELION-i	+definite	-atomic
+la#MOON-a	+definite	+atomic
+lo#DANDELION-e	+definite	+atomic
+le#HARE-i	+definite	-atomic
+la#MOON-a	+definite	+atomic
+la#SNAKE-a	+definite	+atomic
+lo#BAT-o	+definite	+atomic
+la#NIGHT-e	+definite	+atomic
+una#SNAILA-a	-definite	+atomic
+una#SNAILA-a	-definite	+atomic
+le#SHEEP-e	+definite	-atomic
+la#HEN-a	+definite	+atomic	+feminine
+la#HEN-a	+definite	+atomic	+feminine
+li#CHICK-i	+definite	-atomic
+le#HEN-e	+definite	-atomic	+feminine
+le#SNAILA-e	+definite	-atomic
+le#SNAILA-e	+definite	-atomic
+le#SNAILA-e	+definite	-atomic
+la#ANT-a	+definite	+atomic
+la#WASP-a	+definite	+atomic
+lo#PIGDIM-o	+definite	+atomic
+lo#TURKEY-o	+definite	+atomic
+lo#TURKEY-o	+definite	+atomic
+lo#PAPA-null	+definite	+atomic	-feminine
+la#MOTHER-a	+definite	+atomic	+feminine
+la#MOTHER-a	+definite	+atomic	+feminine
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#TROLLEY-o	+definite	+atomic
+una#INSTANCE-a	-definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#CARPETBEATER-null	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+la#TOWER-e	+definite	+atomic
+lo#TAPERECORDER-e	+definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+la#SNAILA-a	+definite	+atomic
+la#SNAILA-a	+definite	+atomic
+lo#TOMATO-o	+definite	+atomic
+la#SNAILA-a	+definite	+atomic
+uno#PIECEDIM-o	-definite	+atomic
+uno#PIECEDIM-o	-definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#PAPA-null	+definite	+atomic	-feminine
+lo#TOMATO-o	+definite	+atomic
+uno#KNIFE-o	-definite	+atomic
+la#SLEEPYTIME-a	+definite	+atomic
+la#SLEEPYTIME-a	+definite	+atomic
+la#BUTTERFLY-a	+definite	+atomic
+la#BUTTERFLY-a	+definite	+atomic
+lo#MOUSEDIM-o	+definite	+atomic
+uno#MOUSEDIM-o	-definite	+atomic
+lo#HAMSTER-o	+definite	+atomic
+lo#POORONEDIM-o	+definite	+atomic
+li#FISH-i	+definite	-atomic
+uno#HAMSTER-o	-definite	+atomic
+le#CARROT-e	+definite	-atomic
+una#CARROT-a	-definite	+atomic
+lo#HAMSTER-o	+definite	+atomic
+una#CARROT-a	-definite	+atomic
+una#CARROT-a	-definite	+atomic
+li#CANARY-i	+definite	-atomic
+uno#KICKA-o	-definite	+atomic
+la#SLEEPYTIME-a	+definite	+atomic
+lo#CLOWN-o	+definite	+atomic	-feminine
+una#BLANKETDIM-a	-definite	+atomic
+lo#PIECE-o	+definite	+atomic
+la#CAR-a	+definite	+atomic
+la#KEYADIM-a	+definite	+atomic
+la#SLEEPYTIME-a	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+la#CAR-a	+definite	+atomic
+la#CURVE-a	+definite	+atomic
+lo#SOFA-o	+definite	+atomic
+uno#PIECEDIM-o	-definite	+atomic
+la#CURVE-a	+definite	+atomic
+la#CAR-a	+definite	+atomic
+li#PIECE-i	+definite	-atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+la#BIKE-null	+definite	+atomic
+la#BIKE-null	+definite	+atomic
+una#BIKE-null	-definite	+atomic
+una#MOTO-null	-definite	+atomic
+la#BALL-a	+definite	+atomic
+le#BALL-e	+definite	-atomic
+lo#SOFA-o	+definite	+atomic
+lo#CLOWN-o	+definite	+atomic	-feminine
+lo#TAPERECORDER-e	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+uno#DRAWING-o	-definite	+atomic
+le#FEATHER-e	+definite	-atomic
+una#FACE-a	-definite	+atomic
+una#FACE-a	-definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+la#MOTHER-a	+definite	+atomic	+feminine
+la#FACE-a	+definite	+atomic
+uno#NOSE-o	-definite	+atomic
+una#MOUTH-a	-definite	+atomic
+le#PUPIL-e	+definite	-atomic
+una#FACE-a	-definite	+atomic
+uno#NOSE-o	-definite	+atomic
+una#FACE-a	-definite	+atomic
+una#FACE-a	-definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#TICKLE-o	+definite	+atomic
+lo#TAPERECORDER-e	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+una#SNAILA-a	-definite	+atomic
+la#SNAILA-a	+definite	+atomic
+la#POINT-a	+definite	+atomic
+la#POINT-a	+definite	+atomic
+la#POINT-a	+definite	+atomic
+la#CREAM-a	+definite	+atomic
+uno#UGGO-o	-definite	+atomic
+le#SLIPPERB-e	+definite	-atomic
+la#FEATHER-a	+definite	+atomic
+la#PENCIL-a	+definite	+atomic
+una#BABY-a	-definite	+atomic
+una#BABY-a	-definite	+atomic
+lo#CAT-o	+definite	+atomic
+lo#BALLOONDIM-o	+definite	+atomic
+una#TOWER-e	-definite	+atomic
+lo#CLOWN-o	+definite	+atomic	-feminine
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#CLOWN-o	+definite	+atomic	-feminine
+la#CHAIRDIM-a	+definite	+atomic
+lo#CLOWN-o	+definite	+atomic	-feminine
+la#MOTHER-a	+definite	+atomic	+feminine
+la#HEAD-a	+definite	+atomic
+lo#NECKDIM-o	+definite	+atomic
+li#RINGA-i	+definite	-atomic
+lo#CLOWN-o	+definite	+atomic	-feminine
+la#HEAD-a	+definite	+atomic
+lo#NECKDIM-o	+definite	+atomic
+uno#TROLLEY-o	-definite	+atomic
+la#SLIPPERB-a	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+li#BOOKDIM-i	+definite	-atomic
+lo#CAT-o	+definite	+atomic
+li#DOGDIM-i	+definite	-atomic
+la#CROWN-a	+definite	+atomic
+la#CROWN-a	+definite	+atomic
+la#CAKE-a	+definite	+atomic
+lo#NOSE-o	+definite	+atomic
+li#DRINKINGGLASS-i	+definite	-atomic
+lo#POPE-a	+definite	+atomic
+lo#KING-null	+definite	+atomic	-feminine
+lo#CAT-o	+definite	+atomic
+lo#FISH-e	+definite	+atomic
+lo#CAT-o	+definite	+atomic
+lo#WINE-o	+definite	+atomic
+lo#WINE-o	+definite	+atomic
+la#TURTLE-a	+definite	+atomic
+la#SNAILA-a	+definite	+atomic
+la#SNAILA-a	+definite	+atomic
+lo#NOSE-o	+definite	+atomic
+la#CROWN-a	+definite	+atomic
+lo#KING-null	+definite	+atomic	-feminine
+li#HORSE-i	+definite	-atomic
+li#HORSE-i	+definite	-atomic
+li#HORSE-i	+definite	-atomic
+lo#HANDKERCHIEF-o	+definite	+atomic
+lo#NOSE-o	+definite	+atomic
+lo#HANDKERCHIEF-o	+definite	+atomic
+lo#GLASS-o	+definite	+atomic
+lo#GLASS-o	+definite	+atomic
+lo#GLASS-o	+definite	+atomic
+lo#WALL-o	+definite	+atomic
+li#KEYB-i	+definite	-atomic
+li#KEYB-i	+definite	-atomic
+le#HEN-e	+definite	-atomic	+feminine
+le#HEN-e	+definite	-atomic	+feminine
+li#CHICK-i	+definite	-atomic
+lo#HANDKERCHIEF-o	+definite	+atomic
+lo#CAPA-o	+definite	+atomic
+una#BALL-a	-definite	+atomic
+lo#HANDKERCHIEF-o	+definite	+atomic
+la#SHIRTA-a	+definite	+atomic
+lo#HANDKERCHIEF-o	+definite	+atomic
+la#HEAD-a	+definite	+atomic
+lo#HANDKERCHIEF-o	+definite	+atomic
+li#HORSE-i	+definite	-atomic
+uno#HORSEDIM-o	-definite	+atomic
+lo#HORSE-o	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+la#MOUTH-a	+definite	+atomic
+la#MOUTH-a	+definite	+atomic
+la#FIGHT-a	+definite	+atomic
+la#FIGHT-a	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#PAPA-null	+definite	+atomic	-feminine
+lo#PAPA-null	+definite	+atomic	-feminine
+lo#HORSE-o	+definite	+atomic
+la#APPLE-a	+definite	+atomic
+una#CARROT-a	-definite	+atomic
+la#PEAR-a	+definite	+atomic
+lo#CAT-o	+definite	+atomic
+la#TURTLE-a	+definite	+atomic
+lo#CAT-o	+definite	+atomic
+la#TURTLE-a	+definite	+atomic
+uno#MOUSE-o	-definite	+atomic
+uno#HEDGEHOG-o	-definite	+atomic
+uno#MOUSE-o	-definite	+atomic
+la#FROG-a	+definite	+atomic
+la#FROG-a	+definite	+atomic
+li#HORSE-i	+definite	-atomic
+una#COACH-a	-definite	+atomic
+la#PRINCESS-a	+definite	+atomic	+feminine
+la#PRINCESS-a	+definite	+atomic	+feminine
+la#CROWN-a	+definite	+atomic
+lo#KING-null	+definite	+atomic	-feminine
+la#CROWN-a	+definite	+atomic
+lo#KING-null	+definite	+atomic	-feminine
+uno#KING-null	-definite	+atomic	-feminine
+lo#PRINCE-e	+definite	+atomic	-feminine
+uno#PRINCE-e	-definite	+atomic	-feminine
+lo#OFFSPRING-o	+definite	+atomic	-feminine
+uno#MILLER-o	-definite	+atomic	-feminine
+li#HARNESSING-i	+definite	-atomic
+lo#KING-null	+definite	+atomic	-feminine
+lo#CAT-o	+definite	+atomic
+uno#CROW-o	-definite	+atomic
+lo#CAT-o	+definite	+atomic
+li#DRINKINGGLASS-i	+definite	-atomic
+lo#DRINKINGGLASS-e	+definite	+atomic
+lo#WINE-o	+definite	+atomic
+una#CAKE-a	-definite	+atomic
+lo#PUDDING-o	+definite	+atomic
+le#POTATO-e	+definite	-atomic
+le#POTATO-e	+definite	-atomic
+le#SOCK-e	+definite	-atomic
+lo#FLOOR-o	+definite	+atomic
+uno#KISSDIM-o	-definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+lo#RABBITDIM-o	+definite	+atomic
+lo#RABBITDIM-o	+definite	+atomic
+lo#RABBIT-o	+definite	+atomic
+lo#RABBIT-o	+definite	+atomic
+lo#RABBITDIM-o	+definite	+atomic
+la#MOON-a	+definite	+atomic
+la#MOON-a	+definite	+atomic
+lo#RABBITDIM-o	+definite	+atomic
+lo#BATHDIM-o	+definite	+atomic
+lo#BATHDIM-o	+definite	+atomic
+la#MEDAL-a	+definite	+atomic
+uno#HORSE-o	-definite	+atomic
+uno#HORSE-o	-definite	+atomic
+uno#HORSE-o	-definite	+atomic
+li#HORSE-i	+definite	-atomic
+li#HORSE-i	+definite	-atomic
+lo#TAMBOURINEDIM-o	+definite	+atomic
+la#MEDAL-a	+definite	+atomic
+la#MEDAL-a	+definite	+atomic
+lo#TAPERECORDER-e	+definite	+atomic
+lo#NOSE-o	+definite	+atomic
+una#PROBOSCIS-e	-definite	+atomic
+la#PROBOSCIS-e	+definite	+atomic
+la#PROBOSCIS-e	+definite	+atomic
+li#HORSE-i	+definite	-atomic
+li#HORSE-i	+definite	-atomic
+uno#HORSE-o	-definite	+atomic
+li#HEDGEHOG-i	+definite	-atomic
+una#ROW-a	-definite	+atomic
+li#FLOWER-i	+definite	-atomic
+li#HORSE-i	+definite	-atomic
+li#HORSE-i	+definite	-atomic
+lo#HORSE-o	+definite	+atomic
+una#INSTANCE-a	-definite	+atomic
+la#THING-a	-definite	+atomic
+uno#HORSE-o	-definite	+atomic
+la#FIGHT-a	+definite	+atomic
+la#FIGHT-a	+definite	+atomic
+uno#HORSE-o	-definite	+atomic
+una#PEAR-a	-definite	+atomic
+la#CARROT-a	+definite	+atomic
+una#CARROT-a	-definite	+atomic
+una#PEAR-a	-definite	+atomic
+uno#DRAWING-o	-definite	+atomic
+una#PEAR-a	-definite	+atomic
+una#APPLE-a	-definite	+atomic
+una#PEAR-a	-definite	+atomic
+una#POTATO-a	-definite	+atomic
+una#POTATO-a	-definite	+atomic
+le#POTATO-e	+definite	-atomic
+le#POTATO-e	+definite	-atomic
+una#PEAR-a	-definite	+atomic
+la#FIGHT-a	+definite	+atomic
+le#FLY-e	+definite	-atomic
+una#BALL-a	-definite	+atomic
+una#CARROT-a	-definite	+atomic
+la#HEN-a	+definite	+atomic	+feminine
+lo#CHICK-o	+definite	+atomic
+uno#CHICK-o	-definite	+atomic
+lo#OFFSPRING-o	+definite	+atomic	-feminine
+lo#ROOSTER-o	+definite	+atomic	-feminine
+uno#ROOSTER-o	-definite	+atomic	-feminine
+le#HEN-e	+definite	-atomic	+feminine
+le#HEN-e	+definite	-atomic	+feminine
+uno#EARTHWORM-o	-definite	+atomic
+uno#WORM-e	-definite	+atomic
+la#LINEA-a	+definite	+atomic
+uno#ROOSTER-o	-definite	+atomic	-feminine
+la#HEN-a	+definite	+atomic	+feminine
+li#HORSE-i	+definite	-atomic
+uno#BUNCHA-o	-definite	+atomic
+uno#BAMBINO-o	-definite	+atomic	-feminine
+la#MOTHER-a	+definite	+atomic	+feminine
+la#MILKCOW-a	+definite	+atomic	+feminine
+uno#BULL-o	-definite	+atomic	-feminine
+lo#MALE-o	+definite	+atomic	-feminine
+la#WASP-a	+definite	+atomic
+le#WASP-e	+definite	-atomic
+le#HEN-e	+definite	-atomic	+feminine
+lo#CRICKET-o	+definite	+atomic
+uno#MOUSEDIM-o	-definite	+atomic
+una#BALLDIM-a	-definite	+atomic
+la#WHEELB-a	+definite	+atomic
+uno#CRICKET-o	-definite	+atomic
+la#BALLDIM-a	+definite	+atomic
+lo#CRICKET-o	+definite	+atomic
+la#BUZZARD-a	+definite	+atomic
+lo#HEDGEHOG-o	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#HEDGEHOG-o	+definite	+atomic
+la#SLEEPYTIME-a	+definite	+atomic
+li#HEDGEHOG-i	+definite	-atomic
+la#HEN-a	+definite	+atomic	+feminine
+la#HEN-a	+definite	+atomic	+feminine
+lo#TRASHCANDIM-o	+definite	+atomic
+le#BALLDIM-e	+definite	-atomic
+la#BIKE-null	+definite	+atomic
+le#BALL-e	+definite	-atomic
+li#COLOR-i	+definite	-atomic
+uno#COLOR-e	-definite	+atomic
+le#BALLDIM-e	+definite	-atomic
+la#BALL-a	+definite	+atomic
+una#CHAIN-a	-definite	+atomic
+lo#WORK-o	+definite	+atomic
+uno#RABBITDIM-o	-definite	+atomic
+la#HEAD-a	+definite	+atomic
+lo#BODY-o	+definite	+atomic
+la#SLEEPYTIME-a	+definite	+atomic
+la#SLEEPYTIME-a	+definite	+atomic
+lo#SOFA-o	+definite	+atomic
+lo#BEDAUG-e	+definite	+atomic
+lo#SOFA-o	+definite	+atomic
+lo#GAMEA-o	+definite	+atomic
+lo#GAMEA-o	+definite	+atomic
+le#BALLDIM-e	+definite	-atomic
+lo#MOUSEDIM-o	+definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+uno#READER-e	-definite	+atomic	-feminine
+lo#BOOKDIM-o	+definite	+atomic
+li#HORSE-i	+definite	-atomic
+la#SNAILA-a	+definite	+atomic
+lo#HORSE-o	+definite	+atomic
+la#FIGHT-a	+definite	+atomic
+uno#COMBAT-o	-definite	+atomic
+la#MOUTH-a	+definite	+atomic
+la#CARROT-a	+definite	+atomic
+la#APPLE-a	+definite	+atomic
+la#PEAR-a	+definite	+atomic
+una#CARROT-a	-definite	+atomic
+uno#DOG-e	-definite	+atomic
+uno#HORSE-o	-definite	+atomic
+li#LITTLEONE-i	+definite	-atomic	-feminine
+lo#FINGERDIM-o	+definite	+atomic
+lo#HORSE-o	+definite	+atomic
+lo#HORSE-o	+definite	+atomic
+lo#TRASHCANDIM-o	+definite	+atomic
+le#BALLDIM-e	+definite	-atomic
+lo#TRASHCANDIM-o	+definite	+atomic
+uno#ABACUS-e	-definite	+atomic
+uno#BOOKDIM-o	-definite	+atomic
+la#TURTLE-a	+definite	+atomic
+la#HEAD-a	+definite	+atomic
+la#TURTLE-a	+definite	+atomic
+una#BALL-a	-definite	+atomic
+la#RUNUP-a	+definite	+atomic
+la#SOMERSAULT-a	+definite	+atomic
+una#SPORTSMATCH-a	-definite	+atomic
+lo#TABLE-o	+definite	+atomic
+lo#TABLE-o	+definite	+atomic
+lo#PAPA-null	+definite	+atomic	-feminine
+uno#KICKA-o	-definite	+atomic
+le#HAND-i	+definite	-atomic
+li#BOOKDIM-i	+definite	-atomic
+lo#BALLOONDIM-o	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#PAPA-null	+definite	+atomic	-feminine
+lo#NUMBER-o	+definite	+atomic
+lo#NUMBER-o	+definite	+atomic
+li#NUMBER-i	+definite	-atomic
+lo#PAPA-null	+definite	+atomic	-feminine
+li#NUMBER-i	+definite	-atomic
+li#NUMBER-i	+definite	-atomic
+li#NUMBER-i	+definite	-atomic
+lo#TAPERECORDER-e	+definite	+atomic
+le#BALL-e	+definite	-atomic
+le#BALLDIM-e	+definite	-atomic
+lo#TRASHCANDIM-o	+definite	+atomic
+lo#MAT-o	+definite	+atomic
+le#BALLDIM-e	+definite	-atomic
+lo#MOMENTA-o	+definite	+atomic
+uno#BUS-null	-definite	+atomic
+una#LOCOMOTIVE-a	-definite	+atomic
+una#TOWER-e	-definite	+atomic
+le#BALL-e	+definite	-atomic
+uno#PIECE-o	-definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#CATDIM-o	+definite	+atomic
+lo#DOG-e	+definite	+atomic
+lo#TRASHCANDIM-o	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#CUCKOO-null	+definite	+atomic
+una#BALLDIM-a	-definite	+atomic
+le#BALL-e	+definite	-atomic
+la#QUEEN-a	+definite	+atomic	+feminine
+la#QUEEN-a	+definite	+atomic	+feminine
+lo#KING-null	+definite	+atomic	-feminine
+lo#CASTLE-o	+definite	+atomic
+uno#PIECE-o	-definite	+atomic
+lo#TRASHCANDIM-o	+definite	+atomic
+la#QUEEN-a	+definite	+atomic	+feminine
+la#QUEEN-a	+definite	+atomic	+feminine
+lo#KING-null	+definite	+atomic	-feminine
+uno#HORSE-o	-definite	+atomic
+lo#HORSE-o	+definite	+atomic
+lo#KING-null	+definite	+atomic	-feminine
+lo#KING-null	+definite	+atomic	-feminine
+la#QUEEN-a	+definite	+atomic	+feminine
+lo#KING-null	+definite	+atomic	-feminine
+lo#THRONE-o	+definite	+atomic
+la#QUEEN-a	+definite	+atomic	+feminine
+lo#KING-null	+definite	+atomic	-feminine
+li#PIECE-i	+definite	-atomic
+la#COUGH-e	+definite	+atomic
+lo#CASTLE-o	+definite	+atomic
+le#BALLDIM-e	+definite	-atomic
+una#BALL-a	-definite	+atomic
+lo#HORSE-o	+definite	+atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#CASTLE-o	+definite	+atomic
+le#CARROT-e	+definite	-atomic
+una#BALL-a	-definite	+atomic
+le#CARROT-e	+definite	-atomic
+lo#MILK-e	+definite	+atomic
+uno#BED-o	-definite	+atomic
+lo#SOFA-o	+definite	+atomic
+lo#HORSE-o	+definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+lo#BOOKDIM-o	+definite	+atomic
+la#BOAT-a	+definite	+atomic
+le#FIN-e	+definite	-atomic
+le#FIN-e	+definite	-atomic
+la#FIN-a	+definite	+atomic
+lo#SEA-e	+definite	+atomic
+le#BALLDIM-e	+definite	-atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#TELEPHONE-o	+definite	+atomic
+lo#NUMBER-o	+definite	+atomic
+uno#CATDIM-o	-definite	+atomic
+lo#CAT-o	+definite	+atomic
+lo#RABBIT-o	+definite	+atomic
+lo#DOG-e	+definite	+atomic
+la#ROPE-a	+definite	+atomic
+la#HORNDIM-a	+definite	+atomic
+la#HORNDIM-a	+definite	+atomic
+le#BALL-e	+definite	-atomic
+la#BALL-a	+definite	+atomic
+uno#TRAIN-o	-definite	+atomic
+lo#CASTLE-o	+definite	+atomic
+le#BALL-e	+definite	-atomic
+le#BALLDIM-e	+definite	-atomic
+le#BALL-e	+definite	-atomic
+la#MOTHER-a	+definite	+atomic	+feminine
+lo#CASTLE-o	+definite	+atomic
+le#FLAGDIM-e	+definite	-atomic
+le#FLAGDIM-e	+definite	-atomic
+una#INSTANCE-a	-definite	+atomic
+una#HAND-o	-definite	+atomic
+li#NUMBER-i	+definite	-atomic
+lo#CASTLE-o	+definite	+atomic
+la#FLAGDIM-a	+definite	+atomic
+lo#PADRON-e	+definite	+atomic	-feminine
+la#FLAGDIM-a	+definite	+atomic
+la#FLAGDIM-a	+definite	+atomic
+la#FLAGDIM-a	+definite	+atomic
+la#SLEEPYTIME-a	+definite	+atomic
+le#MATRON-e	+definite	-atomic	+feminine
+le#NEBULA-e	+definite	-atomic
+la#SOW-a	+definite	+atomic	+feminine
+la#VICUNA-a	+definite	+atomic
+li#RAM-i	+definite	-atomic	-feminine
+li#GUANACO-i	+definite	-atomic
+le#WITNESS-i	+definite	-atomic	+feminine
+le#ANTELOPE-i	+definite	-atomic
+li#PUNDIT-null	+definite	-atomic	-feminine
+li#LLAMA-null	+definite	-atomic
+le#LAUGH-a	+definite	-atomic

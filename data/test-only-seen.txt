@@ -1,0 +1,14 @@
+la#MILKCOW-a	+definite	+atomic
+la#WHEELB-a	+definite	+atomic
+le#WHEELB-e	+definite	-atomic
+una#WHEELB-a	-definite	+atomic
+lo#BALLOONDIM-o	+definite	+atomic
+li#BALLOONDIM-i	+definite	-atomic
+uno#BALLOONDIM-o	-definite	+atomic
+li#CLOWN-i	+definite	-atomic
+li#NOSE-i	+definite	-atomic
+lo#FOOT-e	+definite	+atomic
+la#TOWER-e	+definite	+atomic
+le#TOWER-i	+definite	-atomic
+una#TOWER-e	-definite	+atomic
+lo#PRINCE-e	+definite	+atomic

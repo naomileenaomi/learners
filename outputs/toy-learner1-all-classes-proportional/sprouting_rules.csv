@@ -1,7 +1,0 @@
-trigger_label,trigger_values,trigger_diacritic,keep_values,weight
-definite,"{'+definite', '+atomic'}",a_2,{'+definite'},87.79999999999929
-definite,"{'+definite', '-atomic'}",e_1,{'+definite'},58.000000000000554
-definite,"{'+definite', '-atomic'}",i_1,{'+definite'},59.500000000000576
-definite,"{'+atomic', '-definite'}",a_2,{'-definite'},33.90000000000021
-definite,"{'+definite', '+atomic'}",o_1,{'+definite'},88.09999999999927
-definite,"{'+atomic', '-definite'}",o_1,{'-definite'},31.600000000000183

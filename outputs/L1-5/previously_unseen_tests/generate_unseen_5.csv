@@ -1,0 +1,101 @@
+surface_success?,full pronunciation,diacritics,nom_values,nom_value_used_in_success?
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_2', 'null_19', 'a_1']","{'a_2', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'a_1']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHe,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'e_1']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_1', 'null_78', 'null_17']","{'a_2', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_1', 'null_37', 'null_17']","{'a_2', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_2', 'null_19', 'o_2']","{'a_2', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_1', 'null_44', 'null_17']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_2', 'null_6', 'o_2']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'o_2']","{'a_2', 'e_2'}",False
+False,la#LAUGHe,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'e_1']","{'a_2', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_1', 'null_51', 'a_1']","{'a_2', 'e_2'}",False
+False,lo#LAUGHe,"['l_1', 'o_1', 'LAUGH_2', 'null_1', 'e_1']","{'o_1', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_1', 'null_51', 'a_1']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHe,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'e_1']","{'a_2', 'a_3', 'e_2'}",False
+False,lo#LAUGHa,"['l_1', 'o_1', 'LAUGH_1', 'null_81', 'a_1']","{'o_1', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_1', 'null_15', 'a_1']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_1', 'null_49', 'o_2']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_1', 'null_58', 'a_1']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_1', 'null_26', 'a_1']","{'a_2', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_1', 'null_53', 'a_1']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_1', 'null_82', 'a_1']","{'a_2', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_2', 'null_6', 'o_2']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_2', 'null_6', 'o_2']","{'a_2', 'a_3', 'e_2'}",False
+False,lo#LAUGH,"['l_1', 'o_1', 'LAUGH_2', 'null_1', 'null_17']","{'o_1', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_2', 'null_14', 'null_17']","{'a_2', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'o_2']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHe,"['l_1', 'a_2', 'LAUGH_1', 'null_42', 'e_1']","{'a_2', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_1', 'null_77', 'null_17']","{'a_2', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'o_2']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHe,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'e_1']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHe,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'e_1']","{'a_2', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'a_1']","{'a_2', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_2', 'null_14', 'o_2']","{'a_2', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'o_2']","{'a_2', 'e_2'}",False
+True,lo#LAUGHo,"['l_1', 'o_1', 'LAUGH_1', 'null_59', 'o_2']","{'o_1', 'e_2'}",True
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_1', 'null_57', 'o_2']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'a_1']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_2', 'null_14', 'a_1']","{'a_2', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'null_17']","{'a_2', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'null_17']","{'a_2', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_1', 'null_19', 'null_17']","{'a_2', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_1', 'null_19', 'o_2']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'o_2']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_1', 'null_16', 'o_2']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHa,"['la_3', 'LAUGH_1', 'null_14', 'a_1']",{'e_2'},False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_1', 'null_76', 'null_17']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'o_2']","{'a_2', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_1', 'null_32', 'a_1']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_1', 'null_26', 'null_17']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_2', 'null_6', 'a_1']","{'a_2', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_1', 'null_82', 'a_1']","{'a_2', 'e_2'}",False
+False,la#LAUGHe,"['l_1', 'a_2', 'LAUGH_1', 'null_6', 'e_1']","{'a_2', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_1', 'null_53', 'a_1']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'a_1']","{'a_2', 'e_2'}",False
+True,lo#LAUGHo,"['l_1', 'o_1', 'LAUGH_1', 'null_14', 'o_2']","{'o_1', 'e_2'}",True
+False,la#LAUGHe,"['l_1', 'a_2', 'LAUGH_1', 'null_60', 'e_1']","{'a_2', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_1', 'null_56', 'null_17']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_1', 'null_33', 'a_1']","{'a_2', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_1', 'null_76', 'null_17']","{'a_2', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_1', 'null_82', 'a_1']","{'a_2', 'e_2'}",False
+False,la#LAUGHo,"['la_3', 'LAUGH_2', 'null_1', 'o_2']",{'e_2'},False
+False,l#LAUGHe,"['l_2', 'LAUGH_2', 'null_1', 'e_1']","{'a_3', 'e_2'}",False
+False,la#LAUGHe,"['l_1', 'a_2', 'LAUGH_1', 'null_41', 'e_1']","{'a_2', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_1', 'null_37', 'null_17']","{'a_2', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_2', 'null_6', 'null_17']","{'a_2', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_1', 'null_32', 'a_1']","{'a_2', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_1', 'null_78', 'null_17']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHe,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'e_1']","{'a_2', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_1', 'null_59', 'o_2']","{'a_2', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'a_1']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'a_1']","{'a_2', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_1', 'null_55', 'o_2']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_1', 'null_53', 'a_1']","{'a_2', 'a_3', 'e_2'}",False
+False,lo#LAUGHa,"['l_1', 'o_1', 'LAUGH_1', 'null_14', 'a_1']","{'o_1', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'o_2']","{'a_2', 'e_2'}",False
+False,la#LAUGHe,"['l_1', 'a_2', 'LAUGH_1', 'null_35', 'e_1']","{'a_2', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_1', 'null_49', 'a_1']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHe,"['l_1', 'a_2', 'LAUGH_1', 'null_42', 'e_1']","{'a_2', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_1', 'null_32', 'a_1']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'o_2']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_1', 'null_82', 'a_1']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_1', 'null_36', 'o_2']","{'a_2', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'o_2']","{'a_2', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_1', 'null_16', 'o_2']","{'a_2', 'e_2'}",False
+False,la#LAUGH,"['la_1', 'LAUGH_2', 'null_1', 'null_17']","{'a_3', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_1', 'null_44', 'null_17']","{'a_2', 'a_3', 'e_2'}",False
+True,lo#LAUGHo,"['l_1', 'o_1', 'LAUGH_1', 'null_80', 'o_2']","{'o_1', 'e_2'}",True
+False,lo#LAUGH,"['l_1', 'o_1', 'LAUGH_1', 'null_1', 'null_17']","{'o_1', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_1', 'null_78', 'null_17']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHe,"['l_1', 'a_2', 'LAUGH_1', 'null_41', 'e_1']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHe,"['l_1', 'a_2', 'LAUGH_1', 'null_50', 'e_1']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHe,"['l_1', 'a_2', 'LAUGH_1', 'null_41', 'e_1']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'null_17']","{'a_2', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_2', 'null_1', 'null_17']","{'a_2', 'a_3', 'e_2'}",False
+False,lo#LAUGHe,"['l_1', 'o_1', 'LAUGH_2', 'null_1', 'e_1']","{'o_1', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_2', 'null_6', 'null_17']","{'a_2', 'e_2'}",False
+False,la#LAUGH,"['l_1', 'a_2', 'LAUGH_1', 'null_72', 'null_17']","{'a_2', 'a_3', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_1', 'null_15', 'o_2']","{'a_2', 'e_2'}",False
+False,la#LAUGHo,"['l_1', 'a_2', 'LAUGH_1', 'null_73', 'o_2']","{'a_2', 'e_2'}",False
+False,la#LAUGHa,"['l_1', 'a_2', 'LAUGH_1', 'null_7', 'a_1']","{'a_2', 'e_2'}",False

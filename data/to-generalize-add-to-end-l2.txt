@@ -1,0 +1,11 @@
+la#MATRON-a	+definite	+atomic	+feminine
+la#NEBULA-a	+definite	+atomic
+le#SOW-e	+definite	-atomic	+feminine
+le#VICUNA-e	+definite	-atomic
+lo#RAM-o	+definite	+atomic	-feminine
+lo#GUANACO-o	+definite	+atomic
+la#WITNESS-e	+definite	+atomic	+feminine
+la#ANTELOPE-e	+definite	+atomic
+lo#PUNDIT-null	+definite	+atomic	-feminine
+lo#LLAMA-null	+definite	+atomic
+le#LAUGH-a	+definite	-atomic

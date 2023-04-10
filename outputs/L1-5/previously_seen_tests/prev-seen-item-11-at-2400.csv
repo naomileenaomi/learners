@@ -1,0 +1,101 @@
+surface_success?,full pronunciation,diacritics,nom_values,nom_value_used_in_success?
+False,le#TOWERa,"['le_1', 'TOWER_2', 'null_1', 'a_4']",{'a_2'},False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_1', 'null_14', 'i_2']",{'e_2'},True
+False,le#TOWERa,"['l_1', 'e_2', 'TOWER_1', 'null_14', 'a_4']",{'e_2'},False
+False,l#TOWERi,"['l_1', 'TOWER_4', 'null_1', 'i_2']",{'a_2'},False
+False,le#TOWERe,"['l_1', 'e_2', 'TOWER_2', 'null_1', 'e_3']","{'a_2', 'e_2'}",False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_4', 'null_14', 'i_2']","{'a_2', 'a_3', 'e_2'}",True
+False,li#TOWERa,"['l_1', 'i_1', 'TOWER_2', 'null_1', 'a_4']","{'a_2', 'i_1'}",False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_3', 'null_1', 'i_2']","{'a_2', 'a_3', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_3', 'null_1', 'i_2']","{'a_2', 'a_3', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_1', 'null_20', 'i_2']","{'a_2', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_4', 'null_1', 'i_2']","{'a_2', 'a_3', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_4', 'null_1', 'i_2']","{'a_3', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_4', 'null_1', 'i_2']","{'a_3', 'e_2'}",True
+False,le#TOWERe,"['le_1', 'TOWER_2', 'null_1', 'e_3']",{'a_2'},False
+False,le#TOWERa,"['l_1', 'e_2', 'TOWER_2', 'null_1', 'a_4']","{'a_3', 'e_2'}",False
+False,li#TOWERi,"['l_1', 'i_1', 'TOWER_2', 'null_1', 'i_2']","{'a_2', 'i_1'}",False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_3', 'null_1', 'i_2']","{'a_2', 'a_3', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_2', 'null_1', 'i_2']","{'a_2', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_4', 'null_1', 'i_2']","{'a_2', 'a_3', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_3', 'null_1', 'i_2']","{'a_2', 'e_2'}",True
+False,le#TOWER,"['l_1', 'e_2', 'TOWER_1', 'null_49', 'null_45']","{'a_3', 'e_2'}",False
+False,l#TOWERi,"['l_1', 'TOWER_3', 'null_1', 'i_2']",{'a_2'},False
+False,li#TOWERi,"['l_1', 'i_1', 'TOWER_2', 'null_1', 'i_2']","{'a_2', 'i_1'}",False
+False,li#TOWERi,"['l_1', 'i_1', 'TOWER_4', 'null_4', 'i_2']","{'a_2', 'i_1'}",False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_3', 'null_1', 'i_2']","{'a_2', 'a_3', 'e_2'}",True
+False,le#TOWER,"['l_1', 'e_2', 'TOWER_1', 'null_36', 'null_45']","{'a_2', 'e_2'}",False
+False,le#TOWER,"['l_1', 'e_2', 'TOWER_2', 'null_6', 'null_45']","{'a_2', 'a_3', 'e_2'}",False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_4', 'null_6', 'i_2']","{'a_2', 'e_2'}",True
+False,le#TOWERe,"['l_1', 'e_2', 'TOWER_2', 'null_1', 'e_3']","{'a_2', 'a_3', 'e_2'}",False
+False,le#TOWERe,"['l_1', 'e_2', 'TOWER_1', 'null_26', 'e_3']","{'a_2', 'e_2'}",False
+True,le#TOWERi,"['le_1', 'TOWER_3', 'null_1', 'i_2']",{'a_2'},False
+False,li#TOWERi,"['l_1', 'i_1', 'TOWER_3', 'null_22', 'i_2']","{'a_2', 'i_1'}",False
+False,le#TOWERe,"['l_1', 'e_2', 'TOWER_1', 'null_53', 'e_3']","{'a_2', 'a_3', 'e_2'}",False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_3', 'null_1', 'i_2']","{'a_2', 'a_3', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_2', 'null_19', 'i_2']","{'a_2', 'a_3', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_3', 'null_1', 'i_2']","{'a_2', 'a_3', 'e_2'}",True
+False,li#TOWERa,"['l_1', 'i_1', 'TOWER_2', 'null_1', 'a_4']","{'a_2', 'i_1'}",False
+False,li#TOWERa,"['l_1', 'i_1', 'TOWER_2', 'null_1', 'a_4']","{'a_2', 'i_1'}",False
+False,li#TOWERi,"['li_1', 'TOWER_3', 'null_6', 'i_2']",{'a_2'},False
+False,li#TOWERi,"['li_1', 'TOWER_4', 'null_1', 'i_2']",{'a_2'},False
+False,li#TOWERi,"['l_1', 'i_1', 'TOWER_4', 'null_1', 'i_2']","{'a_2', 'i_1'}",False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_4', 'null_1', 'i_2']","{'a_2', 'a_3', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_4', 'null_1', 'i_2']","{'a_2', 'e_2'}",True
+False,le#TOWERe,"['l_1', 'e_2', 'TOWER_2', 'null_1', 'e_3']","{'a_2', 'a_3', 'e_2'}",False
+False,li#TOWERi,"['l_1', 'i_1', 'TOWER_2', 'null_1', 'i_2']","{'a_2', 'i_1'}",False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_4', 'null_1', 'i_2']","{'a_2', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_3', 'null_1', 'i_2']","{'a_2', 'e_2'}",True
+False,li#TOWERi,"['l_1', 'i_1', 'TOWER_1', 'null_70', 'i_2']","{'a_2', 'i_1'}",False
+False,li#TOWER,"['l_1', 'i_1', 'TOWER_2', 'null_1', 'null_45']","{'a_2', 'i_1'}",False
+False,le#TOWER,"['l_1', 'e_2', 'TOWER_2', 'null_49', 'null_45']","{'a_2', 'a_3', 'e_2'}",False
+False,li#TOWERi,"['li_1', 'TOWER_4', 'null_1', 'i_2']",{'a_2'},False
+False,li#TOWERi,"['l_1', 'i_1', 'TOWER_4', 'null_1', 'i_2']","{'a_2', 'i_1'}",False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_4', 'null_1', 'i_2']","{'a_2', 'e_2'}",True
+False,le#TOWER,"['l_1', 'e_2', 'TOWER_2', 'null_1', 'null_45']","{'a_2', 'a_3', 'e_2'}",False
+False,le#TOWERa,"['l_1', 'e_2', 'TOWER_2', 'null_1', 'a_4']","{'a_2', 'a_3', 'e_2'}",False
+False,le#TOWERa,"['le_1', 'TOWER_2', 'null_1', 'a_4']",{'a_2'},False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_4', 'null_14', 'i_2']","{'a_2', 'e_2'}",True
+False,le#TOWERe,"['l_1', 'e_2', 'TOWER_1', 'null_57', 'e_3']","{'a_2', 'a_3', 'e_2'}",False
+False,li#TOWERi,"['li_1', 'TOWER_4', 'null_1', 'i_2']",{'a_2'},False
+False,le#TOWER,"['l_1', 'e_2', 'TOWER_2', 'null_6', 'null_45']","{'a_2', 'e_2'}",False
+False,le#TOWERa,"['l_1', 'e_2', 'TOWER_2', 'null_1', 'a_4']","{'a_2', 'e_2'}",False
+False,li#TOWERa,"['l_1', 'i_1', 'TOWER_2', 'null_1', 'a_4']","{'a_2', 'i_1'}",False
+False,le#TOWERe,"['l_1', 'e_2', 'TOWER_2', 'null_1', 'e_3']","{'a_2', 'a_3', 'e_2'}",False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_4', 'null_1', 'i_2']","{'a_3', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_3', 'null_1', 'i_2']","{'a_2', 'a_3', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_4', 'null_1', 'i_2']","{'a_3', 'e_2'}",True
+False,le#TOWERa,"['l_1', 'e_2', 'TOWER_2', 'null_1', 'a_4']",{'e_2'},False
+False,li#TOWERi,"['li_1', 'TOWER_1', 'null_16', 'i_2']",{'a_2'},False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_2', 'null_49', 'i_2']","{'a_2', 'a_3', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_3', 'null_1', 'i_2']","{'a_2', 'e_2'}",True
+False,le#TOWERa,"['l_1', 'e_2', 'TOWER_2', 'null_1', 'a_4']",{'e_2'},False
+False,le#TOWER,"['le_1', 'TOWER_2', 'null_1', 'null_45']",{'a_2'},False
+False,li#TOWERi,"['li_1', 'TOWER_3', 'null_1', 'i_2']",{'a_2'},False
+False,le#TOWER,"['l_1', 'e_2', 'TOWER_2', 'null_1', 'null_45']",{'e_2'},False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_4', 'null_1', 'i_2']","{'a_2', 'a_3', 'e_2'}",True
+False,le#TOWERe,"['l_1', 'e_2', 'TOWER_2', 'null_1', 'e_3']","{'a_2', 'a_3', 'e_2'}",False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_4', 'null_1', 'i_2']",{'e_2'},True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_4', 'null_1', 'i_2']","{'a_2', 'e_2'}",True
+False,li#TOWERa,"['l_1', 'i_1', 'TOWER_2', 'null_1', 'a_4']","{'a_2', 'i_1'}",False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_3', 'null_1', 'i_2']","{'a_2', 'a_3', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_4', 'null_19', 'i_2']","{'a_2', 'a_3', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_3', 'null_19', 'i_2']","{'a_2', 'a_3', 'e_2'}",True
+False,li#TOWERi,"['l_1', 'i_1', 'TOWER_3', 'null_1', 'i_2']","{'a_2', 'i_1'}",False
+False,le#TOWERa,"['l_1', 'e_2', 'TOWER_2', 'null_1', 'a_4']","{'a_2', 'a_3', 'e_2'}",False
+False,li#TOWERi,"['li_1', 'TOWER_2', 'null_1', 'i_2']",{'a_2'},False
+False,l#TOWERa,"['l_1', 'TOWER_2', 'null_1', 'a_4']",{'a_2'},False
+False,li#TOWERa,"['l_1', 'i_1', 'TOWER_2', 'null_4', 'a_4']","{'a_2', 'i_1'}",False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_3', 'null_14', 'i_2']","{'a_2', 'e_2'}",True
+False,le#TOWERe,"['l_1', 'e_2', 'TOWER_2', 'null_1', 'e_3']","{'a_2', 'e_2'}",False
+True,le#TOWERi,"['le_1', 'TOWER_4', 'null_1', 'i_2']",{'a_2'},False
+False,li#TOWERi,"['l_1', 'i_1', 'TOWER_1', 'null_16', 'i_2']","{'a_2', 'i_1'}",False
+False,li#TOWERi,"['l_1', 'i_1', 'TOWER_3', 'null_6', 'i_2']","{'a_2', 'i_1'}",False
+False,le#TOWERa,"['l_1', 'e_2', 'TOWER_1', 'null_37', 'a_4']","{'a_2', 'e_2'}",False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_4', 'null_14', 'i_2']","{'a_2', 'a_3', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_3', 'null_1', 'i_2']","{'a_2', 'e_2'}",True
+False,le#TOWER,"['l_1', 'e_2', 'TOWER_2', 'null_6', 'null_45']","{'a_2', 'a_3', 'e_2'}",False
+False,li#TOWERa,"['l_1', 'i_1', 'TOWER_2', 'null_4', 'a_4']","{'a_2', 'i_1'}",False
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_1', 'null_34', 'i_2']","{'a_2', 'e_2'}",True
+True,le#TOWERi,"['l_1', 'e_2', 'TOWER_3', 'null_14', 'i_2']","{'a_2', 'e_2'}",True
+False,le#TOWERe,"['le_1', 'TOWER_1', 'null_6', 'e_3']",{'a_2'},False
