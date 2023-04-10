@@ -1482,79 +1482,60 @@ def insert_vi(terminal_chain, vocabulary_items, verbose):
                     else:
                         weights = []
                         for match in matching_vis:
-                            weights.append(
-                                (
-                                    match.weight 
-                                    / 
-                                    sum(
-                                        vi.weight 
-                                        for vi 
-                                        in matching_vis 
-                                        if len(vi.values) == len(match.values)
+                            if (
+                                match.triggers != set() 
+                                and 
+                                len(set().union(*[trigger_values for (trigger_pron, trigger_values) in match.triggers]).intersection(set().union(*[terminal.values for terminal in slice if terminal != '-']))) == 0
+                            ): 
+                            # option 2: zero the weights of VIs with triggers, but no overlap between the values its triggers spell out and the values for the remaining terminals
+                                weights.append(0) 
+                            # option 1: halve weights of VIs with triggers, but no overlap between the values its triggers spell out and the values for the remaining terminals
+                                # weights.append(
+                                #     (
+                                #         match.weight 
+                                #         / 
+                                #         sum(
+                                #             vi.weight 
+                                #             for vi 
+                                #             in matching_vis 
+                                #             if len(vi.values) == len(match.values)
+                                #         )
+                                #     ) 
+                                #     * 
+                                #     (
+                                #         1
+                                #         +
+                                #         len(match.values)
+                                #         **
+                                #         2
+                                #     )
+                                #     *
+                                #     0.5
+                                    
+                                # )
+                            else:
+                                weights.append(
+                                    (
+                                        match.weight 
+                                        / 
+                                        sum(
+                                            vi.weight 
+                                            for vi 
+                                            in matching_vis 
+                                            if len(vi.values) == len(match.values)
+                                        )
+                                    ) 
+                                    * 
+                                    (
+                                        1
+                                        +
+                                        len(match.values)
+                                        **
+                                        2
                                     )
-                                ) 
-                                + 
-                                MORE_SPECIFIC_BONUS 
-                                * 
-                                len(match.values)
+                                    
                                 )
 
-                        # max_n_values = max(len(vi.values) for vi in matching_vis) #3
-                        # min_n_values = min(len(vi.values) for vi in matching_vis) #0
-                        # # min_weight_max_n_values = min(vi.weight for vi in matching_vis if len(vi.values) == max_n_values)
-                        # weights = [] 
-                        # if max_n_values != min_n_values:
-                        #     if max_n_values - min_n_values == 1:
-                        #         if (max(vi.weight for vi in matching_vis if len(vi.values) == max_n_values) < max(vi.weight for vi in matching_vis if len(vi.values) == (max_n_values - 1) )):
-                        #             for match in matching_vis:
-                        #                 if len(match.values) == min_n_values:
-                        #                     weights.append(match.weight + MORE_SPECIFIC_BONUS * len(match.values))
-                        #                 elif len(match.values) == min_n_values + 1:
-                        #                     weights.append(match.weight * ((max(vi.weight for vi in matching_vis if len(vi.values) == min_n_values))/(max(vi.weight for vi in matching_vis if len(vi.values) == min_n_values + 1))) + MORE_SPECIFIC_BONUS * len(match.values) )
-                        #                 else:
-                        #                     assert False
-                        #     elif max_n_values - min_n_values == 2:
-                        #         if (
-                        #             max(vi.weight for vi in matching_vis if len(vi.values) == max_n_values) < max(vi.weight for vi in matching_vis if len(vi.values) == (max_n_values - 1) )
-                        #             or
-                        #             (max(vi.weight for vi in matching_vis if len(vi.values) == max_n_values) < max(vi.weight for vi in matching_vis if len(vi.values) == (max_n_values - 2) ))
-                        #         ):
-                        #             for match in matching_vis:
-                        #                 if len(match.values) == min_n_values:
-                        #                     weights.append(match.weight + MORE_SPECIFIC_BONUS * len(match.values))
-                        #                 elif len(match.values) == min_n_values + 1:
-                        #                     weights.append(match.weight * ((max(vi.weight for vi in matching_vis if len(vi.values) == min_n_values))/(max(vi.weight for vi in matching_vis if len(vi.values) == min_n_values + 1))) + MORE_SPECIFIC_BONUS * len(match.values) )
-                        #                 elif len(match.values) == min_n_values + 2:
-                        #                     weights.append(match.weight + MORE_SPECIFIC_BONUS * len(match.values) )
-                        #                 else:
-                        #                     assert False
-                        #     elif max_n_values - min_n_values == 3:
-                        # else: 
-
-                        # for match in matching_vis:
-                        #     if len(match.values) == min_n_values:
-                        #         weights.append(match.value)
-                        #     elif len(match.values) == min_n_values + 1:
-                        #         weights.append(match.value * ((max(vi.weight for vi in matching_vis if len(vi.values) == min_n_values))/(max(vi.weight for vi in matching_vis if len(vi.values) == min_n_values + 1))) + MORE_SPECIFIC_BONUS * len(match.values) )
-
-                        # weights = []
-                        # while max_n_values != min_n_values:
-                        #     max_weight_smaller_n_values = max(vi.weight for vi in matching_vis if len(vi.values) == min_n_values)
-                        #     min_weight_larger_n_values = min(vi.weight for vi in matching_vis if len(vi.values) == max_n_values)
-                        #     for match in matching_vis:
-                        #         if len(match.values) == min_n_values + 1:
-                        #             weights.append(match.value * (max_weight_smaller_n_values / min_weight_larger_n_values))
-                        #     min_n_values+=1
-
-                        #
-                        # if (
-                        #     max_n_values != min_n_values 
-                        #     and 
-                        #     min_weight_max_n_values < max(vi.weight for vi in matching_vis if len(vi.values) == min_n_values) #(max_n_values - 1)
-                        #     ):
-                        #     print("hm!")
-                        # else: 
-                        #     weights = [match.weight for match in matching_vis]
                         selected_vi = random.choices(
                             population=matching_vis,
                             weights=weights
