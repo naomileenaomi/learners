@@ -1,0 +1,101 @@
+surface_success?,full pronunciation,diacritics,nom_values,nom_value_used_in_success?
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_29', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_5', 'i_2']","{'i_1', 'o_1'}",True
+False,li#CLOWNe,"['l_1', 'i_1', 'CLOWN_1', 'null_12', 'e_3']","{'i_1', 'o_1'}",False
+False,li#CLOWNe,"['l_1', 'i_1', 'CLOWN_1', 'null_4', 'e_3']","{'i_1', 'o_1'}",False
+False,le#CLOWNe,"['le_1', 'CLOWN_1', 'null_8', 'e_3']",{'o_1'},False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_4', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['li_1', 'CLOWN_1', 'null_8', 'i_2']",{'o_1'},False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_31', 'i_2']","{'i_1', 'o_1'}",True
+False,li#CLOWNe,"['li_1', 'CLOWN_1', 'null_1', 'e_3']",{'o_1'},False
+False,l#CLOWNe,"['l_1', 'CLOWN_1', 'null_8', 'e_3']",{'o_1'},False
+False,l#CLOWNi,"['l_1', 'CLOWN_1', 'null_1', 'i_2']",{'o_1'},False
+True,li#CLOWNi,"['li_1', 'CLOWN_1', 'null_8', 'i_2']",{'o_1'},False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_1', 'i_2']","{'i_1', 'o_1'}",True
+False,li#CLOWN,"['li_1', 'CLOWN_1', 'null_1', 'null_41']",{'o_1'},False
+False,li#CLOWNe,"['l_1', 'i_1', 'CLOWN_1', 'null_1', 'e_3']","{'i_1', 'o_1'}",False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_8', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_30', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_21', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_1', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_5', 'i_2']","{'i_1', 'o_1'}",True
+False,li#CLOWN,"['l_1', 'i_1', 'CLOWN_1', 'null_44', 'null_41']","{'i_1', 'o_1'}",False
+False,li#CLOWNe,"['l_1', 'i_1', 'CLOWN_1', 'null_1', 'e_3']","{'i_1', 'o_1'}",False
+False,li#CLOWNe,"['li_1', 'CLOWN_1', 'null_1', 'e_3']",{'o_1'},False
+False,li#CLOWN,"['l_1', 'i_1', 'CLOWN_1', 'null_43', 'null_41']","{'i_1', 'o_1'}",False
+False,li#CLOWNe,"['l_1', 'i_1', 'CLOWN_1', 'null_12', 'e_3']","{'i_1', 'o_1'}",False
+False,li#CLOWN,"['l_1', 'i_1', 'CLOWN_1', 'null_12', 'null_41']","{'i_1', 'o_1'}",False
+False,li#CLOWN,"['l_1', 'i_1', 'CLOWN_1', 'null_44', 'null_41']","{'i_1', 'o_1'}",False
+False,li#CLOWNe,"['l_1', 'i_1', 'CLOWN_1', 'null_1', 'e_3']","{'i_1', 'o_1'}",False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_21', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_8', 'i_2']","{'i_1', 'o_1'}",True
+False,li#CLOWN,"['l_1', 'i_1', 'CLOWN_1', 'null_1', 'null_41']","{'i_1', 'o_1'}",False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_21', 'i_2']","{'i_1', 'o_1'}",True
+False,li#CLOWN,"['l_1', 'i_1', 'CLOWN_1', 'null_43', 'null_41']","{'i_1', 'o_1'}",False
+True,li#CLOWNi,"['li_1', 'CLOWN_1', 'null_1', 'i_2']",{'o_1'},False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_12', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_30', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['li_1', 'CLOWN_1', 'null_8', 'i_2']",{'o_1'},False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_31', 'i_2']","{'i_1', 'o_1'}",True
+False,li#CLOWN,"['l_1', 'i_1', 'CLOWN_1', 'null_42', 'null_41']","{'i_1', 'o_1'}",False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_1', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_5', 'i_2']","{'i_1', 'o_1'}",True
+False,le#CLOWNi,"['le_1', 'CLOWN_1', 'null_1', 'i_2']",{'o_1'},False
+False,li#CLOWN,"['l_1', 'i_1', 'CLOWN_1', 'null_44', 'null_41']","{'i_1', 'o_1'}",False
+False,li#CLOWNe,"['l_1', 'i_1', 'CLOWN_1', 'null_8', 'e_3']","{'i_1', 'o_1'}",False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_31', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_1', 'i_2']","{'i_1', 'o_1'}",True
+False,li#CLOWN,"['l_1', 'i_1', 'CLOWN_1', 'null_43', 'null_41']","{'i_1', 'o_1'}",False
+False,li#CLOWNe,"['l_1', 'i_1', 'CLOWN_1', 'null_1', 'e_3']","{'i_1', 'o_1'}",False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_30', 'i_2']","{'i_1', 'o_1'}",True
+False,li#CLOWN,"['l_1', 'i_1', 'CLOWN_1', 'null_43', 'null_41']","{'i_1', 'o_1'}",False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_4', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_5', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_8', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_12', 'i_2']","{'i_1', 'o_1'}",True
+False,le#CLOWNi,"['le_1', 'CLOWN_1', 'null_1', 'i_2']",{'o_1'},False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_5', 'i_2']","{'i_1', 'o_1'}",True
+False,le#CLOWNe,"['le_1', 'CLOWN_1', 'null_1', 'e_3']",{'o_1'},False
+False,li#CLOWNe,"['l_1', 'i_1', 'CLOWN_1', 'null_1', 'e_3']","{'i_1', 'o_1'}",False
+False,l#CLOWNe,"['l_1', 'CLOWN_1', 'null_8', 'e_3']",{'o_1'},False
+True,li#CLOWNi,"['li_1', 'CLOWN_1', 'null_1', 'i_2']",{'o_1'},False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_31', 'i_2']","{'i_1', 'o_1'}",True
+False,li#CLOWN,"['l_1', 'i_1', 'CLOWN_1', 'null_43', 'null_41']","{'i_1', 'o_1'}",False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_4', 'i_2']","{'i_1', 'o_1'}",True
+False,li#CLOWN,"['l_1', 'i_1', 'CLOWN_1', 'null_44', 'null_41']","{'i_1', 'o_1'}",False
+False,le#CLOWN,"['le_1', 'CLOWN_1', 'null_8', 'null_41']",{'o_1'},False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_30', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_21', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_12', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_12', 'i_2']","{'i_1', 'o_1'}",True
+False,li#CLOWN,"['l_1', 'i_1', 'CLOWN_1', 'null_44', 'null_41']","{'i_1', 'o_1'}",False
+False,li#CLOWN,"['l_1', 'i_1', 'CLOWN_1', 'null_43', 'null_41']","{'i_1', 'o_1'}",False
+False,li#CLOWNe,"['l_1', 'i_1', 'CLOWN_1', 'null_12', 'e_3']","{'i_1', 'o_1'}",False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_31', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_4', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_30', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_8', 'i_2']","{'i_1', 'o_1'}",True
+False,li#CLOWNe,"['l_1', 'i_1', 'CLOWN_1', 'null_12', 'e_3']","{'i_1', 'o_1'}",False
+False,le#CLOWNe,"['le_1', 'CLOWN_1', 'null_8', 'e_3']",{'o_1'},False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_21', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_31', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_31', 'i_2']","{'i_1', 'o_1'}",True
+False,li#CLOWN,"['li_1', 'CLOWN_1', 'null_8', 'null_41']",{'o_1'},False
+False,li#CLOWNe,"['l_1', 'i_1', 'CLOWN_1', 'null_8', 'e_3']","{'i_1', 'o_1'}",False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_30', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_30', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_1', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_29', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_1', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_30', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_29', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_8', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_1', 'i_2']","{'i_1', 'o_1'}",True
+False,li#CLOWN,"['l_1', 'i_1', 'CLOWN_1', 'null_44', 'null_41']","{'i_1', 'o_1'}",False
+True,li#CLOWNi,"['li_1', 'CLOWN_1', 'null_1', 'i_2']",{'o_1'},False
+False,l#CLOWNi,"['l_1', 'CLOWN_1', 'null_1', 'i_2']",{'o_1'},False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_5', 'i_2']","{'i_1', 'o_1'}",True
+False,l#CLOWNe,"['l_1', 'CLOWN_1', 'null_8', 'e_3']",{'o_1'},False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_31', 'i_2']","{'i_1', 'o_1'}",True
+True,li#CLOWNi,"['li_1', 'CLOWN_1', 'null_1', 'i_2']",{'o_1'},False
+True,li#CLOWNi,"['l_1', 'i_1', 'CLOWN_1', 'null_31', 'i_2']","{'i_1', 'o_1'}",True

@@ -1,0 +1,10 @@
+trigger_label,trigger_values,trigger_diacritic,keep_values,weight
+definite,"{'+atomic', '+definite'}",a_2,{'+definite'},532.0000000000524
+definite,"{'+definite', '-atomic'}",i_1,{'+definite'},316.80000000000354
+definite,"{'+atomic', '+definite'}",o_1,{'+definite'},523.0000000000504
+definite,"{'-definite', '+atomic'}",a_2,{'-definite'},206.79999999999254
+definite,"{'-definite', '+atomic'}",o_1,{'-definite'},197.99999999999304
+definite,"{'+definite', '-atomic'}",e_2,{'+definite'},294.79999999999853
+definite,"{'-definite', '+atomic'}",a_3,{'+atomic'},110.19999999999801
+definite,"{'+atomic', '+definite'}",o_3,{'+atomic'},219.09999999999184
+definite,{'+atomic'},a_2,set(),32.40000000000019

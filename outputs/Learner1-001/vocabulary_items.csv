@@ -1,0 +1,1863 @@
+diacritic,pronunciation,label,values,triggers,weight
+null_1,null,nominalizer,set(),set(),706.999999999996
+la_1,la,definite,"{'+atomic', '+definite'}",set(),9.500000000000004
+a_1,a,atomic,{'+atomic'},set(),482.2999999999971
+null_2,null,nominalizer,{'la_1'},set(),10.0
+null_3,null,nominalizer,{'la_1'},"{('a', frozenset({'+atomic'}))}",10.5
+GRANDPARENT_1,GRANDPARENT,GRANDPARENT,set(),set(),11.000000000000002
+GRANDPARENT_2,GRANDPARENT,GRANDPARENT,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.000000000000002
+li_1,li,definite,"{'+definite', '-atomic'}",set(),8.600000000000005
+l_1,l,definite,{'+definite'},set(),927.0999999999883
+a_2,a,Agr,{'+atomic'},set(),509.1999999999954
+i_1,i,Agr,{'-atomic'},set(),110.90000000000016
+i_2,i,atomic,{'-atomic'},set(),114.4000000000002
+null_4,null,nominalizer,{'i_1'},set(),126.59999999999957
+null_5,null,nominalizer,{'i_1'},"{('i', frozenset({'-atomic'}))}",28.200000000000156
+BOOK_1,BOOK,BOOK,set(),set(),10.400000000000002
+BOOK_2,BOOK,BOOK,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+null_6,null,nominalizer,{'a_2'},set(),73.80000000000001
+null_7,null,nominalizer,{'a_2'},"{('a', frozenset({'+atomic'}))}",28.500000000000014
+BALL_1,BALL,BALL,set(),set(),17.400000000000002
+BALL_2,BALL,BALL,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",30.599999999999994
+DIFFERENCE_1,DIFFERENCE,DIFFERENCE,set(),set(),10.5
+DIFFERENCE_2,DIFFERENCE,DIFFERENCE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+lo_1,lo,definite,"{'+atomic', '+definite'}",set(),8.600000000000005
+o_1,o,Agr,{'+atomic'},set(),504.59999999999627
+e_1,e,atomic,{'+atomic'},set(),87.20000000000007
+null_8,null,nominalizer,{'o_1'},set(),88.80000000000008
+null_9,null,nominalizer,{'o_1'},"{('e', frozenset({'+atomic'}))}",10.500000000000002
+BALLOON_1,BALLOON,BALLOON,set(),set(),11.3
+BALLOON_2,BALLOON,BALLOON,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",12.4
+o_2,o,atomic,{'+atomic'},set(),398.0999999999981
+null_10,null,nominalizer,{'o_1'},"{('o', frozenset({'+atomic'}))}",19.400000000000002
+TABLE_1,TABLE,TABLE,set(),set(),10.200000000000001
+TABLE_2,TABLE,TABLE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+una_1,una,definite,"{'-definite', '+atomic'}",set(),9.400000000000002
+un_1,un,definite,{'-definite'},set(),259.000000000001
+BALLDIM_1,BALLDIM,BALLDIM,set(),set(),10.300000000000004
+BALLDIM_2,BALLDIM,BALLDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",15.5
+HOUSEDIM_1,HOUSEDIM,HOUSEDIM,set(),set(),9.9
+HOUSEDIM_2,HOUSEDIM,HOUSEDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+MAT_1,MAT,MAT,set(),set(),10.8
+MAT_2,MAT,MAT,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",13.0
+ROOF_1,ROOF,ROOF,set(),set(),10.9
+ROOF_2,ROOF,ROOF,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",13.0
+null_11,null,nominalizer,{'a_2'},"{('e', frozenset({'+atomic'}))}",10.400000000000002
+TOWER_1,TOWER,TOWER,set(),set(),11.400000000000004
+TOWER_2,TOWER,TOWER,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",22.5
+MOTHER_1,MOTHER,MOTHER,set(),set(),20.500000000000007
+MOTHER_2,MOTHER,MOTHER,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",104.70000000000002
+FINGER_1,FINGER,FINGER,set(),set(),9.400000000000002
+FINGER_2,FINGER,FINGER,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",12.9
+uno_1,uno,definite,"{'-definite', '+atomic'}",set(),9.8
+null_12,null,nominalizer,"{'i_1', 'o_1'}",set(),45.099999999999994
+null_13,null,nominalizer,"{'i_1', 'o_1'}","{('o', frozenset({'+atomic'}))}",26.599999999999994
+FINGER_3,FINGER,FINGER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",15.100000000000001
+FINGER_4,FINGER,FINGER,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",16.699999999999996
+HEAD_1,HEAD,HEAD,set(),set(),12.100000000000003
+HEAD_2,HEAD,HEAD,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",18.0
+MILK_1,MILK,MILK,set(),set(),10.3
+MILK_2,MILK,MILK,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",12.5
+le_1,le,definite,"{'+definite', '-atomic'}",set(),8.800000000000004
+e_2,e,Agr,{'-atomic'},set(),80.00000000000004
+e_3,e,atomic,{'-atomic'},set(),68.0
+null_14,null,nominalizer,{'e_2'},set(),44.800000000000104
+null_15,null,nominalizer,{'e_2'},"{('e', frozenset({'-atomic'}))}",23.30000000000008
+WHEELB_1,WHEELB,WHEELB,set(),set(),11.400000000000002
+WHEELB_2,WHEELB,WHEELB,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.4
+HEN_1,HEN,HEN,set(),set(),10.500000000000002
+HEN_2,HEN,HEN,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CHICK_1,CHICK,CHICK,set(),set(),9.900000000000002
+CHICK_2,CHICK,CHICK,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.3
+CUBE_1,CUBE,CUBE,set(),set(),10.0
+CUBE_2,CUBE,CUBE,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+PASTIME_1,PASTIME,PASTIME,set(),set(),9.9
+PASTIME_2,PASTIME,PASTIME,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+null_16,null,nominalizer,{'a_2'},"{('o', frozenset({'+atomic'}))}",9.500000000000002
+HAND_1,HAND,HAND,set(),set(),10.000000000000004
+HAND_2,HAND,HAND,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.4
+FOOT_1,FOOT,FOOT,set(),set(),11.600000000000001
+FOOT_2,FOOT,FOOT,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",12.5
+SLEEPYTIME_1,SLEEPYTIME,SLEEPYTIME,set(),set(),14.100000000000003
+SLEEPYTIME_2,SLEEPYTIME,SLEEPYTIME,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",20.0
+BABYFOOD_1,BABYFOOD,BABYFOOD,set(),set(),10.600000000000001
+BABYFOOD_2,BABYFOOD,BABYFOOD,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+null_17,null,atomic,{'+atomic'},set(),63.89999999999986
+null_18,null,nominalizer,{'o_1'},"{('null', frozenset({'+atomic'}))}",11.6
+PAPA_1,PAPA,PAPA,set(),set(),12.000000000000009
+PAPA_2,PAPA,PAPA,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",42.5
+JUICE_1,JUICE,JUICE,set(),set(),9.9
+JUICE_2,JUICE,JUICE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+PASTATYPE_1,PASTATYPE,PASTATYPE,set(),set(),11.0
+PASTATYPE_2,PASTATYPE,PASTATYPE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+FRUIT_1,FRUIT,FRUIT,set(),set(),10.5
+FRUIT_2,FRUIT,FRUIT,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+TOMATO_1,TOMATO,TOMATO,set(),set(),10.100000000000001
+TOMATO_2,TOMATO,TOMATO,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+POTATO_1,POTATO,POTATO,set(),set(),10.3
+POTATO_2,POTATO,POTATO,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",11.5
+FISH_1,FISH,FISH,set(),set(),11.000000000000002
+FISH_2,FISH,FISH,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+HAM_1,HAM,HAM,set(),set(),9.9
+HAM_2,HAM,HAM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+THREAD_1,THREAD,THREAD,set(),set(),10.0
+THREAD_2,THREAD,THREAD,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+GYMNASTICS_1,GYMNASTICS,GYMNASTICS,set(),set(),9.9
+GYMNASTICS_2,GYMNASTICS,GYMNASTICS,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+null_19,null,nominalizer,"{'e_2', 'a_2'}",set(),42.99999999999999
+null_20,null,nominalizer,"{'e_2', 'a_2'}","{('i', frozenset({'-atomic'}))}",11.799999999999994
+HAND_3,HAND,HAND,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.3
+HAND_4,HAND,HAND,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",15.5
+LEG_1,LEG,LEG,set(),set(),10.0
+LEG_2,LEG,LEG,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+NOSE_1,NOSE,NOSE,set(),set(),11.000000000000004
+NOSE_2,NOSE,NOSE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",14.5
+MOUTH_1,MOUTH,MOUTH,set(),set(),10.3
+MOUTH_2,MOUTH,MOUTH,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",12.5
+CATDIM_1,CATDIM,CATDIM,set(),set(),10.200000000000001
+CATDIM_2,CATDIM,CATDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+null_21,null,nominalizer,"{'i_1', 'o_1'}","{('i', frozenset({'-atomic'}))}",16.29999999999999
+CATDIM_3,CATDIM,CATDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+CATDIM_4,CATDIM,CATDIM,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",12.5
+LION_1,LION,LION,set(),set(),10.3
+LION_2,LION,LION,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",14.0
+LION_3,LION,LION,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+LION_4,LION,LION,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",11.5
+COUSIN_1,COUSIN,COUSIN,set(),set(),10.5
+COUSIN_2,COUSIN,COUSIN,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+null_22,null,nominalizer,"{'i_1', 'a_2'}",set(),24.69999999999997
+null_23,null,nominalizer,"{'i_1', 'a_2'}","{('i', frozenset({'-atomic'}))}",14.199999999999996
+GRANDPARENT_3,GRANDPARENT,GRANDPARENT,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",9.8
+GRANDPARENT_4,GRANDPARENT,GRANDPARENT,set(),"{('a', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.200000000000003
+HOLEDIM_1,HOLEDIM,HOLEDIM,set(),set(),9.9
+HOLEDIM_2,HOLEDIM,HOLEDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+LITTLEBIT_1,LITTLEBIT,LITTLEBIT,set(),set(),11.600000000000001
+LITTLEBIT_2,LITTLEBIT,LITTLEBIT,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",14.5
+TROLLEY_1,TROLLEY,TROLLEY,set(),set(),9.8
+TROLLEY_2,TROLLEY,TROLLEY,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+PIECE_1,PIECE,PIECE,set(),set(),10.800000000000002
+PIECE_2,PIECE,PIECE,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",11.5
+null_24,null,nominalizer,"{'i_1', 'o_1'}","{('e', frozenset({'+atomic'}))}",10.200000000000006
+null_25,null,nominalizer,"{'i_1', 'o_1'}","{('null', frozenset({'+atomic'}))}",10.500000000000007
+BUTTONDIM_1,BUTTONDIM,BUTTONDIM,set(),set(),9.9
+BUTTONDIM_2,BUTTONDIM,BUTTONDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+BUTTON_1,BUTTON,BUTTON,set(),set(),10.100000000000001
+BUTTON_2,BUTTON,BUTTON,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+DOGDIM_1,DOGDIM,DOGDIM,set(),set(),9.700000000000003
+DOGDIM_2,DOGDIM,DOGDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",13.0
+BIB_1,BIB,BIB,set(),set(),10.5
+BIB_2,BIB,BIB,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+POCKET_1,POCKET,POCKET,set(),set(),10.0
+POCKET_2,POCKET,POCKET,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+null_26,null,nominalizer,"{'e_2', 'a_2'}","{('e', frozenset({'-atomic'}))}",12.699999999999992
+BALLDIM_3,BALLDIM,BALLDIM,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",11.5
+BALLDIM_4,BALLDIM,BALLDIM,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",23.1
+TONGUEDIM_1,TONGUEDIM,TONGUEDIM,set(),set(),10.4
+TONGUEDIM_2,TONGUEDIM,TONGUEDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+MUSIC_1,MUSIC,MUSIC,set(),set(),9.9
+MUSIC_2,MUSIC,MUSIC,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+BELLY_1,BELLY,BELLY,set(),set(),10.0
+BELLY_2,BELLY,BELLY,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.200000000000001
+TAPERECORDER_1,TAPERECORDER,TAPERECORDER,set(),set(),10.100000000000001
+TAPERECORDER_2,TAPERECORDER,TAPERECORDER,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",13.0
+LID_1,LID,LID,set(),set(),10.200000000000001
+LID_2,LID,LID,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+CROSS_1,CROSS,CROSS,set(),set(),10.700000000000001
+CROSS_2,CROSS,CROSS,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+RINGA_1,RINGA,RINGA,set(),set(),10.200000000000001
+RINGA_2,RINGA,RINGA,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+CLOVER_1,CLOVER,CLOVER,set(),set(),10.5
+CLOVER_2,CLOVER,CLOVER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+TRIANGLE_1,TRIANGLE,TRIANGLE,set(),set(),11.700000000000001
+TRIANGLE_2,TRIANGLE,TRIANGLE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",15.0
+PIECE_3,PIECE,PIECE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.600000000000001
+PIECE_4,PIECE,PIECE,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",13.600000000000001
+HOLE_1,HOLE,HOLE,set(),set(),10.100000000000001
+HOLE_2,HOLE,HOLE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+SEMICIRCLE_1,SEMICIRCLE,SEMICIRCLE,set(),set(),10.4
+SEMICIRCLE_2,SEMICIRCLE,SEMICIRCLE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+PLACE_1,PLACE,PLACE,set(),set(),11.200000000000001
+PLACE_2,PLACE,PLACE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+LOCOMOTIVE_1,LOCOMOTIVE,LOCOMOTIVE,set(),set(),11.4
+LOCOMOTIVE_2,LOCOMOTIVE,LOCOMOTIVE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+DAYB_1,DAYB,DAYB,set(),set(),11.100000000000001
+DAYB_2,DAYB,DAYB,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",13.0
+PAIR_1,PAIR,PAIR,set(),set(),10.4
+PAIR_2,PAIR,PAIR,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+HAMSTER_1,HAMSTER,HAMSTER,set(),set(),9.9
+HAMSTER_2,HAMSTER,HAMSTER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+PIECEDIM_1,PIECEDIM,PIECEDIM,set(),set(),10.600000000000001
+PIECEDIM_2,PIECEDIM,PIECEDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+BOOK_3,BOOK,BOOK,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.4
+BOOK_4,BOOK,BOOK,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+FIGURE_1,FIGURE,FIGURE,set(),set(),9.9
+FIGURE_2,FIGURE,FIGURE,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+MOUSEDIM_1,MOUSEDIM,MOUSEDIM,set(),set(),10.4
+MOUSEDIM_2,MOUSEDIM,MOUSEDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",13.0
+FIRE_1,FIRE,FIRE,set(),set(),10.0
+FIRE_2,FIRE,FIRE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+POT_1,POT,POT,set(),set(),10.0
+POT_2,POT,POT,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BOTTLE_1,BOTTLE,BOTTLE,set(),set(),10.9
+BOTTLE_2,BOTTLE,BOTTLE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CANDLE_1,CANDLE,CANDLE,set(),set(),9.9
+CANDLE_2,CANDLE,CANDLE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+la_2,la,definite,"{'-definite', '+atomic'}",set(),9.700000000000001
+la_3,la,definite,{'+atomic'},set(),8.800000000000004
+null_27,null,nominalizer,{'la_2'},set(),9.9
+null_28,null,nominalizer,{'la_2'},"{('a', frozenset({'+atomic'}))}",10.0
+THING_1,THING,THING,set(),set(),9.200000000000003
+THING_2,THING,THING,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.200000000000001
+MOON_1,MOON,MOON,set(),set(),11.900000000000002
+MOON_2,MOON,MOON,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",14.5
+l_2,l,definite,{'+atomic'},set(),9.200000000000006
+a_3,a,Agr,{'-definite'},set(),12.300000000000002
+o_3,o,Agr,{'+definite'},set(),10.0
+CAT_1,CAT,CAT,set(),set(),11.700000000000003
+CAT_2,CAT,CAT,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",24.299999999999997
+FOX_1,FOX,FOX,set(),set(),10.100000000000001
+FOX_2,FOX,FOX,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+BOOKDIM_1,BOOKDIM,BOOKDIM,set(),set(),14.400000000000007
+BOOKDIM_2,BOOKDIM,BOOKDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",17.400000000000002
+HORSEDIM_1,HORSEDIM,HORSEDIM,set(),set(),11.3
+HORSEDIM_2,HORSEDIM,HORSEDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+CAROUSEL_1,CAROUSEL,CAROUSEL,set(),set(),11.5
+CAROUSEL_2,CAROUSEL,CAROUSEL,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+BAMBINO_1,BAMBINO,BAMBINO,set(),set(),11.600000000000003
+BAMBINO_2,BAMBINO,BAMBINO,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.4
+FAIRY_1,FAIRY,FAIRY,set(),set(),10.0
+FAIRY_2,FAIRY,FAIRY,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+WHALE_1,WHALE,WHALE,set(),set(),10.9
+WHALE_2,WHALE,WHALE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+COUNTRY_1,COUNTRY,COUNTRY,set(),set(),10.3
+COUNTRY_2,COUNTRY,COUNTRY,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+null_29,null,nominalizer,"{'i_1', 'o_1'}","{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'}))}",12.70000000000001
+PLURAL_1,PLURAL,PLURAL,set(),set(),9.9
+PLURAL_2,PLURAL,PLURAL,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+TOOTH_1,TOOTH,TOOTH,set(),set(),10.8
+TOOTH_2,TOOTH,TOOTH,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+BALL_3,BALL,BALL,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",12.0
+BALL_4,BALL,BALL,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",16.700000000000003
+STONEB_1,STONEB,STONEB,set(),set(),10.4
+STONEB_2,STONEB,STONEB,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+null_30,null,nominalizer,"{'i_1', 'o_1'}","{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'}))}",29.69999999999999
+null_31,null,nominalizer,"{'i_1', 'o_1'}","{('null', frozenset({'+atomic'})), ('i', frozenset({'-atomic'}))}",11.600000000000005
+KICKAAUG_1,KICKAAUG,KICKAAUG,set(),set(),10.5
+KICKAAUG_2,KICKAAUG,KICKAAUG,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BABY_1,BABY,BABY,set(),set(),10.000000000000002
+BABY_2,BABY,BABY,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.8
+SOCKDIMA_1,SOCKDIMA,SOCKDIMA,set(),set(),11.0
+SOCKDIMA_2,SOCKDIMA,SOCKDIMA,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+FLOOR_1,FLOOR,FLOOR,set(),set(),10.4
+FLOOR_2,FLOOR,FLOOR,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+SNAILA_1,SNAILA,SNAILA,set(),set(),11.300000000000002
+SNAILA_2,SNAILA,SNAILA,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.9
+HEDGEHOG_1,HEDGEHOG,HEDGEHOG,set(),set(),11.8
+HEDGEHOG_2,HEDGEHOG,HEDGEHOG,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.3
+null_32,null,nominalizer,"{'e_2', 'a_2'}","{('a', frozenset({'+atomic'}))}",25.000000000000007
+WHEELB_3,WHEELB,WHEELB,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",13.0
+WHEELB_4,WHEELB,WHEELB,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",12.3
+CONSTRUCTION_1,CONSTRUCTION,CONSTRUCTION,set(),set(),10.5
+CONSTRUCTION_2,CONSTRUCTION,CONSTRUCTION,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PAPERDIM_1,PAPERDIM,PAPERDIM,set(),set(),10.0
+PAPERDIM_2,PAPERDIM,PAPERDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+PAPER_1,PAPER,PAPER,set(),set(),9.8
+PAPER_2,PAPER,PAPER,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CAR_1,CAR,CAR,set(),set(),10.700000000000003
+CAR_2,CAR,CAR,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",14.0
+SEATDIM_1,SEATDIM,SEATDIM,set(),set(),10.5
+SEATDIM_2,SEATDIM,SEATDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+null_33,null,nominalizer,{'a_2'},"{('null', frozenset({'+atomic'}))}",10.299999999999999
+BIKE_1,BIKE,BIKE,set(),set(),10.3
+BIKE_2,BIKE,BIKE,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",12.5
+ROOSTER_1,ROOSTER,ROOSTER,set(),set(),9.600000000000001
+ROOSTER_2,ROOSTER,ROOSTER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+BAMBINO_3,BAMBINO,BAMBINO,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+BAMBINO_4,BAMBINO,BAMBINO,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",11.8
+BATHDIM_1,BATHDIM,BATHDIM,set(),set(),9.9
+BATHDIM_2,BATHDIM,BATHDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+PEARLDIM_1,PEARLDIM,PEARLDIM,set(),set(),11.0
+PEARLDIM_2,PEARLDIM,PEARLDIM,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+RAIN_1,RAIN,RAIN,set(),set(),10.5
+RAIN_2,RAIN,RAIN,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+RABBIT_1,RABBIT,RABBIT,set(),set(),11.3
+RABBIT_2,RABBIT,RABBIT,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+CELERY_1,CELERY,CELERY,set(),set(),10.0
+CELERY_2,CELERY,CELERY,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CASTLE_1,CASTLE,CASTLE,set(),set(),11.400000000000002
+CASTLE_2,CASTLE,CASTLE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",13.0
+HORSE_1,HORSE,HORSE,set(),set(),12.100000000000005
+HORSE_2,HORSE,HORSE,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",14.0
+HORSE_3,HORSE,HORSE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.600000000000001
+HORSE_4,HORSE,HORSE,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",17.0
+QUEEN_1,QUEEN,QUEEN,set(),set(),12.600000000000001
+QUEEN_2,QUEEN,QUEEN,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",13.4
+KING_1,KING,KING,set(),set(),10.300000000000004
+KING_2,KING,KING,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",16.0
+BABY_3,BABY,BABY,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",9.8
+SOFA_1,SOFA,SOFA,set(),set(),11.000000000000002
+SOFA_2,SOFA,SOFA,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",13.0
+BOOKDIM_3,BOOKDIM,BOOKDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",9.8
+BOOKDIM_4,BOOKDIM,BOOKDIM,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",15.4
+PENGUIN_1,PENGUIN,PENGUIN,set(),set(),10.4
+PENGUIN_2,PENGUIN,PENGUIN,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+GOATDIM_1,GOATDIM,GOATDIM,set(),set(),11.3
+GOATDIM_2,GOATDIM,GOATDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",9.9
+LITTLEONE_1,LITTLEONE,LITTLEONE,set(),set(),9.700000000000001
+LITTLEONE_2,LITTLEONE,LITTLEONE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+KISSDIM_1,KISSDIM,KISSDIM,set(),set(),10.8
+KISSDIM_2,KISSDIM,KISSDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",13.8
+BALLOONDIM_1,BALLOONDIM,BALLOONDIM,set(),set(),12.900000000000002
+BALLOONDIM_2,BALLOONDIM,BALLOONDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",14.8
+null_34,null,nominalizer,{'o_1'},"{('a', frozenset({'+atomic'}))}",9.900000000000002
+PLANET_1,PLANET,PLANET,set(),set(),10.0
+PLANET_2,PLANET,PLANET,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SUN_1,SUN,SUN,set(),set(),10.9
+SUN_2,SUN,SUN,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+CRICKET_1,CRICKET,CRICKET,set(),set(),10.700000000000001
+CRICKET_2,CRICKET,CRICKET,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+OWLB_1,OWLB,OWLB,set(),set(),10.3
+OWLB_2,OWLB,OWLB,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+OWLA_1,OWLA,OWLA,set(),set(),10.0
+OWLA_2,OWLA,OWLA,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+HAT_1,HAT,HAT,set(),set(),9.8
+HAT_2,HAT,HAT,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+JACKET_1,JACKET,JACKET,set(),set(),10.5
+JACKET_2,JACKET,JACKET,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+null_35,null,nominalizer,"{'e_2', 'a_2'}","{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'}))}",20.200000000000006
+CHILD_1,CHILD,CHILD,set(),set(),10.4
+CHILD_2,CHILD,CHILD,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",9.9
+TURTLE_1,TURTLE,TURTLE,set(),set(),11.900000000000002
+TURTLE_2,TURTLE,TURTLE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",14.0
+TRUNK_1,TRUNK,TRUNK,set(),set(),9.9
+TRUNK_2,TRUNK,TRUNK,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+DRAWING_1,DRAWING,DRAWING,set(),set(),9.8
+DRAWING_2,DRAWING,DRAWING,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",13.0
+LADENTABLE_1,LADENTABLE,LADENTABLE,set(),set(),9.9
+LADENTABLE_2,LADENTABLE,LADENTABLE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+STOMACH_1,STOMACH,STOMACH,set(),set(),11.200000000000003
+STOMACH_2,STOMACH,STOMACH,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",14.5
+BELLY_3,BELLY,BELLY,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+COACH_1,COACH,COACH,set(),set(),9.9
+COACH_2,COACH,COACH,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+CARDIM_1,CARDIM,CARDIM,set(),set(),10.3
+CARDIM_2,CARDIM,CARDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+TOKEN_1,TOKEN,TOKEN,set(),set(),10.9
+TOKEN_2,TOKEN,TOKEN,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+HORNDIM_1,HORNDIM,HORNDIM,set(),set(),10.4
+HORNDIM_2,HORNDIM,HORNDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+PACKAGEDIM_1,PACKAGEDIM,PACKAGEDIM,set(),set(),9.9
+PACKAGEDIM_2,PACKAGEDIM,PACKAGEDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PRINCE_1,PRINCE,PRINCE,set(),set(),10.600000000000001
+PRINCE_2,PRINCE,PRINCE,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+PRINCESS_1,PRINCESS,PRINCESS,set(),set(),9.700000000000001
+PRINCESS_2,PRINCESS,PRINCESS,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",12.5
+PACKAGEDIMDIM_1,PACKAGEDIMDIM,PACKAGEDIMDIM,set(),set(),10.0
+PACKAGEDIMDIM_2,PACKAGEDIMDIM,PACKAGEDIMDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+SHOWER_1,SHOWER,SHOWER,set(),set(),10.5
+SHOWER_2,SHOWER,SHOWER,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+CLOWN_1,CLOWN,CLOWN,set(),set(),11.100000000000001
+CLOWN_2,CLOWN,CLOWN,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",19.0
+DWARF_1,DWARF,DWARF,set(),set(),10.4
+DWARF_2,DWARF,DWARF,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+DISGRACE_1,DISGRACE,DISGRACE,set(),set(),9.9
+DISGRACE_2,DISGRACE,DISGRACE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+TELEPHONE_1,TELEPHONE,TELEPHONE,set(),set(),10.700000000000001
+TELEPHONE_2,TELEPHONE,TELEPHONE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+SOMERSAULT_1,SOMERSAULT,SOMERSAULT,set(),set(),10.3
+SOMERSAULT_2,SOMERSAULT,SOMERSAULT,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+GATE_1,GATE,GATE,set(),set(),12.200000000000001
+GATE_2,GATE,GATE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",14.5
+COMBINATION_1,COMBINATION,COMBINATION,set(),set(),10.5
+COMBINATION_2,COMBINATION,COMBINATION,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BUTTERFLY_1,BUTTERFLY,BUTTERFLY,set(),set(),10.9
+BUTTERFLY_2,BUTTERFLY,BUTTERFLY,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+LADYBIRD_1,LADYBIRD,LADYBIRD,set(),set(),10.0
+LADYBIRD_2,LADYBIRD,LADYBIRD,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PRIZE_1,PRIZE,PRIZE,set(),set(),10.5
+PRIZE_2,PRIZE,PRIZE,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+FIREPLACE_1,FIREPLACE,FIREPLACE,set(),set(),10.4
+FIREPLACE_2,FIREPLACE,FIREPLACE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",13.0
+WORD_1,WORD,WORD,set(),set(),10.8
+WORD_2,WORD,WORD,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CROWN_1,CROWN,CROWN,set(),set(),10.200000000000001
+CROWN_2,CROWN,CROWN,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",14.0
+null_36,null,nominalizer,{'e_2'},"{('i', frozenset({'-atomic'}))}",20.700000000000045
+PARROT_1,PARROT,PARROT,set(),set(),10.3
+PARROT_2,PARROT,PARROT,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SONGDIM_1,SONGDIM,SONGDIM,set(),set(),10.5
+SONGDIM_2,SONGDIM,SONGDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.4
+BISON_1,BISON,BISON,set(),set(),10.5
+BISON_2,BISON,BISON,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+null_37,null,nominalizer,"{'i_1', 'o_1'}","{('a', frozenset({'+atomic'}))}",8.900000000000004
+TRAIN_1,TRAIN,TRAIN,set(),set(),11.600000000000001
+TRAIN_2,TRAIN,TRAIN,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",17.0
+TAIL_1,TAIL,TAIL,set(),set(),11.8
+TAIL_2,TAIL,TAIL,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",12.5
+HAIR_1,HAIR,HAIR,set(),set(),10.0
+HAIR_2,HAIR,HAIR,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",11.5
+null_38,null,nominalizer,"{'e_2', 'a_2'}","{('e', frozenset({'+atomic'}))}",9.600000000000005
+null_39,null,nominalizer,"{'e_2', 'a_2'}","{('e', frozenset({'-atomic'})), ('e', frozenset({'+atomic'}))}",10.900000000000004
+null_40,null,nominalizer,"{'e_2', 'a_2'}","{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'}))}",9.900000000000002
+COLOR_1,COLOR,COLOR,set(),set(),9.700000000000001
+COLOR_2,COLOR,COLOR,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SWAN_1,SWAN,SWAN,set(),set(),10.500000000000002
+SWAN_2,SWAN,SWAN,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.5
+SWAN_3,SWAN,SWAN,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+SWAN_4,SWAN,SWAN,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",12.0
+FROG_1,FROG,FROG,set(),set(),10.8
+FROG_2,FROG,FROG,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+MILKCOW_1,MILKCOW,MILKCOW,set(),set(),10.500000000000002
+MILKCOW_2,MILKCOW,MILKCOW,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",14.5
+SEEDDIM_1,SEEDDIM,SEEDDIM,set(),set(),10.5
+SEEDDIM_2,SEEDDIM,SEEDDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+BABY_4,BABY,BABY,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+BABY_5,BABY,BABY,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+BABY_6,BABY,BABY,set(),"{('a', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",9.8
+CAR_3,CAR,CAR,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+CAR_4,CAR,CAR,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",15.5
+null_41,null,atomic,{'-atomic'},set(),13.700000000000006
+null_42,null,nominalizer,{'i_1'},"{('null', frozenset({'-atomic'}))}",24.5000000000001
+TRUCK_1,TRUCK,TRUCK,set(),set(),9.8
+TRUCK_2,TRUCK,TRUCK,set(),"{('null', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+BLOW_1,BLOW,BLOW,set(),set(),10.4
+BLOW_2,BLOW,BLOW,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+NAPPY_1,NAPPY,NAPPY,set(),set(),10.4
+NAPPY_2,NAPPY,NAPPY,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+null_43,null,nominalizer,"{'i_1', 'o_1'}","{('null', frozenset({'-atomic'}))}",13.09999999999999
+CYLINDER_1,CYLINDER,CYLINDER,set(),set(),10.4
+CYLINDER_2,CYLINDER,CYLINDER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+null_44,null,nominalizer,"{'i_1', 'o_1'}","{('o', frozenset({'+atomic'})), ('null', frozenset({'-atomic'}))}",19.799999999999997
+LEGDIM_1,LEGDIM,LEGDIM,set(),set(),9.9
+LEGDIM_2,LEGDIM,LEGDIM,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+FOOTDIM_1,FOOTDIM,FOOTDIM,set(),set(),10.0
+FOOTDIM_2,FOOTDIM,FOOTDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",11.5
+LEGDIM_3,LEGDIM,LEGDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+LEGDIM_4,LEGDIM,LEGDIM,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+TINDIM_1,TINDIM,TINDIM,set(),set(),10.0
+TINDIM_2,TINDIM,TINDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+STRAWBERRY_1,STRAWBERRY,STRAWBERRY,set(),set(),10.500000000000002
+STRAWBERRY_2,STRAWBERRY,STRAWBERRY,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",11.4
+STRAWBERRYDIM_1,STRAWBERRYDIM,STRAWBERRYDIM,set(),set(),11.5
+STRAWBERRYDIM_2,STRAWBERRYDIM,STRAWBERRYDIM,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+null_45,null,nominalizer,"{'e_2', 'a_2'}","{('e', frozenset({'-atomic'})), ('o', frozenset({'+atomic'}))}",9.400000000000004
+null_46,null,nominalizer,"{'e_2', 'a_2'}","{('null', frozenset({'+atomic'})), ('e', frozenset({'-atomic'}))}",9.900000000000004
+FIGHT_1,FIGHT,FIGHT,set(),set(),10.0
+FIGHT_2,FIGHT,FIGHT,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",14.0
+null_47,null,nominalizer,"{'a_3', 'e_2'}",set(),21.80000000000005
+null_48,null,nominalizer,"{'a_3', 'e_2'}","{('e', frozenset({'-atomic'}))}",19.70000000000002
+THING_3,THING,THING,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+THING_4,THING,THING,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.800000000000002
+FOLD_1,FOLD,FOLD,set(),set(),9.9
+FOLD_2,FOLD,FOLD,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+FOLD_3,FOLD,FOLD,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+FOLD_4,FOLD,FOLD,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PIECEDIM_3,PIECEDIM,PIECEDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.4
+PIECEDIM_4,PIECEDIM,PIECEDIM,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.9
+PINCH_1,PINCH,PINCH,set(),set(),10.0
+PINCH_2,PINCH,PINCH,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PAPER_3,PAPER,PAPER,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+PAPER_4,PAPER,PAPER,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+SHIRTADIM_1,SHIRTADIM,SHIRTADIM,set(),set(),10.4
+SHIRTADIM_2,SHIRTADIM,SHIRTADIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+JACK_1,JACK,JACK,set(),set(),10.0
+JACK_2,JACK,JACK,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PIANO_1,PIANO,PIANO,set(),set(),10.3
+PIANO_2,PIANO,PIANO,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+RASCAL_1,RASCAL,RASCAL,set(),set(),10.4
+RASCAL_2,RASCAL,RASCAL,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BED_1,BED,BED,set(),set(),9.9
+BED_2,BED,BED,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+INSTANCE_1,INSTANCE,INSTANCE,set(),set(),10.600000000000001
+INSTANCE_2,INSTANCE,INSTANCE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",16.8
+KICKA_1,KICKA,KICKA,set(),set(),10.200000000000001
+KICKA_2,KICKA,KICKA,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+KICKA_3,KICKA,KICKA,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.4
+KICKA_4,KICKA,KICKA,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.9
+HORSEDIM_3,HORSEDIM,HORSEDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+HORSEDIM_4,HORSEDIM,HORSEDIM,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.4
+FLAG_1,FLAG,FLAG,set(),set(),10.4
+FLAG_2,FLAG,FLAG,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+FLAGDIM_1,FLAGDIM,FLAGDIM,set(),set(),9.400000000000002
+FLAGDIM_2,FLAGDIM,FLAGDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+STROLL_1,STROLL,STROLL,set(),set(),10.0
+STROLL_2,STROLL,STROLL,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+WALLB_1,WALLB,WALLB,set(),set(),9.9
+WALLB_2,WALLB,WALLB,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+DISKETTE_1,DISKETTE,DISKETTE,set(),set(),9.9
+DISKETTE_2,DISKETTE,DISKETTE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BATTERY_1,BATTERY,BATTERY,set(),set(),9.9
+BATTERY_2,BATTERY,BATTERY,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+ROW_1,ROW,ROW,set(),set(),9.9
+ROW_2,ROW,ROW,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.4
+SONG_1,SONG,SONG,set(),set(),9.600000000000001
+SONG_2,SONG,SONG,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+DISKETTE_3,DISKETTE,DISKETTE,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+DISKETTE_4,DISKETTE,DISKETTE,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+PIGEON_1,PIGEON,PIGEON,set(),set(),10.5
+PIGEON_2,PIGEON,PIGEON,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+SPARROWDIM_1,SPARROWDIM,SPARROWDIM,set(),set(),9.9
+SPARROWDIM_2,SPARROWDIM,SPARROWDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+RABBITDIM_1,RABBITDIM,RABBITDIM,set(),set(),11.8
+RABBITDIM_2,RABBITDIM,RABBITDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",13.0
+APPLE_1,APPLE,APPLE,set(),set(),10.8
+APPLE_2,APPLE,APPLE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",13.0
+PUPDIM_1,PUPDIM,PUPDIM,set(),set(),10.0
+PUPDIM_2,PUPDIM,PUPDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+PART_1,PART,PART,set(),set(),9.700000000000001
+PART_2,PART,PART,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",11.4
+HEDGEHOG_3,HEDGEHOG,HEDGEHOG,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+HEDGEHOG_4,HEDGEHOG,HEDGEHOG,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.8
+EVENING_1,EVENING,EVENING,set(),set(),9.9
+EVENING_2,EVENING,EVENING,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+FAMILY_1,FAMILY,FAMILY,set(),set(),10.3
+FAMILY_2,FAMILY,FAMILY,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+MAGPIE_1,MAGPIE,MAGPIE,set(),set(),10.5
+MAGPIE_2,MAGPIE,MAGPIE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+HARE_1,HARE,HARE,set(),set(),9.700000000000001
+HARE_2,HARE,HARE,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+HARE_3,HARE,HARE,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+HARE_4,HARE,HARE,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+DANDELION_1,DANDELION,DANDELION,set(),set(),9.9
+DANDELION_2,DANDELION,DANDELION,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+DANDELION_3,DANDELION,DANDELION,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+DANDELION_4,DANDELION,DANDELION,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+SNAKE_1,SNAKE,SNAKE,set(),set(),10.0
+SNAKE_2,SNAKE,SNAKE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BAT_1,BAT,BAT,set(),set(),10.5
+BAT_2,BAT,BAT,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+NIGHT_1,NIGHT,NIGHT,set(),set(),10.4
+NIGHT_2,NIGHT,NIGHT,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SHEEP_1,SHEEP,SHEEP,set(),set(),10.0
+SHEEP_2,SHEEP,SHEEP,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+CHICK_3,CHICK,CHICK,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+CHICK_4,CHICK,CHICK,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",11.100000000000001
+HEN_3,HEN,HEN,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",11.5
+HEN_4,HEN,HEN,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+SNAILA_3,SNAILA,SNAILA,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+SNAILA_4,SNAILA,SNAILA,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.9
+null_49,null,nominalizer,"{'a_3', 'e_2', 'a_2'}","{('e', frozenset({'-atomic'}))}",12.599999999999994
+null_50,null,nominalizer,"{'a_3', 'e_2', 'a_2'}","{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'}))}",16.599999999999998
+null_51,null,nominalizer,"{'a_3', 'e_2', 'a_2'}","{('e', frozenset({'-atomic'})), ('e', frozenset({'+atomic'}))}",9.900000000000002
+null_52,null,nominalizer,"{'a_3', 'e_2', 'a_2'}","{('e', frozenset({'-atomic'})), ('o', frozenset({'+atomic'}))}",9.400000000000002
+null_53,null,nominalizer,"{'a_3', 'e_2', 'a_2'}","{('null', frozenset({'+atomic'})), ('e', frozenset({'-atomic'}))}",11.100000000000001
+ANT_1,ANT,ANT,set(),set(),9.8
+ANT_2,ANT,ANT,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+WASP_1,WASP,WASP,set(),set(),10.700000000000001
+WASP_2,WASP,WASP,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PIGDIM_1,PIGDIM,PIGDIM,set(),set(),9.9
+PIGDIM_2,PIGDIM,PIGDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+TURKEY_1,TURKEY,TURKEY,set(),set(),9.9
+TURKEY_2,TURKEY,TURKEY,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CARPETBEATER_1,CARPETBEATER,CARPETBEATER,set(),set(),10.0
+CARPETBEATER_2,CARPETBEATER,CARPETBEATER,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+KNIFE_1,KNIFE,KNIFE,set(),set(),9.8
+KNIFE_2,KNIFE,KNIFE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+POORONEDIM_1,POORONEDIM,POORONEDIM,set(),set(),9.9
+POORONEDIM_2,POORONEDIM,POORONEDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+FISH_3,FISH,FISH,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+FISH_4,FISH,FISH,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.9
+CARROT_1,CARROT,CARROT,set(),set(),10.3
+CARROT_2,CARROT,CARROT,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.9
+CARROT_3,CARROT,CARROT,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.9
+CARROT_4,CARROT,CARROT,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+CANARY_1,CANARY,CANARY,set(),set(),11.5
+CANARY_2,CANARY,CANARY,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+BLANKETDIM_1,BLANKETDIM,BLANKETDIM,set(),set(),9.9
+BLANKETDIM_2,BLANKETDIM,BLANKETDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+KEYADIM_1,KEYADIM,KEYADIM,set(),set(),10.5
+KEYADIM_2,KEYADIM,KEYADIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+null_54,null,nominalizer,"{'e_2', 'a_2'}","{('a', frozenset({'+atomic'})), ('i', frozenset({'-atomic'}))}",19.299999999999997
+null_55,null,nominalizer,"{'a_3', 'e_2', 'a_2'}","{('a', frozenset({'+atomic'}))}",15.199999999999996
+CURVE_1,CURVE,CURVE,set(),set(),10.5
+CURVE_2,CURVE,CURVE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+MOTO_1,MOTO,MOTO,set(),set(),9.700000000000001
+MOTO_2,MOTO,MOTO,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+FEATHER_1,FEATHER,FEATHER,set(),set(),10.0
+FEATHER_2,FEATHER,FEATHER,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+FACE_1,FACE,FACE,set(),set(),10.4
+FACE_2,FACE,FACE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",13.5
+PUPIL_1,PUPIL,PUPIL,set(),set(),10.0
+PUPIL_2,PUPIL,PUPIL,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+TICKLE_1,TICKLE,TICKLE,set(),set(),10.0
+TICKLE_2,TICKLE,TICKLE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+POINT_1,POINT,POINT,set(),set(),11.200000000000001
+POINT_2,POINT,POINT,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",14.0
+CREAM_1,CREAM,CREAM,set(),set(),10.0
+CREAM_2,CREAM,CREAM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+UGGO_1,UGGO,UGGO,set(),set(),9.9
+UGGO_2,UGGO,UGGO,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SLIPPERB_1,SLIPPERB,SLIPPERB,set(),set(),10.9
+SLIPPERB_2,SLIPPERB,SLIPPERB,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+FEATHER_3,FEATHER,FEATHER,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+FEATHER_4,FEATHER,FEATHER,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+null_56,null,nominalizer,"{'a_3', 'e_2', 'a_2'}",set(),14.999999999999998
+PENCIL_1,PENCIL,PENCIL,set(),set(),11.600000000000001
+PENCIL_2,PENCIL,PENCIL,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",15.0
+CHAIRDIM_1,CHAIRDIM,CHAIRDIM,set(),set(),9.9
+CHAIRDIM_2,CHAIRDIM,CHAIRDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+NECKDIM_1,NECKDIM,NECKDIM,set(),set(),9.9
+NECKDIM_2,NECKDIM,NECKDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+RINGA_3,RINGA,RINGA,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+RINGA_4,RINGA,RINGA,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+SLIPPERB_3,SLIPPERB,SLIPPERB,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+SLIPPERB_4,SLIPPERB,SLIPPERB,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+DOGDIM_3,DOGDIM,DOGDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+DOGDIM_4,DOGDIM,DOGDIM,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+CAKE_1,CAKE,CAKE,set(),set(),11.5
+CAKE_2,CAKE,CAKE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+DRINKINGGLASS_1,DRINKINGGLASS,DRINKINGGLASS,set(),set(),10.4
+DRINKINGGLASS_2,DRINKINGGLASS,DRINKINGGLASS,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+POPE_1,POPE,POPE,set(),set(),10.0
+POPE_2,POPE,POPE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+WINE_1,WINE,WINE,set(),set(),10.4
+WINE_2,WINE,WINE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+HANDKERCHIEF_1,HANDKERCHIEF,HANDKERCHIEF,set(),set(),11.8
+HANDKERCHIEF_2,HANDKERCHIEF,HANDKERCHIEF,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+GLASS_1,GLASS,GLASS,set(),set(),10.5
+GLASS_2,GLASS,GLASS,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+WALL_1,WALL,WALL,set(),set(),10.4
+WALL_2,WALL,WALL,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+KEYB_1,KEYB,KEYB,set(),set(),9.8
+KEYB_2,KEYB,KEYB,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+CAPA_1,CAPA,CAPA,set(),set(),9.9
+CAPA_2,CAPA,CAPA,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+SHIRTA_1,SHIRTA,SHIRTA,set(),set(),9.700000000000001
+SHIRTA_2,SHIRTA,SHIRTA,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+PEAR_1,PEAR,PEAR,set(),set(),9.8
+PEAR_2,PEAR,PEAR,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",13.0
+MOUSE_1,MOUSE,MOUSE,set(),set(),10.9
+MOUSE_2,MOUSE,MOUSE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",13.5
+FROG_3,FROG,FROG,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+FROG_4,FROG,FROG,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+OFFSPRING_1,OFFSPRING,OFFSPRING,set(),set(),9.8
+OFFSPRING_2,OFFSPRING,OFFSPRING,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+MILLER_1,MILLER,MILLER,set(),set(),9.9
+MILLER_2,MILLER,MILLER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+HARNESSING_1,HARNESSING,HARNESSING,set(),set(),10.0
+HARNESSING_2,HARNESSING,HARNESSING,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+CROW_1,CROW,CROW,set(),set(),10.0
+CROW_2,CROW,CROW,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+DRINKINGGLASS_3,DRINKINGGLASS,DRINKINGGLASS,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+DRINKINGGLASS_4,DRINKINGGLASS,DRINKINGGLASS,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+PUDDING_1,PUDDING,PUDDING,set(),set(),9.9
+PUDDING_2,PUDDING,PUDDING,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SOCK_1,SOCK,SOCK,set(),set(),9.9
+SOCK_2,SOCK,SOCK,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+MEDAL_1,MEDAL,MEDAL,set(),set(),10.3
+MEDAL_2,MEDAL,MEDAL,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+TAMBOURINEDIM_1,TAMBOURINEDIM,TAMBOURINEDIM,set(),set(),10.5
+TAMBOURINEDIM_2,TAMBOURINEDIM,TAMBOURINEDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+PROBOSCIS_1,PROBOSCIS,PROBOSCIS,set(),set(),9.700000000000001
+PROBOSCIS_2,PROBOSCIS,PROBOSCIS,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+FLOWER_1,FLOWER,FLOWER,set(),set(),10.0
+FLOWER_2,FLOWER,FLOWER,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+POTATO_3,POTATO,POTATO,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+POTATO_4,POTATO,POTATO,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+FLY_1,FLY,FLY,set(),set(),10.0
+FLY_2,FLY,FLY,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+null_57,null,nominalizer,"{'a_3', 'e_2', 'a_2'}","{('e', frozenset({'+atomic'}))}",9.700000000000001
+null_58,null,nominalizer,"{'a_3', 'e_2', 'a_2'}","{('o', frozenset({'+atomic'}))}",9.600000000000001
+null_59,null,nominalizer,"{'a_3', 'e_2', 'a_2'}","{('null', frozenset({'+atomic'}))}",9.600000000000001
+EARTHWORM_1,EARTHWORM,EARTHWORM,set(),set(),10.5
+EARTHWORM_2,EARTHWORM,EARTHWORM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+WORM_1,WORM,WORM,set(),set(),9.8
+WORM_2,WORM,WORM,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+LINEA_1,LINEA,LINEA,set(),set(),9.9
+LINEA_2,LINEA,LINEA,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BUNCHA_1,BUNCHA,BUNCHA,set(),set(),10.4
+BUNCHA_2,BUNCHA,BUNCHA,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BULL_1,BULL,BULL,set(),set(),10.0
+BULL_2,BULL,BULL,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+MALE_1,MALE,MALE,set(),set(),10.0
+MALE_2,MALE,MALE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+WASP_3,WASP,WASP,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+WASP_4,WASP,WASP,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BUZZARD_1,BUZZARD,BUZZARD,set(),set(),10.0
+BUZZARD_2,BUZZARD,BUZZARD,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+TRASHCANDIM_1,TRASHCANDIM,TRASHCANDIM,set(),set(),10.600000000000001
+TRASHCANDIM_2,TRASHCANDIM,TRASHCANDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",14.5
+COLOR_3,COLOR,COLOR,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+COLOR_4,COLOR,COLOR,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+CHAIN_1,CHAIN,CHAIN,set(),set(),10.0
+CHAIN_2,CHAIN,CHAIN,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+WORK_1,WORK,WORK,set(),set(),10.0
+WORK_2,WORK,WORK,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+BODY_1,BODY,BODY,set(),set(),9.9
+BODY_2,BODY,BODY,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BEDAUG_1,BEDAUG,BEDAUG,set(),set(),9.9
+BEDAUG_2,BEDAUG,BEDAUG,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+GAMEA_1,GAMEA,GAMEA,set(),set(),10.3
+GAMEA_2,GAMEA,GAMEA,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+READER_1,READER,READER,set(),set(),10.0
+READER_2,READER,READER,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+COMBAT_1,COMBAT,COMBAT,set(),set(),10.0
+COMBAT_2,COMBAT,COMBAT,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+DOG_1,DOG,DOG,set(),set(),9.600000000000003
+DOG_2,DOG,DOG,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+LITTLEONE_3,LITTLEONE,LITTLEONE,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+LITTLEONE_4,LITTLEONE,LITTLEONE,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+FINGERDIM_1,FINGERDIM,FINGERDIM,set(),set(),10.5
+FINGERDIM_2,FINGERDIM,FINGERDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+ABACUS_1,ABACUS,ABACUS,set(),set(),9.700000000000001
+ABACUS_2,ABACUS,ABACUS,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+RUNUP_1,RUNUP,RUNUP,set(),set(),9.9
+RUNUP_2,RUNUP,RUNUP,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SPORTSMATCH_1,SPORTSMATCH,SPORTSMATCH,set(),set(),10.5
+SPORTSMATCH_2,SPORTSMATCH,SPORTSMATCH,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+NUMBER_1,NUMBER,NUMBER,set(),set(),9.500000000000002
+NUMBER_2,NUMBER,NUMBER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+NUMBER_3,NUMBER,NUMBER,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+NUMBER_4,NUMBER,NUMBER,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",12.5
+MOMENTA_1,MOMENTA,MOMENTA,set(),set(),10.9
+MOMENTA_2,MOMENTA,MOMENTA,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.5
+BUS_1,BUS,BUS,set(),set(),9.8
+BUS_2,BUS,BUS,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+CUCKOO_1,CUCKOO,CUCKOO,set(),set(),9.9
+CUCKOO_2,CUCKOO,CUCKOO,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+THRONE_1,THRONE,THRONE,set(),set(),10.5
+THRONE_2,THRONE,THRONE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+COUGH_1,COUGH,COUGH,set(),set(),9.9
+COUGH_2,COUGH,COUGH,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+null_60,null,nominalizer,"{'e_2', 'a_2'}","{('o', frozenset({'+atomic'}))}",9.500000000000002
+null_61,null,nominalizer,"{'e_2', 'a_2'}","{('null', frozenset({'+atomic'}))}",9.100000000000003
+BOAT_1,BOAT,BOAT,set(),set(),10.0
+BOAT_2,BOAT,BOAT,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+FIN_1,FIN,FIN,set(),set(),10.0
+FIN_2,FIN,FIN,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.9
+FIN_3,FIN,FIN,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+FIN_4,FIN,FIN,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SEA_1,SEA,SEA,set(),set(),9.9
+SEA_2,SEA,SEA,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+ROPE_1,ROPE,ROPE,set(),set(),12.5
+ROPE_2,ROPE,ROPE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+FLAGDIM_3,FLAGDIM,FLAGDIM,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+FLAGDIM_4,FLAGDIM,FLAGDIM,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PADRON_1,PADRON,PADRON,set(),set(),10.4
+PADRON_2,PADRON,PADRON,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+LIGHT_1,LIGHT,LIGHT,set(),set(),9.9
+LIGHT_2,LIGHT,LIGHT,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+POLE_1,POLE,POLE,set(),set(),10.0
+POLE_2,POLE,POLE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+HANDLEBAR_1,HANDLEBAR,HANDLEBAR,set(),set(),10.5
+HANDLEBAR_2,HANDLEBAR,HANDLEBAR,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+YOUNGSHEPHERD_1,YOUNGSHEPHERD,YOUNGSHEPHERD,set(),set(),9.9
+YOUNGSHEPHERD_2,YOUNGSHEPHERD,YOUNGSHEPHERD,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.9
+NURSERYRHYME_1,NURSERYRHYME,NURSERYRHYME,set(),set(),10.5
+NURSERYRHYME_2,NURSERYRHYME,NURSERYRHYME,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+WIND_1,WIND,WIND,set(),set(),9.9
+WIND_2,WIND,WIND,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CHERRY_1,CHERRY,CHERRY,set(),set(),10.5
+CHERRY_2,CHERRY,CHERRY,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+YOUNGSHEPHERD_3,YOUNGSHEPHERD,YOUNGSHEPHERD,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.4
+MILKCOW_3,MILKCOW,MILKCOW,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.9
+MILKCOW_4,MILKCOW,MILKCOW,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+a_4,a,atomic,{'-atomic'},set(),10.900000000000004
+null_62,null,nominalizer,{'e_2'},"{('a', frozenset({'-atomic'}))}",16.999999999999993
+HORN_1,HORN,HORN,set(),set(),9.9
+HORN_2,HORN,HORN,set(),"{('a', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+STORK_1,STORK,STORK,set(),set(),10.9
+STORK_2,STORK,STORK,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+PAGE_1,PAGE,PAGE,set(),set(),9.700000000000001
+PAGE_2,PAGE,PAGE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+BISCUIT_1,BISCUIT,BISCUIT,set(),set(),9.8
+BISCUIT_2,BISCUIT,BISCUIT,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+TVA_1,TVA,TVA,set(),set(),9.8
+TVA_2,TVA,TVA,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BITE_1,BITE,BITE,set(),set(),9.9
+BITE_2,BITE,BITE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+BISCUITDIM_1,BISCUITDIM,BISCUITDIM,set(),set(),9.9
+BISCUITDIM_2,BISCUITDIM,BISCUITDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SHEETB_1,SHEETB,SHEETB,set(),set(),10.4
+SHEETB_2,SHEETB,SHEETB,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BISCUIT_3,BISCUIT,BISCUIT,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+BISCUIT_4,BISCUIT,BISCUIT,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+BASKET_1,BASKET,BASKET,set(),set(),10.400000000000002
+BASKET_2,BASKET,BASKET,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.5
+CHAIR_1,CHAIR,CHAIR,set(),set(),10.4
+CHAIR_2,CHAIR,CHAIR,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+BASKETBALLPLAYER_1,BASKETBALLPLAYER,BASKETBALLPLAYER,set(),set(),10.0
+BASKETBALLPLAYER_2,BASKETBALLPLAYER,BASKETBALLPLAYER,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CHAMPION_1,CHAMPION,CHAMPION,set(),set(),10.0
+CHAMPION_2,CHAMPION,CHAMPION,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CASSETTE_1,CASSETTE,CASSETTE,set(),set(),9.9
+CASSETTE_2,CASSETTE,CASSETTE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+null_63,null,nominalizer,"{'e_2', 'a_2'}","{('a', frozenset({'-atomic'}))}",11.299999999999995
+RAINDIM_1,RAINDIM,RAINDIM,set(),set(),9.9
+RAINDIM_2,RAINDIM,RAINDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+CUBE_3,CUBE,CUBE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.4
+CUBE_4,CUBE,CUBE,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+SOCKDIMB_1,SOCKDIMB,SOCKDIMB,set(),set(),10.3
+SOCKDIMB_2,SOCKDIMB,SOCKDIMB,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",11.5
+BLOW_3,BLOW,BLOW,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BLOW_4,BLOW,BLOW,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",9.8
+BATTLE_1,BATTLE,BATTLE,set(),set(),9.8
+BATTLE_2,BATTLE,BATTLE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PUNCH_1,PUNCH,PUNCH,set(),set(),9.8
+PUNCH_2,PUNCH,PUNCH,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+DRUMA_1,DRUMA,DRUMA,set(),set(),9.9
+DRUMA_2,DRUMA,DRUMA,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SLIPPERBDIM_1,SLIPPERBDIM,SLIPPERBDIM,set(),set(),10.5
+SLIPPERBDIM_2,SLIPPERBDIM,SLIPPERBDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+RUN_1,RUN,RUN,set(),set(),9.8
+RUN_2,RUN,RUN,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SOJOURN_1,SOJOURN,SOJOURN,set(),set(),10.5
+SOJOURN_2,SOJOURN,SOJOURN,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CORRIDOR_1,CORRIDOR,CORRIDOR,set(),set(),10.4
+CORRIDOR_2,CORRIDOR,CORRIDOR,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SPINNINGTOP_1,SPINNINGTOP,SPINNINGTOP,set(),set(),11.3
+SPINNINGTOP_2,SPINNINGTOP,SPINNINGTOP,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",12.5
+HANDDIM_1,HANDDIM,HANDDIM,set(),set(),9.8
+HANDDIM_2,HANDDIM,HANDDIM,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+DUMMY_1,DUMMY,DUMMY,set(),set(),10.0
+DUMMY_2,DUMMY,DUMMY,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SUCKDIM_1,SUCKDIM,SUCKDIM,set(),set(),10.5
+SUCKDIM_2,SUCKDIM,SUCKDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+TRUMPET_1,TRUMPET,TRUMPET,set(),set(),10.9
+TRUMPET_2,TRUMPET,TRUMPET,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+null_64,null,nominalizer,"{'e_2', 'a_2'}","{('a', frozenset({'+atomic'})), ('a', frozenset({'-atomic'}))}",17.4
+GHOST_1,GHOST,GHOST,set(),set(),10.5
+GHOST_2,GHOST,GHOST,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+GHOSTDIM_1,GHOSTDIM,GHOSTDIM,set(),set(),9.9
+GHOSTDIM_2,GHOSTDIM,GHOSTDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+RUNDIM_1,RUNDIM,RUNDIM,set(),set(),10.0
+RUNDIM_2,RUNDIM,RUNDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BICYCLE_1,BICYCLE,BICYCLE,set(),set(),10.3
+BICYCLE_2,BICYCLE,BICYCLE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+MOTORCYCLE_1,MOTORCYCLE,MOTORCYCLE,set(),set(),10.0
+MOTORCYCLE_2,MOTORCYCLE,MOTORCYCLE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+FLAMINGO_1,FLAMINGO,FLAMINGO,set(),set(),10.8
+FLAMINGO_2,FLAMINGO,FLAMINGO,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+KANGAROO_1,KANGAROO,KANGAROO,set(),set(),10.4
+KANGAROO_2,KANGAROO,KANGAROO,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",11.5
+STAG_1,STAG,STAG,set(),set(),9.9
+STAG_2,STAG,STAG,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+TIGER_1,TIGER,TIGER,set(),set(),10.4
+TIGER_2,TIGER,TIGER,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.4
+SLIPPERADIM_1,SLIPPERADIM,SLIPPERADIM,set(),set(),9.9
+SLIPPERADIM_2,SLIPPERADIM,SLIPPERADIM,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+SKATING_1,SKATING,SKATING,set(),set(),11.0
+SKATING_2,SKATING,SKATING,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BASKETBALL_1,BASKETBALL,BASKETBALL,set(),set(),10.0
+BASKETBALL_2,BASKETBALL,BASKETBALL,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+TENNIS_1,TENNIS,TENNIS,set(),set(),10.0
+TENNIS_2,TENNIS,TENNIS,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+KANGAROO_3,KANGAROO,KANGAROO,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+KANGAROO_4,KANGAROO,KANGAROO,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+SLIPPERA_1,SLIPPERA,SLIPPERA,set(),set(),10.0
+SLIPPERA_2,SLIPPERA,SLIPPERA,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+SOCKDIMA_3,SOCKDIMA,SOCKDIMA,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+SOCKDIMA_4,SOCKDIMA,SOCKDIMA,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CULTURE_1,CULTURE,CULTURE,set(),set(),10.0
+CULTURE_2,CULTURE,CULTURE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SPIDER_1,SPIDER,SPIDER,set(),set(),10.0
+SPIDER_2,SPIDER,SPIDER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+STAG_3,STAG,STAG,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",9.9
+STAG_4,STAG,STAG,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+HOUSE_1,HOUSE,HOUSE,set(),set(),11.700000000000001
+HOUSE_2,HOUSE,HOUSE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",13.0
+JUMP_1,JUMP,JUMP,set(),set(),10.4
+JUMP_2,JUMP,JUMP,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.5
+RADIATOR_1,RADIATOR,RADIATOR,set(),set(),10.0
+RADIATOR_2,RADIATOR,RADIATOR,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+HEATING_1,HEATING,HEATING,set(),set(),10.5
+HEATING_2,HEATING,HEATING,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+FOOT_3,FOOT,FOOT,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.4
+FOOT_4,FOOT,FOOT,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",12.200000000000001
+FEAST_1,FEAST,FEAST,set(),set(),9.8
+FEAST_2,FEAST,FEAST,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+PHASE_1,PHASE,PHASE,set(),set(),10.0
+PHASE_2,PHASE,PHASE,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SOUP_1,SOUP,SOUP,set(),set(),9.9
+SOUP_2,SOUP,SOUP,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SOFACOVER_1,SOFACOVER,SOFACOVER,set(),set(),9.9
+SOFACOVER_2,SOFACOVER,SOFACOVER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+TRAINDIM_1,TRAINDIM,TRAINDIM,set(),set(),9.700000000000001
+TRAINDIM_2,TRAINDIM,TRAINDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+KISSDIM_3,KISSDIM,KISSDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+KISSDIM_4,KISSDIM,KISSDIM,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",11.5
+PARROT_3,PARROT,PARROT,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+PARROT_4,PARROT,PARROT,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+GOLDFINCH_1,GOLDFINCH,GOLDFINCH,set(),set(),9.9
+GOLDFINCH_2,GOLDFINCH,GOLDFINCH,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SHIRTB_1,SHIRTB,SHIRTB,set(),set(),10.5
+SHIRTB_2,SHIRTB,SHIRTB,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+VOICE_1,VOICE,VOICE,set(),set(),10.9
+VOICE_2,VOICE,VOICE,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+TILLDIM_1,TILLDIM,TILLDIM,set(),set(),10.0
+TILLDIM_2,TILLDIM,TILLDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+MUSHROOM_1,MUSHROOM,MUSHROOM,set(),set(),10.0
+MUSHROOM_2,MUSHROOM,MUSHROOM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+LIZARD_1,LIZARD,LIZARD,set(),set(),9.9
+LIZARD_2,LIZARD,LIZARD,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+TRACTOR_1,TRACTOR,TRACTOR,set(),set(),10.0
+TRACTOR_2,TRACTOR,TRACTOR,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",13.0
+DARKNESS_1,DARKNESS,DARKNESS,set(),set(),10.5
+DARKNESS_2,DARKNESS,DARKNESS,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SNAILB_1,SNAILB,SNAILB,set(),set(),9.9
+SNAILB_2,SNAILB,SNAILB,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SEED_1,SEED,SEED,set(),set(),9.9
+SEED_2,SEED,SEED,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+STRAWBERRY_3,STRAWBERRY,STRAWBERRY,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+STRAWBERRY_4,STRAWBERRY,STRAWBERRY,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+STREAM_1,STREAM,STREAM,set(),set(),10.0
+STREAM_2,STREAM,STREAM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+HICCUP_1,HICCUP,HICCUP,set(),set(),9.9
+HICCUP_2,HICCUP,HICCUP,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SHIT_1,SHIT,SHIT,set(),set(),10.9
+SHIT_2,SHIT,SHIT,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PENCIL_3,PENCIL,PENCIL,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",11.4
+PENCIL_4,PENCIL,PENCIL,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+BUCKET_1,BUCKET,BUCKET,set(),set(),9.700000000000001
+BUCKET_2,BUCKET,BUCKET,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+SOCKDIMB_3,SOCKDIMB,SOCKDIMB,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+SOCKDIMB_4,SOCKDIMB,SOCKDIMB,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+CENTDIM_1,CENTDIM,CENTDIM,set(),set(),10.600000000000001
+CENTDIM_2,CENTDIM,CENTDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+LIGHT_3,LIGHT,LIGHT,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+LIGHT_4,LIGHT,LIGHT,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+WRIST_1,WRIST,WRIST,set(),set(),9.9
+WRIST_2,WRIST,WRIST,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SHEEPDIM_1,SHEEPDIM,SHEEPDIM,set(),set(),11.0
+SHEEPDIM_2,SHEEPDIM,SHEEPDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+HANDDIM_3,HANDDIM,HANDDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+HANDDIM_4,HANDDIM,HANDDIM,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SCISSOR_1,SCISSOR,SCISSOR,set(),set(),9.700000000000001
+SCISSOR_2,SCISSOR,SCISSOR,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+LEG_3,LEG,LEG,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+LEG_4,LEG,LEG,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+CROCODILE_1,CROCODILE,CROCODILE,set(),set(),10.4
+CROCODILE_2,CROCODILE,CROCODILE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PLANTDIM_1,PLANTDIM,PLANTDIM,set(),set(),10.0
+PLANTDIM_2,PLANTDIM,PLANTDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PROBLEM_1,PROBLEM,PROBLEM,set(),set(),10.5
+PROBLEM_2,PROBLEM,PROBLEM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+CAMEL_1,CAMEL,CAMEL,set(),set(),10.5
+CAMEL_2,CAMEL,CAMEL,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+HUMP_1,HUMP,HUMP,set(),set(),9.9
+HUMP_2,HUMP,HUMP,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PUBLICITY_1,PUBLICITY,PUBLICITY,set(),set(),10.0
+PUBLICITY_2,PUBLICITY,PUBLICITY,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+WOLF_1,WOLF,WOLF,set(),set(),11.000000000000004
+WOLF_2,WOLF,WOLF,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",17.9
+PIGLETDIM_1,PIGLETDIM,PIGLETDIM,set(),set(),10.5
+PIGLETDIM_2,PIGLETDIM,PIGLETDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+BOTTOM_1,BOTTOM,BOTTOM,set(),set(),9.9
+BOTTOM_2,BOTTOM,BOTTOM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+HANDLEA_1,HANDLEA,HANDLEA,set(),set(),10.5
+HANDLEA_2,HANDLEA,HANDLEA,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+SCREW_1,SCREW,SCREW,set(),set(),10.0
+SCREW_2,SCREW,SCREW,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+FISHINGLINE_1,FISHINGLINE,FISHINGLINE,set(),set(),10.0
+FISHINGLINE_2,FISHINGLINE,FISHINGLINE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+RACKET_1,RACKET,RACKET,set(),set(),10.3
+RACKET_2,RACKET,RACKET,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+ENCLOSURE_1,ENCLOSURE,ENCLOSURE,set(),set(),10.9
+ENCLOSURE_2,ENCLOSURE,ENCLOSURE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.5
+FELTTIPPEN_1,FELTTIPPEN,FELTTIPPEN,set(),set(),10.5
+FELTTIPPEN_2,FELTTIPPEN,FELTTIPPEN,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+LIFESAVER_1,LIFESAVER,LIFESAVER,set(),set(),9.8
+LIFESAVER_2,LIFESAVER,LIFESAVER,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+POLICE_1,POLICE,POLICE,set(),set(),9.9
+POLICE_2,POLICE,POLICE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PYJAMASDIM_1,PYJAMASDIM,PYJAMASDIM,set(),set(),11.9
+PYJAMASDIM_2,PYJAMASDIM,PYJAMASDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+CAROUSEL_3,CAROUSEL,CAROUSEL,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+CAROUSEL_4,CAROUSEL,CAROUSEL,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+TROUSERS_1,TROUSERS,TROUSERS,set(),set(),10.200000000000001
+TROUSERS_2,TROUSERS,TROUSERS,set(),"{('null', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+PYJAMAS_1,PYJAMAS,PYJAMAS,set(),set(),11.200000000000001
+PYJAMAS_2,PYJAMAS,PYJAMAS,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BLITZ_1,BLITZ,BLITZ,set(),set(),10.0
+BLITZ_2,BLITZ,BLITZ,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+NAME_1,NAME,NAME,set(),set(),9.9
+NAME_2,NAME,NAME,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+NAPPY_3,NAPPY,NAPPY,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+NAPPY_4,NAPPY,NAPPY,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+GARAGE_1,GARAGE,GARAGE,set(),set(),9.9
+GARAGE_2,GARAGE,GARAGE,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+AFTERNOON_1,AFTERNOON,AFTERNOON,set(),set(),10.5
+AFTERNOON_2,AFTERNOON,AFTERNOON,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SNOW_1,SNOW,SNOW,set(),set(),9.700000000000001
+SNOW_2,SNOW,SNOW,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+STORM_1,STORM,STORM,set(),set(),10.5
+STORM_2,STORM,STORM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+WEEK_1,WEEK,WEEK,set(),set(),10.3
+WEEK_2,WEEK,WEEK,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+HANDBAGDIM_1,HANDBAGDIM,HANDBAGDIM,set(),set(),10.5
+HANDBAGDIM_2,HANDBAGDIM,HANDBAGDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+TONGUE_1,TONGUE,TONGUE,set(),set(),9.9
+TONGUE_2,TONGUE,TONGUE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+CAPBDIM_1,CAPBDIM,CAPBDIM,set(),set(),10.0
+CAPBDIM_2,CAPBDIM,CAPBDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+KEYA_1,KEYA,KEYA,set(),set(),10.0
+KEYA_2,KEYA,KEYA,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",11.5
+LIGHTHOUSE_1,LIGHTHOUSE,LIGHTHOUSE,set(),set(),10.5
+LIGHTHOUSE_2,LIGHTHOUSE,LIGHTHOUSE,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+WHEELA_1,WHEELA,WHEELA,set(),set(),10.3
+WHEELA_2,WHEELA,WHEELA,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SOFA_3,SOFA,SOFA,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+SOFA_4,SOFA,SOFA,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+HORSEY_1,HORSEY,HORSEY,set(),set(),10.0
+HORSEY_2,HORSEY,HORSEY,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+NAILDIM_1,NAILDIM,NAILDIM,set(),set(),10.3
+NAILDIM_2,NAILDIM,NAILDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BRUSH_1,BRUSH,BRUSH,set(),set(),9.9
+BRUSH_2,BRUSH,BRUSH,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+FORCE_1,FORCE,FORCE,set(),set(),10.0
+FORCE_2,FORCE,FORCE,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+CAT_3,CAT,CAT,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+CAT_4,CAT,CAT,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",12.8
+WHISTLE_1,WHISTLE,WHISTLE,set(),set(),10.0
+WHISTLE_2,WHISTLE,WHISTLE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+KAZOO_1,KAZOO,KAZOO,set(),set(),9.9
+KAZOO_2,KAZOO,KAZOO,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BALLOONDIM_3,BALLOONDIM,BALLOONDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+BALLOONDIM_4,BALLOONDIM,BALLOONDIM,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",12.3
+CONTOUR_1,CONTOUR,CONTOUR,set(),set(),10.0
+CONTOUR_2,CONTOUR,CONTOUR,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CHEEK_1,CHEEK,CHEEK,set(),set(),9.9
+CHEEK_2,CHEEK,CHEEK,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+MALEDIM_1,MALEDIM,MALEDIM,set(),set(),10.0
+MALEDIM_2,MALEDIM,MALEDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+CHEEK_3,CHEEK,CHEEK,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+CHEEK_4,CHEEK,CHEEK,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+STAINDIM_1,STAINDIM,STAINDIM,set(),set(),10.5
+STAINDIM_2,STAINDIM,STAINDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+NETTINGDIM_1,NETTINGDIM,NETTINGDIM,set(),set(),9.9
+NETTINGDIM_2,NETTINGDIM,NETTINGDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+TVB_1,TVB,TVB,set(),set(),10.0
+TVB_2,TVB,TVB,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+REMOTECONTROL_1,REMOTECONTROL,REMOTECONTROL,set(),set(),10.5
+REMOTECONTROL_2,REMOTECONTROL,REMOTECONTROL,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+VIDEOCAMERA_1,VIDEOCAMERA,VIDEOCAMERA,set(),set(),10.0
+VIDEOCAMERA_2,VIDEOCAMERA,VIDEOCAMERA,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+null_65,null,nominalizer,"{'i_1', 'a_2'}","{('null', frozenset({'-atomic'}))}",10.899999999999997
+RASPBERRYA_1,RASPBERRYA,RASPBERRYA,set(),set(),10.0
+RASPBERRYA_2,RASPBERRYA,RASPBERRYA,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SPRING_1,SPRING,SPRING,set(),set(),10.5
+SPRING_2,SPRING,SPRING,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+RASPBERRYA_3,RASPBERRYA,RASPBERRYA,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+RASPBERRYA_4,RASPBERRYA,RASPBERRYA,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+FLOWER_3,FLOWER,FLOWER,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+FLOWER_4,FLOWER,FLOWER,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+BAND_1,BAND,BAND,set(),set(),11.0
+BAND_2,BAND,BAND,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+DRUMB_1,DRUMB,DRUMB,set(),set(),10.9
+DRUMB_2,DRUMB,DRUMB,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+TRUMPET_3,TRUMPET,TRUMPET,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+TRUMPET_4,TRUMPET,TRUMPET,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+RUN_3,RUN,RUN,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+RUN_4,RUN,RUN,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SIGNOR_1,SIGNOR,SIGNOR,set(),set(),10.200000000000001
+SIGNOR_2,SIGNOR,SIGNOR,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.700000000000001
+TURN_1,TURN,TURN,set(),set(),10.4
+TURN_2,TURN,TURN,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+TURTLEDIM_1,TURTLEDIM,TURTLEDIM,set(),set(),10.4
+TURTLEDIM_2,TURTLEDIM,TURTLEDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+REINDEER_1,REINDEER,REINDEER,set(),set(),9.9
+REINDEER_2,REINDEER,REINDEER,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SHOVEL_1,SHOVEL,SHOVEL,set(),set(),9.9
+SHOVEL_2,SHOVEL,SHOVEL,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+FELTTIPPEN_3,FELTTIPPEN,FELTTIPPEN,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+FELTTIPPEN_4,FELTTIPPEN,FELTTIPPEN,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+RULER_1,RULER,RULER,set(),set(),10.0
+RULER_2,RULER,RULER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+TRUCK_3,TRUCK,TRUCK,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+TRUCK_4,TRUCK,TRUCK,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+PASTEBOARD_1,PASTEBOARD,PASTEBOARD,set(),set(),10.0
+PASTEBOARD_2,PASTEBOARD,PASTEBOARD,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+TRIAL_1,TRIAL,TRIAL,set(),set(),9.8
+TRIAL_2,TRIAL,TRIAL,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+CONTOUR_3,CONTOUR,CONTOUR,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+CONTOUR_4,CONTOUR,CONTOUR,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+LENS_1,LENS,LENS,set(),set(),10.0
+LENS_2,LENS,LENS,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PROFILE_1,PROFILE,PROFILE,set(),set(),10.0
+PROFILE_2,PROFILE,PROFILE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+ROSE_1,ROSE,ROSE,set(),set(),10.0
+ROSE_2,ROSE,ROSE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+NOSEAUG_1,NOSEAUG,NOSEAUG,set(),set(),9.9
+NOSEAUG_2,NOSEAUG,NOSEAUG,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SHEETA_1,SHEETA,SHEETA,set(),set(),10.200000000000001
+SHEETA_2,SHEETA,SHEETA,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+JAR_1,JAR,JAR,set(),set(),9.9
+JAR_2,JAR,JAR,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+MATDIM_1,MATDIM,MATDIM,set(),set(),10.0
+MATDIM_2,MATDIM,MATDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+STREET_1,STREET,STREET,set(),set(),9.9
+STREET_2,STREET,STREET,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+FATHER_1,FATHER,FATHER,set(),set(),9.9
+FATHER_2,FATHER,FATHER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BULLDOG_1,BULLDOG,BULLDOG,set(),set(),9.8
+BULLDOG_2,BULLDOG,BULLDOG,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SPIN_1,SPIN,SPIN,set(),set(),10.0
+SPIN_2,SPIN,SPIN,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CANDLEDIM_1,CANDLEDIM,CANDLEDIM,set(),set(),9.9
+CANDLEDIM_2,CANDLEDIM,CANDLEDIM,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+CANDLEDIM_3,CANDLEDIM,CANDLEDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+CANDLEDIM_4,CANDLEDIM,CANDLEDIM,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+REPLY_1,REPLY,REPLY,set(),set(),9.9
+REPLY_2,REPLY,REPLY,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+CAPB_1,CAPB,CAPB,set(),set(),10.5
+CAPB_2,CAPB,CAPB,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+MARKETDIM_1,MARKETDIM,MARKETDIM,set(),set(),10.0
+MARKETDIM_2,MARKETDIM,MARKETDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+HAT_3,HAT,HAT,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+HAT_4,HAT,HAT,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.9
+BANANA_1,BANANA,BANANA,set(),set(),10.0
+BANANA_2,BANANA,BANANA,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+GIRAFFE_1,GIRAFFE,GIRAFFE,set(),set(),10.3
+GIRAFFE_2,GIRAFFE,GIRAFFE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+BABYBOTTLE_1,BABYBOTTLE,BABYBOTTLE,set(),set(),10.0
+BABYBOTTLE_2,BABYBOTTLE,BABYBOTTLE,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+SIREN_1,SIREN,SIREN,set(),set(),10.0
+SIREN_2,SIREN,SIREN,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+METER_1,METER,METER,set(),set(),10.0
+METER_2,METER,METER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BEARD_1,BEARD,BEARD,set(),set(),9.9
+BEARD_2,BEARD,BEARD,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PACKAGEDIM_3,PACKAGEDIM,PACKAGEDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+PACKAGEDIM_4,PACKAGEDIM,PACKAGEDIM,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.4
+RIBBON_1,RIBBON,RIBBON,set(),set(),10.0
+RIBBON_2,RIBBON,RIBBON,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+LITTLEFINGER_1,LITTLEFINGER,LITTLEFINGER,set(),set(),9.9
+LITTLEFINGER_2,LITTLEFINGER,LITTLEFINGER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+KNOTDIM_1,KNOTDIM,KNOTDIM,set(),set(),10.4
+KNOTDIM_2,KNOTDIM,KNOTDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+DRAWER_1,DRAWER,DRAWER,set(),set(),10.0
+DRAWER_2,DRAWER,DRAWER,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+BREATHLESSNESS_1,BREATHLESSNESS,BREATHLESSNESS,set(),set(),10.0
+BREATHLESSNESS_2,BREATHLESSNESS,BREATHLESSNESS,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+DRAWERS_1,DRAWERS,DRAWERS,set(),set(),10.5
+DRAWERS_2,DRAWERS,DRAWERS,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+STICK_1,STICK,STICK,set(),set(),10.5
+STICK_2,STICK,STICK,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",12.5
+TOY_1,TOY,TOY,set(),set(),10.5
+TOY_2,TOY,TOY,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+COMB_1,COMB,COMB,set(),set(),9.9
+COMB_2,COMB,COMB,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SAW_1,SAW,SAW,set(),set(),9.9
+SAW_2,SAW,SAW,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SOLDIER_1,SOLDIER,SOLDIER,set(),set(),9.9
+SOLDIER_2,SOLDIER,SOLDIER,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+GUN_1,GUN,GUN,set(),set(),9.9
+GUN_2,GUN,GUN,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+MEDICINE_1,MEDICINE,MEDICINE,set(),set(),10.0
+MEDICINE_2,MEDICINE,MEDICINE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+CRUMBDIM_1,CRUMBDIM,CRUMBDIM,set(),set(),10.0
+CRUMBDIM_2,CRUMBDIM,CRUMBDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",9.9
+FINGER_5,FINGER,FINGER,set(),"{('a', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+FINGER_6,FINGER,FINGER,set(),"{('o', frozenset({'+atomic'})), ('a', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+ARMS_1,ARMS,ARMS,set(),set(),10.0
+ARMS_2,ARMS,ARMS,set(),"{('a', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+TRAIL_1,TRAIL,TRAIL,set(),set(),11.200000000000001
+TRAIL_2,TRAIL,TRAIL,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",12.5
+PISTOL_1,PISTOL,PISTOL,set(),set(),13.500000000000002
+PISTOL_2,PISTOL,PISTOL,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",13.9
+BASIN_1,BASIN,BASIN,set(),set(),10.0
+BASIN_2,BASIN,BASIN,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",9.9
+GALLEON_1,GALLEON,GALLEON,set(),set(),9.9
+GALLEON_2,GALLEON,GALLEON,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+VEIL_1,VEIL,VEIL,set(),set(),10.0
+VEIL_2,VEIL,VEIL,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+SKULL_1,SKULL,SKULL,set(),set(),10.5
+SKULL_2,SKULL,SKULL,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+MONTH_1,MONTH,MONTH,set(),set(),9.9
+MONTH_2,MONTH,MONTH,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SUBWAY_1,SUBWAY,SUBWAY,set(),set(),9.9
+SUBWAY_2,SUBWAY,SUBWAY,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+WEDDING_1,WEDDING,WEDDING,set(),set(),9.9
+WEDDING_2,WEDDING,WEDDING,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+HANDLEB_1,HANDLEB,HANDLEB,set(),set(),10.4
+HANDLEB_2,HANDLEB,HANDLEB,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SUBWAY_3,SUBWAY,SUBWAY,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+SUBWAY_4,SUBWAY,SUBWAY,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+DIZZINESS_1,DIZZINESS,DIZZINESS,set(),set(),10.0
+DIZZINESS_2,DIZZINESS,DIZZINESS,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+PEARLDIM_3,PEARLDIM,PEARLDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PEARLDIM_4,PEARLDIM,PEARLDIM,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+TIGER_3,TIGER,TIGER,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+TIGER_4,TIGER,TIGER,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+PENCILSHARPENER_1,PENCILSHARPENER,PENCILSHARPENER,set(),set(),10.0
+PENCILSHARPENER_2,PENCILSHARPENER,PENCILSHARPENER,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+DRAWERDIM_1,DRAWERDIM,DRAWERDIM,set(),set(),9.9
+DRAWERDIM_2,DRAWERDIM,DRAWERDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+TRIGGER_1,TRIGGER,TRIGGER,set(),set(),11.0
+TRIGGER_2,TRIGGER,TRIGGER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+TEASPOON_1,TEASPOON,TEASPOON,set(),set(),10.0
+TEASPOON_2,TEASPOON,TEASPOON,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+SHOVELDIM_1,SHOVELDIM,SHOVELDIM,set(),set(),11.0
+SHOVELDIM_2,SHOVELDIM,SHOVELDIM,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+ICECREAMPARLOR_1,ICECREAMPARLOR,ICECREAMPARLOR,set(),set(),9.9
+ICECREAMPARLOR_2,ICECREAMPARLOR,ICECREAMPARLOR,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PIANOFORTE_1,PIANOFORTE,PIANOFORTE,set(),set(),9.500000000000002
+PIANOFORTE_2,PIANOFORTE,PIANOFORTE,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",12.5
+SACKDIM_1,SACKDIM,SACKDIM,set(),set(),9.8
+SACKDIM_2,SACKDIM,SACKDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+TOWER_3,TOWER,TOWER,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+TOWER_4,TOWER,TOWER,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",11.5
+DAYA_1,DAYA,DAYA,set(),set(),10.5
+DAYA_2,DAYA,DAYA,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+RACKET_3,RACKET,RACKET,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+RACKET_4,RACKET,RACKET,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+BALLOON_3,BALLOON,BALLOON,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+BALLOON_4,BALLOON,BALLOON,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",11.5
+MASK_1,MASK,MASK,set(),set(),10.0
+MASK_2,MASK,MASK,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CITY_1,CITY,CITY,set(),set(),9.9
+CITY_2,CITY,CITY,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+TICKET_1,TICKET,TICKET,set(),set(),10.5
+TICKET_2,TICKET,TICKET,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BATH_1,BATH,BATH,set(),set(),10.9
+BATH_2,BATH,BATH,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+GOSLINGDIM_1,GOSLINGDIM,GOSLINGDIM,set(),set(),10.8
+GOSLINGDIM_2,GOSLINGDIM,GOSLINGDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+FISHY_1,FISHY,FISHY,set(),set(),10.0
+FISHY_2,FISHY,FISHY,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+LEVERET_1,LEVERET,LEVERET,set(),set(),10.5
+LEVERET_2,LEVERET,LEVERET,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+TIDE_1,TIDE,TIDE,set(),set(),10.0
+TIDE_2,TIDE,TIDE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PASTIME_3,PASTIME,PASTIME,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PASTIME_4,PASTIME,PASTIME,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+SPRINGMECHANISM_1,SPRINGMECHANISM,SPRINGMECHANISM,set(),set(),10.5
+SPRINGMECHANISM_2,SPRINGMECHANISM,SPRINGMECHANISM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+MORNINGA_1,MORNINGA,MORNINGA,set(),set(),10.5
+MORNINGA_2,MORNINGA,MORNINGA,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+GLOVE_1,GLOVE,GLOVE,set(),set(),10.0
+GLOVE_2,GLOVE,GLOVE,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+COPYBOOK_1,COPYBOOK,COPYBOOK,set(),set(),9.8
+COPYBOOK_2,COPYBOOK,COPYBOOK,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+COPYBOOK_3,COPYBOOK,COPYBOOK,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+COPYBOOK_4,COPYBOOK,COPYBOOK,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+DRUMS_1,DRUMS,DRUMS,set(),set(),10.0
+DRUMS_2,DRUMS,DRUMS,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SEQUENCE_1,SEQUENCE,SEQUENCE,set(),set(),10.0
+SEQUENCE_2,SEQUENCE,SEQUENCE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+KNEE_1,KNEE,KNEE,set(),set(),9.9
+KNEE_2,KNEE,KNEE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+FRISBY_1,FRISBY,FRISBY,set(),set(),9.9
+FRISBY_2,FRISBY,FRISBY,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+SUNSET_1,SUNSET,SUNSET,set(),set(),10.0
+SUNSET_2,SUNSET,SUNSET,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+CONSTRUCTION_3,CONSTRUCTION,CONSTRUCTION,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+CONSTRUCTION_4,CONSTRUCTION,CONSTRUCTION,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+HAIRDRYER_1,HAIRDRYER,HAIRDRYER,set(),set(),9.9
+HAIRDRYER_2,HAIRDRYER,HAIRDRYER,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BEDDIM_1,BEDDIM,BEDDIM,set(),set(),9.9
+BEDDIM_2,BEDDIM,BEDDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+DIVE_1,DIVE,DIVE,set(),set(),9.9
+DIVE_2,DIVE,DIVE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SINGLET_1,SINGLET,SINGLET,set(),set(),10.0
+SINGLET_2,SINGLET,SINGLET,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+null_66,null,nominalizer,"{'i_1', 'a_2'}","{('a', frozenset({'+atomic'}))}",13.399999999999999
+null_67,null,nominalizer,"{'i_1', 'a_2'}","{('a', frozenset({'+atomic'})), ('i', frozenset({'-atomic'}))}",11.299999999999999
+null_68,null,nominalizer,"{'i_1', 'a_2'}","{('a', frozenset({'+atomic'})), ('null', frozenset({'-atomic'}))}",11.399999999999999
+GUITAR_1,GUITAR,GUITAR,set(),set(),10.5
+GUITAR_2,GUITAR,GUITAR,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+FLUTE_1,FLUTE,FLUTE,set(),set(),10.0
+FLUTE_2,FLUTE,FLUTE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PIPE_1,PIPE,PIPE,set(),set(),9.9
+PIPE_2,PIPE,PIPE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",12.0
+SOMERSAULT_3,SOMERSAULT,SOMERSAULT,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+SOMERSAULT_4,SOMERSAULT,SOMERSAULT,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.4
+SHELL_1,SHELL,SHELL,set(),set(),10.0
+SHELL_2,SHELL,SHELL,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+TUBE_1,TUBE,TUBE,set(),set(),10.5
+TUBE_2,TUBE,TUBE,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+WHIM_1,WHIM,WHIM,set(),set(),10.0
+WHIM_2,WHIM,WHIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+CONFETTI_1,CONFETTI,CONFETTI,set(),set(),10.9
+CONFETTI_2,CONFETTI,CONFETTI,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+PHOTO_1,PHOTO,PHOTO,set(),set(),9.9
+PHOTO_2,PHOTO,PHOTO,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+STICKDIM_1,STICKDIM,STICKDIM,set(),set(),9.9
+STICKDIM_2,STICKDIM,STICKDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+TRUTH_1,TRUTH,TRUTH,set(),set(),9.9
+TRUTH_2,TRUTH,TRUTH,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SUGGESTION_1,SUGGESTION,SUGGESTION,set(),set(),10.5
+SUGGESTION_2,SUGGESTION,SUGGESTION,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+VEHICLENOSE_1,VEHICLENOSE,VEHICLENOSE,set(),set(),10.4
+VEHICLENOSE_2,VEHICLENOSE,VEHICLENOSE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SIGNOR_3,SIGNOR,SIGNOR,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.4
+TILL_1,TILL,TILL,set(),set(),11.0
+TILL_2,TILL,TILL,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+WAND_1,WAND,WAND,set(),set(),10.5
+WAND_2,WAND,WAND,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SHIP_1,SHIP,SHIP,set(),set(),9.8
+SHIP_2,SHIP,SHIP,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+DOLPHIN_1,DOLPHIN,DOLPHIN,set(),set(),10.5
+DOLPHIN_2,DOLPHIN,DOLPHIN,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+SCISSOR_3,SCISSOR,SCISSOR,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+SCISSOR_4,SCISSOR,SCISSOR,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+OFFSPRING_3,OFFSPRING,OFFSPRING,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+WIFE_1,WIFE,WIFE,set(),set(),9.9
+WIFE_2,WIFE,WIFE,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PIECEDIMDIM_1,PIECEDIMDIM,PIECEDIMDIM,set(),set(),11.0
+PIECEDIMDIM_2,PIECEDIMDIM,PIECEDIMDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+END_1,END,END,set(),set(),9.9
+END_2,END,END,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BANQUET_1,BANQUET,BANQUET,set(),set(),9.9
+BANQUET_2,BANQUET,BANQUET,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+MEAT_1,MEAT,MEAT,set(),set(),9.8
+MEAT_2,MEAT,MEAT,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SATURDAY_1,SATURDAY,SATURDAY,set(),set(),9.9
+SATURDAY_2,SATURDAY,SATURDAY,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BRAND_1,BRAND,BRAND,set(),set(),9.9
+BRAND_2,BRAND,BRAND,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PEEL_1,PEEL,PEEL,set(),set(),10.0
+PEEL_2,PEEL,PEEL,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SHOVELDIM_3,SHOVELDIM,SHOVELDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+SHOVELDIM_4,SHOVELDIM,SHOVELDIM,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PHOTOGRAPH_1,PHOTOGRAPH,PHOTOGRAPH,set(),set(),10.5
+PHOTOGRAPH_2,PHOTOGRAPH,PHOTOGRAPH,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+null_69,null,nominalizer,"{'e_2', 'a_2'}","{('null', frozenset({'-atomic'}))}",10.1
+PHOTO_3,PHOTO,PHOTO,set(),"{('null', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+PHOTO_4,PHOTO,PHOTO,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset({'-atomic'})), ('null', frozenset())}",11.5
+PEASHOOTER_1,PEASHOOTER,PEASHOOTER,set(),set(),9.9
+PEASHOOTER_2,PEASHOOTER,PEASHOOTER,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+TUBE_3,TUBE,TUBE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+TUBE_4,TUBE,TUBE,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",11.5
+POSITION_1,POSITION,POSITION,set(),set(),9.9
+POSITION_2,POSITION,POSITION,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+JIGSAW_1,JIGSAW,JIGSAW,set(),set(),9.500000000000002
+JIGSAW_2,JIGSAW,JIGSAW,set(),"{('null', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+JIGSAW_3,JIGSAW,JIGSAW,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+JIGSAW_4,JIGSAW,JIGSAW,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset({'-atomic'})), ('null', frozenset())}",11.9
+BLU_1,BLU,BLU,set(),set(),10.5
+BLU_2,BLU,BLU,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+STONEB_3,STONEB,STONEB,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+STONEB_4,STONEB,STONEB,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.9
+MUSICDIM_1,MUSICDIM,MUSICDIM,set(),set(),10.5
+MUSICDIM_2,MUSICDIM,MUSICDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+FESTOON_1,FESTOON,FESTOON,set(),set(),10.5
+FESTOON_2,FESTOON,FESTOON,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+SWEET_1,SWEET,SWEET,set(),set(),9.9
+SWEET_2,SWEET,SWEET,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+SWEETDIM_1,SWEETDIM,SWEETDIM,set(),set(),10.0
+SWEETDIM_2,SWEETDIM,SWEETDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+WINDOW_1,WINDOW,WINDOW,set(),set(),10.0
+WINDOW_2,WINDOW,WINDOW,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+TOAD_1,TOAD,TOAD,set(),set(),10.0
+TOAD_2,TOAD,TOAD,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+NECK_1,NECK,NECK,set(),set(),10.0
+NECK_2,NECK,NECK,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+MOLE_1,MOLE,MOLE,set(),set(),9.9
+MOLE_2,MOLE,MOLE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+MOLEDIM_1,MOLEDIM,MOLEDIM,set(),set(),10.5
+MOLEDIM_2,MOLEDIM,MOLEDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BLANKET_1,BLANKET,BLANKET,set(),set(),10.9
+BLANKET_2,BLANKET,BLANKET,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+TUNNEL_1,TUNNEL,TUNNEL,set(),set(),10.5
+TUNNEL_2,TUNNEL,TUNNEL,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+PARROTDIM_1,PARROTDIM,PARROTDIM,set(),set(),10.5
+PARROTDIM_2,PARROTDIM,PARROTDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+SWALLOW_1,SWALLOW,SWALLOW,set(),set(),9.9
+SWALLOW_2,SWALLOW,SWALLOW,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SNAILADIM_1,SNAILADIM,SNAILADIM,set(),set(),9.9
+SNAILADIM_2,SNAILADIM,SNAILADIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+DINNER_1,DINNER,DINNER,set(),set(),10.5
+DINNER_2,DINNER,DINNER,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PICTUREDIM_1,PICTUREDIM,PICTUREDIM,set(),set(),10.0
+PICTUREDIM_2,PICTUREDIM,PICTUREDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BILL_1,BILL,BILL,set(),set(),10.5
+BILL_2,BILL,BILL,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+TRICYCLE_1,TRICYCLE,TRICYCLE,set(),set(),10.4
+TRICYCLE_2,TRICYCLE,TRICYCLE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+COMMONCOLD_1,COMMONCOLD,COMMONCOLD,set(),set(),9.8
+COMMONCOLD_2,COMMONCOLD,COMMONCOLD,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+NOSEDIMA_1,NOSEDIMA,NOSEDIMA,set(),set(),10.5
+NOSEDIMA_2,NOSEDIMA,NOSEDIMA,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+HANDKERCHIEFDIM_1,HANDKERCHIEFDIM,HANDKERCHIEFDIM,set(),set(),10.0
+HANDKERCHIEFDIM_2,HANDKERCHIEFDIM,HANDKERCHIEFDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+BLU_3,BLU,BLU,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BLU_4,BLU,BLU,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+RAKE_1,RAKE,RAKE,set(),set(),10.0
+RAKE_2,RAKE,RAKE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BUNCHB_1,BUNCHB,BUNCHB,set(),set(),10.0
+BUNCHB_2,BUNCHB,BUNCHB,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+FRUITSALAD_1,FRUITSALAD,FRUITSALAD,set(),set(),10.5
+FRUITSALAD_2,FRUITSALAD,FRUITSALAD,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+CORN_1,CORN,CORN,set(),set(),10.4
+CORN_2,CORN,CORN,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+KICKB_1,KICKB,KICKB,set(),set(),10.0
+KICKB_2,KICKB,KICKB,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CYLINDER_3,CYLINDER,CYLINDER,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+CYLINDER_4,CYLINDER,CYLINDER,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+TRIANGLE_3,TRIANGLE,TRIANGLE,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+TRIANGLE_4,TRIANGLE,TRIANGLE,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+NAME_3,NAME,NAME,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+NAME_4,NAME,NAME,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+CENTDIM_3,CENTDIM,CENTDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+CENTDIM_4,CENTDIM,CENTDIM,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+TAPEHOLDER_1,TAPEHOLDER,TAPEHOLDER,set(),set(),10.0
+TAPEHOLDER_2,TAPEHOLDER,TAPEHOLDER,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CASE_1,CASE,CASE,set(),set(),10.5
+CASE_2,CASE,CASE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+TEA_1,TEA,TEA,set(),set(),9.9
+TEA_2,TEA,TEA,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+PISTOL_3,PISTOL,PISTOL,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+PISTOL_4,PISTOL,PISTOL,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+LIONDIM_1,LIONDIM,LIONDIM,set(),set(),10.0
+LIONDIM_2,LIONDIM,LIONDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+NOSEDIMB_1,NOSEDIMB,NOSEDIMB,set(),set(),10.5
+NOSEDIMB_2,NOSEDIMB,NOSEDIMB,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SAND_1,SAND,SAND,set(),set(),9.9
+SAND_2,SAND,SAND,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CASTLE_3,CASTLE,CASTLE,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+CASTLE_4,CASTLE,CASTLE,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",11.5
+BODYHAIR_1,BODYHAIR,BODYHAIR,set(),set(),9.9
+BODYHAIR_2,BODYHAIR,BODYHAIR,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+COLLAR_1,COLLAR,COLLAR,set(),set(),10.0
+COLLAR_2,COLLAR,COLLAR,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+PUP_1,PUP,PUP,set(),set(),10.9
+PUP_2,PUP,PUP,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+PUP_3,PUP,PUP,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",9.9
+PUP_4,PUP,PUP,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+LEASH_1,LEASH,LEASH,set(),set(),10.0
+LEASH_2,LEASH,LEASH,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+LIFE_1,LIFE,LIFE,set(),set(),10.5
+LIFE_2,LIFE,LIFE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+OFFSPRING_4,OFFSPRING,OFFSPRING,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+OFFSPRING_5,OFFSPRING,OFFSPRING,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+OFFSPRING_6,OFFSPRING,OFFSPRING,set(),"{('a', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+FUR_1,FUR,FUR,set(),set(),10.0
+FUR_2,FUR,FUR,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+null_70,null,nominalizer,"{'i_1', 'a_2'}","{('e', frozenset({'+atomic'}))}",10.0
+null_71,null,nominalizer,"{'i_1', 'a_2'}","{('o', frozenset({'+atomic'}))}",10.1
+null_72,null,nominalizer,"{'i_1', 'a_2'}","{('null', frozenset({'+atomic'}))}",10.0
+HAMPER_1,HAMPER,HAMPER,set(),set(),10.5
+HAMPER_2,HAMPER,HAMPER,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+MESSAGE_1,MESSAGE,MESSAGE,set(),set(),11.0
+MESSAGE_2,MESSAGE,MESSAGE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+FARM_1,FARM,FARM,set(),set(),10.4
+FARM_2,FARM,FARM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SERGEANT_1,SERGEANT,SERGEANT,set(),set(),9.8
+SERGEANT_2,SERGEANT,SERGEANT,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SKIN_1,SKIN,SKIN,set(),set(),10.0
+SKIN_2,SKIN,SKIN,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",11.0
+PADRON_3,PADRON,PADRON,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BROTHERDIM_1,BROTHERDIM,BROTHERDIM,set(),set(),10.0
+BROTHERDIM_2,BROTHERDIM,BROTHERDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+LAMP_1,LAMP,LAMP,set(),set(),9.9
+LAMP_2,LAMP,LAMP,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+LIGHTBULB_1,LIGHTBULB,LIGHTBULB,set(),set(),9.9
+LIGHTBULB_2,LIGHTBULB,LIGHTBULB,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PETROL_1,PETROL,PETROL,set(),set(),9.9
+PETROL_2,PETROL,PETROL,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PUMPDIM_1,PUMPDIM,PUMPDIM,set(),set(),10.0
+PUMPDIM_2,PUMPDIM,PUMPDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+ROGUE_1,ROGUE,ROGUE,set(),set(),9.9
+ROGUE_2,ROGUE,ROGUE,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BOOKAUG_1,BOOKAUG,BOOKAUG,set(),set(),9.9
+BOOKAUG_2,BOOKAUG,BOOKAUG,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+RIVER_1,RIVER,RIVER,set(),set(),9.9
+RIVER_2,RIVER,RIVER,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+FLOATING_1,FLOATING,FLOATING,set(),set(),10.0
+FLOATING_2,FLOATING,FLOATING,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+GUIDE_1,GUIDE,GUIDE,set(),set(),10.4
+GUIDE_2,GUIDE,GUIDE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+MOWER_1,MOWER,MOWER,set(),set(),9.700000000000001
+MOWER_2,MOWER,MOWER,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+DOORMAN_1,DOORMAN,DOORMAN,set(),set(),10.0
+DOORMAN_2,DOORMAN,DOORMAN,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+KEEPER_1,KEEPER,KEEPER,set(),set(),9.9
+KEEPER_2,KEEPER,KEEPER,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+CARETAKER_1,CARETAKER,CARETAKER,set(),set(),10.0
+CARETAKER_2,CARETAKER,CARETAKER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PANDA_1,PANDA,PANDA,set(),set(),9.9
+PANDA_2,PANDA,PANDA,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BARROW_1,BARROW,BARROW,set(),set(),10.5
+BARROW_2,BARROW,BARROW,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BEAVERDIM_1,BEAVERDIM,BEAVERDIM,set(),set(),10.0
+BEAVERDIM_2,BEAVERDIM,BEAVERDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+LESSON_1,LESSON,LESSON,set(),set(),9.9
+LESSON_2,LESSON,LESSON,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+TEACHER_1,TEACHER,TEACHER,set(),set(),10.5
+TEACHER_2,TEACHER,TEACHER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+HUMPBACK_1,HUMPBACK,HUMPBACK,set(),set(),10.200000000000001
+HUMPBACK_2,HUMPBACK,HUMPBACK,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+ACCORDION_1,ACCORDION,ACCORDION,set(),set(),10.4
+ACCORDION_2,ACCORDION,ACCORDION,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+HAY_1,HAY,HAY,set(),set(),9.9
+HAY_2,HAY,HAY,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SHEAF_1,SHEAF,SHEAF,set(),set(),10.0
+SHEAF_2,SHEAF,SHEAF,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BUNDLEDIM_1,BUNDLEDIM,BUNDLEDIM,set(),set(),10.0
+BUNDLEDIM_2,BUNDLEDIM,BUNDLEDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BROTHERDIMDIM_1,BROTHERDIMDIM,BROTHERDIMDIM,set(),set(),10.0
+BROTHERDIMDIM_2,BROTHERDIMDIM,BROTHERDIMDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+WEIGHT_1,WEIGHT,WEIGHT,set(),set(),10.5
+WEIGHT_2,WEIGHT,WEIGHT,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+CANARY_3,CANARY,CANARY,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CANARY_4,CANARY,CANARY,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+SWEAT_1,SWEAT,SWEAT,set(),set(),10.0
+SWEAT_2,SWEAT,SWEAT,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+MORNINGB_1,MORNINGB,MORNINGB,set(),set(),10.5
+MORNINGB_2,MORNINGB,MORNINGB,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+PIGLETDIM_3,PIGLETDIM,PIGLETDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.4
+PIGLETDIM_4,PIGLETDIM,PIGLETDIM,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+GOATDIM_3,GOATDIM,GOATDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.9
+GOATDIM_4,GOATDIM,GOATDIM,set(),"{('a', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.8
+HUT_1,HUT,HUT,set(),set(),9.9
+HUT_2,HUT,HUT,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+STONEA_1,STONEA,STONEA,set(),set(),10.0
+STONEA_2,STONEA,STONEA,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+BEAST_1,BEAST,BEAST,set(),set(),10.0
+BEAST_2,BEAST,BEAST,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+SOLDIERDIM_1,SOLDIERDIM,SOLDIERDIM,set(),set(),10.0
+SOLDIERDIM_2,SOLDIERDIM,SOLDIERDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CHILD_3,CHILD,CHILD,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",9.9
+FIREEATER_1,FIREEATER,FIREEATER,set(),set(),11.0
+FIREEATER_2,FIREEATER,FIREEATER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PUPPET_1,PUPPET,PUPPET,set(),set(),9.9
+PUPPET_2,PUPPET,PUPPET,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+CENT_1,CENT,CENT,set(),set(),10.0
+CENT_2,CENT,CENT,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+TRIP_1,TRIP,TRIP,set(),set(),9.9
+TRIP_2,TRIP,TRIP,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SUITCASE_1,SUITCASE,SUITCASE,set(),set(),9.9
+SUITCASE_2,SUITCASE,SUITCASE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+LIONESS_1,LIONESS,LIONESS,set(),set(),10.4
+LIONESS_2,LIONESS,LIONESS,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+AEROSOL_1,AEROSOL,AEROSOL,set(),set(),9.9
+AEROSOL_2,AEROSOL,AEROSOL,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SWING_1,SWING,SWING,set(),set(),10.0
+SWING_2,SWING,SWING,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CANE_1,CANE,CANE,set(),set(),10.5
+CANE_2,CANE,CANE,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+COMPETITION_1,COMPETITION,COMPETITION,set(),set(),10.0
+COMPETITION_2,COMPETITION,COMPETITION,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+NINEPIN_1,NINEPIN,NINEPIN,set(),set(),10.4
+NINEPIN_2,NINEPIN,NINEPIN,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BREAD_1,BREAD,BREAD,set(),set(),10.0
+BREAD_2,BREAD,BREAD,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CAMEL_3,CAMEL,CAMEL,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+CAMEL_4,CAMEL,CAMEL,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+HUMP_3,HUMP,HUMP,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+HUMP_4,HUMP,HUMP,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+MOTHER_3,MOTHER,MOTHER,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+MOTHER_4,MOTHER,MOTHER,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",11.5
+STICKDIM_3,STICKDIM,STICKDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",9.9
+STICKDIM_4,STICKDIM,STICKDIM,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+PITCHFORK_1,PITCHFORK,PITCHFORK,set(),set(),10.9
+PITCHFORK_2,PITCHFORK,PITCHFORK,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CABBAGEDIM_1,CABBAGEDIM,CABBAGEDIM,set(),set(),10.4
+CABBAGEDIM_2,CABBAGEDIM,CABBAGEDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+MACHINEDIM_1,MACHINEDIM,MACHINEDIM,set(),set(),10.5
+MACHINEDIM_2,MACHINEDIM,MACHINEDIM,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+MUSICBOX_1,MUSICBOX,MUSICBOX,set(),set(),10.0
+MUSICBOX_2,MUSICBOX,MUSICBOX,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+GARDEN_1,GARDEN,GARDEN,set(),set(),9.9
+GARDEN_2,GARDEN,GARDEN,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+HOLE_3,HOLE,HOLE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+CHANGINGTABLE_1,CHANGINGTABLE,CHANGINGTABLE,set(),set(),10.5
+CHANGINGTABLE_2,CHANGINGTABLE,CHANGINGTABLE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+CALENDAR_1,CALENDAR,CALENDAR,set(),set(),9.9
+CALENDAR_2,CALENDAR,CALENDAR,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PUMP_1,PUMP,PUMP,set(),set(),10.5
+PUMP_2,PUMP,PUMP,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+FAIR_1,FAIR,FAIR,set(),set(),10.4
+FAIR_2,FAIR,FAIR,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+WARDEN_1,WARDEN,WARDEN,set(),set(),10.0
+WARDEN_2,WARDEN,WARDEN,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+NEWSPAPER_1,NEWSPAPER,NEWSPAPER,set(),set(),9.9
+NEWSPAPER_2,NEWSPAPER,NEWSPAPER,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+CLUB_1,CLUB,CLUB,set(),set(),10.5
+CLUB_2,CLUB,CLUB,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PUPPET_3,PUPPET,PUPPET,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PUPPET_4,PUPPET,PUPPET,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+WOODS_1,WOODS,WOODS,set(),set(),10.0
+WOODS_2,WOODS,WOODS,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+TRAP_1,TRAP,TRAP,set(),set(),10.5
+TRAP_2,TRAP,TRAP,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+CHILDDIM_1,CHILDDIM,CHILDDIM,set(),set(),10.0
+CHILDDIM_2,CHILDDIM,CHILDDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+VEHICLEWINDOW_1,VEHICLEWINDOW,VEHICLEWINDOW,set(),set(),10.5
+VEHICLEWINDOW_2,VEHICLEWINDOW,VEHICLEWINDOW,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SEAL_1,SEAL,SEAL,set(),set(),9.8
+SEAL_2,SEAL,SEAL,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+DINOSAUR_1,DINOSAUR,DINOSAUR,set(),set(),10.4
+DINOSAUR_2,DINOSAUR,DINOSAUR,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PRIZE_3,PRIZE,PRIZE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PRIZE_4,PRIZE,PRIZE,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+DISK_1,DISK,DISK,set(),set(),10.4
+DISK_2,DISK,DISK,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+GYM_1,GYM,GYM,set(),set(),10.5
+GYM_2,GYM,GYM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+GIFT_1,GIFT,GIFT,set(),set(),9.9
+GIFT_2,GIFT,GIFT,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+QUESTION_1,QUESTION,QUESTION,set(),set(),9.9
+QUESTION_2,QUESTION,QUESTION,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+LINEBDIM_1,LINEBDIM,LINEBDIM,set(),set(),9.9
+LINEBDIM_2,LINEBDIM,LINEBDIM,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+BANANA_3,BANANA,BANANA,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BANANA_4,BANANA,BANANA,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BLANKET_3,BLANKET,BLANKET,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BLANKET_4,BLANKET,BLANKET,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BAKER_1,BAKER,BAKER,set(),set(),10.5
+BAKER_2,BAKER,BAKER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PANDA_3,PANDA,PANDA,set(),"{('null', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+PANDA_4,PANDA,PANDA,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+LITTLEONEDIM_1,LITTLEONEDIM,LITTLEONEDIM,set(),set(),10.0
+LITTLEONEDIM_2,LITTLEONEDIM,LITTLEONEDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+DROMEDARY_1,DROMEDARY,DROMEDARY,set(),set(),10.0
+DROMEDARY_2,DROMEDARY,DROMEDARY,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+GIRAFFE_3,GIRAFFE,GIRAFFE,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+GIRAFFE_4,GIRAFFE,GIRAFFE,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+null_73,null,nominalizer,{'e_2'},"{('null', frozenset({'-atomic'}))}",12.299999999999992
+FLASH_1,FLASH,FLASH,set(),set(),10.0
+FLASH_2,FLASH,FLASH,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+STORE_1,STORE,STORE,set(),set(),10.5
+STORE_2,STORE,STORE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+MARKET_1,MARKET,MARKET,set(),set(),10.0
+MARKET_2,MARKET,MARKET,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CURIOSITY_1,CURIOSITY,CURIOSITY,set(),set(),10.0
+CURIOSITY_2,CURIOSITY,CURIOSITY,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PHARMACY_1,PHARMACY,PHARMACY,set(),set(),10.4
+PHARMACY_2,PHARMACY,PHARMACY,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+DOLPHIN_3,DOLPHIN,DOLPHIN,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+DOLPHIN_4,DOLPHIN,DOLPHIN,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+WILDBOAR_1,WILDBOAR,WILDBOAR,set(),set(),10.0
+WILDBOAR_2,WILDBOAR,WILDBOAR,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+LINEB_1,LINEB,LINEB,set(),set(),10.5
+LINEB_2,LINEB,LINEB,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+BARRACKS_1,BARRACKS,BARRACKS,set(),set(),10.5
+BARRACKS_2,BARRACKS,BARRACKS,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+JUNGLE_1,JUNGLE,JUNGLE,set(),set(),10.5
+JUNGLE_2,JUNGLE,JUNGLE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PANTHER_1,PANTHER,PANTHER,set(),set(),10.9
+PANTHER_2,PANTHER,PANTHER,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+WOLF_3,WOLF,WOLF,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+WOLF_4,WOLF,WOLF,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",13.9
+DWARF_3,DWARF,DWARF,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+DWARF_4,DWARF,DWARF,set(),"{('a', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+VILLAGEA_1,VILLAGEA,VILLAGEA,set(),set(),10.0
+VILLAGEA_2,VILLAGEA,VILLAGEA,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+FOOTAUGB_1,FOOTAUGB,FOOTAUGB,set(),set(),10.0
+FOOTAUGB_2,FOOTAUGB,FOOTAUGB,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PATIENCE_1,PATIENCE,PATIENCE,set(),set(),10.5
+PATIENCE_2,PATIENCE,PATIENCE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BANK_1,BANK,BANK,set(),set(),9.8
+BANK_2,BANK,BANK,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+RASPBERRYB_1,RASPBERRYB,RASPBERRYB,set(),set(),9.9
+RASPBERRYB_2,RASPBERRYB,RASPBERRYB,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+CROWNDIM_1,CROWNDIM,CROWNDIM,set(),set(),10.0
+CROWNDIM_2,CROWNDIM,CROWNDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BAMBINO_5,BAMBINO,BAMBINO,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BAMBINO_6,BAMBINO,BAMBINO,set(),"{('a', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",9.8
+TAILDIM_1,TAILDIM,TAILDIM,set(),set(),10.5
+TAILDIM_2,TAILDIM,TAILDIM,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+null_74,null,nominalizer,"{'e_2', 'a_2'}","{('a', frozenset({'+atomic'})), ('null', frozenset({'-atomic'}))}",10.5
+FEMALEAUG_1,FEMALEAUG,FEMALEAUG,set(),set(),10.0
+FEMALEAUG_2,FEMALEAUG,FEMALEAUG,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+BRAIN_1,BRAIN,BRAIN,set(),set(),10.5
+BRAIN_2,BRAIN,BRAIN,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+STEPMOTHER_1,STEPMOTHER,STEPMOTHER,set(),set(),10.5
+STEPMOTHER_2,STEPMOTHER,STEPMOTHER,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+DANCER_1,DANCER,DANCER,set(),set(),9.9
+DANCER_2,DANCER,DANCER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+NEPHEWDIM_1,NEPHEWDIM,NEPHEWDIM,set(),set(),10.0
+NEPHEWDIM_2,NEPHEWDIM,NEPHEWDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BELL_1,BELL,BELL,set(),set(),9.9
+BELL_2,BELL,BELL,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+WALTZ_1,WALTZ,WALTZ,set(),set(),9.8
+WALTZ_2,WALTZ,WALTZ,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+TYPE_1,TYPE,TYPE,set(),set(),10.0
+TYPE_2,TYPE,TYPE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+GRANDPARENTDIM_1,GRANDPARENTDIM,GRANDPARENTDIM,set(),set(),9.9
+GRANDPARENTDIM_2,GRANDPARENTDIM,GRANDPARENTDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+HUNTER_1,HUNTER,HUNTER,set(),set(),9.9
+HUNTER_2,HUNTER,HUNTER,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BIRTHDAY_1,BIRTHDAY,BIRTHDAY,set(),set(),10.0
+BIRTHDAY_2,BIRTHDAY,BIRTHDAY,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+COLLECTION_1,COLLECTION,COLLECTION,set(),set(),9.9
+COLLECTION_2,COLLECTION,COLLECTION,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+DRAGONDIM_1,DRAGONDIM,DRAGONDIM,set(),set(),10.5
+DRAGONDIM_2,DRAGONDIM,DRAGONDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+GLOVEAUG_1,GLOVEAUG,GLOVEAUG,set(),set(),9.9
+GLOVEAUG_2,GLOVEAUG,GLOVEAUG,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+OFFSPRINGDIM_1,OFFSPRINGDIM,OFFSPRINGDIM,set(),set(),10.0
+OFFSPRINGDIM_2,OFFSPRINGDIM,OFFSPRINGDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+VERSE_1,VERSE,VERSE,set(),set(),10.0
+VERSE_2,VERSE,VERSE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+WORM_3,WORM,WORM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+WORM_4,WORM,WORM,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+RHINOCEROS_1,RHINOCEROS,RHINOCEROS,set(),set(),9.9
+RHINOCEROS_2,RHINOCEROS,RHINOCEROS,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+HORN_3,HORN,HORN,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+HORN_4,HORN,HORN,set(),"{('o', frozenset({'+atomic'})), ('a', frozenset({'-atomic'})), ('null', frozenset())}",10.9
+null_75,null,nominalizer,"{'e_2', 'o_1'}",set(),10.4
+null_76,null,nominalizer,"{'e_2', 'o_1'}","{('e', frozenset({'-atomic'}))}",10.0
+null_77,null,nominalizer,"{'e_2', 'o_1'}","{('i', frozenset({'-atomic'}))}",10.0
+null_78,null,nominalizer,"{'e_2', 'o_1'}","{('a', frozenset({'-atomic'}))}",10.0
+null_79,null,nominalizer,"{'e_2', 'o_1'}","{('null', frozenset({'-atomic'}))}",10.0
+CAGE_1,CAGE,CAGE,set(),set(),9.9
+CAGE_2,CAGE,CAGE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BASE_1,BASE,BASE,set(),set(),9.9
+BASE_2,BASE,BASE,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+DOCUMENT_1,DOCUMENT,DOCUMENT,set(),set(),10.5
+DOCUMENT_2,DOCUMENT,DOCUMENT,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+MAIZE_1,MAIZE,MAIZE,set(),set(),9.9
+MAIZE_2,MAIZE,MAIZE,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+STORK_3,STORK,STORK,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+STORK_4,STORK,STORK,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+ICECREAM_1,ICECREAM,ICECREAM,set(),set(),10.5
+ICECREAM_2,ICECREAM,ICECREAM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+FLAVOR_1,FLAVOR,FLAVOR,set(),set(),10.0
+FLAVOR_2,FLAVOR,FLAVOR,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+BLUEBERRY_1,BLUEBERRY,BLUEBERRY,set(),set(),9.8
+BLUEBERRY_2,BLUEBERRY,BLUEBERRY,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+PUFF_1,PUFF,PUFF,set(),set(),9.9
+PUFF_2,PUFF,PUFF,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+COCONUT_1,COCONUT,COCONUT,set(),set(),9.8
+COCONUT_2,COCONUT,COCONUT,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+DOCTORESS_1,DOCTORESS,DOCTORESS,set(),set(),9.9
+DOCTORESS_2,DOCTORESS,DOCTORESS,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+NEWSPAPER_3,NEWSPAPER,NEWSPAPER,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+NEWSPAPER_4,NEWSPAPER,NEWSPAPER,set(),"{('e', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+STORE_3,STORE,STORE,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+STORE_4,STORE,STORE,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+POLECATDIM_1,POLECATDIM,POLECATDIM,set(),set(),10.0
+POLECATDIM_2,POLECATDIM,POLECATDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+COMPETITION_3,COMPETITION,COMPETITION,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+COMPETITION_4,COMPETITION,COMPETITION,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+TUNNEL_3,TUNNEL,TUNNEL,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+TUNNEL_4,TUNNEL,TUNNEL,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SPIDERDIM_1,SPIDERDIM,SPIDERDIM,set(),set(),10.0
+SPIDERDIM_2,SPIDERDIM,SPIDERDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CARDIM_3,CARDIM,CARDIM,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+CARDIM_4,CARDIM,CARDIM,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+PYRAMID_1,PYRAMID,PYRAMID,set(),set(),10.0
+PYRAMID_2,PYRAMID,PYRAMID,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+TRIPA_1,TRIPA,TRIPA,set(),set(),9.9
+TRIPA_2,TRIPA,TRIPA,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+TURTLEDOVE_1,TURTLEDOVE,TURTLEDOVE,set(),set(),10.0
+TURTLEDOVE_2,TURTLEDOVE,TURTLEDOVE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+THINCORD_1,THINCORD,THINCORD,set(),set(),10.0
+THINCORD_2,THINCORD,THINCORD,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+RIBBONDIMDIM_1,RIBBONDIMDIM,RIBBONDIMDIM,set(),set(),9.9
+RIBBONDIMDIM_2,RIBBONDIMDIM,RIBBONDIMDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+RIBBONDIM_1,RIBBONDIM,RIBBONDIM,set(),set(),9.9
+RIBBONDIM_2,RIBBONDIM,RIBBONDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+RIBBON_3,RIBBON,RIBBON,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+RIBBON_4,RIBBON,RIBBON,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+CANDY_1,CANDY,CANDY,set(),set(),10.0
+CANDY_2,CANDY,CANDY,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+COLUMN_1,COLUMN,COLUMN,set(),set(),9.9
+COLUMN_2,COLUMN,COLUMN,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+VILLAGEB_1,VILLAGEB,VILLAGEB,set(),set(),10.5
+VILLAGEB_2,VILLAGEB,VILLAGEB,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+FRANKFURTERA_1,FRANKFURTERA,FRANKFURTERA,set(),set(),9.9
+FRANKFURTERA_2,FRANKFURTERA,FRANKFURTERA,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+WALK_1,WALK,WALK,set(),set(),10.5
+WALK_2,WALK,WALK,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+LAKE_1,LAKE,LAKE,set(),set(),9.9
+LAKE_2,LAKE,LAKE,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+DOOR_1,DOOR,DOOR,set(),set(),10.0
+DOOR_2,DOOR,DOOR,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+LUGGAGECART_1,LUGGAGECART,LUGGAGECART,set(),set(),10.0
+LUGGAGECART_2,LUGGAGECART,LUGGAGECART,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+NOISE_1,NOISE,NOISE,set(),set(),10.0
+NOISE_2,NOISE,NOISE,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+FIELD_1,FIELD,FIELD,set(),set(),10.0
+FIELD_2,FIELD,FIELD,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+GROUND_1,GROUND,GROUND,set(),set(),10.5
+GROUND_2,GROUND,GROUND,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+JARDIM_1,JARDIM,JARDIM,set(),set(),9.9
+JARDIM_2,JARDIM,JARDIM,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+NEIGHBOR_1,NEIGHBOR,NEIGHBOR,set(),set(),10.0
+NEIGHBOR_2,NEIGHBOR,NEIGHBOR,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",9.9
+BARN_1,BARN,BARN,set(),set(),10.0
+BARN_2,BARN,BARN,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+WHEAT_1,WHEAT,WHEAT,set(),set(),9.9
+WHEAT_2,WHEAT,WHEAT,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+APPLE_3,APPLE,APPLE,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+APPLE_4,APPLE,APPLE,set(),"{('e', frozenset({'-atomic'})), ('a', frozenset({'+atomic'})), ('null', frozenset())}",9.9
+CORN_3,CORN,CORN,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+CORN_4,CORN,CORN,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+WORMDIM_1,WORMDIM,WORMDIM,set(),set(),10.5
+WORMDIM_2,WORMDIM,WORMDIM,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+RIDINGWHIP_1,RIDINGWHIP,RIDINGWHIP,set(),set(),10.0
+RIDINGWHIP_2,RIDINGWHIP,RIDINGWHIP,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SADDLE_1,SADDLE,SADDLE,set(),set(),10.0
+SADDLE_2,SADDLE,SADDLE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PIG_1,PIG,PIG,set(),set(),10.0
+PIG_2,PIG,PIG,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+TELEVISION_1,TELEVISION,TELEVISION,set(),set(),10.0
+TELEVISION_2,TELEVISION,TELEVISION,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PRECEDENCE_1,PRECEDENCE,PRECEDENCE,set(),set(),10.0
+PRECEDENCE_2,PRECEDENCE,PRECEDENCE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SWIMMINGPOOLDIM_1,SWIMMINGPOOLDIM,SWIMMINGPOOLDIM,set(),set(),10.5
+SWIMMINGPOOLDIM_2,SWIMMINGPOOLDIM,SWIMMINGPOOLDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SWIMMINGPOOL_1,SWIMMINGPOOL,SWIMMINGPOOL,set(),set(),10.0
+SWIMMINGPOOL_2,SWIMMINGPOOL,SWIMMINGPOOL,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+ELBOW_1,ELBOW,ELBOW,set(),set(),9.9
+ELBOW_2,ELBOW,ELBOW,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+DEMONSTRATION_1,DEMONSTRATION,DEMONSTRATION,set(),set(),9.9
+DEMONSTRATION_2,DEMONSTRATION,DEMONSTRATION,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+DUEL_1,DUEL,DUEL,set(),set(),10.0
+DUEL_2,DUEL,DUEL,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+STUFF_1,STUFF,STUFF,set(),set(),10.0
+STUFF_2,STUFF,STUFF,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+CHEESE_1,CHEESE,CHEESE,set(),set(),10.0
+CHEESE_2,CHEESE,CHEESE,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PREFERENCE_1,PREFERENCE,PREFERENCE,set(),set(),10.5
+PREFERENCE_2,PREFERENCE,PREFERENCE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+POLECAT_1,POLECAT,POLECAT,set(),set(),10.0
+POLECAT_2,POLECAT,POLECAT,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+FINEBRAID_1,FINEBRAID,FINEBRAID,set(),set(),10.5
+FINEBRAID_2,FINEBRAID,FINEBRAID,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SALVE_1,SALVE,SALVE,set(),set(),10.0
+SALVE_2,SALVE,SALVE,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+SALVEDIM_1,SALVEDIM,SALVEDIM,set(),set(),10.0
+SALVEDIM_2,SALVEDIM,SALVEDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+COLT_1,COLT,COLT,set(),set(),9.9
+COLT_2,COLT,COLT,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+PEEPEE_1,PEEPEE,PEEPEE,set(),set(),9.9
+PEEPEE_2,PEEPEE,PEEPEE,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+FRANKFURTERB_1,FRANKFURTERB,FRANKFURTERB,set(),set(),10.0
+FRANKFURTERB_2,FRANKFURTERB,FRANKFURTERB,set(),"{('null', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+FRANKFURTERA_3,FRANKFURTERA,FRANKFURTERA,set(),"{('null', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+FRANKFURTERA_4,FRANKFURTERA,FRANKFURTERA,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+GRANDPARENT_5,GRANDPARENT,GRANDPARENT,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",9.9
+GRANDPARENT_6,GRANDPARENT,GRANDPARENT,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+RABBIT_3,RABBIT,RABBIT,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+RABBIT_4,RABBIT,RABBIT,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+VACCINATION_1,VACCINATION,VACCINATION,set(),set(),10.0
+VACCINATION_2,VACCINATION,VACCINATION,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",11.0
+MEASLES_1,MEASLES,MEASLES,set(),set(),9.9
+MEASLES_2,MEASLES,MEASLES,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+ILLNESS_1,ILLNESS,ILLNESS,set(),set(),10.0
+ILLNESS_2,ILLNESS,ILLNESS,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+POLIOMYELITIS_1,POLIOMYELITIS,POLIOMYELITIS,set(),set(),10.0
+POLIOMYELITIS_2,POLIOMYELITIS,POLIOMYELITIS,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+TETANUS_1,TETANUS,TETANUS,set(),set(),10.5
+TETANUS_2,TETANUS,TETANUS,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+SISTERDIM_1,SISTERDIM,SISTERDIM,set(),set(),10.0
+SISTERDIM_2,SISTERDIM,SISTERDIM,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+MOUNTAIN_1,MOUNTAIN,MOUNTAIN,set(),set(),9.9
+MOUNTAIN_2,MOUNTAIN,MOUNTAIN,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+BLUEBERRY_3,BLUEBERRY,BLUEBERRY,set(),"{('i', frozenset({'-atomic'})), ('null', frozenset())}",9.9
+BLUEBERRY_4,BLUEBERRY,BLUEBERRY,set(),"{('o', frozenset({'+atomic'})), ('i', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+BEAVER_1,BEAVER,BEAVER,set(),set(),10.5
+BEAVER_2,BEAVER,BEAVER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+COCKTAIL_1,COCKTAIL,COCKTAIL,set(),set(),10.0
+COCKTAIL_2,COCKTAIL,COCKTAIL,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+MOLDDIM_1,MOLDDIM,MOLDDIM,set(),set(),10.0
+MOLDDIM_2,MOLDDIM,MOLDDIM,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.5
+WOODPECKER_1,WOODPECKER,WOODPECKER,set(),set(),9.9
+WOODPECKER_2,WOODPECKER,WOODPECKER,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.0
+NEBULA_1,NEBULA,NEBULA,set(),set(),10.0
+NEBULA_2,NEBULA,NEBULA,set(),"{('a', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+VICUNA_1,VICUNA,VICUNA,set(),set(),10.5
+VICUNA_2,VICUNA,VICUNA,set(),"{('e', frozenset({'-atomic'})), ('null', frozenset())}",10.0
+GUANACO_1,GUANACO,GUANACO,set(),set(),10.0
+GUANACO_2,GUANACO,GUANACO,set(),"{('o', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+ANTELOPE_1,ANTELOPE,ANTELOPE,set(),set(),10.0
+ANTELOPE_2,ANTELOPE,ANTELOPE,set(),"{('e', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+LLAMA_1,LLAMA,LLAMA,set(),set(),10.0
+LLAMA_2,LLAMA,LLAMA,set(),"{('null', frozenset({'+atomic'})), ('null', frozenset())}",10.5
+LAUGH_1,LAUGH,LAUGH,set(),set(),10.0
+LAUGH_2,LAUGH,LAUGH,set(),"{('a', frozenset({'-atomic'})), ('null', frozenset())}",10.5
